@@ -1,28 +1,20 @@
-import './App.css';
-import backgroundImg from "./img/RedFed zbiorcze 1.JPG"
-import { Nav } from './Components/nav/nav';
-
+import "./App.css";
+import { useContext } from "react";
+import { LanguageContext } from "./Components/languageChange/languageContext";
+import { Nav } from "./Components/nav/nav";
+import { Wrapper } from "./Components/wrapper/wrapper";
+import backgroundImg from "./img/RedFed zbiorcze 1.JPG";
 
 function App() {
-  return (
-    <div className="App">
-      <Nav/>
-      <header className="App-header">
-        <img src={backgroundImg}  alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const { languageData } = useContext(LanguageContext);
+	return (
+		<div className='App'>
+			<Nav languageData={languageData} />
+			<Wrapper>
+				<img src={backgroundImg} alt='Background Antennas' />
+			</Wrapper>
+		</div>
+	);
 }
 
 export default App;

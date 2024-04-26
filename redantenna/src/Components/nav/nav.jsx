@@ -1,12 +1,35 @@
-import { NavStyled } from '.';
-import { TEXTS } from '../../Consts/texts';
+import { NavStyled } from ".";
+import { LanguageChangeBtn } from "../languageChange/languageChangeBtn/languageChangeBtn";
 
-
-export const Nav = () => {return <NavStyled><ul>
-    <li><a className="homeButton" href=""><h1>${TEXTS.english.brandName}</h1><p>${TEXTS.english.homeBtnP}</p></a>
-</li>
-    <li><a className="navButtons" href="">${TEXTS.english.navBtnProducts}</a></li>
-    <li><a className="navButtons" href="">${TEXTS.english.navBtnAbout}</a></li>
-    <li><a className="navButtons" href="">${TEXTS.english.navBtnContact}</a></li>
-    
-  </ul></NavStyled>}
+export const Nav = ({ languageData }) => {
+	return (
+		<NavStyled>
+			<ul>
+				<li>
+					<a className='homeButton' href=''>
+						<h1>{languageData.brandName}</h1>
+						<p>{languageData.homeBtnP}</p>
+					</a>
+				</li>
+				<li>
+					<a className='navButtons' href=''>
+						{languageData.navBtnProducts}
+					</a>
+				</li>
+				<li>
+					<a className='navButtons' href=''>
+						{languageData.navBtnAbout}
+					</a>
+				</li>
+				<li>
+					<a className='navButtons' href=''>
+						{languageData.navBtnContact}
+					</a>
+				</li>
+				<li>
+					<LanguageChangeBtn />
+				</li>
+			</ul>
+		</NavStyled>
+	);
+};
