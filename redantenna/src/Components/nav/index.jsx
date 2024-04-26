@@ -5,7 +5,7 @@ export const NavStyled = styled.nav`
 	background-color: ${COLORS.floralWhite};
 	color: ${COLORS.darkPurple};
 	width: 100%;
-	height: 6.25rem;
+	height: 6.05rem;
 	position: fixed;
 	display: flex;
 	justify-content: center;
@@ -21,7 +21,7 @@ export const NavStyled = styled.nav`
 		a {
 			width: 100%;
 			align-self: center;
-			padding: 2.1rem 3rem;
+			padding: 2rem 1rem;
 			border-bottom: solid 0.3rem ${COLORS.floralWhite};
 			font-size: 1.5rem;
 			transition-duration: 0.2s;
@@ -37,10 +37,11 @@ export const NavStyled = styled.nav`
 
 		.homeButton {
 			padding: 0.5rem 3rem;
+			text-align: left;
 		}
 
 		.navButtons {
-			width: 15rem;
+			width: 10rem;
 		}
 
 		.navButtons:hover {

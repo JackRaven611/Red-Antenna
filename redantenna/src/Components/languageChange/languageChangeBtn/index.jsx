@@ -11,7 +11,7 @@ export const LanguageChangeBtnStyled = styled.select`
 	text-transform: uppercase;
 	background-color: ${COLORS.floralWhite};
 	color: ${COLORS.darkPurple};
-	width: 15rem;
+	width: 10rem;
 	font-size: 1.5rem;
 	border-bottom: solid 0.3rem ${COLORS.floralWhite};
 	transition-duration: 0.2s;
