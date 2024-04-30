@@ -9,11 +9,11 @@ export const LanguageChangeBtnStyled = styled.select`
 	text-align: center;
 	direction: rtl;
 	text-transform: uppercase;
-	background-color: ${COLORS.floralWhite};
+	background-color: ${COLORS.White};
 	color: ${COLORS.darkPurple};
 	width: 10rem;
 	font-size: 1.5rem;
-	border-bottom: solid 0.3rem ${COLORS.floralWhite};
+	border-bottom: solid 0.3rem ${COLORS.White};
 	transition-duration: 0.2s;
 
 	&:hover {
