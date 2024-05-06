@@ -1,4 +1,5 @@
 import { NavStyled } from ".";
+import { Link } from "react-router-dom";
 import { LanguageChangeBtn } from "../languageChange/languageChangeBtn/languageChangeBtn";
 
 export const Nav = ({ languageData }) => {
@@ -6,25 +7,25 @@ export const Nav = ({ languageData }) => {
 		<NavStyled>
 			<ul>
 				<li>
-					<a className='homeButton' href=''>
+					<Link className='homeButton' to='/'>
 						<h1>{languageData.brandName}</h1>
 						<p>{languageData.homeBtnP}</p>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a className='navButtons' href=''>
+					<Link className='navButtons' to='/products'>
 						{languageData.navBtnProducts}
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a className='navButtons' href=''>
+					<Link className='navButtons' to='/about'>
 						{languageData.navBtnAbout}
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a className='navButtons' href=''>
+					<Link className='navButtons' to='/contact'>
 						{languageData.navBtnContact}
-					</a>
+					</Link>
 				</li>
 				<li>
 					<LanguageChangeBtn />
