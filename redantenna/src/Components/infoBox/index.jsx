@@ -13,6 +13,5 @@ export const InfoBoxStyled = styled.section`
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		gap: 3rem;
 	}
 `;

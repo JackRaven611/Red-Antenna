@@ -39,6 +39,330 @@ export const TEXTS = {
 			email: "info@ercomer.com",
 			about: "RED-ANTENNA jest marką handlową firmy ERcomER. Powstała w oparciu o wieloletnie doświadczenie, pasję i chęć tworzenia najlepszych produktów w zakresie osprzętu radiokomunikacyjnego.",
 		},
+		products: {
+			wire: {
+				RFMini40: {
+					model: "Red-Fed Mini 40-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 40m, 20m, 10m",
+						span: "Rozpiętość anteny: Około 12m",
+						weight: "Waga: 260g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 40W",
+							cw: "CW 30W",
+							digi: "DIGI 20W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: BNC",
+							antenna: "Antena: 2x M4",
+						},
+						core: "Wielkość rdzenia: Amidon FT82",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 0.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 0.5mm2",
+						wire: "linka mocująca: 2x 10m PE 2mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-40-10/2669",
+					linkText: "Sklep",
+				},
+				RFMini80: {
+					model: "Red-Fed Mini 80-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80, 40m, 20m, 15m, 10m",
+						span: "Rozpiętość anteny: Około 22m",
+						weight: "Waga: 360g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 40W",
+							cw: "CW 30W",
+							digi: "DIGI 20W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: BNC",
+							antenna: "Antena: 2x M4",
+						},
+						core: "Wielkość rdzenia: Amidon FT82",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 0.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 0.5mm2",
+						wire: "linka mocująca: 2x 10m PE 2mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-80-10/2668",
+					linkText: "Sklep",
+				},
+				RFMidi40: {
+					model: "Red-Fed Midi 40-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 40m, 20m, 10m",
+						span: "Rozpiętość anteny: Około 12m",
+						weight: "Waga: 530g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 150W",
+							cw: "CW 100W",
+							digi: "DIGI 75W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 64x88x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT140",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 1.0mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 1.0mm2",
+						wire: "linka mocująca: 2x 10m PE 3mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Midi-40-10/2667",
+					linkText: "Sklep",
+				},
+				RFMidi80: {
+					model: "Red-Fed Midi 80-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
+						span: "Rozpiętość anteny: Około 22m",
+						weight: "Waga: 740g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 150W",
+							cw: "CW 100W",
+							digi: "DIGI 75W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 64x88x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT140",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 1.0mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 1.0mm2",
+						wire: "linka mocująca: 2x 10m PE 3mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Midi-80-10/2666",
+					linkText: "Sklep",
+				},
+				RFStandard40: {
+					model: "Red-Fed Standard 40-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 40m, 20m, 10m",
+						span: "Rozpiętość anteny: Około 12m",
+						weight: "Waga: 710g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 400W",
+							cw: "CW 300W",
+							digi: "DIGI 200W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT140",
+						windings:
+							"Uzwojenia: drut emaliowany DN2E 1.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 1.5mm2",
+						wire: "linka mocująca: 2x 10m PE 3mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Standard-40-10/2384",
+					linkText: "Sklep",
+				},
+				RFStandard80: {
+					model: "Red-Fed Standard 80-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
+						span: "Rozpiętość anteny: Około 22m",
+						weight: "Waga: 1050g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 400W",
+							cw: "CW 300W",
+							digi: "DIGI 200W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT140",
+						windings:
+							"Uzwojenia: drut emaliowany DN2E 1.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 1.5mm2",
+						wire: "linka mocująca: 2x 10m PE 3mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Standard-80-10-/2385",
+					linkText: "Sklep",
+				},
+				RFHD40: {
+					model: "Red-Fed HD 40-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 40m, 20m, 10m",
+						span: "Rozpiętość anteny: Około 12m",
+						weight: "Waga: 1120g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 400W",
+							cw: "CW 300W",
+							digi: "DIGI 200W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT240",
+						windings:
+							"Uzwojenia: drut emaliowany DN2E 1.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 2.5mm2",
+						wire: "linka mocująca: 2x 10m PE 4mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-HD-40-10-/2386",
+					linkText: "Sklep",
+				},
+				RFHD80: {
+					model: "Red-Fed HD 80-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
+						span: "Rozpiętość anteny: Około 22m",
+						weight: "Waga: 1470g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 400W",
+							cw: "CW 300W",
+							digi: "DIGI 200W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT240",
+						windings:
+							"Uzwojenia: drut emaliowany DN2E 1.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 2.5mm2",
+						wire: "linka mocująca: 2x 10m PE 4mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-HD-80-10-/2387",
+					linkText: "Sklep",
+				},
+				RFMini80Max: {
+					model: "Red-Fed Mini 80 MAX ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80m",
+						span: "Rozpiętość anteny: Około 34m",
+						weight: "Waga: 300g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 280kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 50W",
+							cw: "CW 30W",
+							digi: "DIGI 20W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: BNC",
+							antenna: "Antena: 2x M4",
+						},
+						core: "Wielkość rdzenia: RA1616",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 0.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 0.5mm2",
+						wire: "linka mocująca: 2x 5m PE 2mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-80-MAX/3013",
+					linkText: "Sklep",
+				},
+				RFExtreme: {
+					title: "",
+					titleSec: "",
+					text: "",
+					StoreLink: "",
+					StoreLinkSec: "",
+				},
+			},
+			vertical: {
+				RED3000: {
+					title: "",
+					titleSec: "",
+					text: "",
+					StoreLink: "",
+					StoreLinkSec: "",
+				},
+				UniVertical: {
+					title: "",
+					titleSec: "",
+					text: "",
+					StoreLink: "",
+					StoreLinkSec: "",
+				},
+			},
+			accesories: {
+				MiniTuner: {
+					title: "",
+					titleSec: "",
+					text: "",
+					StoreLink: "",
+					StoreLinkSec: "",
+				},
+			},
+		},
 	},
 	english: {
 		brandName: "RED-ANTENNA",
@@ -78,6 +402,355 @@ export const TEXTS = {
 			phoneSec: "(+48) 798 792 927",
 			email: "info@ercomer.com",
 			about: "RED-ANTENNA is a trademark of ERcomER. It was established based on years of experience, passion and desire to create the best products in the field of radio communication equipment.",
+		},
+		products: {
+			wire: {
+				RFMini40: {
+					model: "Red-Fed Mini 40-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 40m, 20m, 10m",
+						span: "Rozpiętość anteny: Około 12m",
+						weight: "Waga: 260g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 40W",
+							cw: "CW 30W",
+							digi: "DIGI 20W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: BNC",
+							antenna: "Antena: 2x M4",
+						},
+						core: "Wielkość rdzenia: Amidon FT82",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 0.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 0.5mm2",
+						wire: "linka mocująca: 2x 10m PE 2mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-40-10/2669",
+					linkText: "Store",
+				},
+				RFMini80: {
+					model: "Red-Fed Mini 80-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80, 40m, 20m, 15m, 10m",
+						span: "Rozpiętość anteny: Około 22m",
+						weight: "Waga: 360g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 40W",
+							cw: "CW 30W",
+							digi: "DIGI 20W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: BNC",
+							antenna: "Antena: 2x M4",
+						},
+						core: "Wielkość rdzenia: Amidon FT82",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 0.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 0.5mm2",
+						wire: "linka mocująca: 2x 10m PE 2mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-80-10/2668",
+					linkText: "Store",
+				},
+				RFMidi40: {
+					model: "Red-Fed Midi 40-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 40m, 20m, 10m",
+						span: "Rozpiętość anteny: Około 12m",
+						weight: "Waga: 530g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 150W",
+							cw: "CW 100W",
+							digi: "DIGI 75W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 64x88x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT140",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 1.0mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 1.0mm2",
+						wire: "linka mocująca: 2x 10m PE 3mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Midi-40-10/2667",
+					linkText: "Store",
+				},
+				RFMidi80: {
+					model: "Red-Fed Midi 80-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
+						span: "Rozpiętość anteny: Około 22m",
+						weight: "Waga: g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 150W",
+							cw: "CW 100W",
+							digi: "DIGI 75W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 64x88x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT140",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 1.0mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 1.0mm2",
+						wire: "linka mocująca: 2x 10m PE 3mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Midi-80-10/2666",
+					linkText: "Store",
+				},
+				RFStandard40: {
+					model: "Red-Fed Standard 40-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 40m, 20m, 10m",
+						span: "Rozpiętość anteny: Około 12m",
+						weight: "Waga: 710g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 400W",
+							cw: "CW 300W",
+							digi: "DIGI 200W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT140",
+						windings:
+							"Uzwojenia: drut emaliowany DN2E 1.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 1.5mm2",
+						wire: "linka mocująca: 2x 10m PE 3mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Standard-40-10/2384",
+					linkText: "Store",
+				},
+				RFStandard80: {
+					model: "Red-Fed Standard 80-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
+						span: "Rozpiętość anteny: Około 22m",
+						weight: "Waga: 1050g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 400W",
+							cw: "CW 300W",
+							digi: "DIGI 200W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT140",
+						windings:
+							"Uzwojenia: drut emaliowany DN2E 1.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 1.5mm2",
+						wire: "linka mocująca: 2x 10m PE 3mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Standard-80-10-/2385",
+					linkText: "Store",
+				},
+				RFHD40: {
+					model: "Red-Fed HD 40-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 40m, 20m, 10m",
+						span: "Rozpiętość anteny: Około 12m",
+						weight: "Waga: 1120g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 400W",
+							cw: "CW 300W",
+							digi: "DIGI 200W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT240",
+						windings:
+							"Uzwojenia: drut emaliowany DN2E 1.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 2.5mm2",
+						wire: "linka mocująca: 2x 10m PE 4mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-HD-40-10-/2386",
+					linkText: "Store",
+				},
+				RFHD80: {
+					model: "Red-Fed HD 80-10 ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
+						span: "Rozpiętość anteny: Około 22m",
+						weight: "Waga: 1470g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 80kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 400W",
+							cw: "CW 300W",
+							digi: "DIGI 200W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: SO239 (UC1, UHF)",
+							antenna: "Antena: 2x M5",
+						},
+						core: "Wielkość rdzenia: Amidon FT240",
+						windings:
+							"Uzwojenia: drut emaliowany DN2E 1.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 2.5mm2",
+						wire: "linka mocująca: 2x 10m PE 4mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-HD-80-10-/2387",
+					linkText: "Store",
+				},
+				RFMini80Max: {
+					model: "Red-Fed Mini 80 MAX ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80m",
+						span: "Rozpiętość anteny: Około 34m",
+						weight: "Waga: 300g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 280kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 50W",
+							cw: "CW 30W",
+							digi: "DIGI 20W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: BNC",
+							antenna: "Antena: 2x M4",
+						},
+						core: "Wielkość rdzenia: RA1616",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 0.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 0.5mm2",
+						wire: "linka mocująca: 2x 5m PE 2mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-80-MAX/3013",
+					linkText: "Store",
+				},
+				RFExtreme: {
+					title: "",
+					titleSec: "",
+					text: "",
+					StoreLink: "",
+					StoreLinkSec: "",
+				},
+			},
+			vertical: {
+				RED3000: {
+					title: "",
+					titleSec: "",
+					text: "",
+					StoreLink: "",
+					StoreLinkSec: "",
+				},
+				UniVertical: {
+					title: "",
+					titleSec: "",
+					text: "",
+					StoreLink: "",
+					StoreLinkSec: "",
+				},
+			},
+			accesories: {
+				MiniTuner: {
+					model: "Red-Fed Mini 80 MAX ",
+					spec: {
+						title: "Specyfikacja",
+						bands: "Pasma pracy: 80m",
+						span: "Rozpiętość anteny: Około 34m",
+						weight: "Waga: 300g",
+						range: "Szerokość pracy dla pasma dolnego (SWR 2.0): około 280kHz",
+						swr: "Maksymalny SWR w pozostałych pasmach: <2.0",
+						power: {
+							title: "Przenoszona moc:",
+							ssb: "SSB 50W",
+							cw: "CW 30W",
+							digi: "DIGI 20W",
+						},
+						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
+						connectors: {
+							title: "Złącza:",
+							feeder: "Fider 50Ω: BNC",
+							antenna: "Antena: 2x M4",
+						},
+						core: "Wielkość rdzenia: RA1616",
+						windings:
+							"Uzwojenia: drut emaliowany DNE 0.6mm (rdzeń i cewka)",
+						antennaWire:
+							"Linka antenowa: Linka miedziana Cu 0.5mm2",
+						wire: "linka mocująca: 2x 5m PE 2mm",
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-80-MAX/3013",
+					linkText: "Store",
+				},
+			},
 		},
 	},
 };

@@ -6,7 +6,6 @@ export const BoxArticleStyled = styled.article`
 	width: 25rem;
 	height: 35rem;
 	border-radius: 1rem;
-	/* background-color: ${COLORS.darkPurple + "2d"}; */
 	background-image: linear-gradient(
 		to bottom,
 		${COLORS.darkPurple + "3d"} 0%,

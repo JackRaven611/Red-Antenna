@@ -1,3 +1,5 @@
+import { Catalog } from "../catalog/catalog";
+
 export const Products = () => {
-	return <div>PRODUCTS</div>;
+	return <Catalog />;
 };
