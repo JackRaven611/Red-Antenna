@@ -2,21 +2,21 @@ import styled from "styled-components";
 import { COLORS } from "../../../Consts/Colors";
 
 export const ProductStyled = styled.article`
-	width: 45%;
+	width: 47%;
 	border-radius: 1rem;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	transition-duration: 0.2s;
+	box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
 
 	a {
-		max-width: 80%;
+		width: 60%;
 		position: relative;
 		padding: 1.5rem;
-		margin: 2rem 0 0 3rem;
-		border-bottom: solid 0.3rem ${COLORS.darkPurple};
+		border-bottom: solid 0.3rem ${COLORS.White};
 		transition-duration: 0.2s;
-		font-weight: 700;
+		font-weight: 500;
 		text-transform: uppercase;
 		font-size: 1.5rem;
 	}
@@ -37,33 +37,27 @@ export const ProductStyled = styled.article`
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 		background-image: linear-gradient(
 			to bottom,
-			${COLORS.darkPurple + "1d"} 0%,
-			rgba(255, 255, 255, 0) 80%
+			${COLORS.Gray + "3d"} 0%,
+			rgba(255, 255, 255, 0) 100%
 		);
 		transition-duration: 0.2s;
 
 		h3 {
-			margin: 1.5rem 2rem;
-		}
-
-		h4 {
-			margin: -0.5rem 2rem 1rem;
+			margin: 2rem 0 1.8rem;
 		}
 
 		ul {
 			width: 100%;
+
 			li {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
 				width: 100%;
 				gap: 0;
-
-				ul {
-					height: 20rem;
-				}
 
 				p {
 					padding: 0.2rem 3rem;

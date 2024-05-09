@@ -21,6 +21,7 @@ export const NavStyled = styled.nav`
 
 		a {
 			width: 100%;
+			font-weight: 500;
 			align-self: center;
 			padding: 2rem 0;
 			border-bottom: solid 0.3rem ${COLORS.White};
@@ -29,6 +30,7 @@ export const NavStyled = styled.nav`
 
 			h1 {
 				font-size: 2.3rem;
+				transition-duration: 0.2s;
 			}
 
 			p {
@@ -37,9 +39,15 @@ export const NavStyled = styled.nav`
 		}
 
 		.homeButton {
-			padding: 0.5rem 3rem;
+			padding: 0.5rem 3rem 0.5rem 0;
 			width: 25rem;
 			text-align: left;
+		}
+
+		.homeButton:hover {
+			h1 {
+				color: ${COLORS.mainRed};
+			}
 		}
 
 		.navButtons {
@@ -48,7 +56,7 @@ export const NavStyled = styled.nav`
 
 		.navButtons:hover {
 			color: ${COLORS.mainRed};
-			border-bottom: solid 0.3rem ${COLORS.mainRed};
+			border-color: ${COLORS.mainRed};
 		}
 	}
 `;

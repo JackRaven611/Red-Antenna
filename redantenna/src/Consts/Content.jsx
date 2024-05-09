@@ -24,7 +24,7 @@ export const TEXTS = {
 		footer: {
 			titleStore: "Sklep Firmowy",
 			titleContact: "Kontakt",
-			titleAbout: "O Nas",
+			titleAbout: "O Red Antenna",
 			ourStore: "Zapraszamy do naszego sklepu stacjonarnego",
 			open: "Pon-Pt",
 			hours: "9:00 - 18:00",
@@ -32,6 +32,7 @@ export const TEXTS = {
 			postCode: "03-578",
 			city: "Warszawa",
 			country: "Polska",
+			location: "https://maps.app.goo.gl/s7hr6nTTHfrLKx3w6",
 			onlineStore: "Sklep online",
 			onlineStoreLink: "https://www.ercomer.pl/",
 			phoneMain: "(+48) 22 270 12 15",
@@ -44,7 +45,6 @@ export const TEXTS = {
 				RFMini40: {
 					model: "Red-Fed Mini 40-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: Około 12m",
 						weight: "Waga: 260g",
@@ -76,7 +76,6 @@ export const TEXTS = {
 				RFMini80: {
 					model: "Red-Fed Mini 80-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: Około 22m",
 						weight: "Waga: 360g",
@@ -108,7 +107,6 @@ export const TEXTS = {
 				RFMidi40: {
 					model: "Red-Fed Midi 40-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: Około 12m",
 						weight: "Waga: 530g",
@@ -140,7 +138,6 @@ export const TEXTS = {
 				RFMidi80: {
 					model: "Red-Fed Midi 80-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: Około 22m",
 						weight: "Waga: 740g",
@@ -172,7 +169,6 @@ export const TEXTS = {
 				RFStandard40: {
 					model: "Red-Fed Standard 40-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: Około 12m",
 						weight: "Waga: 710g",
@@ -204,7 +200,6 @@ export const TEXTS = {
 				RFStandard80: {
 					model: "Red-Fed Standard 80-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: Około 22m",
 						weight: "Waga: 1050g",
@@ -236,7 +231,6 @@ export const TEXTS = {
 				RFHD40: {
 					model: "Red-Fed HD 40-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: Około 12m",
 						weight: "Waga: 1120g",
@@ -268,7 +262,6 @@ export const TEXTS = {
 				RFHD80: {
 					model: "Red-Fed HD 80-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: Około 22m",
 						weight: "Waga: 1470g",
@@ -300,7 +293,6 @@ export const TEXTS = {
 				RFMini80Max: {
 					model: "Red-Fed Mini 80 MAX ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80m",
 						span: "Rozpiętość anteny: Około 34m",
 						weight: "Waga: 300g",
@@ -363,7 +355,12 @@ export const TEXTS = {
 				},
 			},
 		},
+		aboutSection: {
+			title: "Łączność to nasza pasja",
+			wsrp: "Nasze anteny testowane są pod wkątem faktycznej efektywności wykorzystując rzetelne raporty WSPR. Stacje odbiorcze rozlokowane są na całym świecie i przekazują dokładny poziom siły odbieranego sygnału (w jednostkach dBm). Korzystamy z tego systemu optymalizując projekty i konstrukcje naszych anten.",
+		},
 	},
+
 	english: {
 		brandName: "RED-ANTENNA",
 		homeBtnP: "High Performance Antenna System",
@@ -388,7 +385,7 @@ export const TEXTS = {
 		footer: {
 			titleStore: "Store",
 			titleContact: "Contact",
-			titleAbout: "About Us",
+			titleAbout: "About Red Antenna",
 			ourStore: "We invite you to visit our stationary store",
 			open: "Mon-Fri",
 			hours: "9:00 - 18:00",
@@ -396,6 +393,7 @@ export const TEXTS = {
 			postCode: "03-578",
 			city: "Warszawa",
 			country: "Poland",
+			location: "https://maps.app.goo.gl/s7hr6nTTHfrLKx3w6",
 			onlineStore: "Online Store",
 			onlineStoreLink: "https://www.ercomer.pl/",
 			phoneMain: "(+48) 22 270 12 15",
@@ -408,7 +406,6 @@ export const TEXTS = {
 				RFMini40: {
 					model: "Red-Fed Mini 40-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: Około 12m",
 						weight: "Waga: 260g",
@@ -440,7 +437,6 @@ export const TEXTS = {
 				RFMini80: {
 					model: "Red-Fed Mini 80-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: Około 22m",
 						weight: "Waga: 360g",
@@ -472,7 +468,6 @@ export const TEXTS = {
 				RFMidi40: {
 					model: "Red-Fed Midi 40-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: Około 12m",
 						weight: "Waga: 530g",
@@ -504,7 +499,6 @@ export const TEXTS = {
 				RFMidi80: {
 					model: "Red-Fed Midi 80-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: Około 22m",
 						weight: "Waga: g",
@@ -536,7 +530,6 @@ export const TEXTS = {
 				RFStandard40: {
 					model: "Red-Fed Standard 40-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: Około 12m",
 						weight: "Waga: 710g",
@@ -568,7 +561,6 @@ export const TEXTS = {
 				RFStandard80: {
 					model: "Red-Fed Standard 80-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: Około 22m",
 						weight: "Waga: 1050g",
@@ -600,7 +592,6 @@ export const TEXTS = {
 				RFHD40: {
 					model: "Red-Fed HD 40-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: Około 12m",
 						weight: "Waga: 1120g",
@@ -632,7 +623,6 @@ export const TEXTS = {
 				RFHD80: {
 					model: "Red-Fed HD 80-10 ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: Około 22m",
 						weight: "Waga: 1470g",
@@ -664,7 +654,6 @@ export const TEXTS = {
 				RFMini80Max: {
 					model: "Red-Fed Mini 80 MAX ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80m",
 						span: "Rozpiętość anteny: Około 34m",
 						weight: "Waga: 300g",
@@ -721,7 +710,6 @@ export const TEXTS = {
 				MiniTuner: {
 					model: "Red-Fed Mini 80 MAX ",
 					spec: {
-						title: "Specyfikacja",
 						bands: "Pasma pracy: 80m",
 						span: "Rozpiętość anteny: Około 34m",
 						weight: "Waga: 300g",

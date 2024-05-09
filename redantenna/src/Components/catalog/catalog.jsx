@@ -10,10 +10,10 @@ export const Catalog = () => {
 	return (
 		<CatalogStyled>
 			<ul>
-				<li>
+				<li className='headerWrapper'>
 					<h2>ANTENY DRUTOWE</h2>
 				</li>
-				<li>
+				<li className='wireAntennas'>
 					<Product type='wire' id='RFMini80Max' image={RFMini80Max} />
 					<Product type='wire' id='RFMini40' image={RFMini40} />
 					<Product type='wire' id='RFMini80' image={RFMini40} />
@@ -24,15 +24,14 @@ export const Catalog = () => {
 					<Product type='wire' id='RFHD40' image={RFHD80} />
 					<Product type='wire' id='RFHD80' image={RFHD80} />
 				</li>
-				<li>
+				<li className='headerWrapper'>
 					<h2>ANTENY PIONOWE</h2>
 				</li>
 				<li></li>
-				<li>
+				<li></li>
+				<li className='headerWrapper'>
 					<h2>AKCESORIA</h2>
 				</li>
-				<li></li>
-				<li></li>
 				<li></li>
 			</ul>
 		</CatalogStyled>

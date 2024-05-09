@@ -10,42 +10,36 @@ export const Product = ({ type, id, image }) => {
 			<img src={image} alt={`${id} image`} />
 			<div className='wrapper'>
 				<h3>{product.model}</h3>
+
 				<ul>
 					<li>
-						<h4>{spec.title}</h4>
+						<p>{spec.bands}</p>
+						<p>{spec.span}</p>
+						<p>{spec.weight}</p>
+						<p>{spec.size}</p>
+						<p>{spec.range}</p>
+						<p>{spec.swr}</p>
 					</li>
 					<li>
-						<ul>
-							<li>
-								<p>{spec.bands}</p>
-								<p>{spec.span}</p>
-								<p>{spec.weight}</p>
-								<p>{spec.size}</p>
-								<p>{spec.range}</p>
-								<p>{spec.swr}</p>
-							</li>
-							<li>
-								<p>
-									{spec.power.title} {spec.power.ssb},{" "}
-									{spec.power.cw}, {spec.power.digi}
-								</p>
-							</li>
-							<li>
-								<p>
-									{spec.connectors.title}{" "}
-									{spec.connectors.feeder},{" "}
-									{spec.connectors.antenna}
-								</p>
-							</li>
-							<li>
-								<p>{spec.core}</p>
-								<p>{spec.windings}</p>
-								<p>{spec.antennaWire}</p>
-								<p>{spec.wire}</p>
-							</li>
-						</ul>
+						<p>
+							{spec.power.title} {spec.power.ssb}, {spec.power.cw}
+							, {spec.power.digi}
+						</p>
+					</li>
+					<li>
+						<p>
+							{spec.connectors.title} {spec.connectors.feeder},{" "}
+							{spec.connectors.antenna}
+						</p>
+					</li>
+					<li>
+						<p>{spec.core}</p>
+						<p>{spec.windings}</p>
+						<p>{spec.antennaWire}</p>
+						<p>{spec.wire}</p>
 					</li>
 				</ul>
+
 				<a href={product.storeLink}>{product.linkText}</a>
 			</div>
 		</ProductStyled>

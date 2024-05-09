@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ScrollToTop } from "./Components/scrollToTop/scrollToTop";
 import { useContext } from "react";
 import { LanguageContext } from "./Components/languageChange/languageContext";
 import { Nav } from "./Components/nav/nav";
@@ -13,6 +14,7 @@ function App() {
 	const { languageData } = useContext(LanguageContext);
 	return (
 		<BrowserRouter>
+			<ScrollToTop />
 			<div className='App'>
 				<Nav languageData={languageData} />
 				<Routes>

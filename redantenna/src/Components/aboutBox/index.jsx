@@ -9,9 +9,12 @@ export const AboutBoxStyled = styled.section`
 	div {
 		width: 80%;
 		background-image: linear-gradient(
-			${COLORS.darkPurple + "3d"} 0%,
+			to bottom,
+			${COLORS.Gray + "3d"} 0%,
 			rgba(255, 255, 255, 0) 100%
 		);
+		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
+
 		border-radius: 1rem;
 		overflow: hidden;
 
@@ -26,7 +29,7 @@ export const AboutBoxStyled = styled.section`
 		}
 
 		p {
-			padding: 0 3rem 2rem;
+			margin: 0 6rem 3rem;
 		}
 	}
 `;

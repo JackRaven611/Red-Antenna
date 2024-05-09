@@ -8,10 +8,11 @@ export const BoxArticleStyled = styled.article`
 	border-radius: 1rem;
 	background-image: linear-gradient(
 		to bottom,
-		${COLORS.darkPurple + "3d"} 0%,
-		rgba(255, 255, 255, 0) 80%
+		${COLORS.Gray + "3d"} 0%,
+		rgba(255, 255, 255, 0) 100%
 	);
 	overflow: hidden;
+	box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
 
 	h3 {
 		padding: 2rem 2rem;

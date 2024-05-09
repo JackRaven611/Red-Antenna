@@ -4,7 +4,7 @@ import { TEXTS } from "../../Consts/Content";
 export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-	const [selectedLanguage, setSelectedLanguage] = useState("english");
+	const [selectedLanguage, setSelectedLanguage] = useState("polish");
 	const textLanguage = TEXTS[selectedLanguage];
 	const [languageData, setLanguageData] = useState(textLanguage);
 

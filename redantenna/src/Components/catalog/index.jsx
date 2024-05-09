@@ -6,6 +6,21 @@ export const CatalogStyled = styled.section`
 	display: flex;
 	justify-content: center;
 
+	.headerWrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		h2 {
+			margin: 3rem;
+		}
+	}
+
+	.wireAntennas {
+		display: flex;
+		justify-content: center;
+	}
+
 	ul {
 		width: 80%;
 		display: flex;

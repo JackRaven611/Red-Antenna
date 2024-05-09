@@ -1,5 +1,5 @@
 import { NavStyled } from ".";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import { LanguageChangeBtn } from "../languageChange/languageChangeBtn/languageChangeBtn";
 
 export const Nav = ({ languageData }) => {
@@ -7,29 +7,29 @@ export const Nav = ({ languageData }) => {
 		<NavStyled>
 			<ul>
 				<li>
-					<Link className='homeButton' to='/'>
+					<Link className='homeButton' to='/#'>
 						<h1>{languageData.brandName}</h1>
 						<p>{languageData.homeBtnP}</p>
 					</Link>
 				</li>
 				<li>
-					<Link className='navButtons' to='/products'>
+					<Link className='navButtons' to='/products#'>
 						{languageData.navBtnProducts}
 					</Link>
 				</li>
 				<li>
-					<Link className='navButtons' to='/about'>
+					<Link className='navButtons' to='/about#'>
 						{languageData.navBtnAbout}
 					</Link>
 				</li>
 				<li>
-					<Link className='navButtons' to='/contact'>
+					<Link className='navButtons' to='/contact#'>
 						{languageData.navBtnContact}
 					</Link>
 				</li>
-				<li>
+				{/* <li>
 					<LanguageChangeBtn />
-				</li>
+				</li> */}
 			</ul>
 		</NavStyled>
 	);

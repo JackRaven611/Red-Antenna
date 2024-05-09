@@ -1,3 +1,5 @@
+import { AboutSection } from "../aboutSection/aboutSection";
+
 export const About = () => {
-	return <div>ABOUT</div>;
+	return <AboutSection />;
 };
