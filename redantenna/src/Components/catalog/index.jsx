@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FONTSIZE } from "../../Consts/FontSize";
 
 export const CatalogStyled = styled.section`
 	width: 100%;
@@ -13,6 +14,8 @@ export const CatalogStyled = styled.section`
 
 		h2 {
 			margin: 3rem;
+			font-size: ${FONTSIZE.h2};
+			font-weight: ${FONTSIZE.weight.bold};
 		}
 	}
 

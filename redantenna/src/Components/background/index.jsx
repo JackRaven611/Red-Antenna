@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
+import { FONTSIZE } from "../../Consts/FontSize";
 
 export const BackgroundStyled = styled.div`
 	width: 100%;
@@ -12,27 +13,28 @@ export const BackgroundStyled = styled.div`
 		justify-content: center;
 		clear: both;
 		width: 80%;
-		height: 10rem;
+		height: 7rem;
 		border-radius: 1rem;
 		z-index: 3;
 		margin-top: -35rem;
-		font-size: 2rem;
 		display: flex;
 		flex-direction: column;
 		background-color: ${COLORS.darkPurple + "6d"};
 
 		h1 {
 			color: ${COLORS.White};
+			font-size: ${FONTSIZE.h1};
+			font-weight: ${FONTSIZE.weight.bold};
 		}
-		p {
+		h3 {
 			color: ${COLORS.White};
-			font-size: 1.9rem;
+			font-size: ${FONTSIZE.a};
+			font-weight: ${FONTSIZE.weight.medium};
 		}
 	}
 
 	img {
 		width: 100%;
 		max-height: 75rem;
-		z-index: 1;
 	}
 `;

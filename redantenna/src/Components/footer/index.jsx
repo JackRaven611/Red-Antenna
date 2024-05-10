@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
+import { FONTSIZE } from "../../Consts/FontSize";
 
 export const FooterStyled = styled.footer`
 	width: 100%;
@@ -21,9 +22,6 @@ export const FooterStyled = styled.footer`
 	.contactIcon {
 		display: flex;
 		align-items: center;
-		p {
-			margin: 0 0 0.5rem;
-		}
 	}
 
 	.adress {
@@ -67,13 +65,16 @@ export const FooterStyled = styled.footer`
 		li {
 			max-width: 30rem;
 
-			h5 {
+			h4 {
 				margin: 1rem;
-				font-size: 1rem;
+				font-size: ${FONTSIZE.h4};
+				font-size: ${FONTSIZE.weight.bold};
 			}
 
 			p {
 				margin: 0.5rem 0;
+				font-size: ${FONTSIZE.p};
+				font-size: ${FONTSIZE.weight.medium};
 			}
 		}
 	}

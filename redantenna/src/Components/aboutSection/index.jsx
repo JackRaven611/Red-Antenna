@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
+import { FONTSIZE } from "../../Consts/FontSize";
 
 export const AboutSectionStyled = styled.section`
 	margin: 8rem 0;
@@ -29,10 +30,14 @@ export const AboutSectionStyled = styled.section`
 			h2 {
 				text-transform: uppercase;
 				margin: 3rem;
+				font-size: ${FONTSIZE.h2};
+				font-weight: ${FONTSIZE.weight.bold};
 			}
 
 			p {
 				margin: 3rem;
+				font-size: ${FONTSIZE.p};
+				font-weight: ${FONTSIZE.weight.medium};
 			}
 		}
 	}

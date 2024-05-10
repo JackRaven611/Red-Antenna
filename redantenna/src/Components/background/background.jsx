@@ -12,7 +12,7 @@ export const Background = () => {
 			<ImgFadeStyled />
 			<header>
 				<h1>{languageData.header}</h1>
-				<p>{languageData.headerP}</p>
+				<h3>{languageData.headerP}</h3>
 			</header>
 		</BackgroundStyled>
 	);

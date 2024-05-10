@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
+import { FONTSIZE } from "../../Consts/FontSize";
 
 export const NavStyled = styled.nav`
 	z-index: 10;
@@ -25,16 +26,21 @@ export const NavStyled = styled.nav`
 			align-self: center;
 			padding: 2rem 0;
 			border-bottom: solid 0.3rem ${COLORS.White};
-			font-size: 1.5rem;
+			font-size: ${FONTSIZE.a};
+			font-weight: ${FONTSIZE.weight.medium};
 			transition-duration: 0.2s;
 
 			h1 {
 				font-size: 2.3rem;
 				transition-duration: 0.2s;
+				font-size: ${FONTSIZE.h1};
+				font-weight: ${FONTSIZE.weight.bold};
 			}
 
 			p {
 				font-size: 1rem;
+				font-size: ${FONTSIZE.p};
+				font-weight: ${FONTSIZE.weight.medium};
 			}
 		}
 

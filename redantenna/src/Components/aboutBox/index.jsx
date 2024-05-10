@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
+import { FONTSIZE } from "../../Consts/FontSize";
 
 export const AboutBoxStyled = styled.section`
 	width: 100%;
@@ -14,7 +15,6 @@ export const AboutBoxStyled = styled.section`
 			rgba(255, 255, 255, 0) 100%
 		);
 		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
-
 		border-radius: 1rem;
 		overflow: hidden;
 
@@ -26,10 +26,14 @@ export const AboutBoxStyled = styled.section`
 
 		h2 {
 			padding: 3rem;
+			font-size: ${FONTSIZE.h2};
+			font-weight: ${FONTSIZE.weight.bold};
 		}
 
 		p {
 			margin: 0 6rem 3rem;
+			font-size: ${FONTSIZE.p};
+			font-weight: ${FONTSIZE.weight.medium};
 		}
 	}
 `;

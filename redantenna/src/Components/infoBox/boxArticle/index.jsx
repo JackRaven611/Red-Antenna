@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../../Consts/Colors";
+import { FONTSIZE } from "../../../Consts/FontSize";
 
 export const BoxArticleStyled = styled.article`
 	z-index: 2;
@@ -16,10 +17,14 @@ export const BoxArticleStyled = styled.article`
 
 	h3 {
 		padding: 2rem 2rem;
+		font-size: ${FONTSIZE.h3};
+		font-size: ${FONTSIZE.weight.bold};
 	}
 
 	p {
 		padding: 0 2rem;
+		font-size: ${FONTSIZE.p};
+		font-size: ${FONTSIZE.weight.medium};
 	}
 
 	.infoWrapper {

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../../Consts/Colors";
+import { FONTSIZE } from "../../../Consts/FontSize";
 
 export const ProductStyled = styled.article`
 	width: 47%;
@@ -16,9 +17,9 @@ export const ProductStyled = styled.article`
 		padding: 1.5rem;
 		border-bottom: solid 0.3rem ${COLORS.White};
 		transition-duration: 0.2s;
-		font-weight: 500;
+		font-weight: ${FONTSIZE.weight.medium};
 		text-transform: uppercase;
-		font-size: 1.5rem;
+		font-size: ${FONTSIZE.a};
 	}
 
 	a:hover {
@@ -47,6 +48,8 @@ export const ProductStyled = styled.article`
 
 		h3 {
 			margin: 2rem 0 1.8rem;
+			font-size: ${FONTSIZE.h3};
+			font-weight: ${FONTSIZE.weight.bold};
 		}
 
 		ul {
@@ -62,6 +65,8 @@ export const ProductStyled = styled.article`
 				p {
 					padding: 0.2rem 3rem;
 					text-align: left;
+					font-size: ${FONTSIZE.p};
+					font-weight: ${FONTSIZE.weight.medium};
 				}
 			}
 		}
