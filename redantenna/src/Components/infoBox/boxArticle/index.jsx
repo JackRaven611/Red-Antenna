@@ -4,8 +4,10 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 
 export const BoxArticleStyled = styled.article`
 	z-index: 2;
-	width: 25rem;
+	width: 30%;
+	min-width: 25rem;
 	height: 35rem;
+	margin-bottom: 5rem;
 	border-radius: 1rem;
 	background-image: linear-gradient(
 		to bottom,
@@ -32,8 +34,17 @@ export const BoxArticleStyled = styled.article`
 		height: 20rem;
 
 		img {
-			width: 35rem;
+			width: 100%;
 			height: 20rem;
+			object-fit: cover;
 		}
+	}
+
+	@media screen and (max-width: 1500px) {
+		width: 45%;
+	}
+
+	@media screen and (max-width: 1200px) {
+		width: 100%;
 	}
 `;

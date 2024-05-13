@@ -4,7 +4,7 @@ import { FONTSIZE } from "../../Consts/FontSize";
 
 export const AboutBoxStyled = styled.section`
 	width: 100%;
-	margin: 5rem 0 10rem;
+	margin: 0 0 10rem;
 	display: flex;
 	justify-content: center;
 	div {
@@ -31,7 +31,7 @@ export const AboutBoxStyled = styled.section`
 		}
 
 		p {
-			margin: 0 6rem 3rem;
+			margin: 0 3rem 3rem;
 			font-size: ${FONTSIZE.p};
 			font-weight: ${FONTSIZE.weight.medium};
 		}

@@ -3,7 +3,7 @@ import { COLORS } from "../../../Consts/Colors";
 import { FONTSIZE } from "../../../Consts/FontSize";
 
 export const ProductStyled = styled.article`
-	width: 47%;
+	width: 45%;
 	border-radius: 1rem;
 	overflow: hidden;
 	display: flex;
@@ -70,5 +70,9 @@ export const ProductStyled = styled.article`
 				}
 			}
 		}
+	}
+
+	@media screen and (max-width: 1200px) {
+		width: 100%;
 	}
 `;

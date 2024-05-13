@@ -13,7 +13,7 @@ export const BackgroundStyled = styled.div`
 		justify-content: center;
 		clear: both;
 		width: 80%;
-		height: 7rem;
+		min-height: 7rem;
 		border-radius: 1rem;
 		z-index: 3;
 		margin-top: -35rem;
@@ -36,5 +36,17 @@ export const BackgroundStyled = styled.div`
 	img {
 		width: 100%;
 		max-height: 75rem;
+	}
+
+	@media screen and (max-width: 1200px) {
+		header {
+			margin-top: -25rem;
+		}
+	}
+
+	@media screen and (max-width: 900px) {
+		header {
+			margin-top: -15rem;
+		}
 	}
 `;

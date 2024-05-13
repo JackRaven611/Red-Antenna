@@ -8,11 +8,13 @@ export const AboutSectionStyled = styled.section`
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	height: auto;
 
 	article {
 		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
 		display: flex;
 		width: 80%;
+
 		border-radius: 1rem;
 		overflow: hidden;
 		background-image: linear-gradient(
@@ -38,6 +40,20 @@ export const AboutSectionStyled = styled.section`
 				margin: 3rem;
 				font-size: ${FONTSIZE.p};
 				font-weight: ${FONTSIZE.weight.medium};
+			}
+		}
+	}
+
+	@media screen and (max-width: 1200px) {
+		article {
+			flex-direction: column;
+
+			img {
+				width: 100%;
+			}
+
+			div {
+				width: 100%;
 			}
 		}
 	}

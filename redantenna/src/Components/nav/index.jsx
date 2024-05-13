@@ -65,4 +65,7 @@ export const NavStyled = styled.nav`
 			border-color: ${COLORS.mainRed};
 		}
 	}
+
+	@media screen and (max-width: 1200px) {
+	}
 `;

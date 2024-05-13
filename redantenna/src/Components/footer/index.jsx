@@ -78,4 +78,13 @@ export const FooterStyled = styled.footer`
 			}
 		}
 	}
+
+	@media screen and (max-width: 1200px) {
+		height: 25rem;
+		ul {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	}
 `;
