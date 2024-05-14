@@ -7,47 +7,47 @@ export const NavStyled = styled.nav`
 	background-color: ${COLORS.White};
 	color: ${COLORS.darkPurple};
 	width: 100%;
-	height: 6.05rem;
+	height: 6rem;
 	position: fixed;
 	display: flex;
 	justify-content: center;
-	ul {
+	align-items: center;
+
+	.wrapper {
 		width: 80%;
 		display: flex;
 		justify-content: space-between;
-	}
+		align-items: center;
 
-	li {
-		display: flex;
-
-		a {
+		.navButtons {
 			width: 100%;
-			font-weight: 500;
+			min-width: 10rem;
 			align-self: center;
 			padding: 2rem 0;
-			border-bottom: solid 0.3rem ${COLORS.White};
+			background-color: ${COLORS.White};
+			border-bottom: solid 0.2rem ${COLORS.White};
 			font-size: ${FONTSIZE.a};
 			font-weight: ${FONTSIZE.weight.medium};
 			transition-duration: 0.2s;
+		}
 
+		.navButtons:hover {
+			color: ${COLORS.mainRed};
+			border-color: ${COLORS.mainRed};
+		}
+
+		.homeButton {
+			width: 20rem;
+			text-align: left;
 			h1 {
-				font-size: 2.3rem;
 				transition-duration: 0.2s;
 				font-size: ${FONTSIZE.h1};
 				font-weight: ${FONTSIZE.weight.bold};
 			}
-
 			p {
-				font-size: 1rem;
 				font-size: ${FONTSIZE.p};
 				font-weight: ${FONTSIZE.weight.medium};
 			}
-		}
-
-		.homeButton {
-			padding: 0.5rem 3rem 0.5rem 0;
-			width: 25rem;
-			text-align: left;
 		}
 
 		.homeButton:hover {
@@ -56,16 +56,43 @@ export const NavStyled = styled.nav`
 			}
 		}
 
-		.navButtons {
-			width: 10rem;
+		ul {
+			width: 60%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+
+			li {
+				display: flex;
+				width: 20%;
+			}
 		}
 
-		.navButtons:hover {
-			color: ${COLORS.mainRed};
-			border-color: ${COLORS.mainRed};
+		.hamburger {
+			display: none;
 		}
 	}
 
 	@media screen and (max-width: 1200px) {
+		flex-wrap: wrap;
+
+		.hamburger {
+			display: flex;
+			padding-top: 12rem;
+			margin-left: 1rem;
+			z-index: 10;
+		}
+
+		.desktopNav {
+			display: ${(props) =>
+				props.hamburgerOpen ? "flex" : "none"} !important;
+			background-color: blue;
+			justify-content: flex-end;
+			width: 30%;
+			margin-top: 25rem;
+			position: absolute;
+			flex-direction: column;
+		}
 	}
 `;

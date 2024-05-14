@@ -7,7 +7,7 @@ export const Product = ({ type, id, image }) => {
 	const spec = languageData.products[type][id].spec;
 	return (
 		<ProductStyled>
-			<img src={image} alt={`${id} image`} />
+			<img src={image} alt={`${id}`} />
 			<div className='wrapper'>
 				<h3>{product.model}</h3>
 

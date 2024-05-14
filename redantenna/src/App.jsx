@@ -1,8 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./Components/scrollToTop/scrollToTop";
-import { useContext } from "react";
-import { LanguageContext } from "./Components/languageChange/languageContext";
+import { LanguageProvider } from "./Components/languageChange/languageContext";
 import { Nav } from "./Components/nav/nav";
 import { Main } from "./Components/pages/main";
 import { Footer } from "./Components/footer/footer";
@@ -11,20 +10,21 @@ import { About } from "./Components/pages/about";
 import { Contact } from "./Components/pages/contact";
 
 function App() {
-	const { languageData } = useContext(LanguageContext);
 	return (
 		<BrowserRouter>
 			<ScrollToTop />
-			<div className='App'>
-				<Nav languageData={languageData} />
-				<Routes>
-					<Route path='/' element={<Main />} />
-					<Route path='products' element={<Products />} />
-					<Route path='about' element={<About />} />
-					<Route path='contact' element={<Contact />} />
-				</Routes>
-				<Footer />
-			</div>
+			<LanguageProvider>
+				<div className='App'>
+					<Nav />
+					<Routes>
+						<Route path='/' element={<Main />} />
+						<Route path='products' element={<Products />} />
+						<Route path='about' element={<About />} />
+						<Route path='contact' element={<Contact />} />
+					</Routes>
+					<Footer />
+				</div>
+			</LanguageProvider>
 		</BrowserRouter>
 	);
 }

@@ -15,7 +15,7 @@ export const ProductStyled = styled.article`
 		width: 60%;
 		position: relative;
 		padding: 1.5rem;
-		border-bottom: solid 0.3rem ${COLORS.White};
+		border-bottom: solid 0.2rem ${COLORS.White};
 		transition-duration: 0.2s;
 		font-weight: ${FONTSIZE.weight.medium};
 		text-transform: uppercase;

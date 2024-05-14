@@ -10,7 +10,7 @@ export const LanguageProvider = ({ children }) => {
 
 	useEffect(() => {
 		setLanguageData(textLanguage);
-	});
+	}, [textLanguage]);
 
 	return (
 		<LanguageContext.Provider
