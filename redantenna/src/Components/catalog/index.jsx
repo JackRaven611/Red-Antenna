@@ -11,11 +11,16 @@ export const CatalogStyled = styled.section`
 		display: flex;
 		justify-content: center;
 		align-items: center;
-
+		margin-bottom: 5rem;
 		h2 {
-			margin: 3rem;
+			margin: 1rem 3rem 0;
 			font-size: ${FONTSIZE.h2};
 			font-weight: ${FONTSIZE.weight.bold};
+		}
+		p {
+			width: 90%;
+			font-size: ${FONTSIZE.p};
+			font-weight: ${FONTSIZE.weight.medium};
 		}
 	}
 
@@ -35,5 +40,8 @@ export const CatalogStyled = styled.section`
 			justify-content: space-between;
 			gap: 5rem;
 		}
+	}
+
+	@media screen and (max-width: 1200px) {
 	}
 `;

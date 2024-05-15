@@ -56,7 +56,7 @@ export const NavStyled = styled.nav`
 			}
 		}
 
-		ul {
+		.desktopNav {
 			width: 60%;
 			display: flex;
 			justify-content: space-between;
@@ -76,23 +76,32 @@ export const NavStyled = styled.nav`
 
 	@media screen and (max-width: 1200px) {
 		flex-wrap: wrap;
+		.wrapper {
+			.hamburger {
+				display: flex;
+				padding-top: 12rem;
+				margin-left: 1rem;
+				z-index: 10;
+			}
 
-		.hamburger {
-			display: flex;
-			padding-top: 12rem;
-			margin-left: 1rem;
-			z-index: 10;
-		}
+			.desktopNav {
+				display: ${({ $hamburgerOpen }) =>
+					$hamburgerOpen ? "flex" : "none"};
+				margin-top: 15rem;
+				position: absolute;
+				flex-direction: column;
+				align-items: flex-end;
+				width: 80%;
 
-		.desktopNav {
-			display: ${(props) =>
-				props.hamburgerOpen ? "flex" : "none"} !important;
-			background-color: blue;
-			justify-content: flex-end;
-			width: 30%;
-			margin-top: 25rem;
-			position: absolute;
-			flex-direction: column;
+				li {
+					width: 100%;
+				}
+
+				.navButtons {
+					padding: 0.5rem;
+					width: 100%;
+				}
+			}
 		}
 	}
 `;

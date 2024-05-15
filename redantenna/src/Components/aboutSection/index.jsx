@@ -19,7 +19,7 @@ export const AboutSectionStyled = styled.section`
 		overflow: hidden;
 		background-image: linear-gradient(
 			to bottom,
-			${COLORS.Gray + "3d"} 0%,
+			${COLORS.Gray + "9d"} 60%,
 			rgba(255, 255, 255, 0) 100%
 		);
 		img {

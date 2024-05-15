@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./Components/scrollToTop/scrollToTop";
 import { LanguageProvider } from "./Components/languageChange/languageContext";
+import { BurgerProvider } from "./Components/hamburger/burgerContext/burgerContext";
 import { Nav } from "./Components/nav/nav";
 import { Main } from "./Components/pages/main";
 import { Footer } from "./Components/footer/footer";
@@ -15,7 +16,9 @@ function App() {
 			<ScrollToTop />
 			<LanguageProvider>
 				<div className='App'>
-					<Nav />
+					<BurgerProvider>
+						<Nav />
+					</BurgerProvider>
 					<Routes>
 						<Route path='/' element={<Main />} />
 						<Route path='products' element={<Products />} />

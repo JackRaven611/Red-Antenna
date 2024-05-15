@@ -49,4 +49,10 @@ export const BackgroundStyled = styled.div`
 			margin-top: -15rem;
 		}
 	}
+
+	@media screen and (max-width: 600px) {
+		header {
+			margin-top: -8rem;
+		}
+	}
 `;

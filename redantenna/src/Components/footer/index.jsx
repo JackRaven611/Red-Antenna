@@ -80,7 +80,8 @@ export const FooterStyled = styled.footer`
 	}
 
 	@media screen and (max-width: 1200px) {
-		height: 25rem;
+		height: 30rem;
+
 		ul {
 			flex-direction: column;
 			justify-content: center;

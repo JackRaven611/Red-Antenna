@@ -14,18 +14,18 @@ export const InfoBox = () => {
 			<div>
 				<BoxArticle
 					imgUrl={cewka}
-					articleText={languageData.article1}
-					articleTitle={languageData.articleTitle1}
+					articleText={languageData.handmadeText}
+					articleTitle={languageData.handmadeTitle}
 				></BoxArticle>
 				<BoxArticle
 					imgUrl={baluny}
-					articleText={languageData.article2}
-					articleTitle={languageData.articleTitle2}
+					articleText={languageData.design}
+					articleTitle={languageData.designTitle}
 				></BoxArticle>
 				<BoxArticle
 					imgUrl={redfed}
-					articleText={languageData.article3}
-					articleTitle={languageData.articleTitle3}
+					articleText={languageData.effectiveness}
+					articleTitle={languageData.effectivenessTitle}
 				></BoxArticle>
 			</div>
 		</InfoBoxStyled>

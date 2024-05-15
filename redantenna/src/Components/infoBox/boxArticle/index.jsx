@@ -6,12 +6,12 @@ export const BoxArticleStyled = styled.article`
 	z-index: 2;
 	width: 30%;
 	min-width: 25rem;
-	height: 35rem;
+	height: auto;
 	margin-bottom: 5rem;
 	border-radius: 1rem;
 	background-image: linear-gradient(
 		to bottom,
-		${COLORS.Gray + "3d"} 0%,
+		${COLORS.Gray + "9d"} 0%,
 		rgba(255, 255, 255, 0) 100%
 	);
 	overflow: hidden;
@@ -24,7 +24,7 @@ export const BoxArticleStyled = styled.article`
 	}
 
 	p {
-		padding: 0 2rem;
+		padding: 0 2rem 2rem;
 		font-size: ${FONTSIZE.p};
 		font-size: ${FONTSIZE.weight.medium};
 	}
@@ -46,5 +46,6 @@ export const BoxArticleStyled = styled.article`
 
 	@media screen and (max-width: 1200px) {
 		width: 100%;
+		min-width: 20rem;
 	}
 `;
