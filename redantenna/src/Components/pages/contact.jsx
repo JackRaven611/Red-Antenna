@@ -1,3 +1,5 @@
+import { ContactSection } from "../contactSection/contactSection";
+
 export const Contact = () => {
-	return <div>CONTACT</div>;
+	return <ContactSection />;
 };

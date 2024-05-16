@@ -75,4 +75,19 @@ export const ProductStyled = styled.article`
 	@media screen and (max-width: 1200px) {
 		width: 100%;
 	}
+
+	@media screen and (max-width: 900px) {
+		a {
+			font-size: ${FONTSIZE.aMobile};
+		}
+
+		.wrapper {
+			h3 {
+				font-size: ${FONTSIZE.h3Mobile};
+			}
+			p {
+				font-size: ${FONTSIZE.pMobile};
+			}
+		}
+	}
 `;

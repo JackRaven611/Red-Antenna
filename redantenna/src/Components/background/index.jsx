@@ -47,6 +47,16 @@ export const BackgroundStyled = styled.div`
 	@media screen and (max-width: 900px) {
 		header {
 			margin-top: -15rem;
+			h1 {
+				font-size: ${FONTSIZE.h1Mobile};
+			}
+			h3 {
+				font-size: ${FONTSIZE.aMobile};
+			}
+		}
+
+		img {
+			margin-top: 6rem;
 		}
 	}
 

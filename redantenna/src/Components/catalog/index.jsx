@@ -11,9 +11,10 @@ export const CatalogStyled = styled.section`
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-bottom: 5rem;
+		margin-bottom: 2rem;
+		gap: 0;
 		h2 {
-			margin: 1rem 3rem 0;
+			margin: 1rem 3rem;
 			font-size: ${FONTSIZE.h2};
 			font-weight: ${FONTSIZE.weight.bold};
 		}
@@ -21,6 +22,7 @@ export const CatalogStyled = styled.section`
 			width: 90%;
 			font-size: ${FONTSIZE.p};
 			font-weight: ${FONTSIZE.weight.medium};
+			text-align: left;
 		}
 	}
 
@@ -42,6 +44,14 @@ export const CatalogStyled = styled.section`
 		}
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 900px) {
+		.headerWrapper {
+			h2 {
+				font-size: ${FONTSIZE.h2Mobile};
+			}
+			p {
+				font-size: ${FONTSIZE.pMobile};
+			}
+		}
 	}
 `;

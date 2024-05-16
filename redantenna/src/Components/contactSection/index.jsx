@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
-export const AboutSectionStyled = styled.section`
+export const ContactSectionStyled = styled.section`
 	margin: 8rem 0;
 	height: 45rem;
 	width: 100%;
@@ -14,7 +14,7 @@ export const AboutSectionStyled = styled.section`
 		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
 		display: flex;
 		width: 80%;
-
+		min-height: 30rem;
 		border-radius: 1rem;
 		overflow: hidden;
 		background-image: linear-gradient(
@@ -22,26 +22,24 @@ export const AboutSectionStyled = styled.section`
 			${COLORS.Gray + "9d"} 0%,
 			rgba(255, 255, 255, 0) 100%
 		);
+	}
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+
 		img {
-			width: 50%;
+			width: 100%;
 			object-fit: cover;
 		}
-		div {
-			width: 50%;
 
-			h2 {
-				text-transform: uppercase;
-				margin: 2rem;
-				font-size: ${FONTSIZE.h2};
-				font-weight: ${FONTSIZE.weight.bold};
-			}
-
-			p {
-				margin: 3rem;
-				font-size: ${FONTSIZE.p};
-				font-weight: ${FONTSIZE.weight.medium};
-				text-align: left;
-			}
+		p {
+			width: 100%;
+			margin: 2rem;
+			font-size: ${FONTSIZE.p};
+			font-weight: ${FONTSIZE.weight.medium};
+			text-align: left;
 		}
 	}
 
@@ -49,22 +47,19 @@ export const AboutSectionStyled = styled.section`
 		article {
 			flex-direction: column;
 
-			img {
-				width: 100%;
-				max-height: 20rem;
-			}
-
 			div {
 				width: 100%;
+				height: auto;
+			}
+
+			img {
+				max-height: 20rem;
 			}
 		}
 	}
 
 	@media screen and (max-width: 900px) {
 		div {
-			h2 {
-				font-size: ${FONTSIZE.h2Mobile};
-			}
 			p {
 				font-size: ${FONTSIZE.pMobile};
 			}

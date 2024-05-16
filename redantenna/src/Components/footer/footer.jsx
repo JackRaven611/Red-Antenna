@@ -50,10 +50,10 @@ export const Footer = () => {
 								</p>
 								<div>
 									<p className='footerTextColor'>
-										{footer.city}
+										{footer.postCode}
 									</p>
 									<p className='footerTextColor'>
-										{footer.postCode}
+										{footer.city}
 									</p>
 								</div>
 							</div>

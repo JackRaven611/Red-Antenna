@@ -80,12 +80,24 @@ export const FooterStyled = styled.footer`
 	}
 
 	@media screen and (max-width: 1200px) {
-		height: 30rem;
+		height: 35rem;
+
+		.contactWrapper {
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
 
 		ul {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+		}
+	}
+
+	@media screen and (max-width: 900px) {
+		.footerTextColor {
+			font-size: ${FONTSIZE.pMobile};
 		}
 	}
 `;

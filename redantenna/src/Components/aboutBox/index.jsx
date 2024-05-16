@@ -4,9 +4,10 @@ import { FONTSIZE } from "../../Consts/FontSize";
 
 export const AboutBoxStyled = styled.section`
 	width: 100%;
-	margin: 0 0 10rem;
+	margin: 0 0 4rem;
 	display: flex;
 	justify-content: center;
+
 	div {
 		width: 80%;
 		background-image: linear-gradient(
@@ -25,7 +26,7 @@ export const AboutBoxStyled = styled.section`
 		}
 
 		h2 {
-			padding: 3rem;
+			margin: 2rem;
 			font-size: ${FONTSIZE.h2};
 			font-weight: ${FONTSIZE.weight.bold};
 		}
@@ -34,6 +35,18 @@ export const AboutBoxStyled = styled.section`
 			margin: 0 3rem 3rem;
 			font-size: ${FONTSIZE.p};
 			font-weight: ${FONTSIZE.weight.medium};
+			text-align: left;
+		}
+	}
+
+	@media screen and (max-width: 900px) {
+		div {
+			h2 {
+				font-size: ${FONTSIZE.h2Mobile};
+			}
+			p {
+				font-size: ${FONTSIZE.pMobile};
+			}
 		}
 	}
 `;

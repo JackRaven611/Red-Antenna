@@ -76,12 +76,22 @@ export const NavStyled = styled.nav`
 
 	@media screen and (max-width: 1200px) {
 		flex-wrap: wrap;
+
 		.wrapper {
 			.hamburger {
 				display: flex;
 				padding-top: 12rem;
 				margin-left: 1rem;
 				z-index: 10;
+			}
+
+			.homeButton {
+				h1 {
+					font-size: ${FONTSIZE.h1Mobile};
+				}
+				p {
+					font-size: 0.87rem;
+				}
 			}
 
 			.desktopNav {
@@ -92,6 +102,14 @@ export const NavStyled = styled.nav`
 				flex-direction: column;
 				align-items: flex-end;
 				width: 80%;
+				border-bottom-right-radius: 1rem;
+				border-bottom-left-radius: 1rem;
+				transition-duration: 0.2s;
+				background-image: linear-gradient(
+					to bottom,
+					${COLORS.White} 10%,
+					${COLORS.Gray} 190%
+				);
 
 				li {
 					width: 100%;
@@ -100,6 +118,12 @@ export const NavStyled = styled.nav`
 				.navButtons {
 					padding: 0.5rem;
 					width: 100%;
+					border-color: transparent;
+					background-color: rgba(255, 255, 255, 0);
+				}
+
+				.navButton:hover {
+					border-color: ${COLORS.mainRed};
 				}
 			}
 		}

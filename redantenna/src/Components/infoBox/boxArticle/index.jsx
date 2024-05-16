@@ -24,9 +24,10 @@ export const BoxArticleStyled = styled.article`
 	}
 
 	p {
-		padding: 0 2rem 2rem;
+		padding: 0 3rem 3rem;
 		font-size: ${FONTSIZE.p};
 		font-size: ${FONTSIZE.weight.medium};
+		text-align: left;
 	}
 
 	.infoWrapper {
@@ -47,5 +48,17 @@ export const BoxArticleStyled = styled.article`
 	@media screen and (max-width: 1200px) {
 		width: 100%;
 		min-width: 20rem;
+	}
+
+	@media screen and (max-width: 900px) {
+		margin-bottom: 4rem;
+
+		h3 {
+			font-size: ${FONTSIZE.h3Mobile};
+		}
+
+		p {
+			font-size: ${FONTSIZE.pMobile};
+		}
 	}
 `;
