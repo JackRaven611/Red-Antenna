@@ -29,26 +29,15 @@ export const FooterStyled = styled.footer`
 		justify-content: center;
 		margin: 0.5rem 0;
 
-		div {
-			p {
-				margin: 0;
-			}
-
-			div {
-				display: flex;
-				justify-content: space-between;
-			}
+		p {
+			margin: 0;
+			width: 70%;
 		}
 	}
 
-	.hours {
-		display: flex;
-		justify-content: center;
-		gap: 0.5rem;
-
-		p {
-			margin: 0;
-		}
+	.adress:hover {
+		filter: invert(26%) sepia(82%) saturate(6901%) hue-rotate(352deg)
+			brightness(112%) contrast(116%);
 	}
 
 	img {

@@ -14,7 +14,7 @@ export const BackgroundStyled = styled.div`
 		clear: both;
 		width: 80%;
 		min-height: 7rem;
-		border-radius: 1rem;
+		border-radius: 0.5rem;
 		z-index: 3;
 		margin-top: -35rem;
 		display: flex;

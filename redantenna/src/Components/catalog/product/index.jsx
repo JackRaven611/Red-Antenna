@@ -4,7 +4,7 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 
 export const ProductStyled = styled.article`
 	width: 45%;
-	border-radius: 1rem;
+	border-radius: 0.5rem;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
@@ -79,6 +79,7 @@ export const ProductStyled = styled.article`
 	@media screen and (max-width: 900px) {
 		a {
 			font-size: ${FONTSIZE.aMobile};
+			font-weight: ${FONTSIZE.weight.bold};
 		}
 
 		.wrapper {

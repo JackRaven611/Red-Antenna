@@ -11,6 +11,11 @@ export const HamburgerStyled = styled.div`
 	z-index: 10;
 	text-align: right;
 
+	/* &&:hover {
+		filter: invert(26%) sepia(82%) saturate(6901%) hue-rotate(352deg)
+			brightness(112%) contrast(116%);
+	} */
+
 	@media screen and (min-width: 1201px) {
 		display: none;
 

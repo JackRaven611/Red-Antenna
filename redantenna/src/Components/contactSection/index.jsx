@@ -15,7 +15,7 @@ export const ContactSectionStyled = styled.section`
 		display: flex;
 		width: 80%;
 		min-height: 30rem;
-		border-radius: 1rem;
+		border-radius: 0.5rem;
 		overflow: hidden;
 		background-image: linear-gradient(
 			to bottom,
@@ -23,27 +23,82 @@ export const ContactSectionStyled = styled.section`
 			rgba(255, 255, 255, 0) 100%
 		);
 	}
+
+	img {
+		width: 50%;
+		object-fit: cover;
+	}
+
 	div {
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		width: 50%;
 
-		img {
-			width: 100%;
-			object-fit: cover;
+		h2 {
+			font-size: ${FONTSIZE.h2};
+			font-weight: ${FONTSIZE.weight.bold};
+			margin: 2rem;
+			text-transform: uppercase;
 		}
 
-		p {
-			width: 100%;
-			margin: 2rem;
-			font-size: ${FONTSIZE.p};
-			font-weight: ${FONTSIZE.weight.medium};
-			text-align: left;
+		ul {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 2rem;
+			li {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				height: 3.5rem;
+				width: 100%;
+				text-align: left;
+
+				h4 {
+					min-width: 14rem;
+					font-size: ${FONTSIZE.h4};
+					font-weight: ${FONTSIZE.weight.bold};
+					margin-right: 2rem;
+				}
+
+				p {
+					font-size: ${FONTSIZE.p};
+					font-weight: ${FONTSIZE.weight.medium};
+					width: 11.5rem;
+				}
+
+				a {
+					display: flex;
+					align-items: center;
+					border-bottom: 0.2rem solid ${COLORS.darkPurple};
+					transition-duration: 0.2s;
+
+					p {
+						padding: 0.5rem 0;
+						text-align: center;
+						font-size: ${FONTSIZE.p};
+						font-weight: ${FONTSIZE.weight.medium};
+						width: 11.5rem;
+						transition-duration: 0.2s;
+					}
+				}
+
+				a:hover {
+					border-color: ${COLORS.mainRed};
+					p {
+						color: ${COLORS.mainRed};
+					}
+				}
+			}
 		}
 	}
 
 	@media screen and (max-width: 1200px) {
+		margin-bottom: 5rem;
+
 		article {
 			flex-direction: column;
 
@@ -53,6 +108,7 @@ export const ContactSectionStyled = styled.section`
 			}
 
 			img {
+				width: 100%;
 				max-height: 20rem;
 			}
 		}
@@ -60,8 +116,33 @@ export const ContactSectionStyled = styled.section`
 
 	@media screen and (max-width: 900px) {
 		div {
-			p {
-				font-size: ${FONTSIZE.pMobile};
+			ul {
+				li {
+					flex-direction: column;
+					text-align: center;
+					margin-bottom: 2rem;
+
+					h4 {
+						margin: 0;
+					}
+
+					p {
+						width: 100%;
+						font-size: ${FONTSIZE.pMobile};
+						margin: 1rem;
+						text-align: center;
+					}
+
+					a {
+						p {
+							margin: 1rem 0 0;
+						}
+					}
+				}
+
+				.adress {
+					margin-bottom: 5rem;
+				}
 			}
 		}
 	}

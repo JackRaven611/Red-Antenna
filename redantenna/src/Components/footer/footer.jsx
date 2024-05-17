@@ -36,27 +36,14 @@ export const Footer = () => {
 						</div>
 					</div>
 					<div>
-						<h5 className='footerTextColor'>{footer.titleStore}</h5>
-						<p className='footerTextColor'>{footer.ourStore}</p>
-						<div className='hours'>
-							<p className='footerTextColor'>{footer.open}</p>
-							<p className='footerTextColor'>{footer.hours}</p>
-						</div>
+						<h5 className='footerTextColor'>{footer.ourStore}</h5>
+
+						<p className='footerTextColor'>{footer.open}</p>
 						<a href={footer.location} className='adress'>
 							<img src={pinIcon} alt='pin' />
-							<div>
-								<p className='footerTextColor'>
-									{footer.street}
-								</p>
-								<div>
-									<p className='footerTextColor'>
-										{footer.postCode}
-									</p>
-									<p className='footerTextColor'>
-										{footer.city}
-									</p>
-								</div>
-							</div>
+							<p className='footerTextColor'>
+								{footer.storeLocation}
+							</p>
 						</a>
 						<p className='footerTextColor'>{footer.country}</p>
 					</div>

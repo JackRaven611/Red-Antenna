@@ -119,7 +119,7 @@ export const NavStyled = styled.nav`
 					padding: 0.5rem;
 					width: 100%;
 					border-color: transparent;
-					background-color: rgba(255, 255, 255, 0);
+					background-color: transparent;
 				}
 
 				.navButton:hover {

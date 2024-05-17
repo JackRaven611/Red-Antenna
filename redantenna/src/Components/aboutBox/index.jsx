@@ -16,7 +16,7 @@ export const AboutBoxStyled = styled.section`
 			rgba(255, 255, 255, 0) 100%
 		);
 		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
-		border-radius: 1rem;
+		border-radius: 0.5rem;
 		overflow: hidden;
 
 		img {

@@ -8,7 +8,7 @@ export const BoxArticleStyled = styled.article`
 	min-width: 25rem;
 	height: auto;
 	margin-bottom: 5rem;
-	border-radius: 1rem;
+	border-radius: 0.5rem;
 	background-image: linear-gradient(
 		to bottom,
 		${COLORS.Gray + "9d"} 0%,

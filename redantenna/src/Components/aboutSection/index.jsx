@@ -15,7 +15,7 @@ export const AboutSectionStyled = styled.section`
 		display: flex;
 		width: 80%;
 
-		border-radius: 1rem;
+		border-radius: 0.5rem;
 		overflow: hidden;
 		background-image: linear-gradient(
 			to bottom,
