@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { FONTSIZE } from "../../Consts/FontSize";
+import { COLORS } from "../../Consts/Colors";
 
 export const CatalogStyled = styled.section`
 	width: 100%;
@@ -10,11 +11,12 @@ export const CatalogStyled = styled.section`
 	.headerWrapper {
 		display: flex;
 		justify-content: center;
+		flex-direction: column;
 		align-items: center;
 		margin-bottom: 2rem;
 		gap: 0;
 		h2 {
-			margin: 1rem 3rem;
+			margin: 2rem 3rem;
 			font-size: ${FONTSIZE.h2};
 			font-weight: ${FONTSIZE.weight.bold};
 		}
@@ -35,12 +37,27 @@ export const CatalogStyled = styled.section`
 		width: 80%;
 		display: flex;
 		flex-direction: column;
+		margin-bottom: 5rem;
 		li {
 			width: 100%;
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
 			gap: 5rem;
+		}
+
+		.placeHolder {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			h3 {
+				border: 0.2rem solid ${COLORS.mainRed};
+				border-radius: 0.5rem;
+				font-size: ${FONTSIZE.h2};
+				text-align: center;
+				padding: 1rem 2rem;
+				margin-bottom: 2rem;
+			}
 		}
 	}
 

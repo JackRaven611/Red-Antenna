@@ -3,7 +3,6 @@ import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import phoneIcon from "../../img/phone.svg";
 import emailIcon from "../../img/email.svg";
-import pinIcon from "../../img/pin.svg";
 
 export const Footer = () => {
 	const { languageData } = useContext(LanguageContext);
@@ -40,7 +39,6 @@ export const Footer = () => {
 
 						<p className='footerTextColor'>{footer.open}</p>
 						<a href={footer.location} className='adress'>
-							<img src={pinIcon} alt='pin' />
 							<p className='footerTextColor'>
 								{footer.storeLocation}
 							</p>

@@ -2,11 +2,13 @@ import { CatalogStyled } from ".";
 import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import { Product } from "./product/product";
+import { ProductAccessories } from "./product/productAccessories";
 import RFMini40 from "../../img/RedFed QRP mini 40-10 2.JPG";
 import RFMidi40 from "../../img/RedFed QRP 40-10.JPG";
 import RFHD80 from "../../img/RedFed HD 80-10.JPG";
 import RFStandard from "../../img/RedFed Standard.JPG";
 import RFMini80Max from "../../img/Red-Fed Mini 80 Max.jpg";
+import tuner from "../../img/mini Tuner.jpg";
 
 export const Catalog = () => {
 	const { languageData } = useContext(LanguageContext);
@@ -32,12 +34,25 @@ export const Catalog = () => {
 				<li className='headerWrapper'>
 					<h2>ANTENY PIONOWE</h2>
 				</li>
-				<li></li>
+				<li className='placeHolder'>
+					<h3>Pojawią się już niedługo</h3>
+				</li>
 				<li></li>
 				<li className='headerWrapper'>
 					<h2>AKCESORIA</h2>
 				</li>
-				<li></li>
+				<li className='accessories'>
+					<ProductAccessories
+						type='accesories'
+						id='miniTunerCable'
+						image={tuner}
+					/>
+					<ProductAccessories
+						type='accesories'
+						id='miniTuner'
+						image={tuner}
+					/>
+				</li>
 			</ul>
 		</CatalogStyled>
 	);

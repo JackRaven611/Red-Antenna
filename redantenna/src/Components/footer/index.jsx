@@ -32,12 +32,14 @@ export const FooterStyled = styled.footer`
 		p {
 			margin: 0;
 			width: 70%;
+			transition-duration: 0.2s;
 		}
 	}
 
-	.adress:hover {
-		filter: invert(26%) sepia(82%) saturate(6901%) hue-rotate(352deg)
-			brightness(112%) contrast(116%);
+	.adress {
+		p:hover {
+			color: ${COLORS.mainRed};
+		}
 	}
 
 	img {

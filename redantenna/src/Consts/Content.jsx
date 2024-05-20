@@ -352,12 +352,47 @@ export const TEXTS = {
 				},
 			},
 			accesories: {
-				MiniTuner: {
-					title: "",
-					titleSec: "",
-					text: "",
-					StoreLink: "",
-					StoreLinkSec: "",
+				miniTuner: {
+					model: "Mini-Tuner wtyk BNC",
+					spec: {
+						text: "Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego.",
+						weight: "Waga: 70g",
+						power: {
+							title: "Moc wejściowa:",
+							value: "10W P.E.P",
+						},
+						size: "Wymiary obudowy tunera: 60mm x 40mm x 30mm",
+						connectors: {
+							title: "Złącza:",
+							feeder: "gniazdo BNC żeńskie x 1",
+							antenna:
+								"banan x 2 (dla promiennika czerwone, dla przeciwwagi czarne)",
+						},
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Red-Antenna-EFHW-Mini-Tuner-wtyk-BNC/3241",
+					linkText: "Sklep",
+				},
+				miniTunerCable: {
+					model: "Mini-Tuner gniazdo BNC",
+					spec: {
+						text: "Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona w gniazdo BNC, umożliwiająca połączenie tunera z transceiverem za pomocą kabla koncentrycznego.",
+						weight: "Waga: 70g",
+						power: {
+							title: "Moc wejściowa:",
+							value: "10W P.E.P",
+						},
+						size: "Wymiary obudowy tunera: 60mm x 40mm x 30mm",
+						connectors: {
+							title: "Złącza:",
+							feeder: "gniazdo BNC żeńskie x 1",
+							antenna:
+								"banan x 2 (dla promiennika czerwone, dla przeciwwagi czarne)",
+						},
+					},
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Red-Antenna-EFHW-Mini-Tuner-gniazdo-BNC/3220",
+					linkText: "Sklep",
 				},
 			},
 		},
