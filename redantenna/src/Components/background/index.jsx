@@ -11,6 +11,7 @@ export const BackgroundStyled = styled.div`
 	header {
 		display: flex;
 		justify-content: center;
+		gap: 1rem;
 		clear: both;
 		width: 80%;
 		min-height: 7rem;
@@ -20,6 +21,7 @@ export const BackgroundStyled = styled.div`
 		display: flex;
 		flex-direction: column;
 		background-color: ${COLORS.darkPurple + "6d"};
+		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
 
 		h1 {
 			color: ${COLORS.White};
@@ -41,12 +43,14 @@ export const BackgroundStyled = styled.div`
 	@media screen and (max-width: 1200px) {
 		header {
 			margin-top: -25rem;
+			gap: 0.7rem;
 		}
 	}
 
 	@media screen and (max-width: 900px) {
 		header {
 			margin-top: -15rem;
+			gap: 0.5rem;
 			h1 {
 				font-size: ${FONTSIZE.h1Mobile};
 			}

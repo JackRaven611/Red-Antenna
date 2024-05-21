@@ -54,6 +54,7 @@ export const ProductStyled = styled.article`
 
 		ul {
 			width: 100%;
+			margin-bottom: 1rem;
 
 			li {
 				display: flex;

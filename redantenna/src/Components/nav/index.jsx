@@ -39,6 +39,10 @@ export const NavStyled = styled.nav`
 		.homeButton {
 			width: 20rem;
 			text-align: left;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
 			h1 {
 				transition-duration: 0.2s;
 				font-size: ${FONTSIZE.h1};
@@ -97,14 +101,15 @@ export const NavStyled = styled.nav`
 			.desktopNav {
 				display: ${({ $hamburgerOpen }) =>
 					$hamburgerOpen ? "flex" : "none"};
-				margin-top: 15rem;
+				margin-top: 14rem;
 				position: absolute;
 				flex-direction: column;
 				align-items: flex-end;
 				width: 80%;
-				border-bottom-right-radius: 1rem;
-				border-bottom-left-radius: 1rem;
+				border-bottom-right-radius: 0.5rem;
+				border-bottom-left-radius: 0.5rem;
 				transition-duration: 0.2s;
+				box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
 				background-image: linear-gradient(
 					to bottom,
 					${COLORS.White} 10%,

@@ -12,7 +12,7 @@ export const AboutSection = () => {
 				<img src={baluny} alt='baluny' />
 				<div>
 					<h2>{aboutSection.title}</h2>
-					<p>{languageData.aboutText}</p>
+					<p>{aboutSection.text}</p>
 					<p>{aboutSection.wsrp}</p>
 				</div>
 			</article>

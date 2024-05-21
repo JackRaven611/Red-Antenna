@@ -37,7 +37,7 @@ export const AboutSectionStyled = styled.section`
 			}
 
 			p {
-				margin: 3rem;
+				margin: 2rem 3rem;
 				font-size: ${FONTSIZE.p};
 				font-weight: ${FONTSIZE.weight.medium};
 				text-align: left;
