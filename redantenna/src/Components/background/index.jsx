@@ -27,11 +27,13 @@ export const BackgroundStyled = styled.div`
 			color: ${COLORS.White};
 			font-size: ${FONTSIZE.h1};
 			font-weight: ${FONTSIZE.weight.bold};
+			padding: 0.5rem 0 0;
 		}
 		h3 {
 			color: ${COLORS.White};
 			font-size: ${FONTSIZE.a};
 			font-weight: ${FONTSIZE.weight.medium};
+			padding: 0 0.5rem 0.5rem;
 		}
 	}
 
@@ -53,6 +55,7 @@ export const BackgroundStyled = styled.div`
 			gap: 0.5rem;
 			h1 {
 				font-size: ${FONTSIZE.h1Mobile};
+				line-height: 2rem;
 			}
 			h3 {
 				font-size: ${FONTSIZE.aMobile};

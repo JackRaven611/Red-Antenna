@@ -13,6 +13,7 @@ export const Product = ({ type, id, image }) => {
 
 				<ul>
 					<li>
+						<p>{spec.text}</p>
 						<p>{spec.bands}</p>
 						<p>{spec.span}</p>
 						<p>{spec.weight}</p>
@@ -35,7 +36,10 @@ export const Product = ({ type, id, image }) => {
 					<li>
 						<p>{spec.core}</p>
 						<p>{spec.windings}</p>
-						<p>{spec.antennaWire}</p>
+						<p>
+							{spec.antennaWire}
+							<sup>2</sup>
+						</p>
 						<p>{spec.wire}</p>
 					</li>
 				</ul>

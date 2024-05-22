@@ -3,11 +3,15 @@ import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import { Product } from "./product/product";
 import { ProductAccessories } from "./product/productAccessories";
-import RFMini40 from "../../img/RedFed QRP mini 40-10 2.JPG";
-import RFMidi40 from "../../img/RedFed QRP 40-10.JPG";
-import RFHD80 from "../../img/RedFed HD 80-10.JPG";
-import RFStandard from "../../img/RedFed Standard.JPG";
-import RFMini80Max from "../../img/Red-Fed Mini 80 Max.jpg";
+import mini40 from "../../img/mini40.jpg";
+import mini80 from "../../img/mini80.jpg";
+import midi40 from "../../img/midi40.jpg";
+import midi80 from "../../img/midi80.jpg";
+import hd80 from "../../img/hd80.jpg";
+import hd40 from "../../img/hd40.jpg";
+import standard40 from "../../img/standard40.jpg";
+import standard80 from "../../img/standard80.jpg";
+import miniMax from "../../img/miniMax.jpg";
 import tuner from "../../img/mini Tuner.jpg";
 
 export const Catalog = () => {
@@ -21,15 +25,15 @@ export const Catalog = () => {
 					<p>{languageData.products.wireText}</p>
 				</li>
 				<li className='wireAntennas'>
-					<Product type='wire' id='RFHD80' image={RFHD80} />
-					<Product type='wire' id='RFHD40' image={RFHD80} />
-					<Product type='wire' id='RFStandard80' image={RFStandard} />
-					<Product type='wire' id='RFStandard40' image={RFStandard} />
-					<Product type='wire' id='RFMidi80' image={RFMidi40} />
-					<Product type='wire' id='RFMidi40' image={RFMidi40} />
-					<Product type='wire' id='RFMini80' image={RFMini40} />
-					<Product type='wire' id='RFMini40' image={RFMini40} />
-					<Product type='wire' id='RFMini80Max' image={RFMini80Max} />
+					<Product type='wire' id='RFHD80' image={hd80} />
+					<Product type='wire' id='RFHD40' image={hd40} />
+					<Product type='wire' id='RFStandard80' image={standard80} />
+					<Product type='wire' id='RFStandard40' image={standard40} />
+					<Product type='wire' id='RFMidi80' image={midi80} />
+					<Product type='wire' id='RFMidi40' image={midi40} />
+					<Product type='wire' id='RFMini80' image={mini80} />
+					<Product type='wire' id='RFMini40' image={mini40} />
+					<Product type='wire' id='RFMini80Max' image={miniMax} />
 				</li>
 				<li className='headerWrapper'>
 					<h2>ANTENY PIONOWE</h2>

@@ -57,6 +57,7 @@ export const CatalogStyled = styled.section`
 				text-align: center;
 				padding: 1rem 2rem;
 				margin-bottom: 2rem;
+				line-height: 2.5rem;
 			}
 		}
 	}

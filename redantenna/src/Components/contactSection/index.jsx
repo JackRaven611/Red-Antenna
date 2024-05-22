@@ -73,12 +73,11 @@ export const ContactSectionStyled = styled.section`
 				a {
 					display: flex;
 					align-items: center;
-					border-bottom: 0.2rem solid ${COLORS.darkPurple};
 					transition-duration: 0.2s;
 
 					p {
 						padding: 0.5rem 0;
-						text-align: center;
+						text-align: left;
 						font-size: ${FONTSIZE.p};
 						font-weight: ${FONTSIZE.weight.medium};
 						width: 11.5rem;
@@ -87,7 +86,6 @@ export const ContactSectionStyled = styled.section`
 				}
 
 				a:hover {
-					border-color: ${COLORS.mainRed};
 					p {
 						color: ${COLORS.mainRed};
 					}
@@ -136,12 +134,13 @@ export const ContactSectionStyled = styled.section`
 					a {
 						p {
 							margin: 1rem 0 0;
+							text-align: center;
 						}
 					}
 				}
 
 				.adress {
-					margin-bottom: 5rem;
+					margin-bottom: 4rem;
 				}
 			}
 		}

@@ -32,6 +32,7 @@ export const AboutSectionStyled = styled.section`
 			h2 {
 				text-transform: uppercase;
 				margin: 2rem;
+				line-height: 2rem;
 				font-size: ${FONTSIZE.h2};
 				font-weight: ${FONTSIZE.weight.bold};
 			}

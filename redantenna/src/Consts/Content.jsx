@@ -7,7 +7,7 @@ export const TEXTS = {
 		navBtnProducts: "PRODUKTY",
 		navBtnAbout: "O NAS",
 		navBtnContact: "KONTAKT",
-		header: "ANTENY WYSOKIEJ KLASY",
+		header: "HIGH PERFORMANCE ANTENNA SYSTEM",
 		headerP: "GDY LICZY SIĘ WYDAJNOŚĆ I JAKOŚĆ",
 		handmadeTitle: "RĘCZNIE ROBIONE W POLSCE",
 		handmadeText:
@@ -51,6 +51,7 @@ export const TEXTS = {
 				RFMini40: {
 					model: "Red-Fed Mini 40-10 ",
 					spec: {
+						text: "Antena typu EFHW (End Fed Half Wire) przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: około 12m",
 						weight: "Waga: 260g",
@@ -65,14 +66,13 @@ export const TEXTS = {
 						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
 						connectors: {
 							title: "Złącza:",
-							feeder: "fider 50Ω: BNC",
-							antenna: "antena: 2x M3",
+							feeder: "fider BNC",
+							antenna: "antena 2x M3",
 						},
 						core: "Wielkość rdzenia: Amidon FT82",
 						windings:
 							"Uzwojenia: drut emaliowany DNE 0.6mm (balun i cewka)",
-						antennaWire:
-							"Linka antenowa: linka miedziana Cu 0.5mm2",
+						antennaWire: "Linka antenowa: linka miedziana Cu 0.5mm",
 						wire: "Linka mocująca: 2x 10m PE 2mm",
 					},
 					storeLink:
@@ -82,6 +82,7 @@ export const TEXTS = {
 				RFMini80: {
 					model: "Red-Fed Mini 80-10 ",
 					spec: {
+						text: "Antena typu EFHW (End Fed Half Wire) przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
 						bands: "Pasma pracy: 80, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: około 23m",
 						weight: "Waga: 360g",
@@ -96,14 +97,13 @@ export const TEXTS = {
 						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
 						connectors: {
 							title: "Złącza:",
-							feeder: "fider 50Ω: BNC",
-							antenna: "Antena: 2x M3",
+							feeder: "fider BNC",
+							antenna: "antena 2x M3",
 						},
 						core: "Wielkość rdzenia: Amidon FT82",
 						windings:
 							"Uzwojenia: drut emaliowany DNE 0.6mm (balun i cewka)",
-						antennaWire:
-							"Linka antenowa: linka miedziana Cu 0.5mm2",
+						antennaWire: "Linka antenowa: linka miedziana Cu 0.5mm",
 						wire: "Linka mocująca: 2x 10m PE 2mm",
 					},
 					storeLink:
@@ -113,6 +113,7 @@ export const TEXTS = {
 				RFMidi40: {
 					model: "Red-Fed Midi 40-10 ",
 					spec: {
+						text: "Antena typu EFHW (End Fed Half Wire), przeznaczona głównie do wyjazdów terenowych i wakacyjnych, oferująca większą wytrzymałość mechaniczną niż wersja Mini, przez co jest bardziej odporna na trudne warunki atmosferyczne. Zastosowano tutaj balun o zwiększonej przenoszonej mocy, dzięki czemu anteny z serii Midi nadają się do pracy ze standardowymi transceiverami KF.",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: około 12m",
 						weight: "Waga: 530g",
@@ -127,14 +128,13 @@ export const TEXTS = {
 						size: "Wymiary baluna (mm, bez zaczepów): 50x70x36",
 						connectors: {
 							title: "Złącza:",
-							feeder: "fider 50Ω: SO239 (UC1, UHF)",
-							antenna: "antena: 2x M4",
+							feeder: "fider SO239 (UC1, UHF)",
+							antenna: "antena 2x M4",
 						},
 						core: "Wielkość rdzenia: Amidon FT140",
 						windings:
 							"Uzwojenia: drut emaliowany DNE 1.0mm (balun i cewka)",
-						antennaWire:
-							"Linka antenowa: linka miedziana Cu 1.0mm2",
+						antennaWire: "Linka antenowa: linka miedziana Cu 1.0mm",
 						wire: "Linka mocująca: 2x 10m PE 3mm",
 					},
 					storeLink:
@@ -144,6 +144,7 @@ export const TEXTS = {
 				RFMidi80: {
 					model: "Red-Fed Midi 80-10 ",
 					spec: {
+						text: "Antena typu EFHW (End Fed Half Wire), przeznaczona głównie do wyjazdów terenowych i wakacyjnych, oferująca większą wytrzymałość mechaniczną niż wersja Mini, przez co jest bardziej odporna na trudne warunki atmosferyczne. Zastosowano tutaj balun o zwiększonej przenoszonej mocy, dzięki czemu anteny z serii Midi nadają się do pracy ze standardowymi transceiverami KF.",
 						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: około 23m",
 						weight: "Waga: 740g",
@@ -158,14 +159,13 @@ export const TEXTS = {
 						size: "Wymiary baluna (mm, bez zaczepów): 50x70x36",
 						connectors: {
 							title: "Złącza:",
-							feeder: "fider 50Ω: SO239 (UC1, UHF)",
-							antenna: "antena: 2x M4",
+							feeder: "fider SO239 (UC1, UHF)",
+							antenna: "antena 2x M4",
 						},
 						core: "Wielkość rdzenia: Amidon FT140",
 						windings:
 							"Uzwojenia: drut emaliowany DNE 1.0mm (balun i cewka)",
-						antennaWire:
-							"Linka antenowa: linka miedziana Cu 1.0mm2",
+						antennaWire: "Linka antenowa: linka miedziana Cu 1.0mm",
 						wire: "Linka mocująca: 2x 10m PE 3mm",
 					},
 					storeLink:
@@ -175,6 +175,7 @@ export const TEXTS = {
 				RFStandard40: {
 					model: "Red-Fed Standard 40-10 ",
 					spec: {
+						text: "Antena typu EFHW (End Fed Half Wire) do zastosowań sezonowych, takich jak dłuższe wyjazdy wakacyjne, obozy czy na działce rekreacyjnej, wszędzie tam gdzie zaistnieje potrzeba pracy przez np. sezon letni i mamy możliwość pracy porównywalnej z domowym QTH. Użyty w antenie balun z serii Standard pozwala na swobodą pracę z seryjnymi transceiverami KF oraz z małymi wzmacniaczami mocy.",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: około 12m",
 						weight: "Waga: 710g",
@@ -189,14 +190,13 @@ export const TEXTS = {
 						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
 						connectors: {
 							title: "Złącza:",
-							feeder: "fider 50Ω: SO239 (UC1, UHF)",
-							antenna: "antena: 2x M5",
+							feeder: "fider SO239 (UC1, UHF)",
+							antenna: "antena 2x M5",
 						},
 						core: "Wielkość rdzenia: Amidon FT140",
 						windings:
 							"Uzwojenia: drut emaliowany DN2E 1.6mm (balun) i 1.0mm (cewka)",
-						antennaWire:
-							"Linka antenowa: linka miedziana Cu 1.5mm2",
+						antennaWire: "Linka antenowa: linka miedziana Cu 1.5mm",
 						wire: "Linka mocująca: 2x 10m PE 3mm",
 					},
 					storeLink:
@@ -206,6 +206,7 @@ export const TEXTS = {
 				RFStandard80: {
 					model: "Red-Fed Standard 80-10 ",
 					spec: {
+						text: "Antena typu EFHW (End Fed Half Wire) do zastosowań sezonowych, takich jak dłuższe wyjazdy wakacyjne, obozy czy na działce rekreacyjnej, wszędzie tam gdzie zaistnieje potrzeba pracy przez np. sezon letni i mamy możliwość pracy porównywalnej z domowym QTH. Użyty w antenie balun z serii Standard pozwala na swobodą pracę z seryjnymi transceiverami KF oraz z małymi wzmacniaczami mocy.",
 						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: około 23m",
 						weight: "Waga: 1050g",
@@ -220,14 +221,13 @@ export const TEXTS = {
 						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
 						connectors: {
 							title: "Złącza:",
-							feeder: "fider 50Ω: SO239 (UC1, UHF)",
-							antenna: "antena: 2x M5",
+							feeder: "fider SO239 (UC1, UHF)",
+							antenna: "antena 2x M5",
 						},
 						core: "Wielkość rdzenia: Amidon FT140",
 						windings:
 							"Uzwojenia: drut emaliowany DN2E 1.6mm (balun) i 1.0mm (cewka)",
-						antennaWire:
-							"Linka antenowa: linka miedziana Cu 1.5mm2",
+						antennaWire: "Linka antenowa: linka miedziana Cu 1.5mm",
 						wire: "Linka mocująca: 2x 10m PE 3mm",
 					},
 					storeLink:
@@ -237,6 +237,7 @@ export const TEXTS = {
 				RFHD40: {
 					model: "Red-Fed HD 40-10 ",
 					spec: {
+						text: "Antena typu EFHW (End Fed Half Wire) o podwyższonej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na balunach z serii Standard i w związku z tym przenoszą takie same moce jak Red-Fed Standard. Wzmocnieniu jednak uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu czy szadzi.",
 						bands: "Pasma pracy: 40m, 20m, 10m",
 						span: "Rozpiętość anteny: około 12m",
 						weight: "Waga: 1120g",
@@ -251,14 +252,13 @@ export const TEXTS = {
 						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
 						connectors: {
 							title: "Złącza:",
-							feeder: "fider 50Ω: SO239 (UC1, UHF)",
-							antenna: "antena: 2x M5",
+							feeder: "fider SO239 (UC1, UHF)",
+							antenna: "antena 2x M5",
 						},
 						core: "Wielkość rdzenia: Amidon FT240",
 						windings:
 							"Uzwojenia: drut emaliowany DN2E 1.6mm (balun i cewka)",
-						antennaWire:
-							"Linka antenowa: linka miedziana Cu 2.5mm2",
+						antennaWire: "Linka antenowa: linka miedziana Cu 2.5mm",
 						wire: "Linka mocująca: 2x 10m PE 4mm",
 					},
 					storeLink:
@@ -268,6 +268,7 @@ export const TEXTS = {
 				RFHD80: {
 					model: "Red-Fed HD 80-10 ",
 					spec: {
+						text: "Antena typu EFHW (End Fed Half Wire) o podwyższonej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na balunach z serii Standard i w związku z tym przenoszą takie same moce jak Red-Fed Standard. Wzmocnieniu jednak uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu czy szadzi.",
 						bands: "Pasma pracy: 80m, 40m, 20m, 15m, 10m",
 						span: "Rozpiętość anteny: około 23m",
 						weight: "Waga: 1470g",
@@ -282,14 +283,13 @@ export const TEXTS = {
 						size: "Wymiary baluna (mm, bez zaczepów): 74x89x41",
 						connectors: {
 							title: "Złącza:",
-							feeder: "fider 50Ω: SO239 (UC1, UHF)",
-							antenna: "antena: 2x M5",
+							feeder: "fider  SO239 (UC1, UHF)",
+							antenna: "antena 2x M5",
 						},
 						core: "Wielkość rdzenia: Amidon FT240",
 						windings:
 							"Uzwojenia: drut emaliowany DN2E 1.6mm (balun i cewka)",
-						antennaWire:
-							"Linka antenowa: linka miedziana Cu 2.5mm2",
+						antennaWire: "Linka antenowa: linka miedziana Cu 2.5mm",
 						wire: "Linka mocująca: 2x 10m PE 4mm",
 					},
 					storeLink:
@@ -299,6 +299,7 @@ export const TEXTS = {
 				RFMini80Max: {
 					model: "Red-Fed Mini 80 MAX ",
 					spec: {
+						text: "Antena typu EFHW (End Fed Half Wire) przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
 						bands: "Pasma pracy: 80m",
 						span: "Rozpiętość anteny: około 34m",
 						weight: "Waga: 300g",
@@ -313,14 +314,13 @@ export const TEXTS = {
 						size: "Wymiary baluna (mm, bez zaczepów): 51x49x36",
 						connectors: {
 							title: "Złącza:",
-							feeder: "fider 50Ω: BNC",
-							antenna: "antena: 2x M3",
+							feeder: "fider  BNC",
+							antenna: "antena 2x M3",
 						},
 						core: "Wielkość rdzenia: RA1616",
 						windings:
 							"Uzwojenia: drut emaliowany DNE 0.6mm (balun i cewka)",
-						antennaWire:
-							"Linka antenowa: linka miedziana Cu 0.5mm2",
+						antennaWire: "Linka antenowa: linka miedziana Cu 0.5mm",
 						wire: "Linka mocująca: 2x 10m PE 2mm",
 					},
 					storeLink:
@@ -358,15 +358,15 @@ export const TEXTS = {
 						text: "Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego.",
 						weight: "Waga: 70g",
 						power: {
-							title: "Moc wejściowa:",
+							title: "Przenoszona moc:",
 							value: "10W P.E.P",
 						},
-						size: "Wymiary obudowy tunera: 60mm x 40mm x 30mm",
+						size: "Wymiary tunera (mm, bez zaczepów): 60x40x30",
 						connectors: {
 							title: "Złącza:",
-							feeder: "gniazdo BNC żeńskie x 1",
+							feeder: "wtyk BNC",
 							antenna:
-								"banan x 2 (dla promiennika czerwone, dla przeciwwagi czarne)",
+								"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
 						},
 					},
 					storeLink:
@@ -379,15 +379,15 @@ export const TEXTS = {
 						text: "Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona w gniazdo BNC, umożliwiająca połączenie tunera z transceiverem za pomocą kabla koncentrycznego.",
 						weight: "Waga: 70g",
 						power: {
-							title: "Moc wejściowa:",
+							title: "Przenoszona moc:",
 							value: "10W P.E.P",
 						},
-						size: "Wymiary obudowy tunera: 60mm x 40mm x 30mm",
+						size: "Wymiary tunera (mm, bez zaczepów): 60x40x30",
 						connectors: {
 							title: "Złącza:",
-							feeder: "gniazdo BNC żeńskie x 1",
+							feeder: "gniazdo BNC",
 							antenna:
-								"banan x 2 (dla promiennika czerwone, dla przeciwwagi czarne)",
+								"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
 						},
 					},
 					storeLink:

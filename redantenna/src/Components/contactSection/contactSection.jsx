@@ -1,14 +1,14 @@
 import { ContactSectionStyled } from ".";
 import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
-import qrp from "../../img/RedFed QRP 40-10.JPG";
+import hd80 from "../../img/RedFed HD 80-10.JPG";
 
 export const ContactSection = () => {
 	const { languageData } = useContext(LanguageContext);
 	return (
 		<ContactSectionStyled>
 			<article>
-				<img src={qrp} alt='red antenna qrp' />
+				<img src={hd80} alt='red antenna hd' />
 
 				<div>
 					<h2>{languageData.footer.titleContact}</h2>

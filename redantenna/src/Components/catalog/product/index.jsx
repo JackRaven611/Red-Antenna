@@ -29,7 +29,7 @@ export const ProductStyled = styled.article`
 
 	img {
 		width: 100%;
-		height: 20rem;
+		height: 25rem;
 		object-fit: cover;
 		transition-duration: 0.2s;
 	}
@@ -75,9 +75,17 @@ export const ProductStyled = styled.article`
 
 	@media screen and (max-width: 1200px) {
 		width: 100%;
+
+		img {
+			height: 25rem;
+		}
 	}
 
 	@media screen and (max-width: 900px) {
+		img {
+			height: 15rem;
+		}
+
 		a {
 			font-size: ${FONTSIZE.aMobile};
 			font-weight: ${FONTSIZE.weight.bold};
