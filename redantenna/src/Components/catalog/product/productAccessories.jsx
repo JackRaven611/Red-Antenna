@@ -11,7 +11,7 @@ export const ProductAccessories = ({ type, id, image }) => {
 			<div className='wrapper'>
 				<h3>{product.model}</h3>
 
-				<ul>
+				<ul className='accessories'>
 					<li>
 						<p>{spec.text}</p>
 					</li>

@@ -4,6 +4,7 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 
 export const ProductStyled = styled.article`
 	width: 45%;
+
 	border-radius: 0.5rem;
 	overflow: hidden;
 	display: flex;
@@ -55,6 +56,7 @@ export const ProductStyled = styled.article`
 		ul {
 			width: 100%;
 			margin-bottom: 1rem;
+			min-height: 40rem;
 
 			li {
 				display: flex;
@@ -70,6 +72,10 @@ export const ProductStyled = styled.article`
 					font-weight: ${FONTSIZE.weight.medium};
 				}
 			}
+		}
+
+		.accessories {
+			min-height: 20rem;
 		}
 	}
 

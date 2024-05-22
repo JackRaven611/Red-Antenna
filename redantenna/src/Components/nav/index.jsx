@@ -23,7 +23,7 @@ export const NavStyled = styled.nav`
 			width: 100%;
 			min-width: 10rem;
 			align-self: center;
-			padding: 2rem 0;
+			padding: 2.15rem 0;
 			background-color: ${COLORS.White};
 			border-bottom: solid 0.2rem ${COLORS.White};
 			font-size: ${FONTSIZE.a};
