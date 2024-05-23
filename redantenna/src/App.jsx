@@ -9,6 +9,7 @@ import { Footer } from "./Components/footer/footer";
 import { Products } from "./Components/pages/products";
 import { About } from "./Components/pages/about";
 import { Contact } from "./Components/pages/contact";
+import { NotFound } from "./Components/pages/notFound";
 
 function App() {
 	return (
@@ -20,10 +21,15 @@ function App() {
 						<Nav />
 					</BurgerProvider>
 					<Routes>
-						<Route path='/' element={<Main />} />
-						<Route path='products' element={<Products />} />
-						<Route path='about' element={<About />} />
-						<Route path='contact' element={<Contact />} />
+						<Route
+							path='/'
+							element={<Main />}
+							errorElement={<NotFound />}
+						/>
+						<Route path='/products' element={<Products />} />
+						<Route path='/about' element={<About />} />
+						<Route path='/contact' element={<Contact />} />
+						<Route path='/*' element={<NotFound />} />
 					</Routes>
 					<Footer />
 				</div>
