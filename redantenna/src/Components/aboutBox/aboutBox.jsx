@@ -8,7 +8,7 @@ export const AboutBox = () => {
 	return (
 		<AboutBoxStyled>
 			<div>
-				<img src={redFed} alt='redFed antenna' />
+				<img src={redFed} alt='redFed antenna' loading='lazy' />
 				<h2>{languageData.aboutTitle}</h2>
 				<p>{languageData.aboutText}</p>
 			</div>

@@ -8,14 +8,17 @@ export const ContactSection = () => {
 	return (
 		<ContactSectionStyled>
 			<article>
-				<img src={hd80} alt='red antenna hd' />
+				<img src={hd80} alt='red antenna hd' loading='lazy' />
 
 				<div>
 					<h2>{languageData.footer.titleContact}</h2>
 					<ul>
 						<li className='adress'>
 							<h4>{languageData.footer.ourStore}:</h4>
-							<a href={languageData.footer.location}>
+							<a
+								href={languageData.footer.location}
+								target='_blank'
+							>
 								<p>{languageData.footer.storeLocation}</p>
 							</a>
 						</li>
@@ -41,7 +44,10 @@ export const ContactSection = () => {
 						</li>
 						<li>
 							<h4>{languageData.contactSection.formTitle}:</h4>
-							<a href={languageData.contactSection.formLink}>
+							<a
+								href={languageData.contactSection.formLink}
+								target='_blank'
+							>
 								<p>{languageData.contactSection.form}</p>
 							</a>
 						</li>

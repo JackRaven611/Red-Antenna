@@ -20,17 +20,17 @@ export const Footer = () => {
 							{footer.titleContact}
 						</h5>
 						<div className='contactIcon'>
-							<img src={phoneIcon} alt='phone' />
+							<img src={phoneIcon} alt='phone' loading='lazy' />
 							<p className='footerTextColor'>
 								{footer.phoneMain}
 							</p>
 						</div>
 						<div className='contactIcon'>
-							<img src={phoneIcon} alt='phone' />
+							<img src={phoneIcon} alt='phone' loading='lazy' />
 							<p className='footerTextColor'>{footer.phoneSec}</p>
 						</div>
 						<div className='contactIcon'>
-							<img src={emailIcon} alt='email' />
+							<img src={emailIcon} alt='email' loading='lazy' />
 							<p className='footerTextColor'>{footer.email}</p>
 						</div>
 					</div>
@@ -38,7 +38,11 @@ export const Footer = () => {
 						<h5 className='footerTextColor'>{footer.ourStore}</h5>
 
 						<p className='footerTextColor'>{footer.open}</p>
-						<a href={footer.location} className='adress'>
+						<a
+							href={footer.location}
+							className='adress'
+							target='_blank'
+						>
 							<p className='footerTextColor'>
 								{footer.storeLocation}
 							</p>

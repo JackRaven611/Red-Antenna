@@ -7,7 +7,7 @@ export const Product = ({ type, id, image }) => {
 	const spec = languageData.products[type][id].spec;
 	return (
 		<ProductStyled>
-			<img src={image} alt={`${id}`} />
+			<img src={image} alt={`${id}`} loading='lazy' />
 			<div className='wrapper'>
 				<h3>{product.model}</h3>
 
@@ -44,7 +44,9 @@ export const Product = ({ type, id, image }) => {
 					</li>
 				</ul>
 
-				<a href={product.storeLink}>{product.linkText}</a>
+				<a href={product.storeLink} target='_blank'>
+					{product.linkText}
+				</a>
 			</div>
 		</ProductStyled>
 	);

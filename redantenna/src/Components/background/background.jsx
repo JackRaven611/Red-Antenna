@@ -8,7 +8,7 @@ export const Background = () => {
 	const { languageData } = useContext(LanguageContext);
 	return (
 		<BackgroundStyled>
-			<img src={backgroundImg} alt='Background Antennas' />
+			<img src={backgroundImg} alt='Background Antennas' loading='lazy' />
 			<ImgFadeStyled />
 			<header>
 				<h1>{languageData.header}</h1>

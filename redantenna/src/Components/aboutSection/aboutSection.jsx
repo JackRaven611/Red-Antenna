@@ -9,7 +9,7 @@ export const AboutSection = () => {
 	return (
 		<AboutSectionStyled>
 			<article>
-				<img src={baluny} alt='baluny' />
+				<img src={baluny} alt='baluny' loading='lazy' />
 				<div>
 					<h2>{aboutSection.title}</h2>
 					<p>{aboutSection.text}</p>

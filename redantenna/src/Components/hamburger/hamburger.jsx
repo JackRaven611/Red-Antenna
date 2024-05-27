@@ -15,6 +15,7 @@ export const Hamburger = () => {
 			<img
 				src={hamburgerOpen ? close : menu}
 				alt={hamburgerOpen ? "close" : "menu"}
+				loading='lazy'
 			/>
 		</HamburgerStyled>
 	);
