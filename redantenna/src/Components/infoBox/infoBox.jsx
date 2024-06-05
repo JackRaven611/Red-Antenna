@@ -8,24 +8,25 @@ import redfed from "../../img/RedFed QRP mini 40-10 2.JPG";
 
 export const InfoBox = () => {
 	const { languageData } = useContext(LanguageContext);
+	const main = languageData.main;
 
 	return (
 		<InfoBoxStyled>
 			<div>
 				<BoxArticle
 					imgUrl={cewka}
-					articleText={languageData.handmadeText}
-					articleTitle={languageData.handmadeTitle}
+					articleText={main.handmadeText}
+					articleTitle={main.handmadeTitle}
 				></BoxArticle>
 				<BoxArticle
 					imgUrl={baluny}
-					articleText={languageData.design}
-					articleTitle={languageData.designTitle}
+					articleText={main.designText}
+					articleTitle={main.designTitle}
 				></BoxArticle>
 				<BoxArticle
 					imgUrl={redfed}
-					articleText={languageData.effectiveness}
-					articleTitle={languageData.effectivenessTitle}
+					articleText={main.effectiveness}
+					articleTitle={main.effectivenessTitle}
 				></BoxArticle>
 			</div>
 		</InfoBoxStyled>

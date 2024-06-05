@@ -5,12 +5,13 @@ import redFed from "../../img/RedFed Standard.JPG";
 
 export const AboutBox = () => {
 	const { languageData } = useContext(LanguageContext);
+	const main = languageData.main;
 	return (
 		<AboutBoxStyled>
 			<div>
 				<img src={redFed} alt='redFed antenna' loading='lazy' />
-				<h2>{languageData.aboutTitle}</h2>
-				<p>{languageData.aboutText}</p>
+				<h2>{main.aboutTitle}</h2>
+				<p>{main.aboutText}</p>
 			</div>
 		</AboutBoxStyled>
 	);

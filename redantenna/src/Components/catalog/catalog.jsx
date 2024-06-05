@@ -25,15 +25,15 @@ export const Catalog = () => {
 					<p>{languageData.products.wireText}</p>
 				</li>
 				<li className='wireAntennas'>
-					<Product type='wire' id='RFHD80' image={hd80} />
-					<Product type='wire' id='RFHD40' image={hd40} />
+					<Product type='wire' id='RFHD' image={hd80} />
+					{/* <Product type='wire' id='RFHD40' image={hd40} />
 					<Product type='wire' id='RFStandard80' image={standard80} />
 					<Product type='wire' id='RFStandard40' image={standard40} />
 					<Product type='wire' id='RFMidi80' image={midi80} />
 					<Product type='wire' id='RFMidi40' image={midi40} />
 					<Product type='wire' id='RFMini80' image={mini80} />
 					<Product type='wire' id='RFMini40' image={mini40} />
-					<Product type='wire' id='RFMini80Max' image={miniMax} />
+					<Product type='wire' id='RFMiniMax80' image={miniMax} /> */}
 				</li>
 				<li className='headerWrapper'>
 					<h2>ANTENY PIONOWE</h2>
@@ -47,13 +47,13 @@ export const Catalog = () => {
 				</li>
 				<li className='accessories'>
 					<ProductAccessories
-						type='accesories'
-						id='miniTunerCable'
+						type='accessories'
+						id='MiniTunerCable'
 						image={tuner}
 					/>
 					<ProductAccessories
-						type='accesories'
-						id='miniTuner'
+						type='accessories'
+						id='MiniTuner'
 						image={tuner}
 					/>
 				</li>

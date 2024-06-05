@@ -57,7 +57,7 @@ export const ContactSectionStyled = styled.section`
 				width: 100%;
 				text-align: left;
 
-				h4 {
+				h3 {
 					min-width: 14rem;
 					font-size: ${FONTSIZE.h4};
 					font-weight: ${FONTSIZE.weight.bold};
@@ -120,7 +120,7 @@ export const ContactSectionStyled = styled.section`
 					text-align: center;
 					margin-bottom: 2rem;
 
-					h4 {
+					h3 {
 						margin: 0;
 					}
 

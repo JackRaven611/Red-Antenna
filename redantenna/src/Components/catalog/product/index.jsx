@@ -55,18 +55,25 @@ export const ProductStyled = styled.article`
 
 		ul {
 			width: 100%;
-			margin-bottom: 1rem;
 			min-height: 40rem;
+			margin: 0;
 
 			li {
+				padding: 0.2rem 3rem;
 				display: flex;
-				flex-direction: column;
-				justify-content: center;
+				flex-direction: row;
+				justify-content: flex-start;
+				align-items: center;
 				width: 100%;
+
 				gap: 0;
 
+				h3 {
+					font-size: ${FONTSIZE.p};
+					margin: 0 0.5rem 0 0;
+				}
+
 				p {
-					padding: 0.2rem 3rem;
 					text-align: left;
 					font-size: ${FONTSIZE.p};
 					font-weight: ${FONTSIZE.weight.medium};

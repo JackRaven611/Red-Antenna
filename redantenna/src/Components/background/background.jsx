@@ -6,13 +6,15 @@ import backgroundImg from "../../img/RedFed zbiorcze 1.JPG";
 
 export const Background = () => {
 	const { languageData } = useContext(LanguageContext);
+	const main = languageData.main;
+
 	return (
 		<BackgroundStyled>
 			<img src={backgroundImg} alt='Background Antennas' loading='lazy' />
 			<ImgFadeStyled />
 			<header>
-				<h1>{languageData.header}</h1>
-				<h3>{languageData.headerP}</h3>
+				<h1>{main.header}</h1>
+				<h3>{main.headerP}</h3>
 			</header>
 		</BackgroundStyled>
 	);

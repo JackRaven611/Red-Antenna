@@ -8,6 +8,7 @@ import { BurgerContext } from "../hamburger/burgerContext/burgerContext";
 
 export const Nav = () => {
 	const { languageData } = useContext(LanguageContext);
+	const nav = languageData.nav;
 	const { hamburgerOpen, setHamburgerOpen } = useContext(BurgerContext);
 	const toggleBurgerNav = () => {
 		hamburgerOpen
@@ -19,8 +20,8 @@ export const Nav = () => {
 		<NavStyled $hamburgerOpen={hamburgerOpen}>
 			<div className='wrapper'>
 				<Link className='homeButton' to='/#' onClick={toggleBurgerNav}>
-					<h1>{languageData.brandName}</h1>
-					<p>{languageData.homeBtnP}</p>
+					<h1>{nav.brandName}</h1>
+					<p>{nav.homeBtnP}</p>
 				</Link>
 
 				<ul className='desktopNav'>
@@ -30,7 +31,7 @@ export const Nav = () => {
 							to='/products#'
 							onClick={toggleBurgerNav}
 						>
-							{languageData.navBtnProducts}
+							{nav.navBtnProducts}
 						</Link>
 					</li>
 					<li>
@@ -39,7 +40,7 @@ export const Nav = () => {
 							to='/about#'
 							onClick={toggleBurgerNav}
 						>
-							{languageData.navBtnAbout}
+							{nav.navBtnAbout}
 						</Link>
 					</li>
 					<li>
@@ -48,7 +49,7 @@ export const Nav = () => {
 							to='/contact#'
 							onClick={toggleBurgerNav}
 						>
-							{languageData.navBtnContact}
+							{nav.navBtnContact}
 						</Link>
 					</li>
 					{/* <li>

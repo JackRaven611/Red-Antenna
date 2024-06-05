@@ -4,7 +4,10 @@ import { LanguageContext } from "../../languageChange/languageContext";
 export const ProductAccessories = ({ type, id, image }) => {
 	const { languageData } = useContext(LanguageContext);
 	const product = languageData.products[type][id];
-	const spec = languageData.products[type][id].spec;
+	const spec = product.spec;
+	const common = languageData.products.common;
+	const text = `${id.substring(0, 9)}Text`;
+
 	return (
 		<ProductStyled>
 			<img src={image} alt={`${id}`} loading='lazy' />
@@ -13,26 +16,23 @@ export const ProductAccessories = ({ type, id, image }) => {
 
 				<ul className='accessories'>
 					<li>
-						<p>{spec.text}</p>
+						<p>{common[text]}</p>
 					</li>
 					<li>
-						<p>
-							{spec.power.title} {spec.power.value}
-						</p>
+						<p>{spec.power}</p>
 						<p>{spec.size}</p>
 						<p>{spec.weight}</p>
 					</li>
 					<li>
 						<p>
-							{spec.connectors.title} {spec.connectors.feeder},{" "}
-							{spec.connectors.antenna}
+							{common.connectors} {spec.feeder}, {spec.antenna}
 						</p>
 					</li>
 					<li></li>
 				</ul>
 
 				<a href={product.storeLink} target='_blank'>
-					{product.linkText}
+					{common.linkTitle}
 				</a>
 			</div>
 		</ProductStyled>
