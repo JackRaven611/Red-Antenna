@@ -1,5 +1,6 @@
-import { useContext, createContext, useEffect, useState } from "react";
-import { LanguageContext } from "../languageChange/languageContext";
+import { createContext, useEffect, useState } from "react";
+
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const AntennaContext = createContext();
 

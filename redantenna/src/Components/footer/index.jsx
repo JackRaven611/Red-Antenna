@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const FooterStyled = styled.footer`
 	width: 100%;
 	height: 20rem;

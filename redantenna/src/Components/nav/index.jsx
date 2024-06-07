@@ -2,10 +2,13 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const NavStyled = styled.nav`
-	z-index: 10;
+	z-index: 3;
 	background-color: ${COLORS.White};
 	color: ${COLORS.darkPurple};
+	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 	width: 100%;
 	height: 6rem;
 	position: fixed;
@@ -86,7 +89,7 @@ export const NavStyled = styled.nav`
 				display: flex;
 				padding-top: 12rem;
 				margin-left: 1rem;
-				z-index: 10;
+				z-index: 1;
 			}
 
 			.homeButton {
@@ -99,6 +102,7 @@ export const NavStyled = styled.nav`
 			}
 
 			.desktopNav {
+				z-index: -10;
 				display: ${({ $hamburgerOpen }) =>
 					$hamburgerOpen ? "flex" : "none"};
 				margin-top: 14rem;
@@ -109,15 +113,12 @@ export const NavStyled = styled.nav`
 				border-bottom-right-radius: 0.5rem;
 				border-bottom-left-radius: 0.5rem;
 				transition-duration: 0.2s;
-				box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
-				background-image: linear-gradient(
-					to bottom,
-					${COLORS.White} 10%,
-					${COLORS.Gray} 190%
-				);
+				background-color: ${COLORS.White};
+				overflow: hidden;
 
 				li {
 					width: 100%;
+					border-bottom: solid 0.15rem ${COLORS.Gray};
 				}
 
 				.navButtons {

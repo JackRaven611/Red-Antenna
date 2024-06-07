@@ -3,6 +3,8 @@ import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import hd80 from "../../img/RedFed HD 80-10.JPG";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const ContactSection = () => {
 	const { languageData } = useContext(LanguageContext);
 	const common = languageData.common;

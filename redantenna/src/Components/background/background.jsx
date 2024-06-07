@@ -4,6 +4,8 @@ import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import backgroundImg from "../../img/RedFed zbiorcze 1.JPG";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const Background = () => {
 	const { languageData } = useContext(LanguageContext);
 	const main = languageData.main;

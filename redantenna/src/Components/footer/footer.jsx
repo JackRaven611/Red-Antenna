@@ -4,6 +4,8 @@ import { LanguageContext } from "../languageChange/languageContext";
 import phoneIcon from "../../img/phone.svg";
 import emailIcon from "../../img/email.svg";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const Footer = () => {
 	const { languageData } = useContext(LanguageContext);
 	const common = languageData.common;

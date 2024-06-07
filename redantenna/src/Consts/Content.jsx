@@ -1,3 +1,5 @@
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const TEXTS = {
 	polish: {
 		common: {
@@ -85,97 +87,70 @@ export const TEXTS = {
 				antennaWireTitle: "Linka antenowa:",
 				wireTitle: "Linka mocująca:",
 				linkTitle: "Sklep",
-
-				RFMiniMaxText:
-					"Antena typu EFHW (End Fed Half Wire) przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
-				MiniTunerText:
-					"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego.",
 			},
 
-			wireText:
-				"Anteny typu drutowego to popularne rozwiązanie do pracy w szczególności na pasma fal krótkich. Z uwagi na często znaczną długość promiennika zapewniają bardzo dobrą efektywność dla niskich częstotliwości. Instalowane są zazwyczaj w polaryzacji poziomej, skośnej lub jako odwrócone V. Dostępne są konstrukcje o zróżnicowanej długości oraz charakterystyce promieniowania. Jednym z najpopularniejszych w tej grupie anten jest model Red-Fed.",
-
 			wire: {
-				RFMini: {
+				common: {
+					title: "ANTENY DRUTOWE",
 					description:
-						"Antena typu EFHW (End Fed Half Wire) przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
-					model: "Red-Fed Mini",
-					range: "około 80kHz",
-					swr: "<2.0",
-					ssb: "SSB 40W",
-					cw: "CW 30W",
-					digi: "DIGI 20W",
-					size: "51x49x36",
-					feeder: "fider BNC",
-					antenna: "antena 2x M3",
-					core: "Amidon FT82",
-					windings: "drut emaliowany DNE 0.6mm (balun i cewka)",
-					antennaWire: "linka miedziana Cu 0.5mm",
-					wire: "2x 10m PE 2mm",
-					long: {
-						model: "Red-Fed Mini 80-10 ",
-						bands: "80m, 40m, 20m, 15m, 10m",
-						span: "około 23m",
-						weight: "360g",
-						storeLink:
-							"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-80-10/2668",
-					},
-					short: {
-						model: "Red-Fed Mini 40-10 ",
-						bands: "40m, 20m, 10m",
-						span: "około 12m",
-						weight: "260g",
-						storeLink:
-							"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-40-10/2669",
-					},
-					Max: {
-						model: "Red-Fed Mini 80 MAX ",
-						bands: "80m",
-						span: "około 34m",
-						weight: "300g",
-						range: "około 280kHz",
-						core: "RA1616",
-						storeLink:
-							"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-80-MAX/3013",
-					},
+						"Anteny typu drutowego to popularne rozwiązanie do pracy w szczególności na pasma fal krótkich. Z uwagi na często znaczną długość promiennika zapewniają bardzo dobrą efektywność dla niskich częstotliwości. Instalowane są zazwyczaj w polaryzacji poziomej, skośnej lub jako odwrócone V. Dostępne są konstrukcje o zróżnicowanej długości oraz charakterystyce promieniowania. Jednym z najpopularniejszych w tej grupie anten jest seria Red-Fed.",
 				},
-
-				RFMidi: {
-					description:
-						"Antena typu EFHW (End Fed Half Wire), przeznaczona głównie do wyjazdów terenowych i wakacyjnych, oferująca większą wytrzymałość mechaniczną niż wersja Mini, przez co jest bardziej odporna na trudne warunki atmosferyczne. Zastosowano tutaj balun o zwiększonej przenoszonej mocy, dzięki czemu anteny z serii Midi nadają się do pracy ze standardowymi transceiverami KF.",
-					model: "Red-Fed Midi",
-					range: "około 80kHz",
-					swr: "<2.0",
-					ssb: "SSB 150W",
-					cw: "CW 100W",
-					digi: "DIGI 75W",
-					size: "50x70x36",
-					feeder: "fider SO239 (UC1, UHF)",
-					antenna: "antena 2x M4",
-					core: "Amidon FT140",
-					windings: "drut emaliowany DNE 1.0mm (balun i cewka)",
-					antennaWire: "linka miedziana Cu 1.0mm",
-					wire: "2x 10m PE 3mm",
-					long: {
-						model: "Red-Fed Midi 80-10 ",
-						bands: "80m, 40m, 20m, 15m, 10m",
-						span: "około 23m",
-						weight: "740g",
-						storeLink:
-							"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Midi-80-10/2666",
+				redFed: {
+					common: {
+						series: "Red - Fed",
+						description: "Anteny typu EFHW (End Fed Half Wire)",
 					},
-					short: {
-						model: "Red-Fed Midi 40-10 ",
-						bands: "40m, 20m, 10m",
-						span: "około 12m",
-						weight: "530g",
-						storeLink:
-							"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Midi-40-10/2667",
-					},
-				},
 
-				RFMidi80: {
-					spec: {
+					RFMini: {
+						description:
+							"Antena przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
+						model: "Red-Fed Mini",
+						range: "około 80kHz",
+						swr: "<2.0",
+						ssb: "SSB 40W",
+						cw: "CW 30W",
+						digi: "DIGI 20W",
+						size: "51x49x36",
+						feeder: "fider BNC",
+						antenna: "antena 2x M3",
+						core: "Amidon FT82",
+						windings: "drut emaliowany DNE 0.6mm (balun i cewka)",
+						antennaWire: "linka miedziana Cu 0.5mm",
+						wire: "2x 10m PE 2mm",
+						long: {
+							model: "Red-Fed Mini 80-10 ",
+							bands: "80m, 40m, 20m, 15m, 10m",
+							span: "około 23m",
+							weight: "360g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-80-10/2668",
+						},
+						short: {
+							model: "Red-Fed Mini 40-10 ",
+							bands: "40m, 20m, 10m",
+							span: "około 12m",
+							weight: "260g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-40-10/2669",
+						},
+						max: {
+							description:
+								"Antena przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
+							model: "Red-Fed Mini 80 MAX ",
+							bands: "80m",
+							span: "około 34m",
+							weight: "300g",
+							range: "około 280kHz",
+							core: "RA1616",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Mini-80-MAX/3013",
+						},
+					},
+
+					RFMidi: {
+						description:
+							"Antena przeznaczona głównie do wyjazdów terenowych i wakacyjnych, oferująca większą wytrzymałość mechaniczną niż wersja Mini, przez co jest bardziej odporna na trudne warunki atmosferyczne. Zastosowano tutaj balun o zwiększonej przenoszonej mocy, dzięki czemu anteny z serii Midi nadają się do pracy ze standardowymi transceiverami KF.",
+						model: "Red-Fed Midi",
 						range: "około 80kHz",
 						swr: "<2.0",
 						ssb: "SSB 150W",
@@ -188,82 +163,116 @@ export const TEXTS = {
 						windings: "drut emaliowany DNE 1.0mm (balun i cewka)",
 						antennaWire: "linka miedziana Cu 1.0mm",
 						wire: "2x 10m PE 3mm",
+						long: {
+							model: "Red-Fed Midi 80-10 ",
+							bands: "80m, 40m, 20m, 15m, 10m",
+							span: "około 23m",
+							weight: "740g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Midi-80-10/2666",
+						},
+						short: {
+							model: "Red-Fed Midi 40-10 ",
+							bands: "40m, 20m, 10m",
+							span: "około 12m",
+							weight: "530g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Midi-40-10/2667",
+						},
 					},
-				},
-				RFStandard: {
-					description:
-						"Antena typu EFHW (End Fed Half Wire) do zastosowań sezonowych, takich jak dłuższe wyjazdy wakacyjne, obozy czy na działce rekreacyjnej, wszędzie tam gdzie zaistnieje potrzeba pracy przez np. sezon letni i mamy możliwość pracy porównywalnej z domowym QTH. Użyty w antenie balun z serii Standard pozwala na swobodą pracę z seryjnymi transceiverami KF oraz z małymi wzmacniaczami mocy.",
-					model: "Red-Fed Standard",
-					range: "około 80kHz",
-					swr: "<2.0",
-					ssb: "SSB 400W",
-					cw: "CW 300W",
-					digi: "DIGI 200W",
-					size: "74x89x41",
-					feeder: "fider SO239 (UC1, UHF)",
-					antenna: "antena 2x M5",
-					core: "Amidon FT140",
-					windings:
-						"drut emaliowany DN2E 1.6mm (balun) i 1.0mm (cewka)",
-					antennaWire: "linka miedziana Cu 1.5mm",
-					wire: "2x 10m PE 3mm",
-					long: {
-						model: "Red-Fed Standard 80-10 ",
-						bands: "80m, 40m, 20m, 15m, 10m",
-						span: "około 23m",
-						weight: "1050g",
-						storeLink:
-							"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Standard-80-10-/2385",
-					},
-					short: {
-						model: "Red-Fed Standard 40-10",
-						bands: "40m, 20m, 10m",
-						span: "około 12m",
-						weight: "710g",
-						storeLink:
-							"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Standard-40-10/2384",
-					},
-				},
 
-				RFHD: {
-					description:
-						"Antena typu EFHW (End Fed Half Wire) o podwyższonej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na balunach z serii Standard i w związku z tym przenoszą takie same moce jak Red-Fed Standard. Wzmocnieniu jednak uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu czy szadzi.",
-					model: "Red-Fed HD",
-					range: "około 80khz",
-					swr: "<2.0",
-					ssb: "SSB 400W",
-					cw: "CW 300W",
-					digi: "DIGI 200W",
-					size: "74x89x41",
-					feeder: "fider SO239 (UC1, UHF)",
-					antenna: "antena 2x M5",
-					core: "Amidon FT240",
-					windings: "drut emaliowany DN2E 1.6mm (balun i cewka)",
-					antennaWire: "linka miedziana Cu 2.5mm",
-					wire: "2x 10m PE 4mm",
-					long: {
-						model: "Red-Fed HD 80-10 ",
-						bands: "80m, 40m, 20m, 15m, 10m",
-						span: "około 23m",
-						weight: "1470g",
-						storeLink:
-							"https://www.ercomer.pl/pl/p/Antena-Red-Fed-HD-80-10-/2387",
+					RFMidi80: {
+						spec: {
+							range: "około 80kHz",
+							swr: "<2.0",
+							ssb: "SSB 150W",
+							cw: "CW 100W",
+							digi: "DIGI 75W",
+							size: "50x70x36",
+							feeder: "fider SO239 (UC1, UHF)",
+							antenna: "antena 2x M4",
+							core: "Amidon FT140",
+							windings:
+								"drut emaliowany DNE 1.0mm (balun i cewka)",
+							antennaWire: "linka miedziana Cu 1.0mm",
+							wire: "2x 10m PE 3mm",
+						},
 					},
-					short: {
-						model: "Red-Fed HD 40-10",
-						bands: "40m, 20m, 10m",
-						span: "około 12m",
-						weight: "1120g",
-						storeLink:
-							"https://www.ercomer.pl/pl/p/Antena-Red-Fed-HD-40-10-/2386",
+					RFStandard: {
+						description:
+							"Antena do zastosowań sezonowych, takich jak dłuższe wyjazdy wakacyjne, obozy czy na działce rekreacyjnej, wszędzie tam gdzie zaistnieje potrzeba pracy przez np. sezon letni i mamy możliwość pracy porównywalnej z domowym QTH. Użyty w antenie balun z serii Standard pozwala na swobodą pracę z seryjnymi transceiverami KF oraz z małymi wzmacniaczami mocy.",
+						model: "Red-Fed Standard",
+						range: "około 80kHz",
+						swr: "<2.0",
+						ssb: "SSB 400W",
+						cw: "CW 300W",
+						digi: "DIGI 200W",
+						size: "74x89x41",
+						feeder: "fider SO239 (UC1, UHF)",
+						antenna: "antena 2x M5",
+						core: "Amidon FT140",
+						windings:
+							"drut emaliowany DN2E 1.6mm (balun) i 1.0mm (cewka)",
+						antennaWire: "linka miedziana Cu 1.5mm",
+						wire: "2x 10m PE 3mm",
+						long: {
+							model: "Red-Fed Standard 80-10 ",
+							bands: "80m, 40m, 20m, 15m, 10m",
+							span: "około 23m",
+							weight: "1050g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Standard-80-10-/2385",
+						},
+						short: {
+							model: "Red-Fed Standard 40-10",
+							bands: "40m, 20m, 10m",
+							span: "około 12m",
+							weight: "710g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-Standard-40-10/2384",
+						},
 					},
-				},
-				RFExtreme: {
-					title: "",
-					titleSec: "",
-					text: "",
-					StoreLink: "",
-					StoreLinkSec: "",
+
+					RFHD: {
+						description:
+							"Antena o podwyższonej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na balunach z serii Standard i w związku z tym przenoszą takie same moce jak Red-Fed Standard. Wzmocnieniu jednak uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu czy szadzi.",
+						model: "Red-Fed HD",
+						range: "około 80khz",
+						swr: "<2.0",
+						ssb: "SSB 400W",
+						cw: "CW 300W",
+						digi: "DIGI 200W",
+						size: "74x89x41",
+						feeder: "fider SO239 (UC1, UHF)",
+						antenna: "antena 2x M5",
+						core: "Amidon FT240",
+						windings: "drut emaliowany DN2E 1.6mm (balun i cewka)",
+						antennaWire: "linka miedziana Cu 2.5mm",
+						wire: "2x 10m PE 4mm",
+						long: {
+							model: "Red-Fed HD 80-10 ",
+							bands: "80m, 40m, 20m, 15m, 10m",
+							span: "około 23m",
+							weight: "1470g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-HD-80-10-/2387",
+						},
+						short: {
+							model: "Red-Fed HD 40-10",
+							bands: "40m, 20m, 10m",
+							span: "około 12m",
+							weight: "1120g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-HD-40-10-/2386",
+						},
+					},
+					RFExtreme: {
+						title: "",
+						titleSec: "",
+						text: "",
+						StoreLink: "",
+						StoreLinkSec: "",
+					},
 				},
 			},
 			vertical: {
@@ -291,30 +300,43 @@ export const TEXTS = {
 			},
 			accessories: {
 				MiniTuner: {
-					model: "Mini-Tuner wtyk BNC",
-					spec: {
-						weight: "70g",
-						power: "10W P.E.P",
-						size: "60x40x30",
-						feeder: "wtyk BNC",
-						antenna:
-							"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
+					common: {
+						series: "Mini Tuner",
+						description:
+							"Ultra mały i lekki tuner dla anten typu EFHW (End Fed Half Wire)",
 					},
-					storeLink:
-						"https://www.ercomer.pl/pl/p/Red-Antenna-EFHW-Mini-Tuner-wtyk-BNC/3241",
-				},
-				MiniTunerCable: {
-					model: "Mini-Tuner gniazdo BNC",
-					spec: {
-						weight: "70g",
-						power: "10W P.E.P",
-						size: "60x40x30",
-						feeder: "gniazdo BNC",
-						antenna:
-							"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
+					MiniTunerNoCable: {
+						description:
+							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego.",
+
+						model: "Mini-Tuner wtyk BNC",
+						spec: {
+							weight: "70g",
+							power: "10W P.E.P",
+							size: "60x40x30",
+							feeder: "wtyk BNC",
+							antenna:
+								"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
+						},
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Red-Antenna-EFHW-Mini-Tuner-wtyk-BNC/3241",
 					},
-					storeLink:
-						"https://www.ercomer.pl/pl/p/Red-Antenna-EFHW-Mini-Tuner-gniazdo-BNC/3220",
+					MiniTunerCable: {
+						description:
+							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego.",
+
+						model: "Mini-Tuner gniazdo BNC",
+						spec: {
+							weight: "70g",
+							power: "10W P.E.P",
+							size: "60x40x30",
+							feeder: "gniazdo BNC",
+							antenna:
+								"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
+						},
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Red-Antenna-EFHW-Mini-Tuner-gniazdo-BNC/3220",
+					},
 				},
 			},
 		},

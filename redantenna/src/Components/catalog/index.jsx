@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { FONTSIZE } from "../../Consts/FontSize";
 import { COLORS } from "../../Consts/Colors";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const CatalogStyled = styled.section`
 	width: 100%;
 	margin-top: 6.05rem;
@@ -9,6 +11,7 @@ export const CatalogStyled = styled.section`
 	justify-content: center;
 
 	.headerWrapper {
+		width: 100%;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
@@ -16,21 +19,17 @@ export const CatalogStyled = styled.section`
 		margin-bottom: 2rem;
 		gap: 0;
 		h2 {
-			margin: 2rem 3rem;
+			width: 80%;
+			margin: 2rem 0;
 			font-size: ${FONTSIZE.h2};
 			font-weight: ${FONTSIZE.weight.bold};
 		}
 		p {
-			width: 90%;
+			width: 80%;
 			font-size: ${FONTSIZE.p};
 			font-weight: ${FONTSIZE.weight.medium};
 			text-align: left;
 		}
-	}
-
-	.wireAntennas {
-		display: flex;
-		justify-content: center;
 	}
 
 	ul {
@@ -42,7 +41,7 @@ export const CatalogStyled = styled.section`
 			width: 100%;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-between;
+			justify-content: center;
 			gap: 5rem;
 		}
 
@@ -66,9 +65,11 @@ export const CatalogStyled = styled.section`
 		.headerWrapper {
 			h2 {
 				font-size: ${FONTSIZE.h2Mobile};
+				margin: 2rem 0 1rem;
 			}
 			p {
 				font-size: ${FONTSIZE.pMobile};
+				width: 100%;
 			}
 		}
 	}

@@ -6,6 +6,8 @@ import baluny from "../../img/baluny prototypy 2.JPG";
 import cewka from "../../img/cewka EndFed HD prototyp.JPG";
 import redfed from "../../img/RedFed QRP mini 40-10 2.JPG";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const InfoBox = () => {
 	const { languageData } = useContext(LanguageContext);
 	const main = languageData.main;

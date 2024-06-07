@@ -6,6 +6,8 @@ import { LanguageChangeBtn } from "../languageChange/languageChangeBtn/languageC
 import { Hamburger } from "../hamburger/hamburger";
 import { BurgerContext } from "../hamburger/burgerContext/burgerContext";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const Nav = () => {
 	const { languageData } = useContext(LanguageContext);
 	const nav = languageData.nav;

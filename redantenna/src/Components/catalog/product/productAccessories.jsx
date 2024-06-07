@@ -1,6 +1,9 @@
 import { ProductStyled } from ".";
 import { useContext } from "react";
 import { LanguageContext } from "../../languageChange/languageContext";
+
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const ProductAccessories = ({ type, id, image }) => {
 	const { languageData } = useContext(LanguageContext);
 	const product = languageData.products[type][id];

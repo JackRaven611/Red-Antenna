@@ -2,6 +2,8 @@ import { LanguageChangeBtnStyled } from ".";
 import { useContext } from "react";
 import { LanguageContext } from "../languageContext";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const LanguageChangeBtn = () => {
 	const context = useContext(LanguageContext);
 	const languages = [

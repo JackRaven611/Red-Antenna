@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const InfoBoxStyled = styled.section`
 	width: 100%;
 	margin-top: 5rem;

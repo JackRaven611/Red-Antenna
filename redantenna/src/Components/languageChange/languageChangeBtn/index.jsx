@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { COLORS } from "../../../Consts/Colors";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const LanguageChangeBtnStyled = styled.select`
 	outline: none;
 	border: none;

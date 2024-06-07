@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const AboutBoxStyled = styled.section`
 	width: 100%;
 	margin: 0 0 4rem;
@@ -10,12 +12,8 @@ export const AboutBoxStyled = styled.section`
 
 	div {
 		width: 80%;
-		background-image: linear-gradient(
-			to bottom,
-			${COLORS.Gray + "3d"} 0%,
-			rgba(255, 255, 255, 0) 100%
-		);
-		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
+		background-color: ${COLORS.White};
+		box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 		border-radius: 0.5rem;
 		overflow: hidden;
 

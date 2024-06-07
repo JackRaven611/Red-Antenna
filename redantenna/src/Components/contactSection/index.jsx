@@ -2,8 +2,10 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const ContactSectionStyled = styled.section`
-	margin: 8rem 0;
+	margin: 11rem 0 8rem;
 	height: 45rem;
 	width: 100%;
 	display: flex;
@@ -11,22 +13,20 @@ export const ContactSectionStyled = styled.section`
 	height: auto;
 
 	article {
-		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
+		box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 		display: flex;
+		flex-direction: column;
 		width: 80%;
 		min-height: 30rem;
 		border-radius: 0.5rem;
 		overflow: hidden;
-		background-image: linear-gradient(
-			to bottom,
-			${COLORS.Gray + "9d"} 0%,
-			rgba(255, 255, 255, 0) 100%
-		);
+		background-color: ${COLORS.White};
 	}
 
 	img {
-		width: 50%;
+		width: 100%;
 		object-fit: cover;
+		max-height: 20rem;
 	}
 
 	div {
@@ -34,7 +34,7 @@ export const ContactSectionStyled = styled.section`
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		width: 50%;
+		width: 100%;
 
 		h2 {
 			font-size: ${FONTSIZE.h2};
@@ -53,9 +53,10 @@ export const ContactSectionStyled = styled.section`
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
-				height: 3.5rem;
+				min-height: 3.5rem;
 				width: 100%;
 				text-align: left;
+				border-bottom: solid 0.15rem ${COLORS.Gray};
 
 				h3 {
 					min-width: 14rem;
@@ -95,7 +96,7 @@ export const ContactSectionStyled = styled.section`
 	}
 
 	@media screen and (max-width: 1200px) {
-		margin-bottom: 5rem;
+		margin: 9rem 0 5rem;
 
 		article {
 			flex-direction: column;
@@ -118,7 +119,7 @@ export const ContactSectionStyled = styled.section`
 				li {
 					flex-direction: column;
 					text-align: center;
-					margin-bottom: 2rem;
+					margin-bottom: 1.5rem;
 
 					h3 {
 						margin: 0;
@@ -137,10 +138,6 @@ export const ContactSectionStyled = styled.section`
 							text-align: center;
 						}
 					}
-				}
-
-				.adress {
-					margin-bottom: 4rem;
 				}
 			}
 		}

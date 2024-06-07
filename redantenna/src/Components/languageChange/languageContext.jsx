@@ -1,6 +1,8 @@
 import React, { createContext, useState, useEffect } from "react";
 import { TEXTS } from "../../Consts/Content";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {

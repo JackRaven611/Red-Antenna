@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const BackgroundStyled = styled.div`
 	width: 100%;
 	display: flex;
@@ -21,7 +23,7 @@ export const BackgroundStyled = styled.div`
 		display: flex;
 		flex-direction: column;
 		background-color: ${COLORS.darkPurple + "6d"};
-		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
+		box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 
 		h1 {
 			color: ${COLORS.White};

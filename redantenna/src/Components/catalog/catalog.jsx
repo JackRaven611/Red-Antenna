@@ -3,16 +3,10 @@ import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import { Product } from "./product/product";
 import { ProductAccessories } from "./product/productAccessories";
-import mini40 from "../../img/mini40.jpg";
-import mini80 from "../../img/mini80.jpg";
-import midi40 from "../../img/midi40.jpg";
-import midi80 from "../../img/midi80.jpg";
-import hd80 from "../../img/hd80.jpg";
-import hd40 from "../../img/hd40.jpg";
-import standard40 from "../../img/standard40.jpg";
-import standard80 from "../../img/standard80.jpg";
-import miniMax from "../../img/miniMax.jpg";
+import RFMinilong from "../../img/mini80.jpg";
 import tuner from "../../img/mini Tuner.jpg";
+
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const Catalog = () => {
 	const { languageData } = useContext(LanguageContext);
@@ -21,19 +15,16 @@ export const Catalog = () => {
 		<CatalogStyled>
 			<ul>
 				<li className='headerWrapper'>
-					<h2>ANTENY DRUTOWE</h2>
-					<p>{languageData.products.wireText}</p>
+					<h2>{languageData.products.wire.common.title}</h2>
+					<p>{languageData.products.wire.common.description}</p>
 				</li>
-				<li className='wireAntennas'>
-					<Product type='wire' id='RFHD' image={hd80} />
-					{/* <Product type='wire' id='RFHD40' image={hd40} />
-					<Product type='wire' id='RFStandard80' image={standard80} />
-					<Product type='wire' id='RFStandard40' image={standard40} />
-					<Product type='wire' id='RFMidi80' image={midi80} />
-					<Product type='wire' id='RFMidi40' image={midi40} />
-					<Product type='wire' id='RFMini80' image={mini80} />
-					<Product type='wire' id='RFMini40' image={mini40} />
-					<Product type='wire' id='RFMiniMax80' image={miniMax} /> */}
+				<li>
+					<Product
+						type='wire'
+						series='redFed'
+						link='/products/redFed'
+						image={RFMinilong}
+					/>
 				</li>
 				<li className='headerWrapper'>
 					<h2>ANTENY PIONOWE</h2>
@@ -45,15 +36,11 @@ export const Catalog = () => {
 				<li className='headerWrapper'>
 					<h2>AKCESORIA</h2>
 				</li>
-				<li className='accessories'>
-					<ProductAccessories
+				<li>
+					<Product
 						type='accessories'
-						id='MiniTunerCable'
-						image={tuner}
-					/>
-					<ProductAccessories
-						type='accessories'
-						id='MiniTuner'
+						series='MiniTuner'
+						link='/products/accesories'
 						image={tuner}
 					/>
 				</li>

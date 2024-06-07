@@ -8,10 +8,12 @@ import { Nav } from "./Components/nav/nav";
 import { Main } from "./Components/pages/main";
 import { Footer } from "./Components/footer/footer";
 import { Products } from "./Components/pages/products";
-import { ProductPage } from "./Components/productPage/productPage";
+import { ProductPageRF } from "./Components/productPage/productPageRF";
 import { About } from "./Components/pages/about";
 import { Contact } from "./Components/pages/contact";
 import { NotFound } from "./Components/pages/notFound";
+
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 function App() {
 	return (
@@ -33,12 +35,10 @@ function App() {
 								path='/products'
 								element={<Products />}
 							></Route>
-
 							<Route
-								path='/products/redfed'
-								element={<ProductPage />}
+								path='/products/redFed'
+								element={<ProductPageRF />}
 							/>
-
 							<Route path='/about' element={<About />} />
 							<Route path='/contact' element={<Contact />} />
 							<Route path='/*' element={<NotFound />} />

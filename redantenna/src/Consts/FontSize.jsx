@@ -1,3 +1,5 @@
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const FONTSIZE = {
 	weight: { light: "300", medium: "500", bold: "700" },
 	p: "1rem",
