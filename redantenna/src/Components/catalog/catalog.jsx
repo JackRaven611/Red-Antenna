@@ -25,6 +25,12 @@ export const Catalog = () => {
 						link='/products/redFed'
 						image={RFMinilong}
 					/>
+					<Product
+						type='wire'
+						series='redDipole'
+						link='/products/redDipole'
+						image={RFMinilong}
+					/>
 				</li>
 				<li className='headerWrapper'>
 					<h2>ANTENY PIONOWE</h2>

@@ -1,45 +1,59 @@
-import { useContext } from "react";
-import { ProductPageStyled } from ".";
-import { AntennaContext } from "./antennaProvider";
-import { LanguageContext } from "../languageChange/languageContext";
+import { useContext, useEffect } from "react";
+import { ProductPageStyled } from "./";
+import { LanguageContext } from "../../languageChange/languageContext";
 import { VaraintPanel } from "./variantPanel/variantPanel";
-import RFMinishort from "../../img/mini40.jpg";
-import RFMinilong from "../../img/mini80.jpg";
-import RFMinimax from "../../img/miniMax.jpg";
-import RFMidishort from "../../img/midi40.jpg";
-import RFMidilong from "../../img/midi80.jpg";
-import RFHDshort from "../../img/hd40.jpg";
-import RFHDlong from "../../img/hd80.jpg";
-import RFStandardshort from "../../img/standard40.jpg";
-import RFStandardlong from "../../img/standard80.jpg";
+import RFMinishort from "../../../img/mini40.jpg";
+import RFMinilong from "../../../img/mini80.jpg";
+import RFMinimax from "../../../img/miniMax.jpg";
+import RFMidishort from "../../../img/midi40.jpg";
+import RFMidilong from "../../../img/midi80.jpg";
+import RFHDshort from "../../../img/hd40.jpg";
+import RFHDlong from "../../../img/hd80.jpg";
+import RFStandardshort from "../../../img/standard40.jpg";
+import RFStandardlong from "../../../img/standard80.jpg";
+import RFExtremeshort from "../../../img/RFExtreme.jpg";
+import RFExtremelong from "../../../img/RFExtremefull.jpg";
+import { AntennaContext } from "../antennaProvider";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
-export const ProductPageRF = () => {
+export const ProductPageRF = ({ series, type, size }) => {
 	const { languageData } = useContext(LanguageContext);
-	const { type, size } = useContext(AntennaContext);
-	const product = languageData.products.wire.redFed[type];
+	const { setSeries } = useContext(AntennaContext);
+	const product = languageData.products.wire[series][type];
 	const common = languageData.products.common;
 
-	const img = {
-		RFMinishort: RFMinishort,
-		RFMinilong: RFMinilong,
-		RFMinimax: RFMinimax,
-		RFMidishort: RFMidishort,
-		RFMidilong: RFMidilong,
-		RFHDshort: RFHDshort,
-		RFHDlong: RFHDlong,
-		RFStandardshort: RFStandardshort,
-		RFStandardlong: RFStandardlong,
+	useEffect(() => {
+		setSeries(series);
+	}, []);
+
+	const redFedImg = {
+		minishort: RFMinishort,
+		minilong: RFMinilong,
+		minimax: RFMinimax,
+		midishort: RFMidishort,
+		midilong: RFMidilong,
+		standardshort: RFStandardshort,
+		standardlong: RFStandardlong,
+		hdshort: RFHDshort,
+		hdlong: RFHDlong,
+		extremeshort: RFExtremeshort,
+		extremelong: RFExtremelong,
 	};
+
+	const redDipole = {};
 
 	return (
 		<ProductPageStyled>
 			<div className='wrapper'>
 				<div className='selectorkWrapper'>
-					<img src={img[type + size]} alt={product.model} />
+					<img src={redFedImg[type + size]} alt={product.model} />
 					<aside>
-						<h2>{product[size].model}</h2>
+						<h2>
+							{product[size]
+								? product[size].model
+								: product.model}
+						</h2>
 						<VaraintPanel />
 						<p>
 							{size === "max"
@@ -47,7 +61,13 @@ export const ProductPageRF = () => {
 								: product.description}
 						</p>
 						<div className='linkWrapper'>
-							<a href={product[size].storeLink}>
+							<a
+								href={
+									product[size]
+										? product[size].storeLink
+										: product.storeLink
+								}
+							>
 								{common.linkTitle}
 							</a>
 						</div>
@@ -57,15 +77,25 @@ export const ProductPageRF = () => {
 				<ul>
 					<li className='description'>
 						<h3>{common.bandsTitle}</h3>
-						<p>{product[size].bands}</p>
+						<p>
+							{product[size]
+								? product[size].bands
+								: product.bands}
+						</p>
 					</li>
 					<li className='description'>
 						<h3>{common.spanTitle}</h3>
-						<p>{product[size].span}</p>
+						<p>
+							{product[size] ? product[size].span : product.span}
+						</p>
 					</li>
 					<li className='description'>
 						<h3>{common.weightTitle}</h3>
-						<p>{product[size].weight}</p>
+						<p>
+							{product[size]
+								? product[size].weight
+								: product.weight}
+						</p>
 					</li>
 					<li className='description'>
 						<h3>{common.sizeTitle}</h3>

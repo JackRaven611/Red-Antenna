@@ -8,10 +8,12 @@ import { Nav } from "./Components/nav/nav";
 import { Main } from "./Components/pages/main";
 import { Footer } from "./Components/footer/footer";
 import { Products } from "./Components/pages/products";
-import { ProductPageRF } from "./Components/productPage/productPageRF";
+import { ProductPageRF } from "./Components/productPage/productPageRF/productPageRF";
 import { About } from "./Components/pages/about";
 import { Contact } from "./Components/pages/contact";
 import { NotFound } from "./Components/pages/notFound";
+import { ProductPageRD } from "./Components/productPage/productPageRD/productPageRD";
+import { ProductPanel } from "./Components/pages/productPanel";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -37,7 +39,11 @@ function App() {
 							></Route>
 							<Route
 								path='/products/redFed'
-								element={<ProductPageRF />}
+								element={<ProductPanel series='redFed' />}
+							/>
+							<Route
+								path='/products/redDipole'
+								element={<ProductPanel series='redDipole' />}
 							/>
 							<Route path='/about' element={<About />} />
 							<Route path='/contact' element={<Contact />} />

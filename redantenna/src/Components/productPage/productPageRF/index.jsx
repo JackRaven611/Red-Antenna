@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { COLORS } from "../../Consts/Colors";
-import { FONTSIZE } from "../../Consts/FontSize";
+import { COLORS } from "../../../Consts/Colors";
+import { FONTSIZE } from "../../../Consts/FontSize";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 

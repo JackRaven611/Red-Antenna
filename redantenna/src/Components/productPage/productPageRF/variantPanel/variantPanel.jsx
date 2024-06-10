@@ -1,16 +1,14 @@
 import { useContext, useEffect } from "react";
-import { AntennaContext } from "../antennaProvider";
-import { LanguageContext } from "../../languageChange/languageContext";
+import { AntennaContext } from "../../antennaProvider";
 import { VariantPanelStyled } from ".";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const VaraintPanel = () => {
-	const { languageData } = useContext(LanguageContext);
 	const { type, setType, size, setSize } = useContext(AntennaContext);
 
 	useEffect(() => {
-		setType("RFStandard");
+		setType("standard");
 		setSize("long");
 	}, []);
 
@@ -27,14 +25,14 @@ export const VaraintPanel = () => {
 		<VariantPanelStyled className='variant'>
 			<select
 				id='modelSelect'
-				defaultValue='RFStandard'
+				defaultValue='standard'
 				onChange={handleTypeChange}
 			>
-				<option value='RFMini'>Mini</option>
-				<option value='RFMidi'>Midi</option>
-				<option value='RFStandard'>Standard</option>
-				<option value='RFHD'>HD</option>
-				<option value='RFExtreme'>Extreme</option>
+				<option value='mini'>Mini</option>
+				<option value='midi'>Midi</option>
+				<option value='standard'>Standard</option>
+				<option value='hd'>HD</option>
+				<option value='extreme'>Extreme</option>
 			</select>
 			<ul className='checkboxes'>
 				<li>
@@ -42,14 +40,13 @@ export const VaraintPanel = () => {
 						htmlFor='80-10'
 						className={size === "long" ? "label" : null}
 					>
-						80 - 10
+						{type === "extreme" ? "Full" : "80 - 10"}
 					</label>
 					<input
 						type='checkbox'
 						id='80-10'
 						value='long'
 						onChange={handleSizeChange}
-						checked={size === "long"}
 					/>
 				</li>
 				<li>
@@ -57,17 +54,16 @@ export const VaraintPanel = () => {
 						htmlFor='40-10'
 						className={size === "short" ? "label" : null}
 					>
-						40 - 10
+						{type === "extreme" ? "Short" : "40 - 10"}
 					</label>
 					<input
 						type='checkbox'
 						id='40-10'
 						value='short'
 						onChange={handleSizeChange}
-						checked={size === "short"}
 					/>
 				</li>
-				{type === "RFMini" ? (
+				{type === "mini" ? (
 					<li>
 						<label
 							htmlFor='max'

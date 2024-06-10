@@ -5,7 +5,7 @@ import { FONTSIZE } from "../../Consts/FontSize";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const NavStyled = styled.nav`
-	z-index: 3;
+	z-index: 10;
 	background-color: ${COLORS.White};
 	color: ${COLORS.darkPurple};
 	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};

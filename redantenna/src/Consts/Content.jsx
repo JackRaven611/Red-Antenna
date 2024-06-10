@@ -101,7 +101,7 @@ export const TEXTS = {
 						description: "Anteny typu EFHW (End Fed Half Wire)",
 					},
 
-					RFMini: {
+					mini: {
 						description:
 							"Antena przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
 						model: "Red-Fed Mini",
@@ -147,7 +147,7 @@ export const TEXTS = {
 						},
 					},
 
-					RFMidi: {
+					midi: {
 						description:
 							"Antena przeznaczona głównie do wyjazdów terenowych i wakacyjnych, oferująca większą wytrzymałość mechaniczną niż wersja Mini, przez co jest bardziej odporna na trudne warunki atmosferyczne. Zastosowano tutaj balun o zwiększonej przenoszonej mocy, dzięki czemu anteny z serii Midi nadają się do pracy ze standardowymi transceiverami KF.",
 						model: "Red-Fed Midi",
@@ -181,24 +181,7 @@ export const TEXTS = {
 						},
 					},
 
-					RFMidi80: {
-						spec: {
-							range: "około 80kHz",
-							swr: "<2.0",
-							ssb: "SSB 150W",
-							cw: "CW 100W",
-							digi: "DIGI 75W",
-							size: "50x70x36",
-							feeder: "fider SO239 (UC1, UHF)",
-							antenna: "antena 2x M4",
-							core: "Amidon FT140",
-							windings:
-								"drut emaliowany DNE 1.0mm (balun i cewka)",
-							antennaWire: "linka miedziana Cu 1.0mm",
-							wire: "2x 10m PE 3mm",
-						},
-					},
-					RFStandard: {
+					standard: {
 						description:
 							"Antena do zastosowań sezonowych, takich jak dłuższe wyjazdy wakacyjne, obozy czy na działce rekreacyjnej, wszędzie tam gdzie zaistnieje potrzeba pracy przez np. sezon letni i mamy możliwość pracy porównywalnej z domowym QTH. Użyty w antenie balun z serii Standard pozwala na swobodą pracę z seryjnymi transceiverami KF oraz z małymi wzmacniaczami mocy.",
 						model: "Red-Fed Standard",
@@ -233,7 +216,7 @@ export const TEXTS = {
 						},
 					},
 
-					RFHD: {
+					hd: {
 						description:
 							"Antena o podwyższonej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na balunach z serii Standard i w związku z tym przenoszą takie same moce jak Red-Fed Standard. Wzmocnieniu jednak uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu czy szadzi.",
 						model: "Red-Fed HD",
@@ -266,13 +249,186 @@ export const TEXTS = {
 								"https://www.ercomer.pl/pl/p/Antena-Red-Fed-HD-40-10-/2386",
 						},
 					},
-					RFExtreme: {
-						title: "",
-						titleSec: "",
-						text: "",
-						StoreLink: "",
-						StoreLinkSec: "",
+					extreme: {
+						description:
+							"Anteny Red-Fed Short Extreme są antenami o podwyższonej wytrzymałości, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu czy szadzi. arze M5, co zapewnia odpowiednią wytrzymałość mechaniczną oraz odporność na czynniki środowiskowe. W tym przypadku w środowiskach nieagresywnych chemicznie trwałość takiego osprzętu obliczana jest na około 25 lat.",
+						model: "Red-Fed Extreme",
+						range: "ok. 300 kHz",
+						swr: "<2.0",
+						ssb: "SSB 400W",
+						cw: "CW 300W",
+						digi: "DIGI 200W",
+						size: "74x89x41",
+						feeder: "fider SO239 (UC1, UHF)",
+						antenna: "antena 2x M5",
+						core: "Amidon FT240",
+						windings:
+							"drut podwójnie emaliowany DN2E 1.6mm (rdzeń i cewka)",
+						antennaWire: "linka stalowa 1.5mm",
+						wire: " 2x 10m PE 4mm",
+						long: {
+							model: "Red-Fed 80-10 Full Extreme ",
+							bands: "80m, 40m, 20m, 15m, 10m",
+							span: "około 39m",
+							weight: "1470g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Red-Fed-80-10-Full-Extreme/3553",
+						},
+						short: {
+							model: "Red-Fed 80-10 Short Extreme ",
+							bands: "80m, 40m, 20m, 15m, 10m",
+							span: "około 23m",
+							weight: "około 1600g",
+							storeLink:
+								"https://www.ercomer.pl/pl/p/Red-Fed-80-10-Short-Extreme/3580",
+						},
 					},
+				},
+				redDipole: {
+					common: {
+						series: "Red - Dipole",
+						description: "Anteny typu dipol",
+					},
+					mini: {
+						description:
+							"Antena D80mini jest anteną typowo wyprawową, której konstrukcja zoptymalizowana została pod kątem wagi oraz zajmowanego miejsca w ekwipunku wyprawowym. Dodatkowo po zastosowaniu tunera antenowego, pozwala na pracę na paśmie amatorskim 80m.",
+						model: "Red-Dipole D80mini",
+						bands: "80m, 40m-10m ze skrzynką antenową",
+						span: "około 39m",
+						weight: "około 600g",
+						size: "",
+						range: "",
+						swr: "",
+						ssb: "SSB 40W",
+						cw: "CW 30W",
+						digi: "DIGI 20W",
+						feeder: "fider BNC",
+						antenna: "antenna 2x M4",
+						core: "",
+						windings: "",
+						antennaWire: "linka miedziana Cu 0.5mm",
+						wire: "2x 10m PE 2mm",
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Antena-Red-Dipol-D80mini/2556",
+					},
+					midi: {
+						description:
+							"Antena D80Midi jest anteną typowo terenową, przeznaczoną głównie na dłuższe wyjazdy. Można ją bezproblemowo użytkować np. przez cały sezon letni na działce. Zachowuje przy tym na tyle małe gabaryty po złożeniu, że z łatwością znajdzie się na nią miejsce w wyprawowym ekwipunku. Po zastosowaniu tunera antenowego, pozwala na pracę na paśmie amatorskim 80m.",
+						model: "Red-Dipole D80midi",
+						bands: "80m, 40m-10m ze skrzynką antenową",
+						span: "około 39m",
+						weight: "około 1200g",
+						size: "",
+						range: "",
+						swr: "",
+						ssb: "SSB 150W",
+						cw: "CW 100W",
+						digi: "DIGI 75W",
+						feeder: "fider SO239 (UC1, UHF)",
+						antenna: "antenna 2x M5",
+						core: "",
+						windings: "",
+						antennaWire: "linka miedziana Cu 1.0mm",
+						wire: "2x 10m PE 3mm",
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Antena-Red-Dipol-D80midi/2555",
+					},
+					standard: {
+						description:
+							"Antena D80STD jest przeznaczona głównie na dłuższe wyjazdy stacjonarne, gdzie wielkość anteny w trakcie transportu czy jej ciężar nie gra już tak dużej roli, a większe znaczenie zaczyna mieć kwestia wytrzymałości mechanicznej. Przeznaczona jest do współpracy ze standardowymi transceiverami KF o mocy 100W czy 200W i posiadający odpowiedni zapas przenoszonej mocy, nawet w przypadku emisji cyfrowych.",
+						model: "Red-Dipole D80STD",
+						bands: "80m, 40m-10m ze skrzynką antenową",
+						span: "około 39m",
+						weight: "około 1900g",
+						size: "",
+						range: "",
+						swr: "",
+						ssb: "SSB 400W",
+						cw: "CW 300W",
+						digi: "DIGI 200W",
+						feeder: "fider SO239 (UC1, UHF)",
+						antenna: "antenna 2x M5",
+						core: "",
+						windings: "",
+						antennaWire: "linka miedziana Cu 1.5mm",
+						wire: "2x 10m PE 3mm",
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Antena-Red-Dipol-D80STD/2546",
+					},
+					hd: {
+						description:
+							"Wersja HD (Heavy Duty) jest wersją przeznaczoną do zastosowań przede wszystkim stacjonarnych, gdzie odpowiednia wytrzymałość mechaniczna anteny nie musi być kompromisem w stosunku do jej ciężaru czy wielkości po złożeniu.",
+						model: "Red-Dipole D80HD",
+						bands: "80m, 40m-10m ze skrzynką antenową",
+						span: "około 39m",
+						weight: "około 1700g",
+						size: "",
+						range: "",
+						swr: "",
+						ssb: "SSB 400W",
+						cw: "CW 300W",
+						digi: "DIGI 200W",
+						feeder: "fider SO239 (UC1, UHF)",
+						antenna: "antenna 2x M5",
+						core: "",
+						windings: "",
+						antennaWire: "linka miedziana Cu 2.5mm",
+						wire: "2x 10m PE 4mm",
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Antena-Red-Dipol-D80HD/2543",
+					},
+					hd600: {
+						description:
+							"Wersja HD 600W+ jest wersją przeznaczoną do zastosowań przede wszystkim stacjonarnych, gdzie odpowiednia wytrzymałość mechaniczna anteny nie musi być kompromisem w stosunku do jej ciężaru czy wielkości po złożeniu. Balun tej anteny wykonany jest na dwóch rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę z mocami 500W-600W.",
+						model: "Red-Dipole D80HD 600W+",
+						bands: "80m, 40m-10m ze skrzynką antenową",
+						span: "około 39m",
+						weight: "około 1900g",
+						size: "",
+						range: "",
+						swr: "",
+						ssb: "SSB: 1500W (160m-15m) i 1200W (12m-10m)",
+						cw: "CW: 1000W (160m-15m) i 800W (12m-10m)",
+						digi: "DIGI: 600W (160m-15m) i 500W (12m-10m)",
+						feeder: "fider SO239 (UC1, UHF)",
+						antenna: "antenna 2x M5",
+						core: "",
+						windings: "",
+						antennaWire: "linka miedziana Cu 2.5mm",
+						wire: "2x 10m PE 4mm",
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Antena-Red-Dipol-D80HD-600W-/2544",
+					},
+					hd1500: {
+						description:
+							"Wersja HD 600W+ jest wersją przeznaczoną do zastosowań przede wszystkim stacjonarnych, gdzie odpowiednia wytrzymałość mechaniczna anteny nie musi być kompromisem w stosunku do jej ciężaru czy wielkości po złożeniu. Balun tej anteny wykonany jest na trzech rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę z mocami 500W-600W.",
+						model: "Red-Dipol D80HD 1500W+",
+						bands: "80m, 40m-10m ze skrzynką antenową",
+						span: "około 39m",
+						weight: "około 1900g",
+						size: "",
+						range: "",
+						swr: "",
+						ssb: "SSB: 3500W (160m-15m) i 3000W (12m-10m)",
+						cw: "CW: 2500W (160m-15m) i 2200W (12m-10m)",
+						digi: "DIGI: 1500W (160m-15m) i 1200W (12m-10m)",
+						feeder: "fider SO239 (UC1, UHF)",
+						antenna: "antenna 2x M5",
+						core: "",
+						windings: "",
+						antennaWire: "linka miedziana Cu 2.5mm",
+						wire: "2x 10m PE 4mm",
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Antena-Red-Dipol-D80HD-1500W-/2545",
+					},
+				},
+				redWire: {
+					mini: {},
+					midi: {},
+					standard: {},
+					hd: {},
+					hd600: {},
+					hd1500: {},
 				},
 			},
 			vertical: {
