@@ -14,13 +14,16 @@ export const ProductPageStyled = styled.section`
 
 	.wrapper {
 		background-color: ${COLORS.White};
-		width: 80%;
-		margin: 5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin: 5rem 0;
 		overflow: hidden;
 		border-radius: 0.5rem;
 
 		.selectorkWrapper {
-			width: 100%;
+			width: 80%;
 			overflow: hidden;
 			display: flex;
 			flex-direction: row;
@@ -91,25 +94,20 @@ export const ProductPageStyled = styled.section`
 		display: flex;
 		flex-direction: column;
 
-		ul {
+		.infoWrapper {
 			display: flex;
-			width: 100%;
-			flex-direction: column;
-			align-items: center;
-			margin: 3rem 0;
-			.description {
-				width: 50%;
-				height: 3.5rem;
-				display: flex;
-				align-items: center;
-				gap: 1rem;
-				border-bottom: solid 0.15rem ${COLORS.Gray};
-				width: 50%;
+			flex-direction: row;
+			width: 80%;
+			margin: 2rem 0;
+			div {
+				width: 45%;
+				margin: 1rem 2.5% 0;
 
 				h3 {
 					font-weight: ${FONTSIZE.weight.bold};
-					font-size: ${FONTSIZE.p};
-					text-align: left;
+					font-size: ${FONTSIZE.a};
+					text-align: center;
+					margin-bottom: 1.5rem;
 				}
 
 				p {
@@ -118,15 +116,84 @@ export const ProductPageStyled = styled.section`
 					text-align: left;
 				}
 			}
+
+			ul {
+				display: flex;
+				width: 45%;
+				flex-direction: column;
+				align-items: center;
+				margin: 0 2.5%;
+				.description {
+					width: 100%;
+					height: 3.5rem;
+					display: flex;
+					align-items: center;
+					gap: 1rem;
+					border-bottom: solid 0.15rem ${COLORS.Gray};
+
+					h3 {
+						font-weight: ${FONTSIZE.weight.bold};
+						font-size: ${FONTSIZE.p};
+						text-align: left;
+					}
+
+					p {
+						font-weight: ${FONTSIZE.weight.medium};
+						font-size: ${FONTSIZE.p};
+						text-align: left;
+					}
+				}
+			}
 		}
 	}
 
 	@media screen and (max-width: 1290px) {
 		.wrapper {
+			width: 90%;
+			margin: 0;
+
+			.infoWrapper {
+				flex-direction: column;
+				width: 90%;
+				margin: 0 0 2rem;
+
+				div {
+					width: 100%;
+					margin: 2.5rem 0 1.5rem;
+
+					h3 {
+						width: 100%;
+					}
+
+					p {
+						width: 100%;
+					}
+				}
+
+				ul {
+					width: 100%;
+					margin: 1.5rem 0 4rem;
+					.description {
+						width: 100%;
+						height: 4.5rem;
+
+						h3 {
+							font-size: ${FONTSIZE.pMobile};
+						}
+
+						p {
+							font-size: ${FONTSIZE.pMobile};
+						}
+					}
+				}
+			}
+
 			.selectorkWrapper {
 				flex-direction: column;
+				width: 90%;
 
 				img {
+					margin-top: 3.5rem;
 					width: 100%;
 					min-height: auto;
 					max-height: 20rem;
@@ -136,12 +203,14 @@ export const ProductPageStyled = styled.section`
 					width: 100%;
 
 					h2 {
+						font-size: ${FONTSIZE.h2Mobile};
 						width: 100%;
 						margin: 2rem 0 0;
 						text-align: center;
 					}
 
 					p {
+						font-size: ${FONTSIZE.pMobile};
 						width: 100%;
 					}
 				}

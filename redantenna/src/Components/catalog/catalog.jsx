@@ -1,6 +1,7 @@
 import { CatalogStyled } from ".";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
+import { AntennaContext } from "../productPage/antennaProvider";
 import { Product } from "./product/product";
 import { ProductAccessories } from "./product/productAccessories";
 import RFMinilong from "../../img/mini80.jpg";
@@ -10,6 +11,12 @@ import tuner from "../../img/mini Tuner.jpg";
 
 export const Catalog = () => {
 	const { languageData } = useContext(LanguageContext);
+	const { setType, setSize } = useContext(AntennaContext);
+
+	useEffect(() => {
+		setType("standard");
+		setSize("long");
+	}, []);
 
 	return (
 		<CatalogStyled>
@@ -29,6 +36,12 @@ export const Catalog = () => {
 						type='wire'
 						series='redDipole'
 						link='/products/redDipole'
+						image={RFMinilong}
+					/>
+					<Product
+						type='wire'
+						series='redWire'
+						link='/products/redWire'
 						image={RFMinilong}
 					/>
 				</li>

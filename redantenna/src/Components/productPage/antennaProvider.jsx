@@ -10,7 +10,6 @@ export const AntennaProvider = ({ children }) => {
 	const antennaSize = "long";
 	const [type, setType] = useState(antennaType);
 	const [size, setSize] = useState(antennaSize);
-	const [series, setSeries] = useState(antennaSeries);
 
 	useEffect(() => {
 		setType(type);
@@ -20,14 +19,8 @@ export const AntennaProvider = ({ children }) => {
 		setSize(size);
 	}, [antennaSize]);
 
-	useEffect(() => {
-		setSeries(series);
-	}, [antennaSeries]);
-
 	return (
-		<AntennaContext.Provider
-			value={{ type, setType, size, setSize, series, setSeries }}
-		>
+		<AntennaContext.Provider value={{ type, setType, size, setSize }}>
 			{children}
 		</AntennaContext.Provider>
 	);

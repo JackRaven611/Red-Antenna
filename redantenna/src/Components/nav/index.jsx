@@ -85,14 +85,15 @@ export const NavStyled = styled.nav`
 		flex-wrap: wrap;
 
 		.wrapper {
+			width: 100%;
 			.hamburger {
 				display: flex;
-				padding-top: 12rem;
-				margin-left: 1rem;
+				padding-top: 0;
 				z-index: 1;
 			}
 
 			.homeButton {
+				margin-left: 10%;
 				h1 {
 					font-size: ${FONTSIZE.h1Mobile};
 				}
@@ -109,15 +110,14 @@ export const NavStyled = styled.nav`
 				position: absolute;
 				flex-direction: column;
 				align-items: flex-end;
-				width: 80%;
-				border-bottom-right-radius: 0.5rem;
-				border-bottom-left-radius: 0.5rem;
+				width: 100%;
 				transition-duration: 0.2s;
 				background-color: ${COLORS.White};
 				overflow: hidden;
 
 				li {
 					width: 100%;
+					height: 3%.5;
 					border-bottom: solid 0.15rem ${COLORS.Gray};
 				}
 

@@ -20,7 +20,7 @@ export const VariantPanelStyled = styled.div`
 		border: none;
 		margin-right: 0.5rem;
 		height: 2.3rem;
-		width: 6rem;
+		min-width: 6rem;
 		text-align: center;
 		font-size: ${FONTSIZE.p};
 		font-weight: ${FONTSIZE.weight.bold};

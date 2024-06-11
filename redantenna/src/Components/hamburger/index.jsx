@@ -6,6 +6,7 @@ import { COLORS } from "../../Consts/Colors";
 export const HamburgerStyled = styled.div`
 	width: 3rem;
 	height: 3rem;
+	margin-right: 10%;
 	background: transparent;
 	border: none;
 	cursor: pointer;

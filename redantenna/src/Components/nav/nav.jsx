@@ -25,7 +25,7 @@ export const Nav = () => {
 					<h1>{nav.brandName}</h1>
 					<p>{nav.homeBtnP}</p>
 				</Link>
-
+				<Hamburger className='hamburger' />
 				<ul className='desktopNav'>
 					<li>
 						<Link
@@ -58,7 +58,6 @@ export const Nav = () => {
 				<LanguageChangeBtn />
 			</li> */}
 				</ul>
-				<Hamburger className='hamburger' />
 			</div>
 		</NavStyled>
 	);

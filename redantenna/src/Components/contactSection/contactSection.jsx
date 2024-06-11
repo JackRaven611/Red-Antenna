@@ -20,7 +20,11 @@ export const ContactSection = () => {
 					<ul>
 						<li className='adress'>
 							<h3>{common.storeTitle}:</h3>
-							<a href={common.location} target='_blank'>
+							<a
+								href={common.location}
+								target='_blank'
+								rel='noopener noreferrer'
+							>
 								<p>{common.storeLocation}</p>
 							</a>
 						</li>
@@ -46,7 +50,11 @@ export const ContactSection = () => {
 						</li>
 						<li>
 							<h3>{contact.formTitle}:</h3>
-							<a href={contact.formLink} target='_blank'>
+							<a
+								href={contact.formLink}
+								target='_blank'
+								rel='noopener noreferrer'
+							>
 								<p>{contact.form}</p>
 							</a>
 						</li>

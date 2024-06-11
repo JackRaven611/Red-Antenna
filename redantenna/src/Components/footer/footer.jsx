@@ -45,6 +45,7 @@ export const Footer = () => {
 							href={common.location}
 							className='adress'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<p className='footerTextColor'>
 								{common.storeLocation}
