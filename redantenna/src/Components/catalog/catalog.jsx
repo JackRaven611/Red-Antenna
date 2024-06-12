@@ -29,19 +29,19 @@ export const Catalog = () => {
 					<Product
 						type='wire'
 						series='redFed'
-						link='/products/redFed'
+						link='/products/wire/redFed'
 						image={RFMinilong}
 					/>
 					<Product
 						type='wire'
 						series='redDipole'
-						link='/products/redDipole'
+						link='/products/wire/redDipole'
 						image={RFMinilong}
 					/>
 					<Product
 						type='wire'
 						series='redWire'
-						link='/products/redWire'
+						link='/products/wire/redWire'
 						image={RFMinilong}
 					/>
 				</li>
@@ -58,8 +58,32 @@ export const Catalog = () => {
 				<li>
 					<Product
 						type='accessories'
-						series='MiniTuner'
-						link='/products/accesories'
+						series='miniTuner'
+						link='/products/accessories/miniTuner'
+						image={tuner}
+					/>
+					<Product
+						type='accessories'
+						series='redChoke'
+						link='/products/accessories/redChoke'
+						image={tuner}
+					/>
+					<Product
+						type='accessories'
+						series='redMount'
+						link='/products/accesories/redMount'
+						image={tuner}
+					/>
+					<Product
+						type='accessories'
+						series='redCon'
+						link='/products/accessories/redCon'
+						image={tuner}
+					/>
+					<Product
+						type='accessories'
+						series='redLine'
+						link='/products/accessories/redLine'
 						image={tuner}
 					/>
 				</li>

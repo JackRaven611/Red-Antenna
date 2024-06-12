@@ -36,17 +36,38 @@ function App() {
 								element={<Products />}
 							></Route>
 							<Route
-								path='/products/redFed'
+								path='/products/wire/redFed'
 								element={<ProductPanel series='redFed' />}
 							/>
 							<Route
-								path='/products/redDipole'
+								path='/products//wire/redDipole'
 								element={<ProductPanel series='redDipole' />}
 							/>
 							<Route
-								path='/products/redWire'
+								path='/products//wire/redWire'
 								element={<ProductPanel series='redWire' />}
 							/>
+							<Route
+								path='/products/accessories/miniTuner'
+								element={<ProductPanel series='miniTuner' />}
+							/>
+							<Route
+								path='/products/accessories/redChoke'
+								element={<ProductPanel series='redChoke' />}
+							/>
+							<Route
+								path='/products/accessories/redMount'
+								element={<ProductPanel series='redMount' />}
+							/>
+							<Route
+								path='/products/accessories/redCon'
+								element={<ProductPanel series='redCon' />}
+							/>
+							<Route
+								path='/products/accessories/redLine'
+								element={<ProductPanel series='redLine' />}
+							/>
+
 							<Route path='/about' element={<About />} />
 							<Route path='/contact' element={<Contact />} />
 							<Route path='/*' element={<NotFound />} />

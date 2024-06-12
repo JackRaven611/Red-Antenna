@@ -2,17 +2,7 @@ import { useContext } from "react";
 import { ProductPageStyled } from ".";
 import { LanguageContext } from "../../languageChange/languageContext";
 import { VaraintPanel } from "./variantPanel/variantPanel";
-import RFMinishort from "../../../img/mini40.jpg";
-import RFMinilong from "../../../img/mini80.jpg";
-import RFMinimax from "../../../img/miniMax.jpg";
-import RFMidishort from "../../../img/midi40.jpg";
-import RFMidilong from "../../../img/midi80.jpg";
-import RFHDshort from "../../../img/hd40.jpg";
-import RFHDlong from "../../../img/hd80.jpg";
-import RFStandardshort from "../../../img/standard40.jpg";
-import RFStandardlong from "../../../img/standard80.jpg";
-import RFExtremeshort from "../../../img/RFExtreme.jpg";
-import RFExtremelong from "../../../img/RFExtremefull.jpg";
+import { AntennaImg } from "./antennaImg";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -21,36 +11,11 @@ export const ProductPage = ({ series, type, size }) => {
 	const product = languageData.products.wire[series][type];
 	const common = languageData.products.common;
 
-	const redFed = {
-		minishort: RFMinishort,
-		minilong: RFMinilong,
-		minimax: RFMinimax,
-		midishort: RFMidishort,
-		midilong: RFMidilong,
-		standardshort: RFStandardshort,
-		standardlong: RFStandardlong,
-		hdshort: RFHDshort,
-		hdlong: RFHDlong,
-		extremeshort: RFExtremeshort,
-		extremelong: RFExtremelong,
-	};
-
-	const redDipole = {
-		mini: RFMinishort,
-		midi: RFMidishort,
-		standard: RFStandardshort,
-		hd: RFHDshort,
-		hd600: RFExtremeshort,
-		hd1500: RFExtremelong,
-	};
-
-	const img = series === "redFed" ? redFed[type + size] : redDipole[type];
-
 	return (
 		<ProductPageStyled>
 			<div className='wrapper'>
 				<div className='selectorkWrapper'>
-					<img src={img} alt={product.model} />
+					<AntennaImg series={series} type={type} size={size} />
 					<aside>
 						<h2>
 							{product[size]

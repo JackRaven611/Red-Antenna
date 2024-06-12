@@ -629,14 +629,14 @@ export const TEXTS = {
 				},
 			},
 			vertical: {
-				V3000: {
+				v3000: {
 					title: "",
 					titleSec: "",
 					text: "",
 					StoreLink: "",
 					StoreLinkSec: "",
 				},
-				P2000: {
+				p2000: {
 					title: "",
 					titleSec: "",
 					text: "",
@@ -652,43 +652,120 @@ export const TEXTS = {
 				},
 			},
 			accessories: {
-				MiniTuner: {
+				miniTuner: {
 					common: {
 						series: "Mini Tuner",
 						description:
 							"Ultra mały i lekki tuner dla anten typu EFHW (End Fed Half Wire)",
 					},
-					MiniTunerNoCable: {
+					long: {
 						description:
 							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego.",
 
 						model: "Mini-Tuner wtyk BNC",
-						spec: {
-							weight: "70g",
-							power: "10W P.E.P",
-							size: "60x40x30",
-							feeder: "wtyk BNC",
-							antenna:
-								"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
-						},
+						weight: "70g",
+						power: "10W P.E.P",
+						size: "60x40x30",
+						feeder: "wtyk BNC",
+						antenna:
+							"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
 						storeLink:
 							"https://www.ercomer.pl/pl/p/Red-Antenna-EFHW-Mini-Tuner-wtyk-BNC/3241",
 					},
-					MiniTunerCable: {
+					short: {
 						description:
-							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego.",
-
+							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED.",
 						model: "Mini-Tuner gniazdo BNC",
-						spec: {
-							weight: "70g",
-							power: "10W P.E.P",
-							size: "60x40x30",
-							feeder: "gniazdo BNC",
-							antenna:
-								"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
-						},
+						weight: "70g",
+						power: "10W P.E.P",
+						size: "60x40x30",
+						feeder: "gniazdo BNC",
+						antenna:
+							"2x banan (dla promiennika czerwone, dla przeciwwagi czarne)",
 						storeLink:
 							"https://www.ercomer.pl/pl/p/Red-Antenna-EFHW-Mini-Tuner-gniazdo-BNC/3220",
+					},
+				},
+				redChoke: {
+					common: {
+						series: "Balun Red-Choke",
+						description:
+							"Praktycznie każdy typ anteny zasilanej kablem koncentrycznym w miejscu podłączenia anteny powinien posiadać choke balun. Zastosowano tu zupełnie inne podejście niż klasyczne nawinięcie przewodu koncentrycznego na rdzenie ferrytowe, Choke-balun składa się z dwóch uzwojeń bifilarnych.",
+						weight: "...g",
+						power: "max 1.5KW",
+						size: "170x75x55",
+						sockets: "SO239 (UC1, UHF)",
+						cable: "Wtyk PL259 (UC1, UHF) + 60cm RG-213U",
+						range: "1-30MHz",
+						storeLink:
+							"https://www.ercomer.pl/pl/p/RED-ANTENA-balun-pradowy-Choke-Balun-1.5kW/3478",
+					},
+				},
+				redMount: {
+					common: {
+						series: "Uchwyt Red-Mount",
+						description:
+							"Uchwyt wykonany jest z anodowanego aluminium, umożliwia montaż anteny z gwintem 3/8 cala (np. popularne anteny AMPRO) i bezpośrednie wpięcie szpili w grunt (trawnik). Szpila zapewnia bardzo szybką instalację anteny w terenie, a dodatkowo zapewnia dobre uziemienie, wymagane dla anten typu whip. Szpila zakończona jest gwintem z nakrętką motylkową do wygodnego podłączenia dodatkowych radialsów. Do podłączenia kabla koncentrycznego uchwyt posiada gniazdo SO239 (UC1).",
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Uchwyt-38-do-anten-Ampro-/2984",
+					},
+				},
+				redCon: {
+					common: {
+						series: "Zestaw złączy Red-Con",
+						description:
+							"Uniwersalny zestaw przejściówek (redukcji) pomiędzy najpopularniejszymi typami złączy stosowanych w radiokomunikacji. Niezbędnik do podłączania różnych typów anten i kabli do radiotelefonów i analizatorów. W zestawie poręczne pudełko do przechowywania i wygodnego przenoszenia wszystkich elementów.",
+						connectorsTitle: "Zestaw zawiera następujące elementy",
+					},
+					long: {
+						model: "Red-Con01",
+						connectors: [
+							"1x przejściówka wtyk BNC <-> gniazdo UHF SO239 (UC1)",
+							"1x przejściówka wtyk N <-> gniazdo UHF (SO239, UC1)",
+							"1x przejściówka BNC gniazdo <-> wtyk UHF (PL259, UC1)",
+							"1x przejściówka wtyk UHF (PL259, UC1) <-> gniazdo N",
+							"1x przejściówka wtyk N -> wtyk PL259",
+							"1x przejściówka wtyk Mini-UHF -> gniazdo SO239 (UC1, UHF)",
+							"1x przejściówka wtyk Mini-UHF -> gniazdo BNC",
+							"1x przejściówka wtyk SMA-M - gniazdo UHF (SO239, UC1)",
+							"1x przejściówka wtyk BNC <-> gniazdo SMA-F",
+							"1x przejściówka wtyk SMA-M <-> gniazdo BNC",
+							"1x przejściówka wtyk N <-> gniazdo BNC",
+							"1x przejściówka wtyk N <-> wtyk SMA-F",
+							"1x łącznik gniazdo UHF <-> gniazdo UHF (SO239, UC1)",
+							"1x łącznik gniazdo SMA-F -> SMA-F",
+							"1x łącznik wtyk SMA-M <-> wtyk SMA-M",
+							"1x łącznik gniazdo BNC <-> gniazdo BNC",
+							"1x łącznik gniazdo SO239 -> wtyk PL259 (UC1, UHF) kątowy",
+						],
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Uniwersalny-zestaw-przejsciowek-RED-CON-01/2731",
+					},
+					short: {
+						model: "Red-Con02",
+						connectors: [
+							"1mb kabel koncentryczny RG58 C/U zakończony wtykami BNC",
+							"2x przejściówka wtyk PL259 (UC1, UHF) -> gniazdo BNC",
+							"2x przejściówka wtyk N -> gniazdo BNC",
+							"2x przejściówka gniazdo N -> gniazdo BNC",
+							"2x przejściówka wtyk SMA-F -> gniazdo BNC",
+							"2x Przejściówka wtyk SMA-M -> gniazdo BNC",
+							"2x Łącznik gniazdo BNC -> gniazdo BNC",
+							"1x łącznik wtyk BNC -> wtyk BNC",
+							"1x łącznik wtyk PL259 (UC1, UHF) -> gniazdo BNC kątowy",
+							"1x łącznik gniazdo BNC -> wtyk BNC kątowy",
+						],
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Uniwersalny-zestaw-przejsciowek-RED-CON-02-typu-BNC/3574",
+					},
+				},
+				redLine: {
+					common: {
+						series: "kabel Red-Line",
+						description:
+							"RG58 Red-Line to wysokiej klasy przewód 50 Ω typu RG 58 dla najbardziej wymagających użytkowników takich kabli. Żyła wewnętrzna to linka bardzo precyzyjnie skręcona z drutów wykonanych z najwyższej klasy miedzi beztlenowej ( średnica zewnętrzna 0,9 mm ). Dla zasygnalizowania wysokiej jakości wykonania, bardzo dobrych parametrów oraz wyróżnienia produktu na rynku powłoka zewnętrzna tego przewodu jest nietypowa – transparentna z lekkim zabarwieniem na czerwono ( oczywiście przewód można stosować również na zewnątrz, powłoka jest odporna na promieniowanie UV ). Ekran RG 58 RED jest wykonany z bardzo gęstego oplotu ( 98% ), a druty w pasemkach oplotu mają średnicę aż 0,16 mm.",
+						storeLink:
+							"https://www.ercomer.pl/pl/p/Kabel-koncentryczny-RG58-RED/3565",
 					},
 				},
 			},

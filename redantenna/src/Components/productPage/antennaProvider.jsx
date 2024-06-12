@@ -5,7 +5,6 @@ import { createContext, useEffect, useState } from "react";
 export const AntennaContext = createContext();
 
 export const AntennaProvider = ({ children }) => {
-	const antennaSeries = "redFed";
 	const antennaType = "standard";
 	const antennaSize = "long";
 	const [type, setType] = useState(antennaType);
