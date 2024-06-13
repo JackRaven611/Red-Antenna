@@ -18,7 +18,7 @@ export const VariantPanelStyled = styled.div`
 	select {
 		background-color: transparent;
 		border: none;
-		margin-right: 0.5rem;
+		margin-right: 2rem;
 		height: 2.3rem;
 		min-width: 6rem;
 		text-align: center;
@@ -39,7 +39,7 @@ export const VariantPanelStyled = styled.div`
 		flex-direction: row;
 		flex-wrap: nowrap;
 		gap: 1rem;
-		margin: 1rem 2rem;
+		margin: 1rem 2rem 1rem 0;
 
 		li {
 			display: flex;

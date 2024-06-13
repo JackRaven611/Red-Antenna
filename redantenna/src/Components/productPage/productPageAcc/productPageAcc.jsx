@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { LanguageContext } from "../../languageChange/languageContext";
 import { ProductPageStyled } from "../productPageWire";
+import { VaraintAcc } from "./variantAcc";
+import { AccImg } from "./accImg";
 
 export const ProductPageAcc = ({ series, size }) => {
 	const { languageData } = useContext(LanguageContext);
@@ -11,18 +13,18 @@ export const ProductPageAcc = ({ series, size }) => {
 		<ProductPageStyled>
 			<div className='wrapper'>
 				<div className='selectorkWrapper'>
-					{/* <AntennaImg series={series} type={type} size={size} /> */}
+					<AccImg series={series} size={size} />
 					<aside>
 						<h2>
 							{product[size]
 								? product[size].model
-								: product.common.model}
+								: product.common.series}
 						</h2>
-						{/* <VaraintPanel series={series} /> */}
+						{<VaraintAcc series={series} />}
 						<p>
 							{product[size]
 								? product[size].description
-								: product.common.description}
+								: product.common.descriptionPage}
 						</p>
 						<div className='linkWrapper'>
 							<a
@@ -39,6 +41,20 @@ export const ProductPageAcc = ({ series, size }) => {
 						</div>
 					</aside>
 				</div>
+				{series === "redCon" ? (
+					<>
+						<h3 className='redConTitle'>
+							{product.common.connectorsTitle}
+						</h3>
+						<ul className='redCon'>
+							{product[size].connectors.map((connector) => (
+								<li key={connector}>
+									<p>{connector}</p>
+								</li>
+							))}
+						</ul>
+					</>
+				) : null}
 			</div>
 		</ProductPageStyled>
 	);

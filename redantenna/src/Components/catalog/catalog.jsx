@@ -3,9 +3,9 @@ import { useContext, useEffect } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import { AntennaContext } from "../productPage/antennaProvider";
 import { Product } from "./product/product";
-import { ProductAccessories } from "./product/productAccessories";
 import RFMinilong from "../../img/mini80.jpg";
 import tuner from "../../img/mini Tuner.jpg";
+import redLine from "../../img/redLine.jpg";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -71,7 +71,7 @@ export const Catalog = () => {
 					<Product
 						type='accessories'
 						series='redMount'
-						link='/products/accesories/redMount'
+						link='/products/accessories/redMount'
 						image={tuner}
 					/>
 					<Product
@@ -84,7 +84,7 @@ export const Catalog = () => {
 						type='accessories'
 						series='redLine'
 						link='/products/accessories/redLine'
-						image={tuner}
+						image={redLine}
 					/>
 				</li>
 			</ul>

@@ -22,6 +22,14 @@ export const VaraintPanel = ({ series }) => {
 	};
 
 	const handleExtreme = (length) => {
+		if (type === "extreme" && length === "80-10") {
+			return "Full";
+		} else if (type === "extreme" && length === "40-10") {
+			return "Short";
+		} else {
+			return length;
+		}
+
 		return type === "extreme" ? "Full" : length;
 	};
 
@@ -51,7 +59,7 @@ export const VaraintPanel = ({ series }) => {
 					</>
 				)}
 			</select>
-			{(series === "redFed") | (series === "redWire") ? (
+			{series === "redFed" || series === "redWire" ? (
 				<ul className='checkboxes'>
 					<li>
 						<label

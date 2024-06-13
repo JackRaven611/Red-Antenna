@@ -656,7 +656,7 @@ export const TEXTS = {
 					common: {
 						series: "Mini Tuner",
 						description:
-							"Ultra mały i lekki tuner dla anten typu EFHW (End Fed Half Wire)",
+							"Ultra mały tuner dla anten typu EFHW (End Fed Half Wire)",
 					},
 					long: {
 						description:
@@ -689,7 +689,8 @@ export const TEXTS = {
 				redChoke: {
 					common: {
 						series: "Balun Red-Choke",
-						description:
+						description: "Balun typu choker",
+						descriptionPage:
 							"Praktycznie każdy typ anteny zasilanej kablem koncentrycznym w miejscu podłączenia anteny powinien posiadać choke balun. Zastosowano tu zupełnie inne podejście niż klasyczne nawinięcie przewodu koncentrycznego na rdzenie ferrytowe, Choke-balun składa się z dwóch uzwojeń bifilarnych.",
 						weight: "...g",
 						power: "max 1.5KW",
@@ -704,8 +705,9 @@ export const TEXTS = {
 				redMount: {
 					common: {
 						series: "Uchwyt Red-Mount",
-						description:
-							"Uchwyt wykonany jest z anodowanego aluminium, umożliwia montaż anteny z gwintem 3/8 cala (np. popularne anteny AMPRO) i bezpośrednie wpięcie szpili w grunt (trawnik). Szpila zapewnia bardzo szybką instalację anteny w terenie, a dodatkowo zapewnia dobre uziemienie, wymagane dla anten typu whip. Szpila zakończona jest gwintem z nakrętką motylkową do wygodnego podłączenia dodatkowych radialsów. Do podłączenia kabla koncentrycznego uchwyt posiada gniazdo SO239 (UC1).",
+						description: "Aliminiowy uchwyt do anten pionowych",
+						descriptionPage:
+							"Uchwyt wykonany jest z anodowanego aluminium, umożliwia montaż anteny z gwintem 3/8 cala i bezpośrednie wpięcie szpili w grunt (trawnik). Szpila zapewnia bardzo szybką instalację anteny w terenie, a dodatkowo zapewnia dobre uziemienie, wymagane dla anten typu whip. Szpila zakończona jest gwintem z nakrętką motylkową do wygodnego podłączenia dodatkowych radialsów. Do podłączenia kabla koncentrycznego uchwyt posiada gniazdo SO239 (UC1).",
 						storeLink:
 							"https://www.ercomer.pl/pl/p/Uchwyt-38-do-anten-Ampro-/2984",
 					},
@@ -713,12 +715,13 @@ export const TEXTS = {
 				redCon: {
 					common: {
 						series: "Zestaw złączy Red-Con",
-						description:
-							"Uniwersalny zestaw przejściówek (redukcji) pomiędzy najpopularniejszymi typami złączy stosowanych w radiokomunikacji. Niezbędnik do podłączania różnych typów anten i kabli do radiotelefonów i analizatorów. W zestawie poręczne pudełko do przechowywania i wygodnego przenoszenia wszystkich elementów.",
-						connectorsTitle: "Zestaw zawiera następujące elementy",
+						description: "Uniwersalny zestaw przejściówek",
+						connectorsTitle: "Zestaw zawiera następujące elementy:",
 					},
 					long: {
-						model: "Red-Con01",
+						model: "Red-Con 01",
+						description:
+							"Uniwersalny zestaw przejściówek (redukcji) pomiędzy najpopularniejszymi typami złączy stosowanych w radiokomunikacji. Niezbędnik do podłączania różnych typów anten i kabli do radiotelefonów i analizatorów. W zestawie poręczne pudełko do przechowywania i wygodnego przenoszenia wszystkich elementów.",
 						connectors: [
 							"1x przejściówka wtyk BNC <-> gniazdo UHF SO239 (UC1)",
 							"1x przejściówka wtyk N <-> gniazdo UHF (SO239, UC1)",
@@ -742,7 +745,9 @@ export const TEXTS = {
 							"https://www.ercomer.pl/pl/p/Uniwersalny-zestaw-przejsciowek-RED-CON-01/2731",
 					},
 					short: {
-						model: "Red-Con02",
+						model: "Red-Con 02",
+						description:
+							"Uniwersalny zestaw przejściówek (redukcji) pomiędzy najpopularniejszymi typami złączy stosowanych w radiokomunikacji. Niezbędnik do podłączania różnych typów anten i kabli do radiotelefonów i analizatorów. W zestawie poręczne pudełko do przechowywania i wygodnego przenoszenia wszystkich elementów.",
 						connectors: [
 							"1mb kabel koncentryczny RG58 C/U zakończony wtykami BNC",
 							"2x przejściówka wtyk PL259 (UC1, UHF) -> gniazdo BNC",
@@ -761,9 +766,10 @@ export const TEXTS = {
 				},
 				redLine: {
 					common: {
-						series: "kabel Red-Line",
-						description:
-							"RG58 Red-Line to wysokiej klasy przewód 50 Ω typu RG 58 dla najbardziej wymagających użytkowników takich kabli. Żyła wewnętrzna to linka bardzo precyzyjnie skręcona z drutów wykonanych z najwyższej klasy miedzi beztlenowej ( średnica zewnętrzna 0,9 mm ). Dla zasygnalizowania wysokiej jakości wykonania, bardzo dobrych parametrów oraz wyróżnienia produktu na rynku powłoka zewnętrzna tego przewodu jest nietypowa – transparentna z lekkim zabarwieniem na czerwono ( oczywiście przewód można stosować również na zewnątrz, powłoka jest odporna na promieniowanie UV ). Ekran RG 58 RED jest wykonany z bardzo gęstego oplotu ( 98% ), a druty w pasemkach oplotu mają średnicę aż 0,16 mm.",
+						series: "Kabel Red-Line",
+						descriptionPage:
+							"Red-Line to wysokiej klasy przewód 50 Ω typu RG 58 dla najbardziej wymagających użytkowników takich kabli. Żyła wewnętrzna to linka bardzo precyzyjnie skręcona z drutów wykonanych z najwyższej klasy miedzi beztlenowej ( średnica zewnętrzna 0,9 mm ). Dla zasygnalizowania wysokiej jakości wykonania, bardzo dobrych parametrów oraz wyróżnienia produktu na rynku powłoka zewnętrzna tego przewodu jest nietypowa – transparentna z lekkim zabarwieniem na czerwono ( oczywiście przewód można stosować również na zewnątrz, powłoka jest odporna na promieniowanie UV ). Ekran RG 58 RED jest wykonany z bardzo gęstego oplotu ( 98% ), a druty w pasemkach oplotu mają średnicę aż 0,16 mm.",
+						description: "wysokiej klasy przewód typu RG 58",
 						storeLink:
 							"https://www.ercomer.pl/pl/p/Kabel-koncentryczny-RG58-RED/3565",
 					},

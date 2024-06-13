@@ -7,13 +7,21 @@ export const ProductPanel = ({ series }) => {
 	const { type, size } = useContext(AntennaContext);
 
 	const handleSeries = () => {
-		if ((series === "redFed") | "redDipole" | "redWire") {
+		if (
+			series === "redFed" ||
+			series === "redDipole" ||
+			series === "redWire"
+		) {
 			return <ProductPage type={type} size={size} series={series} />;
-		} else if ((series === "v3000") | "p2000" | "b1000") {
+		} else if (
+			series === "v3000" ||
+			series === "p2000" ||
+			series === "b1000"
+		) {
 			return null;
 		} else {
 			return <ProductPageAcc type={type} size={size} series={series} />;
 		}
 	};
-	return <>{series ? handleSeries() : null}</>;
+	return <>{handleSeries()}</>;
 };

@@ -33,6 +33,7 @@ export const ProductPageStyled = styled.section`
 			img {
 				width: 50%;
 				min-height: 35rem;
+				max-height: 40rem;
 				object-fit: cover;
 				border-radius: 0.5rem;
 			}
@@ -145,6 +146,34 @@ export const ProductPageStyled = styled.section`
 				}
 			}
 		}
+
+		.redConTitle {
+			font-weight: ${FONTSIZE.weight.bold};
+			font-size: ${FONTSIZE.a};
+			margin: 2rem 0 1rem;
+		}
+
+		.redCon {
+			display: flex;
+			width: 60%;
+			flex-direction: column;
+			align-items: center;
+			margin: 0;
+			li {
+				width: 100%;
+				height: 3.5rem;
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+				border-bottom: solid 0.15rem ${COLORS.Gray};
+
+				p {
+					font-weight: ${FONTSIZE.weight.medium};
+					font-size: ${FONTSIZE.p};
+					text-align: left;
+				}
+			}
+		}
 	}
 
 	@media screen and (max-width: 1290px) {
@@ -152,10 +181,30 @@ export const ProductPageStyled = styled.section`
 			width: 90%;
 			margin: 0;
 
+			.redConTitle {
+				font-size: ${FONTSIZE.h3Mobile};
+			}
+
+			.redCon {
+				width: 90%;
+				margin-bottom: 4rem;
+				li {
+					width: 100%;
+					height: 4.5rem;
+					display: flex;
+					align-items: center;
+					gap: 1rem;
+					border-bottom: solid 0.15rem ${COLORS.Gray};
+
+					p {
+						font-size: ${FONTSIZE.aMobile};
+					}
+				}
+			}
+
 			.infoWrapper {
 				flex-direction: column;
 				width: 90%;
-				margin: 0 0 2rem;
 
 				div {
 					width: 100%;
@@ -172,7 +221,7 @@ export const ProductPageStyled = styled.section`
 
 				ul {
 					width: 100%;
-					margin: 1.5rem 0 4rem;
+					margin: 1.5rem 0 0;
 					.description {
 						width: 100%;
 						height: 4.5rem;

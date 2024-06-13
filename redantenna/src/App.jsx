@@ -40,11 +40,11 @@ function App() {
 								element={<ProductPanel series='redFed' />}
 							/>
 							<Route
-								path='/products//wire/redDipole'
+								path='/products/wire/redDipole'
 								element={<ProductPanel series='redDipole' />}
 							/>
 							<Route
-								path='/products//wire/redWire'
+								path='/products/wire/redWire'
 								element={<ProductPanel series='redWire' />}
 							/>
 							<Route
