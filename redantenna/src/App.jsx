@@ -36,6 +36,18 @@ function App() {
 								element={<Products />}
 							></Route>
 							<Route
+								path='/products/wire'
+								element={<Products type='wire' />}
+							></Route>
+							<Route
+								path='/products/vertical'
+								element={<Products type='vertical' />}
+							></Route>
+							<Route
+								path='/products/accessories'
+								element={<Products type='accessories' />}
+							></Route>
+							<Route
 								path='/products/wire/redFed'
 								element={<ProductPanel series='redFed' />}
 							/>

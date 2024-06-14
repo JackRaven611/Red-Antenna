@@ -629,6 +629,10 @@ export const TEXTS = {
 				},
 			},
 			vertical: {
+				common: {
+					title: "ANTENY PIONOWE",
+					description: "Anteny pionowe",
+				},
 				v3000: {
 					title: "",
 					titleSec: "",
@@ -652,6 +656,10 @@ export const TEXTS = {
 				},
 			},
 			accessories: {
+				common: {
+					title: "AKCESORIA",
+					description: "Akcesoria antenowe",
+				},
 				miniTuner: {
 					common: {
 						series: "Mini Tuner",
