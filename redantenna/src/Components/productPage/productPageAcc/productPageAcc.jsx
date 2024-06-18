@@ -4,6 +4,8 @@ import { ProductPageStyled } from "../productPageWire";
 import { VaraintAcc } from "./variantAcc";
 import { AccImg } from "./accImg";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const ProductPageAcc = ({ series, size }) => {
 	const { languageData } = useContext(LanguageContext);
 	const product = languageData.products.accessories[series];

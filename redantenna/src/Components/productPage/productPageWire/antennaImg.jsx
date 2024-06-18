@@ -11,6 +11,7 @@ import RFStandardshort from "../../../img/standard40.jpg";
 import RFStandardlong from "../../../img/standard80.jpg";
 import RFExtremeshort from "../../../img/RFExtreme.jpg";
 import RFExtremelong from "../../../img/RFExtremefull.jpg";
+import placeHolder from "../../../img/red-antenna logo.jpg";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -33,27 +34,45 @@ export const AntennaImg = ({ series, type, size }) => {
 	};
 
 	const redDipole = {
-		mini: RFMinishort,
-		midi: RFMidishort,
-		standard: RFStandardshort,
-		hd: RFHDshort,
-		hd600: RFExtremeshort,
-		hd1500: RFExtremelong,
+		// mini: RFMinishort,
+		// midi: RFMidishort,
+		// standard: RFStandardshort,
+		// hd: RFHDshort,
+		// hd600: RFExtremeshort,
+		// hd1500: RFExtremelong,
+		mini: placeHolder,
+		midi: placeHolder,
+		standard: placeHolder,
+		hd: placeHolder,
+		hd600: placeHolder,
+		hd1500: placeHolder,
 	};
 
 	const redWire = {
-		minishort: RFMinishort,
-		minilong: RFMinilong,
-		midishort: RFMidishort,
-		midilong: RFMidilong,
-		standardshort: RFStandardshort,
-		standardlong: RFStandardlong,
-		hdshort: RFHDshort,
-		hdlong: RFHDlong,
-		hd600short: RFExtremeshort,
-		hd600long: RFExtremeshort,
-		hd1500short: RFExtremelong,
-		hd1500long: RFExtremelong,
+		// minishort: RFMinishort,
+		// minilong: RFMinilong,
+		// midishort: RFMidishort,
+		// midilong: RFMidilong,
+		// standardshort: RFStandardshort,
+		// standardlong: RFStandardlong,
+		// hdshort: RFHDshort,
+		// hdlong: RFHDlong,
+		// hd600short: RFExtremeshort,
+		// hd600long: RFExtremeshort,
+		// hd1500short: RFExtremelong,
+		// hd1500long: RFExtremelong,
+		minishort: placeHolder,
+		minilong: placeHolder,
+		midishort: placeHolder,
+		midilong: placeHolder,
+		standardshort: placeHolder,
+		standardlong: placeHolder,
+		hdshort: placeHolder,
+		hdlong: placeHolder,
+		hd600short: placeHolder,
+		hd600long: placeHolder,
+		hd1500short: placeHolder,
+		hd1500long: placeHolder,
 	};
 
 	const img = () => {

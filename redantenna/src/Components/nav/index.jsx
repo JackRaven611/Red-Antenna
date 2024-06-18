@@ -24,7 +24,7 @@ export const NavStyled = styled.nav`
 
 		.navButtons {
 			width: 100%;
-			min-width: 10rem;
+			min-width: 20%;
 			align-self: center;
 			padding: 2.15rem 0;
 			background-color: ${COLORS.White};
@@ -40,7 +40,7 @@ export const NavStyled = styled.nav`
 		}
 
 		.homeButton {
-			width: 20rem;
+			width: 19rem;
 			text-align: left;
 			display: flex;
 			flex-direction: column;
@@ -64,20 +64,69 @@ export const NavStyled = styled.nav`
 		}
 
 		.desktopNav {
-			width: 60%;
+			width: 70%;
 			display: flex;
-			justify-content: space-between;
+			justify-content: flex-end;
+			gap: 1rem;
 			align-items: center;
 			flex-wrap: wrap;
 
 			li {
 				display: flex;
 				width: 20%;
+				height: auto;
 			}
 		}
 
 		.hamburger {
 			display: none;
+		}
+	}
+
+	.accordionItem {
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 6rem;
+		transition-duration: 0.2s;
+
+		.navButtonsAccordion {
+			display: none;
+			position: absolute;
+			transition-duration: 0.2s;
+		}
+	}
+
+	.accordionItem:hover {
+		box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
+		a {
+			border-color: ${COLORS.Gray};
+		}
+
+		.navButtonsAccordion {
+			top: 6rem;
+			width: 11.2%;
+			padding: 0;
+			height: auto;
+			box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+
+			a {
+				border-color: ${COLORS.Gray};
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+				height: 6rem;
+				width: 100%;
+			}
+
+			a:hover {
+				border-color: ${COLORS.mainRed};
+			}
 		}
 	}
 
@@ -104,9 +153,11 @@ export const NavStyled = styled.nav`
 
 			.desktopNav {
 				z-index: -10;
+				gap: 0;
+				box-shadow: 0 0.2rem 0.2rem ${COLORS.darkPurple + "2d"};
 				display: ${({ $hamburgerOpen }) =>
 					$hamburgerOpen ? "flex" : "none"};
-				margin-top: 14rem;
+				margin-top: 17rem;
 				position: absolute;
 				flex-direction: column;
 				align-items: flex-end;
@@ -117,20 +168,41 @@ export const NavStyled = styled.nav`
 
 				li {
 					width: 100%;
-					height: 3%.5;
-					border-bottom: solid 0.15rem ${COLORS.Gray};
-				}
+					height: 4rem;
 
-				.navButtons {
-					padding: 0.5rem;
-					width: 100%;
-					border-color: transparent;
-					background-color: transparent;
-				}
+					.navButtons {
+						padding: 0.5rem 0;
+						height: 4rem;
+						width: 100%;
+						border-color: transparent;
+						background-color: transparent;
+						border-bottom: solid 0.15rem ${COLORS.Gray};
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
 
-				.navButton:hover {
-					border-color: ${COLORS.mainRed};
+					.navButtons:hover {
+						border-color: ${COLORS.mainRed};
+					}
 				}
+			}
+		}
+		.accordionItem {
+			height: auto;
+
+			.navButtonsAccordion {
+				top: 0;
+				display: none;
+				position: absolute;
+				transition-duration: 0.2s;
+			}
+		}
+
+		.accordionItem:hover {
+			box-shadow: none;
+			.navButtonsAccordion {
+				display: none;
 			}
 		}
 	}

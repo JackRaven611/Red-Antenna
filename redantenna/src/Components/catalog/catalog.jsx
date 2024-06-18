@@ -6,6 +6,7 @@ import { Product } from "./product/product";
 import RFMinilong from "../../img/mini80.jpg";
 import tuner from "../../img/mini Tuner.jpg";
 import redLine from "../../img/redLine.jpg";
+import placeHolder from "../../img/red-antenna logo.jpg";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -28,20 +29,20 @@ export const Catalog = ({ type }) => {
 				<Product
 					type='wire'
 					series='redFed'
-					link='/products/wire/redFed'
+					link='/products/wire/redFed#'
 					image={RFMinilong}
 				/>
 				<Product
 					type='wire'
 					series='redDipole'
-					link='/products/wire/redDipole'
-					image={RFMinilong}
+					link='/products/wire/redDipole#'
+					image={placeHolder}
 				/>
 				<Product
 					type='wire'
 					series='redWire'
-					link='/products/wire/redWire'
-					image={RFMinilong}
+					link='/products/wire/redWire#'
+					image={placeHolder}
 				/>
 			</li>
 		</>
@@ -57,20 +58,20 @@ export const Catalog = ({ type }) => {
 				<Product
 					type='vertical'
 					series='b1000'
-					link='/products/vertical/b1000'
-					image={RFMinilong}
+					link='/products/vertical/b1000#'
+					image={placeHolder}
 				/>
 				<Product
 					type='vertical'
 					series='p2000'
-					link='/products/vertical/p2000'
-					image={RFMinilong}
+					link='/products/vertical/p2000#'
+					image={placeHolder}
 				/>
 				<Product
 					type='vertical'
 					series='v3000'
-					link='/products/vertical/v3000'
-					image={RFMinilong}
+					link='/products/vertical/v3000#'
+					image={placeHolder}
 				/>
 			</li>
 		</>
@@ -86,31 +87,31 @@ export const Catalog = ({ type }) => {
 				<Product
 					type='accessories'
 					series='miniTuner'
-					link='/products/accessories/miniTuner'
-					image={tuner}
+					link='/products/accessories/miniTuner#'
+					image={placeHolder}
 				/>
 				<Product
 					type='accessories'
 					series='redChoke'
-					link='/products/accessories/redChoke'
-					image={tuner}
+					link='/products/accessories/redChoke#'
+					image={placeHolder}
 				/>
 				<Product
 					type='accessories'
 					series='redMount'
-					link='/products/accessories/redMount'
-					image={tuner}
+					link='/products/accessories/redMount#'
+					image={placeHolder}
 				/>
 				<Product
 					type='accessories'
 					series='redCon'
-					link='/products/accessories/redCon'
-					image={tuner}
+					link='/products/accessories/redCon#'
+					image={placeHolder}
 				/>
 				<Product
 					type='accessories'
 					series='redLine'
-					link='/products/accessories/redLine'
+					link='/products/accessories/redLine#'
 					image={redLine}
 				/>
 			</li>

@@ -42,7 +42,7 @@ export const CatalogStyled = styled.section`
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
-			gap: 5rem;
+			gap: 3.5rem;
 		}
 
 		.placeHolder {
@@ -70,6 +70,11 @@ export const CatalogStyled = styled.section`
 			p {
 				font-size: ${FONTSIZE.pMobile};
 				width: 100%;
+			}
+		}
+		ul {
+			li {
+				gap: 2rem;
 			}
 		}
 	}

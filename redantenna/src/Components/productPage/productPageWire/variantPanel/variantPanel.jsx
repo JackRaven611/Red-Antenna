@@ -29,8 +29,6 @@ export const VaraintPanel = ({ series }) => {
 		} else {
 			return length;
 		}
-
-		return type === "extreme" ? "Full" : length;
 	};
 
 	return (

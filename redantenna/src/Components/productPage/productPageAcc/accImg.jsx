@@ -6,6 +6,7 @@ import redMount from "../../../img/redMount.jpg";
 import redConshort from "../../../img/redCon02.jpg";
 import redConlong from "../../../img/redCon01.jpg";
 import redLine from "../../../img/redLine.jpg";
+import placeHolder from "../../../img/red-antenna logo.jpg";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -16,11 +17,17 @@ export const AccImg = ({ series, size }) => {
 	const acc = {
 		miniTunershort: miniTuner,
 		miniTunerlong: miniTuner,
-		redChoke: redChoke,
-		redMount: redMount,
-		redConshort: redConshort,
-		redConlong: redConlong,
+		// redChoke: redChoke,
+		// redMount: redMount,
+		// redConshort: redConshort,
+		// redConlong: redConlong,
 		redLine: redLine,
+		miniTunershort: placeHolder,
+		miniTunerlong: placeHolder,
+		redChoke: placeHolder,
+		redMount: placeHolder,
+		redConshort: placeHolder,
+		redConlong: placeHolder,
 	};
 
 	const img = () => {

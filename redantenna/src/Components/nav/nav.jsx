@@ -5,6 +5,7 @@ import { LanguageContext } from "../languageChange/languageContext";
 import { LanguageChangeBtn } from "../languageChange/languageChangeBtn/languageChangeBtn";
 import { Hamburger } from "../hamburger/hamburger";
 import { BurgerContext } from "../hamburger/burgerContext/burgerContext";
+import { Accordion } from "./accordion";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -28,13 +29,7 @@ export const Nav = () => {
 				<Hamburger className='hamburger' />
 				<ul className='desktopNav'>
 					<li>
-						<Link
-							className='navButtons'
-							to='/products#'
-							onClick={toggleBurgerNav}
-						>
-							{nav.navBtnProducts}
-						</Link>
+						<Accordion toggleBurgerNav={toggleBurgerNav} />
 					</li>
 					<li>
 						<Link
