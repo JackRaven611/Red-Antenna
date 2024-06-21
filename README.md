@@ -2,7 +2,7 @@
 
 **Designed & Developed by :** Jakub "Jacek" Bedynek | kuba.xray@gmail.com\
 **For :** [ERcomER](https://www.ercomer.pl/)\
-**URL :** [Red-antenna.com](http://red-antenna.com/)
+**URL :** [Red-antenna.com](http://red-antenna.com/)\
 **Started :** 14.04.2024\
 **Status :** Actively developed\
 **Current build :** 1.0.2
