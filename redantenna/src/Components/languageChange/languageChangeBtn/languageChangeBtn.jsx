@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { LanguageChangeBtnStyled } from ".";
 import { useContext } from "react";
 import { LanguageContext } from "../languageContext";
@@ -5,26 +6,88 @@ import { LanguageContext } from "../languageContext";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const LanguageChangeBtn = () => {
-	const context = useContext(LanguageContext);
-	const languages = [
-		{ code: "en", name: "english" },
-		{ code: "pl", name: "polish" },
-	];
+	const { setSelectedLanguage, selectedLanguage } =
+		useContext(LanguageContext);
 
 	const handleLanguageChange = (event) => {
-		context.setSelectedLanguage(event.target.value);
+		if (
+			selectedLanguage === "polish" &&
+			event.target.value !== selectedLanguage
+		) {
+			setSelectedLanguage(event.target.value);
+		} else if (
+			selectedLanguage === "english" &&
+			event.target.value !== selectedLanguage
+		) {
+			setSelectedLanguage(event.target.value);
+		} else {
+			return null;
+		}
 	};
 
+	const handleButtonChange = () => {
+		if (selectedLanguage === "polish") {
+			return (
+				<>
+					<button
+						value='english'
+						onClick={handleLanguageChange}
+						className='eng'
+					>
+						ENG
+					</button>{" "}
+					|{" "}
+					<button value='polish' className='boldButton pl'>
+						PL
+					</button>
+				</>
+			);
+		} else {
+			return (
+				<>
+					<button
+						value='english'
+						onClick={handleLanguageChange}
+						className='boldButton eng'
+					>
+						ENG
+					</button>{" "}
+					|{" "}
+					<button value='polish' className='pl'>
+						PL
+					</button>
+				</>
+			);
+		}
+	};
+
+	const [buttons, setButtons] = useState(handleButtonChange());
+
+	useEffect(() => {
+		setButtons(handleButtonChange());
+	}, [selectedLanguage]);
+
 	return (
-		<LanguageChangeBtnStyled
-			value={context.selectedLanguage}
-			onChange={handleLanguageChange}
-		>
-			{languages.map((language) => (
-				<option key={language.code} value={language.name}>
-					{context.languageData[language.code]}
-				</option>
-			))}
+		<LanguageChangeBtnStyled>
+			<button
+				value='english'
+				onClick={handleLanguageChange}
+				className={`${
+					selectedLanguage === "english" ? "boldButton" : null
+				} eng`}
+			>
+				ENG
+			</button>
+			|
+			<button
+				value='polish'
+				onClick={handleLanguageChange}
+				className={`${
+					selectedLanguage === "polish" ? "boldButton" : null
+				} pl`}
+			>
+				PL
+			</button>
 		</LanguageChangeBtnStyled>
 	);
 };

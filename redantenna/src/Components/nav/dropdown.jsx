@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
-export const Accordion = ({ toggleBurgerNav }) => {
+export const Dropdown = ({ toggleBurgerNav }) => {
 	const { languageData } = useContext(LanguageContext);
 
 	return (
-		<div className='accordionItem'>
+		<div className='dropdownItem'>
 			<Link
 				className='navButtons'
 				to='/products#'
@@ -16,7 +16,7 @@ export const Accordion = ({ toggleBurgerNav }) => {
 			>
 				{languageData.nav.navBtnProducts}
 			</Link>
-			<div className='navButtonsAccordion'>
+			<div className='navButtonsDropdown'>
 				<Link
 					className=' navButtons'
 					to='/products/wire#'

@@ -73,7 +73,7 @@ export const NavStyled = styled.nav`
 
 			li {
 				display: flex;
-				width: 20%;
+				width: 22%;
 				height: auto;
 			}
 		}
@@ -83,7 +83,7 @@ export const NavStyled = styled.nav`
 		}
 	}
 
-	.accordionItem {
+	.dropdownItem {
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
@@ -91,22 +91,22 @@ export const NavStyled = styled.nav`
 		height: 6rem;
 		transition-duration: 0.2s;
 
-		.navButtonsAccordion {
+		.navButtonsDropdown {
 			display: none;
 			position: absolute;
 			transition-duration: 0.2s;
 		}
 	}
 
-	.accordionItem:hover {
+	.dropdownItem:hover {
 		box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 		a {
 			border-color: ${COLORS.Gray};
 		}
 
-		.navButtonsAccordion {
+		.navButtonsDropdown {
 			top: 6rem;
-			width: 11.2%;
+			width: 12.35%;
 			padding: 0;
 			height: auto;
 			box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
@@ -157,7 +157,7 @@ export const NavStyled = styled.nav`
 				box-shadow: 0 0.2rem 0.2rem ${COLORS.darkPurple + "2d"};
 				display: ${({ $hamburgerOpen }) =>
 					$hamburgerOpen ? "flex" : "none"};
-				margin-top: 17rem;
+				margin-top: 20rem;
 				position: absolute;
 				flex-direction: column;
 				align-items: flex-end;
@@ -174,12 +174,11 @@ export const NavStyled = styled.nav`
 						padding: 0.5rem 0;
 						height: 4rem;
 						width: 100%;
-						border-color: transparent;
-						background-color: transparent;
 						border-bottom: solid 0.15rem ${COLORS.Gray};
 						display: flex;
 						justify-content: center;
 						align-items: center;
+						font-size: ${FONTSIZE.aMobile};
 					}
 
 					.navButtons:hover {
@@ -188,10 +187,10 @@ export const NavStyled = styled.nav`
 				}
 			}
 		}
-		.accordionItem {
+		.dropdownItem {
 			height: auto;
 
-			.navButtonsAccordion {
+			.navButtonsDropdown {
 				top: 0;
 				display: none;
 				position: absolute;
@@ -199,9 +198,9 @@ export const NavStyled = styled.nav`
 			}
 		}
 
-		.accordionItem:hover {
+		.dropdownItem:hover {
 			box-shadow: none;
-			.navButtonsAccordion {
+			.navButtonsDropdown {
 				display: none;
 			}
 		}

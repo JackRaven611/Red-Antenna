@@ -5,7 +5,7 @@ export const FONTSIZE = {
 	p: "1rem",
 	pMobile: "1rem",
 	a: "1.5rem",
-	aMobile: "1rem",
+	aMobile: "1.3rem",
 	h1: "2.3rem",
 	h1Mobile: "2rem",
 	h2: "2rem",
