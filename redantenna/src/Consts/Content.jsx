@@ -70,6 +70,27 @@ export const TEXTS = {
 			formTitle: "Formularz kontaktowy",
 		},
 
+		distributorCountries: [
+			{
+				name: "Poland",
+				distributors: [
+					{
+						name: "ERcomER",
+						url: "https://www.ercomer.pl/pl/c/Produkty-RED-ANTENNA/576",
+					},
+				],
+			},
+			{
+				name: "Germany",
+				distributors: [
+					{
+						name: "Wimo",
+						url: "https://www.wimo.com/en/",
+					},
+				],
+			},
+		],
+
 		products: {
 			common: {
 				bandsTitle: "Pasma pracy:",
@@ -98,6 +119,7 @@ export const TEXTS = {
 					common: {
 						series: "Red - Fed",
 						description: "Anteny typu EFHW (End Fed Half Wire)",
+						descriptionPage: "",
 					},
 
 					mini: {
@@ -287,6 +309,7 @@ export const TEXTS = {
 					common: {
 						series: "Red - Dipole",
 						description: "Anteny typu dipol",
+						descriptionPage: "",
 					},
 					mini: {
 						description:
@@ -426,6 +449,7 @@ export const TEXTS = {
 					common: {
 						series: "Red - Wire",
 						description: "Anteny typu long-wire",
+						descriptionPage: "",
 					},
 					mini: {
 						description:

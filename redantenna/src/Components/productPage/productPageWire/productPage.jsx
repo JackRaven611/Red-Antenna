@@ -45,40 +45,14 @@ export const ProductPage = ({ series, type, size }) => {
 				</div>
 				<div className='infoWrapper'>
 					<div>
-						<h3>Lorem ipsum dolor sit amet consectetur</h3>
+						<h3>
+							{languageData.products.wire[series].common.series}
+						</h3>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing
-							elit. Maiores quasi praesentium quaerat libero ipsum
-							reiciendis aut officia voluptas ad temporibus?
-							Similique doloremque quos, debitis quas qui maiores
-							rerum hic alias. Consequatur eaque repudiandae
-							dolorem culpa doloribus neque, excepturi iusto harum
-							ipsum doloremque nobis, debitis illo officiis eum,
-							esse reprehenderit facilis voluptas similique
-							consectetur. Obcaecati eius cumque in ratione
-							eligendi mollitia. Obcaecati ut dolores dicta nihil
-							inventore nulla deleniti dolorum ducimus totam,
-							atque sit necessitatibus possimus vero? Laborum sed
-							cumque quidem officiis aspernatur incidunt soluta
-							praesentium ut, suscipit laboriosam consequatur
-							atque! Et sed molestias aspernatur nihil quo iure,
-							facere eaque maiores repellendus magnam praesentium
-							dolore veniam eum, quibusdam aperiam illo! Ullam
-							minima ipsam temporibus. Amet error commodi,
-							suscipit sequi corporis exercitationem? Lorem ipsum
-							dolor sit amet consectetur, adipisicing elit.
-							Aspernatur molestiae magnam quam, dolor recusandae
-							voluptas quaerat in odit ea culpa eligendi
-							temporibus soluta possimus voluptatem, reprehenderit
-							corporis. Molestias, minima nobis. Nostrum nam odio
-							aliquam rerum? Error omnis recusandae necessitatibus
-							consectetur. Dolor harum quia, in animi molestias
-							sed eos ratione assumenda quos inventore excepturi
-							cum pariatur quod deleniti quidem illum fugit.
-							Facere voluptate ex fugiat sapiente ratione odit
-							sunt. Quod corporis cum dolore tempora vitae iure
-							minus sequi, laudantium voluptatem in vel distinctio
-							maxime optio amet architecto ab itaque, porro ullam!
+							{
+								languageData.products.wire[series].common
+									.descriptionPage
+							}
 						</p>
 					</div>
 					<ul>

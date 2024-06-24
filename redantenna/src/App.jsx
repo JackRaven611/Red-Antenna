@@ -12,6 +12,7 @@ import { About } from "./Components/pages/about";
 import { Contact } from "./Components/pages/contact";
 import { NotFound } from "./Components/pages/notFound";
 import { ProductPanel } from "./Components/pages/productPanel";
+import { Distributors } from "./Components/pages/distributors";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -78,6 +79,11 @@ function App() {
 							<Route
 								path='/products/accessories/redLine'
 								element={<ProductPanel series='redLine' />}
+							/>
+
+							<Route
+								path='/distributors'
+								element={<Distributors />}
 							/>
 
 							<Route path='/about' element={<About />} />

@@ -41,6 +41,7 @@ export const NavStyled = styled.nav`
 
 		.homeButton {
 			width: 19rem;
+			padding: 2rem 0;
 			text-align: left;
 			display: flex;
 			flex-direction: column;
@@ -73,7 +74,7 @@ export const NavStyled = styled.nav`
 
 			li {
 				display: flex;
-				width: 22%;
+				width: 23%;
 				height: auto;
 			}
 		}

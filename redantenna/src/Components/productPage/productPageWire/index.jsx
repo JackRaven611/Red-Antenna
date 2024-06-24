@@ -33,7 +33,7 @@ export const ProductPageStyled = styled.section`
 			img {
 				width: 50%;
 				min-height: 35rem;
-				max-height: 40rem;
+				max-height: 35rem;
 				object-fit: cover;
 				border-radius: 0.5rem;
 			}
@@ -41,7 +41,6 @@ export const ProductPageStyled = styled.section`
 			aside {
 				width: 50%;
 				display: flex;
-
 				flex-direction: column;
 				align-items: center;
 				gap: 1rem;
