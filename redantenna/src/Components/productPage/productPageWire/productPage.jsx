@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import { ProductPageStyled } from ".";
 import { LanguageContext } from "../../languageChange/languageContext";
 import { VaraintPanel } from "./variantPanel/variantPanel";
@@ -29,17 +30,29 @@ export const ProductPage = ({ series, type, size }) => {
 								: product.description}
 						</p>
 						<div className='linkWrapper'>
-							<a
-								target='_blank'
-								rel='noopener noreferrer'
-								href={
-									product[size]
-										? product[size].storeLink
-										: product.storeLink
-								}
-							>
-								{common.linkTitle}
-							</a>
+							{languageData.common.pl ? (
+								<a
+									target='_blank'
+									rel='noopener noreferrer'
+									href={
+										product[size]
+											? product[size].storeLink
+											: product.storeLink
+									}
+								>
+									{common.linkTitle}
+								</a>
+							) : (
+								<Link
+									to={
+										product[size]
+											? product[size].storeLink
+											: product.storeLink
+									}
+								>
+									{common.linkTitle}
+								</Link>
+							)}
 						</div>
 					</aside>
 				</div>

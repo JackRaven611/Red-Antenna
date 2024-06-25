@@ -107,7 +107,7 @@ export const NavStyled = styled.nav`
 
 		.navButtonsDropdown {
 			top: 6rem;
-			width: 12.35%;
+			width: 12.85%;
 			padding: 0;
 			height: auto;
 			box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};

@@ -1,17 +1,25 @@
 import { useContext } from "react";
 import { DistributorsSectionStyled } from ".";
 import { LanguageContext } from "../languageChange/languageContext";
+import ERcomER from "../../img/ercomer.png";
+import Wimo from "../../img/Wimo.png";
 
 export const DistributorsSection = () => {
 	const { languageData } = useContext(LanguageContext);
 
+	const distributorsImg = {
+		ERcomER: ERcomER,
+		Wimo: Wimo,
+	};
+
 	return (
 		<DistributorsSectionStyled>
+			<h2>{languageData.common.distributorsTitle}</h2>
 			<ul>
 				{languageData.distributorCountries.map((country) => {
 					return (
 						<li key={country.name}>
-							<h2>{country.name}</h2>
+							<h3>{country.name}</h3>
 							<ul>
 								{country.distributors.map((distributor) => {
 									return (
@@ -22,7 +30,11 @@ export const DistributorsSection = () => {
 												rel='noopener noreferrer'
 											>
 												<img
-													src=''
+													src={
+														distributorsImg[
+															distributor.name
+														]
+													}
 													alt={distributor.name}
 													loading='lazy'
 												/>

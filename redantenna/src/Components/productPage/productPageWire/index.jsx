@@ -75,7 +75,7 @@ export const ProductPageStyled = styled.section`
 	}
 
 	a {
-		width: 15rem;
+		min-width: 15rem;
 		padding: 1.5rem;
 		margin-top: 2rem;
 		border-bottom: solid 0.3rem transparent;
