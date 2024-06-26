@@ -123,6 +123,7 @@ export const NavStyled = styled.nav`
 				text-align: center;
 				height: 6rem;
 				width: 100%;
+				padding: 0 0.5rem;
 			}
 
 			a:hover {
@@ -131,7 +132,7 @@ export const NavStyled = styled.nav`
 		}
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 1300px) {
 		flex-wrap: wrap;
 
 		.wrapper {

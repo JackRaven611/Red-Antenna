@@ -46,13 +46,14 @@ export const DistributorsSectionStyled = styled.section`
 				margin: 0;
 				display: flex;
 				flex-direction: row;
+				flex-wrap: wrap;
 				justify-content: center;
 				height: auto;
 				padding: 1rem 0;
 				box-shadow: none;
 
 				li {
-					width: 10%;
+					width: 10rem;
 					height: 5rem;
 					display: flex;
 					justify-content: center;

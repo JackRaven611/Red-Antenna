@@ -5,8 +5,14 @@ import { TEXTS } from "../../Consts/Content";
 
 export const LanguageContext = createContext();
 
+const defaultState = () => {
+	return JSON.parse(localStorage.getItem("language"))
+		? JSON.parse(localStorage.getItem("language"))
+		: "polish";
+};
+
 export const LanguageProvider = ({ children }) => {
-	const [selectedLanguage, setSelectedLanguage] = useState("polish");
+	const [selectedLanguage, setSelectedLanguage] = useState(defaultState());
 	const textLanguage = TEXTS[selectedLanguage];
 	const [languageData, setLanguageData] = useState(textLanguage);
 

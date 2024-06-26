@@ -15,11 +15,19 @@ export const LanguageChangeBtn = () => {
 			event.target.value !== selectedLanguage
 		) {
 			setSelectedLanguage(event.target.value);
+			localStorage.setItem(
+				"language",
+				JSON.stringify(event.target.value)
+			);
 		} else if (
 			selectedLanguage === "english" &&
 			event.target.value !== selectedLanguage
 		) {
 			setSelectedLanguage(event.target.value);
+			localStorage.setItem(
+				"language",
+				JSON.stringify(event.target.value)
+			);
 		} else {
 			return null;
 		}

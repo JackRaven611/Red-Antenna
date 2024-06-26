@@ -1,5 +1,6 @@
 import { NavStyled } from ".";
 import { HashLink as Link } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import { LanguageChangeBtn } from "../languageChange/languageChangeBtn/languageChangeBtn";
@@ -12,6 +13,7 @@ import { Dropdown } from "./dropdown";
 export const Nav = () => {
 	const { languageData } = useContext(LanguageContext);
 	const nav = languageData.nav;
+	const location = useLocation();
 	const { hamburgerOpen, setHamburgerOpen } = useContext(BurgerContext);
 	const toggleBurgerNav = () => {
 		hamburgerOpen
@@ -49,9 +51,11 @@ export const Nav = () => {
 							{nav.navBtnContact}
 						</Link>
 					</li>
-					<li>
-						<LanguageChangeBtn />
-					</li>
+					{location.pathname !== "/distributors" ? (
+						<li>
+							<LanguageChangeBtn />
+						</li>
+					) : null}
 				</ul>
 			</div>
 		</NavStyled>

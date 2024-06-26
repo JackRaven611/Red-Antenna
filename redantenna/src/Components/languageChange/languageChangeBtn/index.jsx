@@ -6,7 +6,6 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 
 export const LanguageChangeBtnStyled = styled.div`
 	width: 100%;
-	min-width: 20%;
 	font-size: ${FONTSIZE.a};
 	align-self: center;
 	transition-duration: 0.2s;
@@ -48,7 +47,7 @@ export const LanguageChangeBtnStyled = styled.div`
 		color: ${COLORS.darkPurple};
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 1300px) {
 		justify-content: center;
 		button {
 			font-size: ${FONTSIZE.aMobile};
