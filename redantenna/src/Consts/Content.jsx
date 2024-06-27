@@ -99,6 +99,7 @@ export const TEXTS = {
 						series: "Red - Fed",
 						description: "Anteny typu EFHW (End Fed Half Wire)",
 						descriptionPage: "",
+						descriptionPageTitle: "Seria Red-Fed",
 					},
 
 					mini: {
@@ -289,6 +290,7 @@ export const TEXTS = {
 						series: "Red - Dipole",
 						description: "Anteny typu dipol",
 						descriptionPage: "",
+						descriptionPageTitle: "Seria Red-Dipole",
 					},
 					mini: {
 						description:
@@ -429,6 +431,7 @@ export const TEXTS = {
 						series: "Red - Wire",
 						description: "Anteny typu long-wire",
 						descriptionPage: "",
+						descriptionPageTitle: "Seria Red-Wire",
 					},
 					mini: {
 						description:
@@ -843,7 +846,7 @@ export const TEXTS = {
 
 			effectiveness:
 				"Our antennas are designed based on expertise and extensive professional experience. We also use specialized antenna modeling software. However, actual effectiveness is primarily confirmed by our practical tests of electromagnetic field density measurements and practical signal strength measurement tests conducted using WSPR's network of beacons. WSPR receivers deployed around the world report actual measurements of received signal strength. Certainly, the effectiveness of our antennas is also confirmed by excellent feedback and numerous recommendations from users of our antennas.",
-			aboutTitle: "OUR GOAL",
+			aboutTitle: "Our mission",
 			aboutText:
 				"The antenna is the most important element, affecting the range of any transceiver system. Our goal is to create uncompromising antennas, optimally designed, featuring the best parameters and highest quality workmanship. We have achieved it through appropriate selection of components, a series of practical and endurance tests and measurements. We rely on reliable scientific studies, the experiments of many radio amateurs and, above all, our own many years of experience in building antenna systems and working on the shortwave bands. Therefore, our antennas are in many respects ahead of competitive products available on the market and form an exclusive line of high-end (so-called High End) antennas",
 		},
@@ -909,6 +912,7 @@ export const TEXTS = {
 						series: "Red - Fed",
 						description: "EFHW antennas (End Fed Half Wire)",
 						descriptionPage: "",
+						descriptionPageTitle: "Red-Fed series",
 					},
 
 					mini: {
@@ -1088,6 +1092,7 @@ export const TEXTS = {
 						series: "Red - Dipole",
 						description: "Dipole antennas",
 						descriptionPage: "",
+						descriptionPageTitle: "Red-Dipole series",
 					},
 					mini: {
 						description:
@@ -1222,6 +1227,7 @@ export const TEXTS = {
 						series: "Red - Wire",
 						description: "Long-wire antennas",
 						descriptionPage: "",
+						descriptionPageTitle: "Red-Wire series",
 					},
 					mini: {
 						description:

@@ -59,7 +59,10 @@ export const ProductPage = ({ series, type, size }) => {
 				<div className='infoWrapper'>
 					<div>
 						<h3>
-							{languageData.products.wire[series].common.series}
+							{
+								languageData.products.wire[series].common
+									.descriptionPageTitle
+							}
 						</h3>
 						<p>
 							{
