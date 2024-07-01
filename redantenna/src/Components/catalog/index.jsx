@@ -7,6 +7,7 @@ import { COLORS } from "../../Consts/Colors";
 export const CatalogStyled = styled.section`
 	width: 100%;
 	margin-top: 6.05rem;
+	min-height: 90vh;
 	display: flex;
 	justify-content: center;
 
@@ -19,7 +20,7 @@ export const CatalogStyled = styled.section`
 		margin-bottom: 2rem;
 		gap: 0;
 		h2 {
-			width: 80%;
+			width: 90%;
 			margin: 2rem 0;
 			font-size: ${FONTSIZE.h2};
 			font-weight: ${FONTSIZE.weight.bold};
@@ -49,6 +50,7 @@ export const CatalogStyled = styled.section`
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			margin: 10rem 0;
 			h3 {
 				border: 0.2rem solid ${COLORS.mainRed};
 				border-radius: 0.5rem;

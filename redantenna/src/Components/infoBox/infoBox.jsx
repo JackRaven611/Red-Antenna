@@ -2,9 +2,9 @@ import { InfoBoxStyled } from ".";
 import { BoxArticle } from "./boxArticle/boxArticle";
 import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
-import baluny from "../../img/baluny prototypy 2.JPG";
-import cewka from "../../img/cewka EndFed HD prototyp.JPG";
-import redfed from "../../img/RedFed QRP mini 40-10 2.JPG";
+import baluny from "../../img/baluny prototypy 2.webp";
+import cewka from "../../img/cewka EndFed HD prototyp.webp";
+import redfed from "../../img/RedFed mini background.webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 

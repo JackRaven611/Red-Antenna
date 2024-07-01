@@ -42,6 +42,7 @@ export const BackgroundStyled = styled.div`
 	img {
 		width: 100%;
 		max-height: 75rem;
+		object-fit: cover;
 	}
 
 	@media screen and (max-width: 1200px) {

@@ -5,18 +5,24 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const ProductStyled = styled.article`
-	width: 80%;
+	width: 40%;
 	border-radius: 0.5rem;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	transition-duration: 0.2s;
 	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
+	border-bottom: solid 0.2rem transparent;
+	transition-duration: 0.2s;
+
+	&&:hover {
+		color: ${COLORS.mainRed};
+		border-color: ${COLORS.mainRed};
+	}
 
 	a {
 		width: 100%;
 		position: relative;
-		border-bottom: solid 0.2rem ${COLORS.White};
 		transition-duration: 0.2s;
 		font-weight: ${FONTSIZE.weight.medium};
 		text-transform: uppercase;
@@ -24,9 +30,6 @@ export const ProductStyled = styled.article`
 	}
 
 	a:hover {
-		color: ${COLORS.mainRed};
-		border-color: ${COLORS.mainRed};
-
 		h3 {
 			color: ${COLORS.mainRed};
 		}
@@ -38,7 +41,7 @@ export const ProductStyled = styled.article`
 
 	img {
 		width: 100%;
-		height: 25rem;
+		height: 27.5rem;
 		object-fit: cover;
 		transition-duration: 0.2s;
 	}

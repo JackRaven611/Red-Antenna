@@ -1,7 +1,7 @@
 import { AboutBoxStyled } from ".";
 import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
-import redFed from "../../img/RedFed Standard.JPG";
+import redFed from "../../img/RedFed-background.webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 

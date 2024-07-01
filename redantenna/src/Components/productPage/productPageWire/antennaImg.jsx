@@ -1,16 +1,23 @@
 import { useContext } from "react";
 import { LanguageContext } from "../../languageChange/languageContext";
-import RFMinishort from "../../../img/mini40.jpg";
-import RFMinilong from "../../../img/mini80.jpg";
-import RFMinimax from "../../../img/miniMax.jpg";
-import RFMidishort from "../../../img/midi40.jpg";
-import RFMidilong from "../../../img/midi80.jpg";
-import RFHDshort from "../../../img/hd40.jpg";
-import RFHDlong from "../../../img/hd80.jpg";
-import RFStandardshort from "../../../img/standard40.jpg";
-import RFStandardlong from "../../../img/standard80.jpg";
-import RFExtremeshort from "../../../img/RFExtreme.jpg";
-import RFExtremelong from "../../../img/RFExtremefull.jpg";
+
+import RFMinilong from "../../../img/endfed MINI.webp";
+import RFMiniMax from "../../../img/endfed MAX.webp";
+import RFMidilong from "../../../img/endfed MIDI.webp";
+import RFStandard from "../../../img/endfed STD.webp";
+import RFHDlong from "../../../img/endfed HD.webp";
+import RFExtremelong from "../../../img/endfed extreme bez cewki.webp";
+import RFExtremeshort from "../../../img/endfed extreme.webp";
+
+import RWMinilong from "../../../img/wire MINI 02.webp";
+
+import RWMidilong from "../../../img/wire MIDI 02.webp";
+
+import RDMini from "../../../img/dipol MINI.webp";
+import RDMidi from "../../../img/dipol MIDI.webp";
+import RDStandard from "../../../img/dipol STD.webp";
+import RDHD from "../../../img/dipol HD.webp";
+import RDHDPlus from "../../../img/dipol HDPlus.webp";
 import placeHolder from "../../../img/red-antenna logo.jpg";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
@@ -20,51 +27,33 @@ export const AntennaImg = ({ series, type, size }) => {
 	const product = languageData.products.wire[series][type];
 
 	const redFed = {
-		minishort: RFMinishort,
+		minishort: RFMinilong,
 		minilong: RFMinilong,
-		minimax: RFMinimax,
-		midishort: RFMidishort,
+		minimax: RFMiniMax,
+		midishort: RFMidilong,
 		midilong: RFMidilong,
-		standardshort: RFStandardshort,
-		standardlong: RFStandardlong,
-		hdshort: RFHDshort,
+		standardshort: RFStandard,
+		standardlong: RFStandard,
+		hdshort: RFHDlong,
 		hdlong: RFHDlong,
 		extremeshort: RFExtremeshort,
 		extremelong: RFExtremelong,
 	};
 
 	const redDipole = {
-		// mini: RFMinishort,
-		// midi: RFMidishort,
-		// standard: RFStandardshort,
-		// hd: RFHDshort,
-		// hd600: RFExtremeshort,
-		// hd1500: RFExtremelong,
-		mini: placeHolder,
-		midi: placeHolder,
-		standard: placeHolder,
-		hd: placeHolder,
-		hd600: placeHolder,
-		hd1500: placeHolder,
+		mini: RDMini,
+		midi: RDMidi,
+		standard: RDStandard,
+		hd: RDHD,
+		hd600: RDHDPlus,
+		hd1500: RDHDPlus,
 	};
 
 	const redWire = {
-		// minishort: RFMinishort,
-		// minilong: RFMinilong,
-		// midishort: RFMidishort,
-		// midilong: RFMidilong,
-		// standardshort: RFStandardshort,
-		// standardlong: RFStandardlong,
-		// hdshort: RFHDshort,
-		// hdlong: RFHDlong,
-		// hd600short: RFExtremeshort,
-		// hd600long: RFExtremeshort,
-		// hd1500short: RFExtremelong,
-		// hd1500long: RFExtremelong,
-		minishort: placeHolder,
-		minilong: placeHolder,
-		midishort: placeHolder,
-		midilong: placeHolder,
+		minishort: RWMinilong,
+		minilong: RWMinilong,
+		midishort: RWMidilong,
+		midilong: RWMidilong,
 		standardshort: placeHolder,
 		standardlong: placeHolder,
 		hdshort: placeHolder,

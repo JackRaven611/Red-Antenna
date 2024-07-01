@@ -8,7 +8,7 @@ export const DistributorsSectionStyled = styled.section`
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	height: auto;
+	min-height: 90vh;
 
 	h2 {
 		width: 100%;

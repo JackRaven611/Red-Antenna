@@ -1,7 +1,7 @@
 import { ContactSectionStyled } from ".";
 import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
-import hd80 from "../../img/RedFed HD 80-10.JPG";
+import hd80 from "../../img/RedFed mini background.webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 

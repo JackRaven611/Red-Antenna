@@ -3,9 +3,14 @@ import { useContext, useEffect } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import { AntennaContext } from "../productPage/antennaProvider";
 import { Product } from "./product/product";
-import RFMinilong from "../../img/mini80.jpg";
-import tuner from "../../img/mini Tuner.jpg";
-import redLine from "../../img/redLine.jpg";
+import RF from "../../img/endfed MINI.webp";
+import RW from "../../img/wire MIDI 02.webp";
+import RD from "../../img/dipol STD.webp";
+import tuner from "../../img/mini-tuner 02.webp";
+import redLine from "../../img/red kabel 01.webp";
+import redChoke from "../../img/choke balun 02.webp";
+import redMount from "../../img/szpila.webp";
+import redCon from "../../img/zestaw 01.webp";
 import placeHolder from "../../img/red-antenna logo.jpg";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
@@ -30,19 +35,19 @@ export const Catalog = ({ type }) => {
 					type='wire'
 					series='redFed'
 					link='/products/wire/redFed#'
-					image={RFMinilong}
+					image={RF}
 				/>
 				<Product
 					type='wire'
 					series='redDipole'
 					link='/products/wire/redDipole#'
-					image={placeHolder}
+					image={RD}
 				/>
 				<Product
 					type='wire'
 					series='redWire'
 					link='/products/wire/redWire#'
-					image={placeHolder}
+					image={RW}
 				/>
 			</li>
 		</>
@@ -88,25 +93,25 @@ export const Catalog = ({ type }) => {
 					type='accessories'
 					series='miniTuner'
 					link='/products/accessories/miniTuner#'
-					image={placeHolder}
+					image={tuner}
 				/>
 				<Product
 					type='accessories'
 					series='redChoke'
 					link='/products/accessories/redChoke#'
-					image={placeHolder}
+					image={redChoke}
 				/>
 				<Product
 					type='accessories'
 					series='redMount'
 					link='/products/accessories/redMount#'
-					image={placeHolder}
+					image={redMount}
 				/>
 				<Product
 					type='accessories'
 					series='redCon'
 					link='/products/accessories/redCon#'
-					image={placeHolder}
+					image={redCon}
 				/>
 				<Product
 					type='accessories'
@@ -131,7 +136,7 @@ export const Catalog = ({ type }) => {
 						</p>
 					</li>
 					<li className='placeHolder'>
-						<h3>Pojawią się już niedługo</h3>
+						<h3>{languageData.common.placeHolder}</h3>
 					</li>
 				</>
 			);
@@ -148,7 +153,7 @@ export const Catalog = ({ type }) => {
 						</p>
 					</li>
 					<li className='placeHolder'>
-						<h3>Pojawią się już niedługo</h3>
+						<h3>{languageData.common.placeHolder}</h3>
 					</li>
 					{accessories}
 				</>

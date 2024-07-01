@@ -2,7 +2,7 @@ import { BackgroundStyled } from ".";
 import { ImgFadeStyled } from "../imgFade/index";
 import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
-import backgroundImg from "../../img/RedFed zbiorcze 1.JPG";
+import backgroundImg from "../../img/RedFed-zbiorcze-1.webp";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 

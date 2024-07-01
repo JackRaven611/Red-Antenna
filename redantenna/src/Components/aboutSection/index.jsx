@@ -6,7 +6,7 @@ import { FONTSIZE } from "../../Consts/FontSize";
 
 export const AboutSectionStyled = styled.section`
 	margin: 11rem 0 8rem;
-	height: 45rem;
+	height: 90vh;
 	width: 100%;
 	display: flex;
 	justify-content: center;

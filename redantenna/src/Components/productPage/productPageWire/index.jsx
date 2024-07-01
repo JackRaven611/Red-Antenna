@@ -7,6 +7,7 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 export const ProductPageStyled = styled.section`
 	margin-top: 6rem;
 	background-color: ${COLORS.White};
+	min-height: 90vh;
 	width: 100%;
 	display: flex;
 	justify-content: center;

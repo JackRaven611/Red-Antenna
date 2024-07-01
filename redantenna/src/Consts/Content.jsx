@@ -20,6 +20,9 @@ export const TEXTS = {
 			storeTitle: "Sklep stacjonarny",
 			onlineStore: "Sklep online",
 			hoursTitle: "Godziny otwarcia",
+			placeHolder: "Już niedługo",
+			disclaimer:
+				"Anteny marki Red-Antenna oparte są na rdzeniach marki Amidon, na które nawinięty został podwójnie emaliowany drut DN2E, o zwiększonyej odporności na temperaturę oraz przebicia elektryczne. Zastosowany kondensator kompensacyjny posiada napięcie przebicia 3kV. całość opakowana jest w hermetyczną obudowę ABS, z wylaną uszczelką oraz uszczelnionymi połaczeniami. Zapewnia to wodoszczelność klasy IP67 oraz odporność na wstrząsy klasy IK09.",
 		},
 
 		nav: {
@@ -98,7 +101,8 @@ export const TEXTS = {
 					common: {
 						series: "Red - Fed",
 						description: "Anteny typu EFHW (End Fed Half Wire)",
-						descriptionPage: "",
+						descriptionPage:
+							"Anteny Red-Fed to popularna konstrukcja anteny pół-falowej, zasilanej na końcu (EFHW), co czyni ją bardzo wygodną w instalacji. Szczególną cechą tego typu anten jest bardzo niewielki wpływu sposobu zawieszenia na ich parametry czy rezonanse pracy (współczynnik SWR niewiele się zmieni). Dodatkową zaletą jest stała i przewidywalna charakterystyka pracy anteny (taka jak dipola półfalowego) na każdym paśmie. Zapewnia też możliwość uzyskania typowej dookólnej charakterystyki przy konfiguracji typu inverted-V. Nie do przecenienia jest również stosunkowo mała przestrzeń potrzebna do rozwieszenia anteny w jej wersji skróconej (zaledwie 23mb dla wersji pracującej w pasmach 80m i wyższych), przy bardzo niewielkiej różnicy jej skuteczności. Naszej konstrukcji anteny tego typu wyróżniają się na rynku  przeprowadzoną optymalizacją konstrukcji, popartą rzetelnymi pomiarami i testami praktycznymi. Dodatkowo nasze anteny serii Red-Fed posiadają na końcu promiennika odcinek stroika z konektorem, który podłączony lub odłączony odpowiednio przesuwa punkt rezonansu najniższego pasma pomiędzy niskim segmentem CW czy FT8, a wyższym segmentem pracy emisją SSB. Przy takim rozwiązaniu najczęściej dla Red-Feda nie jest potrzebny dodatkowy tuner antenowy. Do zwieszenia anteny służą dwa 10 metrowe odcinki linki PE, nie chłonącej wody, odpornej na substancje chemiczne,  organiczne oraz wytrzymałej na zrywanie. Ze względu na wąskie strojenie w najniszym paśmie, antena posiada możliwość odłączenia konektorem końcowego odcinka linki antenowej, co pozwala na szybką zmianę pasma z SSB na CW.",
 						descriptionPageTitle: "Seria Red-Fed",
 					},
 
@@ -289,7 +293,8 @@ export const TEXTS = {
 					common: {
 						series: "Red - Dipole",
 						description: "Anteny typu dipol",
-						descriptionPage: "",
+						descriptionPage:
+							"Red-Dipol jest klasyczną, prostą i popularną anteną, pozwalającą na pracę na wybranym paśmie amatorskim oraz przy wykorzystaniu dodatkowego tunera antenowego również na wyższych pasmach harmonicznych. Charakterystyczną cechą jest zależność całkowitej długości anteny od podstawowej częstotliwości jej pracy (najdłuższego obsługiwanego pasma). Długość anteny do połowa długości fali (pasma) na której pracuje. Dla pasma 80m długość to ok. 40mb, dla pasma 20m całkowita długość to ok. 10mb. Daje to możliwość stosowania dość krótkich, a jednocześnie efektywnie pracujących anten dla wyższych pasm krótkofalowych. Antena zapewnia przewidywalną charakterystykę pracy, z możliwością pracy dookólnej w konfiguracji inverted-V. Zasilana kablem koncentrycznym w środkowym punkcie długości promiennika.",
 						descriptionPageTitle: "Seria Red-Dipole",
 					},
 					mini: {
@@ -430,7 +435,8 @@ export const TEXTS = {
 					common: {
 						series: "Red - Wire",
 						description: "Anteny typu long-wire",
-						descriptionPage: "",
+						descriptionPage:
+							"Red-Wire jest klasyczną anteną typu long-wire z transformatorem 9:1, pozwalającą na pracę na pasmach amatorskich od 80m do 10m przy zastosowaniu tunera antenowego. W pewnych warunkach zawieszenia (wysokość, kąt, otoczenie) parametry takiej anteny mogą umożliwić pracę bez konieczności stosowania skrzynki antenowej, czasem z niezbędną korektą długości promiennika. Długość anteny to około 38 metrów. W odróżnieniu od anteny typu Red-Fed (gdzie jest stała), w tej konstrukcji charakterystyka pracy zmienia się w zależności od pasma. Największą zaletą anteny jest stosunkowo niekłopotliwe rozwieszenie wymagające tylko dwóch punktów z uwagi na zasilanie anteny kablem koncentrycznym na jej końcu.",
 						descriptionPageTitle: "Seria Red-Wire",
 					},
 					mini: {
@@ -637,7 +643,8 @@ export const TEXTS = {
 			vertical: {
 				common: {
 					title: "ANTENY PIONOWE",
-					description: "Anteny pionowe",
+					description:
+						"Anteny pionowe przede wszystkim charakteryzują się dookólną charakterystyką oraz zazwyczaj niskimi kątami promieniowania dzięki czemu idealnie sprawdzą się do łączności dalekosiężnych (DX). Część anten tej grupy stanowią przenośne konstrukcje, wygodne do pracy terenowej lub zainstalowania w warunkach o ograniczonych możliwościach (bez możliwości rozwieszenia długich anten drutowych).",
 				},
 				v3000: {
 					title: "",
@@ -664,7 +671,8 @@ export const TEXTS = {
 			accessories: {
 				common: {
 					title: "AKCESORIA",
-					description: "Akcesoria antenowe",
+					description:
+						"Starając się wyjść naprzeciw potrzebom, oferujemy różnego rodzaju przydatne akcesoria dedykowane do transceiverów lub anten.",
 				},
 				miniTuner: {
 					common: {
@@ -705,7 +713,7 @@ export const TEXTS = {
 						series: "Balun Red-Choke",
 						description: "Balun typu choker",
 						descriptionPage:
-							"Praktycznie każdy typ anteny zasilanej kablem koncentrycznym w miejscu podłączenia anteny powinien posiadać choke balun. Zastosowano tu zupełnie inne podejście niż klasyczne nawinięcie przewodu koncentrycznego na rdzenie ferrytowe, Choke-balun składa się z dwóch uzwojeń bifilarnych.",
+							"Praktycznie każdy typ anteny zasilanej kablem koncentrycznym w miejscu podłączenia anteny powinien posiadać balun pradowy typu choker (Choke Balun). Jego brak może mieć wpływ na pracę urządzeń elektronicznych powodując ich zakłócanie. Zapobiega także wnikaniu zakłóceń zewnętrznych podczas odbioru. Jeśli mamy symetryzator w miejscu zasilania anteny, warto zastosować również choke balun po stronie podłączenia kabla koncentrycznego do transceivera. Zamiast narzekać z powodu dużej ilości zakłóceń zastosuj choke-balun! W tym projekcie zastosowano zupełnie inne podejście niż klasyczne nawinięcie przewodu koncentrycznego na rdzenie ferrytowe i po pomiarach idea znalazła potwierdzenie w bardzo dobrych zmierzonych parametrach. Red-Choke składa się z dwóch uzwojeń bifilarnych. Całość zrobiona jest z maksymalną dbałością o idealną symetrię układu, włącznie z połączeniami wewnętrznymi. Teoria mówi, że żeby chocke-balun był skuteczny, reaktancja powinna być większa co najmniej 10 razy od impedancji, czyli 500ohm. Tutaj założenie mamy spełnione z bardzo dużym zapasem – tłumienie dla pasma 80m jest u nas 30 krotnie większe niż impedancja. W całym paśmie KF do 30MHz współczynnik SWR wynosi maksymalnie 1.12 (dla pasm poniżej 40m wynosi poniżej 1.02), więc straty praktycznie nie ma żadnej. Z nieco mniejszą, ale nadal dużą skutecznością pracuje również w paśmie 160m (w przeciwieństwie do popularnych konstrukcji opartych na rdzeniach FT240-43).",
 						weight: "...g",
 						power: "max 1.5KW",
 						size: "170x75x55",
@@ -811,6 +819,7 @@ export const TEXTS = {
 			storeTitle: "Physical location",
 			onlineStore: "Online store",
 			hoursTitle: "Opening hours",
+			placeHolder: "Comming soon",
 			distributorsTitle: "EU Distributors",
 		},
 
@@ -853,7 +862,7 @@ export const TEXTS = {
 
 		aboutSection: {
 			title: "Communication is our passion",
-			text: "The history of our brand began several years ago with the need to provide antennas of the highest quality, both in terms of workmanship and well thought out and optimal design that would meet the high end requirements. With the appropriate technical capabilities of our service and expertise, we decided to start producing high-end products, i.e. of the highest quality, with attention actually to every detail. Unlike other brands, we introduced the principle of providing reliable information about the working parameters of antennas. For example - instead of the maximum instantaneous transmitted power, leading to damage to the antenna (as stated by most other manufacturers), we inform about the maximum working power of the antenna (i.e. the maximum power of continuous radiation at which its performance does not deteriorate), and thus the maximum limit of durability of the antenna is much higher. We attach the same importance to taking actual measurements of the antenna transformers made (unlike mass production, where actual measurements of individual units are omitted). Our main goal, therefore, is to build a brand of premium products (which are often lacking in this market segment).",
+			text: "The history of our brand began several years ago with the need to provide antennas of the highest quality, both in terms of workmanship and well thought out and optimal design that would meet the high end requirements. With the appropriate technical capabilities of our service and expertise, we decided to start producing high-end products, i.e. of the highest quality, with attention actually to every detail. Unlike other brands, we introduced the principle of providing reliable information about the working parameters of antennas. For example - instead of the maximum constant transmitted power, leading to damage to the antenna (as stated by most other manufacturers), we inform about the maximum working power of the antenna (i.e. the maximum power of continuous radiation at which its performance does not decrease), and thus the maximum limit of durability of the antenna is much higher. We attach the same importance to taking actual measurements of the antenna transformers made (unlike mass production, where actual measurements of individual units are omitted). Our main goal, therefore, is to build a brand of premium products (which are often lacking in this market segment).",
 			wsrp: "Our antennas are tested for actual effectiveness using reliable WSPR reports. Receiving stations are located around the world and transmit the exact level of received signal strength (in units of dBm). We use this system to optimize the design and construction of our antennas.",
 		},
 		contactSection: {
@@ -905,13 +914,14 @@ export const TEXTS = {
 				common: {
 					title: "WIRE ANTENNAS",
 					description:
-						"Popular solution for short-wave bands in particular. Due to the often considerable length of the radiator, they provide very good efficiency for low frequencies. They are usually installed in horizontal polarization, oblique polarization or as an inverted V. Designs are available with varying lengths and radiation characteristics. One of the most popular in this group of antennas is the Red-Fed series.",
+						"Popular solution for short-wave bands. Due to the length of the radiator, they provide very good efficiency for low frequencies. They are usually installed in horizontal polarization, sloper polarization or as an inverted V. Different designs are available with varying lengths and radiation characteristics. One of the most popular in this group of antennas is the Red-Fed series.",
 				},
 				redFed: {
 					common: {
 						series: "Red - Fed",
 						description: "EFHW antennas (End Fed Half Wire)",
-						descriptionPage: "",
+						descriptionPage:
+							"Red-Fed antennas are a popular recent design of end-fed half-wave (EFHW) antennas, which makes them very convenient to install. A special feature of this type of antenna is that the way it is suspended has very little effect on its performance or operating resonances (the SWR coefficient will not change much). An additional advantage is the antenna's constant and predictable performance characteristics (such as a half-wave dipole) on each band. It also provides the ability to achieve a typical omnidirectional characteristic with an inverted-V configuration. Also not to be underestimated is the relatively small space required to hang the antenna in its shortened version (only 23mb for the version operating in the 80m and higher bands), with very little difference in its efficiency. Our design of this type of antenna stands out in the market for the optimized design carried out, supported by reliable measurements and practical tests. In addition, our Red-Fed series antennas have a reed section with a connector at the end of the radiator, which, connected or disconnected, appropriately shifts the resonance point of the lowest band between the low segment of CW or FT8, and the higher segment of SSB operation. With this solution, most often for Red-Fed, no additional antenna tuner is needed.",
 						descriptionPageTitle: "Red-Fed series",
 					},
 
@@ -960,7 +970,7 @@ export const TEXTS = {
 
 					midi: {
 						description:
-							"This antenna is designed mainly for field trips and vacations, offering greater mechanical strength than the Mini version, making it more resistant to harsh weather conditions. It uses a balun with increased transmitted power, making the Midi series antennas suitable for use with standard KF transceivers.",
+							"This antenna is designed mainly for field trips and vacations, offering greater mechanical strength than the Mini version, making it more resistant to harsh weather conditions. It uses a balun with increased transmitted power, making the Midi series antennas suitable for use with standard HF transceivers.",
 						model: "Red-Fed Midi",
 						range: "around 80kHz",
 						swr: "<2.0",
@@ -992,7 +1002,7 @@ export const TEXTS = {
 
 					standard: {
 						description:
-							"Antenna for seasonal use, such as longer holiday trips, camps or on a recreational plot, wherever there will be a need to work through, for example, the summer season and we have the opportunity to work comparable to a home QTH. The Standard series balun used in the antenna allows free operation with serial KF transceivers and small power amplifiers.",
+							"Antenna for seasonal use, such as longer holiday trips, camps or on a recreational plot, wherever there will be a need to work through, for example, the summer season and we have the opportunity to work comparable to a home QTH. The Standard series balun used in the antenna allows free operation with serial HF transceivers and small power amplifiers.",
 						model: "Red-Fed Standard",
 						range: "around 80kHz",
 						swr: "<2.0",
@@ -1091,7 +1101,8 @@ export const TEXTS = {
 					common: {
 						series: "Red - Dipole",
 						description: "Dipole antennas",
-						descriptionPage: "",
+						descriptionPage:
+							"Red-Dipol is a classic, simple and popular antenna, allowing operation on the selected amateur band and, with the use of an additional antenna tuner, also on higher harmonic bands. A characteristic feature is the dependence of the total length of the antenna on the fundamental frequency of its operation (the longest band supported). The length of the antenna to half the wavelength (band) on which it operates. For the 80m band the length is about 40mb, for the 20m band the total length is about 10mb. This gives the possibility to use quite short, yet effectively working antennas for higher shortwave bands. The antenna provides predictable performance characteristics, with omnidirectional operation in an inverted-V configuration. Powered by a coaxial cable at the center point of the radiator length.",
 						descriptionPageTitle: "Red-Dipole series",
 					},
 					mini: {
@@ -1138,7 +1149,7 @@ export const TEXTS = {
 					},
 					standard: {
 						description:
-							"The D80STD antenna is intended mainly for longer stationary trips, where the size of the antenna during transport or its weight no longer plays such a big role, and the issue of mechanical strength becomes more important. It is designed to work with standard KF transceivers of 100W or 200W power, and has an adequate reserve of transmitted power, even in the case of digital emissions.",
+							"The D80STD antenna is intended mainly for longer stationary trips, where the size of the antenna during transport or its weight no longer plays such a big role, and the issue of mechanical strength becomes more important. It is designed to work with standard HF transceivers of 100W or 200W power, and has an adequate reserve of transmitted power, even in the case of digital emissions.",
 						model: "Red-Dipole D80STD",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
@@ -1226,7 +1237,8 @@ export const TEXTS = {
 					common: {
 						series: "Red - Wire",
 						description: "Long-wire antennas",
-						descriptionPage: "",
+						descriptionPage:
+							"Red-Wire is a classic long-wire antenna with a 9:1 transformer, allowing operation on amateur bands from 80m to 10m using an antenna tuner. Under certain suspension conditions (height, angle, environment) the parameters of such an antenna can allow operation without the need for an antenna box, sometimes with the necessary adjustment of the radiator length. The length of the antenna is about 38 meters. Unlike the Red-Fed antenna (where it is fixed), in this design the operating characteristics change depending on the band. The biggest advantage of the antenna is the relatively hassle-free deployment requiring only two points due to the antenna's coaxial cable feed at the end.",
 						descriptionPageTitle: "Red-Wire series",
 					},
 					mini: {
@@ -1421,7 +1433,8 @@ export const TEXTS = {
 			vertical: {
 				common: {
 					title: "VERTICAL ANTENNAS",
-					description: "Vertical antennas",
+					description:
+						"Vertical antennas are primarily characterized by omnidirectional characteristics and usually low radiation angles, making them ideal for long-range (DX) communications. Some of the antennas of this group are portable structures, convenient for field work or installation in conditions with limited possibilities (without the possibility of hanging long wire antennas).",
 				},
 				v3000: {
 					title: "",
@@ -1448,7 +1461,8 @@ export const TEXTS = {
 			accessories: {
 				common: {
 					title: "ACCESSORIES",
-					description: "Antenna accessories",
+					description:
+						"In an effort to meet the needs, we offer all sorts of useful accessories dedicated to transceivers or antennas.",
 				},
 				miniTuner: {
 					common: {
@@ -1487,7 +1501,7 @@ export const TEXTS = {
 						series: "Red-Choke",
 						description: "Choke Balun",
 						descriptionPage:
-							"Virtually every type of antenna fed by coaxial cable at the antenna connection point should have a choke balun. A completely different approach from the classic winding of coaxial cable on ferrite cores is used here, the choke-balun consists of two bifilar windings.",
+							"Virtually every type of antenna fed by coaxial cable at the point of antenna connection should have a choker balun (Choke Balun). Its absence can affect the operation of electronic devices, causing them to interfere. It also prevents the intrusion of external interference during reception. If you have a symmetrizer at the feed point of the antenna, it is worthwhile to also use a choke balun on the coaxial cable connection side of the transceiver. Instead of complaining about a lot of interference, use a choke-balun! This design uses a completely different approach than the classic winding of coaxial cable on ferrite cores, and after measurements the idea was confirmed by very good measured parameters. Red-Choke consists of two bifilar windings. The whole thing is done with maximum attention to the perfect symmetry of the circuit, including the internal connections. The theory says that for a chocke-balun to be effective, the reactance should be at least 10 times the impedance, or 500ohm. Here we have the assumption fulfilled by a very large margin - the attenuation for the 80m band is at us 30 times the impedance. In the entire KF band up to 30MHz, the SWR ratio is at most 1.12 (for bands below 40m it is below 1.02), so there is virtually no loss. It also works in the 160m band with slightly less, but still high efficiency (unlike popular designs based on FT240-43 cores).",
 						weight: "...g",
 						power: "max 1.5KW",
 						size: "170x75x55",

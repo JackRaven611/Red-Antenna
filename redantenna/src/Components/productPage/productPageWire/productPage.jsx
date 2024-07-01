@@ -69,6 +69,9 @@ export const ProductPage = ({ series, type, size }) => {
 								languageData.products.wire[series].common
 									.descriptionPage
 							}
+							<br />
+							<br />
+							{languageData.common.disclaimer}
 						</p>
 					</div>
 					<ul>

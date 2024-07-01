@@ -7,6 +7,7 @@ import { FONTSIZE } from "../../Consts/FontSize";
 export const ContactSectionStyled = styled.section`
 	margin: 11rem 0 8rem;
 	width: 100%;
+	height: 90vh;
 	display: flex;
 	justify-content: center;
 	height: auto;
@@ -26,6 +27,7 @@ export const ContactSectionStyled = styled.section`
 		width: 100%;
 		object-fit: cover;
 		max-height: 20rem;
+		object-position: 0 -4rem;
 	}
 
 	div {

@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import { LanguageContext } from "../../languageChange/languageContext";
 import { ProductPageStyled } from "../productPageWire";
 import { VaraintAcc } from "./variantAcc";
@@ -29,17 +30,29 @@ export const ProductPageAcc = ({ series, size }) => {
 								: product.common.descriptionPage}
 						</p>
 						<div className='linkWrapper'>
-							<a
-								target='_blank'
-								rel='noopener noreferrer'
-								href={
-									product[size]
-										? product[size].storeLink
-										: product.common.storeLink
-								}
-							>
-								{common.linkTitle}
-							</a>
+							{languageData.common.pl ? (
+								<a
+									target='_blank'
+									rel='noopener noreferrer'
+									href={
+										product[size]
+											? product[size].storeLink
+											: product.common.storeLink
+									}
+								>
+									{common.linkTitle}
+								</a>
+							) : (
+								<Link
+									to={
+										product[size]
+											? product[size].storeLink
+											: product.common.storeLink
+									}
+								>
+									{common.linkTitle}
+								</Link>
+							)}
 						</div>
 					</aside>
 				</div>
