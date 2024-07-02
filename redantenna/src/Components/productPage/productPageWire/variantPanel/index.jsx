@@ -82,7 +82,7 @@ export const VariantPanelStyled = styled.div`
 		}
 	}
 
-	@media screen and (max-width: 420px) {
+	@media screen and (max-width: 520px) {
 		margin: 0.5rem 0;
 
 		select {
@@ -90,6 +90,7 @@ export const VariantPanelStyled = styled.div`
 		}
 
 		.checkboxes {
+			gap: 0.5rem;
 			li {
 				label {
 					padding: 0 0.5rem;

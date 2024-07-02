@@ -10,7 +10,6 @@ import RFExtremelong from "../../../img/endfed extreme bez cewki.webp";
 import RFExtremeshort from "../../../img/endfed extreme.webp";
 
 import RWMinilong from "../../../img/wire MINI 02.webp";
-
 import RWMidilong from "../../../img/wire MIDI 02.webp";
 
 import RDMini from "../../../img/dipol MINI.webp";

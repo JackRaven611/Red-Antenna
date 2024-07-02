@@ -108,7 +108,7 @@ export const TEXTS = {
 
 					mini: {
 						description:
-							"Antena przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
+							"Anteny serii Mini dedykowane są do użytku terenowego z najpopularniejszymi transceiverami QRP, np. Yaesu FT817/818, Icom IC-705, Xiegu, czy konstrukcjami home-made QRP. Charakteryzują się niewielkimi rozmiarami po złożeniu oraz wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Mini doskonale nadają się do szybkich instalacji, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia. Ze względu na chęć redukcji wielkości i wagi oraz braku większych obciążeń mechanicznych, zastosowano elementy metalowe o rozmiarze M4. Zrezygnowano również z niektórych elementów występujących w innych antenach Red-Fed. Mała obudowa baluna wymusiła konieczność zastosowania gniazda BNC zamiast najpopularniejszego złącza SO239 (UC1), co w żadnym stopniu nie wpływa na funkcjonalności anteny.",
 						model: "Red-Fed Mini",
 						range: "około 80kHz",
 						swr: "<2.0",
@@ -154,7 +154,7 @@ export const TEXTS = {
 
 					midi: {
 						description:
-							"Antena przeznaczona głównie do wyjazdów terenowych i wakacyjnych, oferująca większą wytrzymałość mechaniczną niż wersja Mini, przez co jest bardziej odporna na trudne warunki atmosferyczne. Zastosowano tutaj balun o zwiększonej przenoszonej mocy, dzięki czemu anteny z serii Midi nadają się do pracy ze standardowymi transceiverami KF.",
+							"Anteny serii Midi powstały z myślą o wyprawach terenowych z wykorzystaniem transceiverów o pełnej mocy 100W. W stosunku do serii Mini, główny nacisk położono na zwiększenie wytrzymałości mechanicznej i elektrycznej, kosztem zwiększenia wagi i wymiarów. Najczęstszym zastosowaniem tych anten będą wyprawy terenowe, obozy czy kempingi. Zwiększona wytrzymałość pozwala na eksploatację takich anten w różnych warunkach pogodowych, w tym również podczas silniejszych wiatrów. Zastosowany tu transformator pozwala na pracę z mocą 150W SSB PEP oraz ciągłą pracę z mocą 75W.",
 						model: "Red-Fed Midi",
 						range: "około 80kHz",
 						swr: "<2.0",
@@ -188,7 +188,7 @@ export const TEXTS = {
 
 					standard: {
 						description:
-							"Antena do zastosowań sezonowych, takich jak dłuższe wyjazdy wakacyjne, obozy czy na działce rekreacyjnej, wszędzie tam gdzie zaistnieje potrzeba pracy przez np. sezon letni i mamy możliwość pracy porównywalnej z domowym QTH. Użyty w antenie balun z serii Standard pozwala na swobodą pracę z seryjnymi transceiverami KF oraz z małymi wzmacniaczami mocy.",
+							"Wersja Standard doskonale sprawdzi się w przypadku dłuższych wyjazdów wakacyjnych, obozów, czy do instalacji na cały sezon. Można ją również zastosować do instalacji całorocznej w warunkach umiarkowanego klimatu. Nacisk został tu położony na zwiększoną wytrzymałość mechaniczną anteny poprzez zastosowania grubszej linki antenowej ni z w serii Midi. Użyty w antenie transformator serii Standard pozwala na swobodną pracę z fabrycznymi transceiverami KF oraz z małymi wzmacniaczami mocy. W trakcie testów transformator wytrzymał 500W mocy ciągłej FM (@29MHz), osiągając po 5 minutach temperaturę ok. 50°C.",
 						model: "Red-Fed Standard",
 						range: "około 80kHz",
 						swr: "<2.0",
@@ -223,7 +223,7 @@ export const TEXTS = {
 
 					hd: {
 						description:
-							"Antena o podwyższonej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na balunach z serii Standard i w związku z tym przenoszą takie same moce jak Red-Fed Standard. Wzmocnieniu jednak uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu czy szadzi.",
+							"Anteny Red-Fed HD (Heavy Duty) są antenami o dużej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na transformatorach serii Standard i w związku z tym przenoszą takie same moce. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu, oblodzenia, czy podczas silnych wiatrów.",
 						model: "Red-Fed HD",
 						range: "około 80khz",
 						swr: "<2.0",
@@ -256,7 +256,7 @@ export const TEXTS = {
 					},
 					extreme: {
 						description:
-							"Anteny Red-Fed Short Extreme są antenami o podwyższonej wytrzymałości, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu czy szadzi. arze M5, co zapewnia odpowiednią wytrzymałość mechaniczną oraz odporność na czynniki środowiskowe. W tym przypadku w środowiskach nieagresywnych chemicznie trwałość takiego osprzętu obliczana jest na około 25 lat.",
+							"Anteny Red-Fed serii Extreme są antenami o największej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Promiennik z linki stalowej nierdzewnej, kwasoodpornej o dużej wytrzymałości. Zmodyfikowano też sposób montażu transformatora, który teraz nie przenosi na sobie obciążeń mechanicznych związanych z naciąganiem anteny.",
 						model: "Red-Fed Extreme",
 						range: "około 300kHz",
 						swr: "<2.0",
@@ -272,6 +272,8 @@ export const TEXTS = {
 						antennaWire: "linka stalowa 1.5mm",
 						wire: "2x 10m PE 4mm",
 						long: {
+							description:
+								"Antena w wersji Full ma pełną długość promiennika bez cewki skracającej, co zapewnia maksymalną skuteczność pracy w paśmie 80m. Długość całkowita anteny to 39mb. Cienka linka stalowa jest prawie niewidoczna na tle nieba.",
 							model: "Red-Fed 80-10 Full Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "około 39m",
@@ -280,6 +282,8 @@ export const TEXTS = {
 								"https://www.ercomer.pl/pl/p/Red-Fed-80-10-Full-Extreme/3553",
 						},
 						short: {
+							description:
+								"Antena w wersji Short ma skróconą długość promiennika cewką skracającą, co umożliwiło zastosowanie linki o długości zaledwie 23mb, przy tylko nieznacznie zmniejszonej skuteczności pracy anteny w paśmie 80m.",
 							model: "Red-Fed 80-10 Short Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "około 23m",
@@ -927,7 +931,7 @@ export const TEXTS = {
 
 					mini: {
 						description:
-							"The antenna is designed for use in off-road and hiking conditions. It is characterized by its small size when folded and light weight, which is invaluable when hiking off-road. Such an antenna will fit folded even into a jacket pocket. Mini versions are ideal for quick installations, done on the run, unfolded for a few hours, in conditions that do not require long-term suspension and in places not exposed to extreme weather conditions (wind, rime).",
+							"Mini series antennas are designated for field use with the most popular QRP transceivers, such as Yaesu FT817/818, Icom IC-705, Xiegu, or home-made QRP designs. They are characterized by their small size when assembled and their weight, which cannot be underestimated during field trips on foot. The minis are ideal for quick installations, folded out over a few hours, in conditions that do not require long-term setup. Due to the desire to reduce size and weight, as well as the lack of major mechanical loads, M4-size metal parts were used. Some of the components found in other Red-Fed antennas were eliminated. The balun's small housing forced the use of a BNC socket instead of the most popular SO239 (UC1) connector, which in no way affects the antenna's functionality.",
 						model: "Red-Fed Mini",
 						range: "around 80kHz",
 						swr: "<2.0",
@@ -970,7 +974,7 @@ export const TEXTS = {
 
 					midi: {
 						description:
-							"This antenna is designed mainly for field trips and vacations, offering greater mechanical strength than the Mini version, making it more resistant to harsh weather conditions. It uses a balun with increased transmitted power, making the Midi series antennas suitable for use with standard HF transceivers.",
+							"The Midi series antennas were designed for off-road expeditions using full-power 100W transceivers. Compared to the Mini series, the main focus was on increasing mechanical and electrical strength, at the expense of increased weight and size. The most common application for these antennas will be off-road expeditions or camping. The increased durability allows such antennas to be operated in a variety of weather conditions, including stronger winds. The transformer used here allows 150W SSB PEP and continuous operation at 75W.",
 						model: "Red-Fed Midi",
 						range: "around 80kHz",
 						swr: "<2.0",
@@ -1002,7 +1006,7 @@ export const TEXTS = {
 
 					standard: {
 						description:
-							"Antenna for seasonal use, such as longer holiday trips, camps or on a recreational plot, wherever there will be a need to work through, for example, the summer season and we have the opportunity to work comparable to a home QTH. The Standard series balun used in the antenna allows free operation with serial HF transceivers and small power amplifiers.",
+							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The emphasis here is on increased mechanical strength of the antenna through the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work freely with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
 						model: "Red-Fed Standard",
 						range: "around 80kHz",
 						swr: "<2.0",
@@ -1035,7 +1039,7 @@ export const TEXTS = {
 
 					hd: {
 						description:
-							"Antennas with increased mechanical strength, making them ideal for use as all-season stationary antennas. They are based on Standard Series baluns and therefore carry the same power as Red-Fed Standard. However, the mechanical structure has been strengthened, so the antenna can be used year-round without worrying about breaking under the weight of snow or rime.",
+							"The Red-Fed Extreme series antennas have the highest mechanical strength, which makes them perfect for all-season stationary antennas. The radiator is made of stainless, acid-resistant steel wire with high strength. The mounting of the transformer has also been modified, which now does not carry the mechanical loads of antenna tension.",
 						model: "Red-Fed HD",
 						range: "around 80khz",
 						swr: "<2.0",
@@ -1082,6 +1086,8 @@ export const TEXTS = {
 						antennaWire: "steel wire 1.5mm",
 						wire: "2x 10m PE 4mm",
 						long: {
+							description:
+								"The Full version of the antenna has a full length radiator without the shortening coil, which ensures maximum efficiency of operation in the 80m band. The total length of the antenna is 39mb. The thin steel wire is almost invisible against the sky.",
 							model: "Red-Fed 80-10 Full Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "around 39m",
@@ -1089,6 +1095,8 @@ export const TEXTS = {
 							storeLink: "/distributors#",
 						},
 						short: {
+							description:
+								"The Short version of the antenna has shortened the length of the radiator with a shortening coil, making it possible to use a line of only 23mb, with only a slight reduction in the antenna's performance in the 80m band.",
 							model: "Red-Fed 80-10 Short Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "around 23m",

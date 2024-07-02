@@ -27,7 +27,6 @@ export const ContactSectionStyled = styled.section`
 		width: 100%;
 		object-fit: cover;
 		max-height: 20rem;
-		object-position: 0 -4rem;
 	}
 
 	div {

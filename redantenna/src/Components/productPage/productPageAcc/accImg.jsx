@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { LanguageContext } from "../../languageChange/languageContext";
-import miniTuner from "../../../img/mini-tuner 02.webp";
+import miniTunershort from "../../../img/mini-tuner 02.webp";
+import miniTunerlong from "../../../img/mini-tuner.webp";
 import redChoke from "../../../img/choke balun 02.webp";
 import redMount from "../../../img/szpila.webp";
 import redCon from "../../../img/zestaw 01.webp";
@@ -13,8 +14,8 @@ export const AccImg = ({ series, size }) => {
 	const product = languageData.products.accessories[series];
 
 	const acc = {
-		miniTunershort: miniTuner,
-		miniTunerlong: miniTuner,
+		miniTunershort: miniTunershort,
+		miniTunerlong: miniTunerlong,
 		redChoke: redChoke,
 		redMount: redMount,
 		redConshort: redCon,

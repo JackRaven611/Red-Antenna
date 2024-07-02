@@ -28,6 +28,9 @@ export const ProductPage = ({ series, type, size }) => {
 							{size === "max"
 								? product.max.description
 								: product.description}
+							{type === "extreme"
+								? product[size].description
+								: null}
 						</p>
 						<div className='linkWrapper'>
 							{languageData.common.pl ? (

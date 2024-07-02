@@ -4,6 +4,8 @@ import { LanguageContext } from "../languageChange/languageContext";
 import ERcomER from "../../img/ercomer.png";
 import Wimo from "../../img/Wimo.png";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const DistributorsSection = () => {
 	const { languageData } = useContext(LanguageContext);
 

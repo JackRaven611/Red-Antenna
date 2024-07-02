@@ -11,7 +11,7 @@ export const ProductPageStyled = styled.section`
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 
 	.wrapper {
 		background-color: ${COLORS.White};
@@ -177,6 +177,7 @@ export const ProductPageStyled = styled.section`
 	}
 
 	@media screen and (max-width: 1290px) {
+		min-height: 50vh;
 		.wrapper {
 			width: 90%;
 			margin: 0;

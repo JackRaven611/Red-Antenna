@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const DistributorsSectionStyled = styled.section`
 	margin: 11rem 0 8rem;
 	width: 100%;
