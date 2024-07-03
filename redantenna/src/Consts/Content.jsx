@@ -223,7 +223,7 @@ export const TEXTS = {
 
 					hd: {
 						description:
-							"Anteny Red-Fed HD (Heavy Duty) są antenami o dużej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na transformatorach serii Standard i w związku z tym przenoszą takie same moce. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu, oblodzenia, czy podczas silnych wiatrów.",
+							"Anteny serii HD (Heavy Duty) są antenami o dużej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na transformatorach serii Standard i w związku z tym przenoszą takie same moce. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu, oblodzenia, czy podczas silnych wiatrów.",
 						model: "Red-Fed HD",
 						range: "około 80khz",
 						swr: "<2.0",
@@ -298,12 +298,12 @@ export const TEXTS = {
 						series: "Red - Dipole",
 						description: "Anteny typu dipol",
 						descriptionPage:
-							"Red-Dipol jest klasyczną, prostą i popularną anteną, pozwalającą na pracę na wybranym paśmie amatorskim oraz przy wykorzystaniu dodatkowego tunera antenowego również na wyższych pasmach harmonicznych. Charakterystyczną cechą jest zależność całkowitej długości anteny od podstawowej częstotliwości jej pracy (najdłuższego obsługiwanego pasma). Długość anteny do połowa długości fali (pasma) na której pracuje. Dla pasma 80m długość to ok. 40mb, dla pasma 20m całkowita długość to ok. 10mb. Daje to możliwość stosowania dość krótkich, a jednocześnie efektywnie pracujących anten dla wyższych pasm krótkofalowych. Antena zapewnia przewidywalną charakterystykę pracy, z możliwością pracy dookólnej w konfiguracji inverted-V. Zasilana kablem koncentrycznym w środkowym punkcie długości promiennika.",
+							"Red-Dipol D80 jest klasyczną prostą anteną, pozwalającą na pracę w paśmie amatorskim 80m. Dodatkowo po zastosowaniu tunera antenowego tego typu antena pozwoli również na pracę na pozostałych harmonicznych pasmach KF (40m-10m). Jest to jedna z najpopularniejszych konstrukcji anteny używanej przez krótkofalowców o długości całkowitej równej połowie długości falowej jej podstawowego pasma (ok. 40mb). W naszej antenie zastosowano symetryzator (transformator 1:1), który jest niezbędny do poprawnej pracy tej anteny. Antena jest zasilana w jej centralnym punkcie, co jest w niektórych przypadkach zaletą (np. przy instalacji typu Inverted-V), ale w niektórych bywa kłopotliwe (i wygodniejsze są anteny zasilane na ich końcu). Klasyczny dipol ma przewidywalną charakterystykę pracy. Oferujemy również na indywidualne zamówienie wykonanie anteny na inne pasma bazowe (np. 40m lub 20m, itd), antena będzie wówczas odpowiednio krótsza.",
 						descriptionPageTitle: "Seria Red-Dipole",
 					},
 					mini: {
 						description:
-							"Antena D80mini jest anteną typowo wyprawową, której konstrukcja zoptymalizowana została pod kątem wagi oraz zajmowanego miejsca w ekwipunku wyprawowym. Dodatkowo po zastosowaniu tunera antenowego, pozwala na pracę na paśmie amatorskim 80m.",
+							"Anteny serii Mini dedykowane są do użytku terenowego z najpopularniejszymi transceiverami QRP, np. Yaesu FT817/818, Icom IC-705, Xiegu, czy konstrukcjami home-made QRP. Charakteryzują się niewielkimi rozmiarami po złożeniu oraz wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Mini doskonale nadają się do szybkich instalacji, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia. Ze względu na chęć redukcji wielkości i wagi oraz braku większych obciążeń mechanicznych, zastosowano elementy metalowe o rozmiarze M4. Zrezygnowano również z niektórych elementów występujących w innych antenach Red-Dipole. Mała obudowa baluna wymusiła konieczność zastosowania gniazda BNC zamiast najpopularniejszego złącza SO239 (UC1), co w żadnym stopniu nie wpływa na funkcjonalności anteny.",
 						model: "Red-Dipole D80mini",
 						bands: "80m, 40m-10m ze skrzynką antenową",
 						span: "około 39m",
@@ -325,7 +325,7 @@ export const TEXTS = {
 					},
 					midi: {
 						description:
-							"Antena D80Midi jest anteną typowo terenową, przeznaczoną głównie na dłuższe wyjazdy. Można ją bezproblemowo użytkować np. przez cały sezon letni na działce. Zachowuje przy tym na tyle małe gabaryty po złożeniu, że z łatwością znajdzie się na nią miejsce w wyprawowym ekwipunku. Po zastosowaniu tunera antenowego, pozwala na pracę na paśmie amatorskim 80m.",
+							"Anteny serii Midi powstały z myślą o wyprawach terenowych z wykorzystaniem transceiverów o pełnej mocy 100W. W stosunku do serii Mini, główny nacisk położono na zwiększenie wytrzymałości mechanicznej i elektrycznej, kosztem zwiększenia wagi i wymiarów. Najczęstszym zastosowaniem tych anten będą wyprawy terenowe, obozy czy kempingi. Zwiększona wytrzymałość pozwala na eksploatację takich anten w różnych warunkach pogodowych, w tym również podczas silniejszych wiatrów. Zastosowany tu transformator pozwala na pracę z mocą 150W SSB PEP oraz ciągłą pracę z mocą 75W.",
 						model: "Red-Dipole D80midi",
 						bands: "80m, 40m-10m ze skrzynką antenową",
 						span: "około 39m",
@@ -347,7 +347,7 @@ export const TEXTS = {
 					},
 					standard: {
 						description:
-							"Antena D80STD jest przeznaczona głównie na dłuższe wyjazdy stacjonarne, gdzie wielkość anteny w trakcie transportu czy jej ciężar nie gra już tak dużej roli, a większe znaczenie zaczyna mieć kwestia wytrzymałości mechanicznej. Przeznaczona jest do współpracy ze standardowymi transceiverami KF o mocy 100W czy 200W i posiadający odpowiedni zapas przenoszonej mocy, nawet w przypadku emisji cyfrowych.",
+							"Wersja Standard doskonale sprawdzi się w przypadku dłuższych wyjazdów wakacyjnych, obozów, czy do instalacji na cały sezon. Można ją również zastosować do instalacji całorocznej w warunkach umiarkowanego klimatu. Nacisk został tu położony na zwiększoną wytrzymałość mechaniczną anteny poprzez zastosowania grubszej linki antenowej ni z w serii Midi. Użyty w antenie transformator serii Standard pozwala na swobodną pracę z fabrycznymi transceiverami KF oraz z małymi wzmacniaczami mocy. W trakcie testów transformator wytrzymał 500W mocy ciągłej FM (@29MHz), osiągając po 5 minutach temperaturę ok. 50°C.",
 						model: "Red-Dipole D80STD",
 						bands: "80m, 40m-10m ze skrzynką antenową",
 						span: "około 39m",
@@ -370,7 +370,7 @@ export const TEXTS = {
 					},
 					hd: {
 						description:
-							"Wersja HD (Heavy Duty) jest wersją przeznaczoną do zastosowań przede wszystkim stacjonarnych, gdzie odpowiednia wytrzymałość mechaniczna anteny nie musi być kompromisem w stosunku do jej ciężaru czy wielkości po złożeniu.",
+							"Anteny serii HD (Heavy Duty) są antenami o dużej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na transformatorach serii Standard i w związku z tym przenoszą takie same moce. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu, oblodzenia, czy podczas silnych wiatrów.",
 						model: "Red-Dipole D80HD",
 						bands: "80m, 40m-10m ze skrzynką antenową",
 						span: "około 39m",
@@ -392,7 +392,7 @@ export const TEXTS = {
 					},
 					hd600: {
 						description:
-							"Wersja HD 600W+ jest wersją przeznaczoną do zastosowań przede wszystkim stacjonarnych, gdzie odpowiednia wytrzymałość mechaniczna anteny nie musi być kompromisem w stosunku do jej ciężaru czy wielkości po złożeniu. Balun tej anteny wykonany jest na dwóch rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę z mocami 500W-600W.",
+							"Anteny serii HD (Heavy Duty) są antenami o dużej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na transformatorach serii Standard i w związku z tym przenoszą takie same moce. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu, oblodzenia, czy podczas silnych wiatrów. Balun tej anteny wykonany jest na dwóch rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę z wzmacniaczami PA o mocy ciągłej 500W-600W.",
 						model: "Red-Dipole D80HD 600W+",
 						bands: "80m, 40m-10m ze skrzynką antenową",
 						span: "około 39m",
@@ -414,7 +414,7 @@ export const TEXTS = {
 					},
 					hd1500: {
 						description:
-							"Wersja HD 1500W+ jest wersją przeznaczoną do zastosowań przede wszystkim stacjonarnych, gdzie odpowiednia wytrzymałość mechaniczna anteny nie musi być kompromisem w stosunku do jej ciężaru czy wielkości po złożeniu. Balun tej anteny wykonany jest na trzech rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę z większością wzmacniaczy mocy PA",
+							"Anteny serii HD (Heavy Duty) są antenami o dużej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na transformatorach serii Standard i w związku z tym przenoszą takie same moce. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu, oblodzenia, czy podczas silnych wiatrów. Balun tej anteny wykonany jest na trzech rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę z wzmacniaczami PA o mocy ciągłej 1200W-1500W.",
 						model: "Red-Dipol D80HD 1500W+",
 						bands: "80m, 40m-10m ze skrzynką antenową",
 						span: "około 39m",
@@ -440,12 +440,12 @@ export const TEXTS = {
 						series: "Red - Wire",
 						description: "Anteny typu long-wire",
 						descriptionPage:
-							"Red-Wire jest klasyczną anteną typu long-wire z transformatorem 9:1, pozwalającą na pracę na pasmach amatorskich od 80m do 10m przy zastosowaniu tunera antenowego. W pewnych warunkach zawieszenia (wysokość, kąt, otoczenie) parametry takiej anteny mogą umożliwić pracę bez konieczności stosowania skrzynki antenowej, czasem z niezbędną korektą długości promiennika. Długość anteny to około 38 metrów. W odróżnieniu od anteny typu Red-Fed (gdzie jest stała), w tej konstrukcji charakterystyka pracy zmienia się w zależności od pasma. Największą zaletą anteny jest stosunkowo niekłopotliwe rozwieszenie wymagające tylko dwóch punktów z uwagi na zasilanie anteny kablem koncentrycznym na jej końcu.",
+							"Red-Wire jest klasyczną konstrukcją typu long-wire, pozwalającą na pracę na pasmach amatorskich od 80m do 10m (40-10m w zależności od wersji) przy zastosowaniu tunera antenowego. W pewnych warunkach zawieszenia (wysokość, kąt, otoczenie) parametry takiej anteny mogą umożliwić na bezpośrednie podłączenie anteny do transceivera, bez konieczności stosowania skrzynki antenowej. Długość anteny to około 38 lub 16 metrów (standardowa lub skrócona). Klasyczne anteny long-wire z transformatorem 9:1 wymagają jednak bardzo dobrego uziemienia dla efektywnej pracy i uniknięcia zakłóceń. Nie sprawują się dobrze w warunkach wielkomiejskich. Ich charakterystyka pracy jest zmienna dla każdego z pasm. Wygodna jest za to instalacja z uwagi na punkt zasilania na końcu anteny.",
 						descriptionPageTitle: "Seria Red-Wire",
 					},
 					mini: {
 						description:
-							"Antena typowo wyprawowa, której konstrukcja zoptymalizowana została pod kątem wagi oraz zajmowanego miejsca w ekwipunku wyprawowym. Doskonale nadaje się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia i w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
+							"Anteny serii Mini dedykowane są do użytku terenowego z najpopularniejszymi transceiverami QRP, np. Yaesu FT817/818, Icom IC-705, Xiegu, czy konstrukcjami home-made QRP. Charakteryzują się niewielkimi rozmiarami po złożeniu oraz wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Mini doskonale nadają się do szybkich instalacji, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia. Ze względu na chęć redukcji wielkości i wagi oraz braku większych obciążeń mechanicznych, zastosowano elementy metalowe o rozmiarze M4. Zrezygnowano również z niektórych elementów występujących w innych antenach Red-Wire. Mała obudowa baluna wymusiła konieczność zastosowania gniazda BNC zamiast najpopularniejszego złącza SO239 (UC1), co w żadnym stopniu nie wpływa na funkcjonalności anteny.",
 						model: "Red-Wire Mini",
 						range: "",
 						swr: "<2.0",
@@ -478,7 +478,7 @@ export const TEXTS = {
 					},
 					midi: {
 						description:
-							"Antena przeznaczona głównie na dłuższe wyjazdy terenowe. Dzięki większej wytrzymałości mechanicznej niż modele Red-Wire Mini, można ją użytkować bezproblemowo np. przez cały sezon letni na działce. Zachowuje przy tym na tyle małe gabaryty po złożeniu, że z łatwością znajdzie się na nią miejsce w wyprawowym ekwipunku.",
+							"Anteny serii Midi powstały z myślą o wyprawach terenowych z wykorzystaniem transceiverów o pełnej mocy 100W. W stosunku do serii Mini, główny nacisk położono na zwiększenie wytrzymałości mechanicznej i elektrycznej, kosztem zwiększenia wagi i wymiarów. Najczęstszym zastosowaniem tych anten będą wyprawy terenowe, obozy czy kempingi. Zwiększona wytrzymałość pozwala na eksploatację takich anten w różnych warunkach pogodowych, w tym również podczas silniejszych wiatrów. Zastosowany tu transformator pozwala na pracę z mocą 150W SSB PEP oraz ciągłą pracę z mocą 75W.",
 						model: "Red-Wire Midi",
 						range: "",
 						swr: "<2.0",
@@ -511,7 +511,7 @@ export const TEXTS = {
 					},
 					standard: {
 						description:
-							"Przeznaczona głównie na dłuższe wyjazdy stacjonarne, gdzie wielkość anteny w trakcie transportu czy jej ciężar nie gra już tak dużej roli, a większe znaczenie zaczyna mieć kwestia wytrzymałości mechanicznej.",
+							"Wersja Standard doskonale sprawdzi się w przypadku dłuższych wyjazdów wakacyjnych, obozów, czy do instalacji na cały sezon. Można ją również zastosować do instalacji całorocznej w warunkach umiarkowanego klimatu. Nacisk został tu położony na zwiększoną wytrzymałość mechaniczną anteny poprzez zastosowania grubszej linki antenowej ni z w serii Midi. Użyty w antenie transformator serii Standard pozwala na swobodną pracę z fabrycznymi transceiverami KF oraz z małymi wzmacniaczami mocy. W trakcie testów transformator wytrzymał 500W mocy ciągłej FM (@29MHz), osiągając po 5 minutach temperaturę ok. 50°C.",
 						model: "Red-Wire Standard",
 						range: "",
 						swr: "<2.0",
@@ -545,7 +545,7 @@ export const TEXTS = {
 					},
 					hd: {
 						description:
-							"Wersja HD (Heavy Duty) jest wersją przeznaczoną do zastosowań przede wszystkim stacjonarnych, gdzie odpowiednia wytrzymałość mechaniczna anteny nie musi być kompromisem w stosunku do jej ciężaru czy wielkości po złożeniu.",
+							"Anteny serii HD (Heavy Duty) są antenami o dużej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na transformatorach serii Standard i w związku z tym przenoszą takie same moce. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu, oblodzenia, czy podczas silnych wiatrów.",
 						model: "Red-Wire HD",
 						range: "",
 						swr: "<2.0",
@@ -578,7 +578,7 @@ export const TEXTS = {
 					},
 					hd600: {
 						description:
-							"Wersja HD (Heavy Duty) jest wersją przeznaczoną do zastosowań przede wszystkim stacjonarnych, gdzie odpowiednia wytrzymałość mechaniczna anteny nie musi być kompromisem w stosunku do jej ciężaru czy wielkości po złożeniu. Balun wykonany jest na dwóch rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę ze wzmacniaczami średniej mocy. Przeznaczona jest do współpracy ze wzmacniaczami PA o mocy ciągłej 500W-600W.",
+							"Anteny serii HD (Heavy Duty) są antenami o dużej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na transformatorach serii Standard i w związku z tym przenoszą takie same moce. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu, oblodzenia, czy podczas silnych wiatrów. Balun tej anteny wykonany jest na dwóch rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę z wzmacniaczami PA o mocy ciągłej 500W-600W.",
 						model: "Red-Wire HD 600W+",
 						range: "",
 						swr: "<2.0",
@@ -611,7 +611,7 @@ export const TEXTS = {
 					},
 					hd1500: {
 						description:
-							"Wersja HD (Heavy Duty) jest wersją przeznaczoną do zastosowań przede wszystkim stacjonarnych, gdzie odpowiednia wytrzymałość mechaniczna anteny nie musi być kompromisem w stosunku do jej ciężaru czy wielkości po złożeniu. Balun wykonany jest na trzech rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę ze wzmacniaczami dużej mocy. Przeznaczona jest do współpracy ze wzmacniaczami PA dużej mocy.",
+							"Anteny serii HD (Heavy Duty) są antenami o dużej wytrzymałości mechanicznej, dzięki czemu doskonale sprawdzą się jako cało sezonowe anteny stacjonarne. Zostały one oparte na transformatorach serii Standard i w związku z tym przenoszą takie same moce. Wzmocnieniu uległa konstrukcja mechaniczna, dzięki czemu antena może być używana przez cały rok, bez obaw o zerwanie pod ciężarem śniegu, oblodzenia, czy podczas silnych wiatrów. Balun tej anteny wykonany jest na trzech rdzeniach Amidon FT240, których wymiary gwarantują bezproblemową pracę z wzmacniaczami PA o mocy ciągłej 1200W-1500W.",
 						model: "Red-Wire HD 1500W+",
 						range: "",
 						swr: "<2.0",
@@ -788,6 +788,21 @@ export const TEXTS = {
 						],
 						storeLink:
 							"https://www.ercomer.pl/pl/p/Uniwersalny-zestaw-przejsciowek-RED-CON-02-typu-BNC/3574",
+					},
+					mid: {
+						model: "Red-Con 03",
+						description:
+							"Uniwersalny zestaw przejściówek (redukcji) pomiędzy najpopularniejszymi typami złączy stosowanych w radiokomunikacji. Niezbędnik do podłączania różnych typów anten i kabli do radiotelefonów i analizatorów. W zestawie poręczne pudełko do przechowywania i wygodnego przenoszenia wszystkich elementów.",
+						connectors: [
+							"1x kabel koncentryczny RG58 zakończony wtykami PL259(UC1) około 30cm.",
+							"2x przejściówka wtyk BNC -> gniazdo SO239 ",
+							"2x przejściówka wtyk SMA-M -> gniazdo SO239",
+							"1x łącznik gniazdo SO239 -> SO239",
+							"1x przejściówka wtyk N -> gniazdo SO239",
+							"1x przejściówka wtyk SMA-F -> gniazdo SO239",
+						],
+						storeLink:
+							"https://www.ercomer.pl/pl_PL/p/Uniwersalny-zestaw-przejsciowek-RED-CON-03/3598",
 					},
 				},
 				redLine: {
@@ -1039,7 +1054,7 @@ export const TEXTS = {
 
 					hd: {
 						description:
-							"The Red-Fed Extreme series antennas have the highest mechanical strength, which makes them perfect for all-season stationary antennas. The radiator is made of stainless, acid-resistant steel wire with high strength. The mounting of the transformer has also been modified, which now does not carry the mechanical loads of antenna tension.",
+							"HD (Heavy Duty) antennas are mechanically robust antennas, making them ideal as all-season fixed antennas. They are based on Standard Series transformers and therefore carry the same power. The mechanical structure has been strengthened so that the antenna can be used all year round without fear of breaking under the weight of snow, ice or during strong winds.",
 						model: "Red-Fed HD",
 						range: "around 80khz",
 						swr: "<2.0",
@@ -1110,12 +1125,12 @@ export const TEXTS = {
 						series: "Red - Dipole",
 						description: "Dipole antennas",
 						descriptionPage:
-							"Red-Dipol is a classic, simple and popular antenna, allowing operation on the selected amateur band and, with the use of an additional antenna tuner, also on higher harmonic bands. A characteristic feature is the dependence of the total length of the antenna on the fundamental frequency of its operation (the longest band supported). The length of the antenna to half the wavelength (band) on which it operates. For the 80m band the length is about 40mb, for the 20m band the total length is about 10mb. This gives the possibility to use quite short, yet effectively working antennas for higher shortwave bands. The antenna provides predictable performance characteristics, with omnidirectional operation in an inverted-V configuration. Powered by a coaxial cable at the center point of the radiator length.",
+							"The Red-Dipol D80 is a classic simple antenna, allowing operation in the 80m amateur band. Additionally, with the use of an antenna tuner, this type of antenna will also allow operation on the other harmonic KF bands (40m-10m). This is one of the most popular antenna designs used by ham radio operators with an overall length equal to half the wavelength of its primary band (approximately 40mb). Our antenna uses a symmetrizer (1:1 transformer), which is essential for the correct operation of this antenna. The antenna is fed at its central point, which is an advantage in some cases (e.g. with an Inverted-V installation), but in some it can be cumbersome (and antennas fed at their end are more convenient). The classic dipole has predictable performance characteristics. We also offer custom-made antenna for other base bands (e.g. 40m or 20m, etc.), the antenna will then be correspondingly shorter.",
 						descriptionPageTitle: "Red-Dipole series",
 					},
 					mini: {
 						description:
-							"The D80mini antenna is a typical expedition antenna, the design of which has been optimized for weight and space occupied in expedition equipment. In addition, after using an antenna tuner, it allows operation on the amateur band 80m.",
+							"Mini series antennas are designated for field use with the most popular QRP transceivers, such as Yaesu FT817/818, Icom IC-705, Xiegu, or home-made QRP designs. They are characterized by their small size when assembled and their weight, which cannot be underestimated during field trips on foot. The minis are ideal for quick installations, folded out over a few hours, in conditions that do not require long-term setup. Due to the desire to reduce size and weight, as well as the lack of major mechanical loads, M4-size metal parts were used. Some of the components found in other Red-Dipole antennas were eliminated. The balun's small housing forced the use of a BNC socket instead of the most popular SO239 (UC1) connector, which in no way affects the antenna's functionality.",
 						model: "Red-Dipole D80mini",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
@@ -1136,7 +1151,7 @@ export const TEXTS = {
 					},
 					midi: {
 						description:
-							"The D80Midi antenna is a typical off-road antenna, intended mainly for longer trips. It can be easily used, for example, throughout the summer season on a plot of land. At the same time it is small enough when folded that it will easily find a place for it in your expeditionary equipment. After applying the antenna tuner, it allows to work on the amateur band 80m.",
+							"The Midi series antennas were designed for off-road expeditions using full-power 100W transceivers. Compared to the Mini series, the main focus was on increasing mechanical and electrical strength, at the expense of increased weight and size. The most common application for these antennas will be off-road expeditions or camping. The increased durability allows such antennas to be operated in a variety of weather conditions, including stronger winds. The transformer used here allows 150W SSB PEP and continuous operation at 75W.",
 						model: "Red-Dipole D80midi",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
@@ -1157,7 +1172,7 @@ export const TEXTS = {
 					},
 					standard: {
 						description:
-							"The D80STD antenna is intended mainly for longer stationary trips, where the size of the antenna during transport or its weight no longer plays such a big role, and the issue of mechanical strength becomes more important. It is designed to work with standard HF transceivers of 100W or 200W power, and has an adequate reserve of transmitted power, even in the case of digital emissions.",
+							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The emphasis here is on increased mechanical strength of the antenna through the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work freely with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
 						model: "Red-Dipole D80STD",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
@@ -1179,7 +1194,7 @@ export const TEXTS = {
 					},
 					hd: {
 						description:
-							"The HD (Heavy Duty) version is a version designed for primarily stationary applications, where adequate mechanical strength of the antenna does not have to compromise on its weight or size when folded.",
+							"HD (Heavy Duty) antennas are mechanically robust antennas, making them ideal as all-season fixed antennas. They are based on Standard Series transformers and therefore carry the same power. The mechanical structure has been strengthened so that the antenna can be used all year round without fear of breaking under the weight of snow, ice or during strong winds.",
 						model: "Red-Dipole D80HD",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
@@ -1200,7 +1215,7 @@ export const TEXTS = {
 					},
 					hd600: {
 						description:
-							"The HD 600W+ version is a version designed for primarily stationary applications, where the adequate mechanical strength of the antenna does not have to compromise on its weight or size when folded. The balun of this antenna is made on two Amidon FT240 cores, whose dimensions guarantee trouble-free operation with 500W-600W power.",
+							"HD (Heavy Duty) antennas are mechanically robust antennas, making them ideal as all-season fixed antennas. They are based on Standard Series transformers and therefore carry the same power. The mechanical structure has been strengthened so that the antenna can be used all year round without fear of breaking under the weight of snow, ice or during strong winds. The balun of this antenna is made on two Amidon FT240 cores, the dimensions of which guarantee trouble-free operation with PA amplifiers of 500W-600W continuous power.",
 						model: "Red-Dipole D80HD 600W+",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
@@ -1221,7 +1236,7 @@ export const TEXTS = {
 					},
 					hd1500: {
 						description:
-							"The HD 1500W+ version is a version designed for primarily stationary applications, where adequate mechanical strength of the antenna does not have to compromise on its weight or size when folded. The balun of this antenna is made on three Amidon FT240 cores, whose dimensions guarantee trouble-free operation with most PA power amplifiers.",
+							"HD (Heavy Duty) antennas are mechanically robust antennas, making them ideal as all-season fixed antennas. They are based on Standard Series transformers and therefore carry the same power. The mechanical structure has been strengthened so that the antenna can be used all year round without fear of breaking under the weight of snow, ice or during strong winds. The balun of this antenna is made on three Amidon FT240 cores, the dimensions of which guarantee trouble-free operation with PA amplifiers of 1200W-1500W continuous power.",
 						model: "Red-Dipol D80HD 1500W+",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
@@ -1246,12 +1261,12 @@ export const TEXTS = {
 						series: "Red - Wire",
 						description: "Long-wire antennas",
 						descriptionPage:
-							"Red-Wire is a classic long-wire antenna with a 9:1 transformer, allowing operation on amateur bands from 80m to 10m using an antenna tuner. Under certain suspension conditions (height, angle, environment) the parameters of such an antenna can allow operation without the need for an antenna box, sometimes with the necessary adjustment of the radiator length. The length of the antenna is about 38 meters. Unlike the Red-Fed antenna (where it is fixed), in this design the operating characteristics change depending on the band. The biggest advantage of the antenna is the relatively hassle-free deployment requiring only two points due to the antenna's coaxial cable feed at the end.",
+							"Red-Wire is a classic long-wire design, allowing operation on amateur bands from 80m to 10m (40-10m depending on the version) using an antenna tuner. Under certain suspension conditions (height, angle, environment), the parameters of such an antenna may allow the antenna to be directly connected to a transceiver, without the need for an antenna box. The length of the antenna is approximately 38 or 16 metres (standard or shortened). However, classic long-wire antennas with a 9:1 transformer require very good grounding for effective operation and to avoid interference. They do not perform well in metropolitan conditions. Their performance characteristics are variable for each band. Instead, they are convenient to install because of the feed point at the end of the antenna.",
 						descriptionPageTitle: "Red-Wire series",
 					},
 					mini: {
 						description:
-							"A typical expedition antenna, the design of which has been optimized for weight and space occupied in expedition equipment.It is ideal for quick installations, done on the run, unfolded for a few hours, in conditions that do not require long-term suspension and in places not exposed to extreme weather conditions (wind, rime). PA power amplifiers.",
+							"Mini series antennas are designated for field use with the most popular QRP transceivers, such as Yaesu FT817/818, Icom IC-705, Xiegu, or home-made QRP designs. They are characterized by their small size when assembled and their weight, which cannot be underestimated during field trips on foot. The minis are ideal for quick installations, folded out over a few hours, in conditions that do not require long-term setup. Due to the desire to reduce size and weight, as well as the lack of major mechanical loads, M4-size metal parts were used. Some of the components found in other Red-Wire antennas were eliminated. The balun's small housing forced the use of a BNC socket instead of the most popular SO239 (UC1) connector, which in no way affects the antenna's functionality.",
 						model: "Red-Wire Mini",
 						range: "",
 						swr: "<2.0",
@@ -1282,7 +1297,7 @@ export const TEXTS = {
 					},
 					midi: {
 						description:
-							"The antenna is designed mainly for longer off-road trips.With greater mechanical strength than the Red-Wire Mini models, it can be used without problems, for example, throughout the summer season on a plot of land. At the same time it remains small enough after folding that you can easily find a place for it in your expedition equipment.",
+							"The Midi series antennas were designed for off-road expeditions using full-power 100W transceivers. Compared to the Mini series, the main focus was on increasing mechanical and electrical strength, at the expense of increased weight and size. The most common application for these antennas will be off-road expeditions or camping. The increased durability allows such antennas to be operated in a variety of weather conditions, including stronger winds. The transformer used here allows 150W SSB PEP and continuous operation at 75W.",
 						model: "Red-Wire Midi",
 						range: "",
 						swr: "<2.0",
@@ -1313,7 +1328,7 @@ export const TEXTS = {
 					},
 					standard: {
 						description:
-							"It is intended mainly for longer stationary trips, where the size of the antenna during transport or its weight no longer plays such a big role, and the issue of mechanical strength becomes more important.",
+							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The emphasis here is on increased mechanical strength of the antenna through the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work freely with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
 						model: "Red-Wire Standard",
 						range: "",
 						swr: "<2.0",
@@ -1345,7 +1360,7 @@ export const TEXTS = {
 					},
 					hd: {
 						description:
-							"The HD (Heavy Duty) version is a version designed for primarily stationary applications, where adequate mechanical strength of the antenna does not have to compromise on its weight or size when folded.",
+							"HD (Heavy Duty) antennas are mechanically robust antennas, making them ideal as all-season fixed antennas. They are based on Standard Series transformers and therefore carry the same power. The mechanical structure has been strengthened so that the antenna can be used all year round without fear of breaking under the weight of snow, ice or during strong winds.",
 						model: "Red-Wire HD",
 						range: "",
 						swr: "<2.0",
@@ -1376,7 +1391,7 @@ export const TEXTS = {
 					},
 					hd600: {
 						description:
-							"The HD (Heavy Duty) version is a version designed for primarily stationary applications, where adequate mechanical strength of the antenna does not have to compromise on its weight or size when folded. The balun is made on two Amidon FT240 cores, the dimensions of which guarantee trouble-free operation with medium-power amplifiers. It is designed to work with PA amplifiers of 500W-600W continuous power.",
+							"HD (Heavy Duty) antennas are mechanically robust antennas, making them ideal as all-season fixed antennas. They are based on Standard Series transformers and therefore carry the same power. The mechanical structure has been strengthened so that the antenna can be used all year round without fear of breaking under the weight of snow, ice or during strong winds. The balun of this antenna is made on two Amidon FT240 cores, the dimensions of which guarantee trouble-free operation with PA amplifiers of 500W-600W continuous power.",
 						model: "Red-Wire HD 600W+",
 						range: "",
 						swr: "<2.0",
@@ -1407,7 +1422,7 @@ export const TEXTS = {
 					},
 					hd1500: {
 						description:
-							"The HD (Heavy Duty) version is a version designed for primarily stationary applications, where adequate mechanical strength of the antenna does not have to compromise on its weight or size when folded. The balun is made on three Amidon FT240 cores, the dimensions of which guarantee trouble-free operation with high-power amplifiers. It is designed to work with high-power PA amplifiers.",
+							"HD (Heavy Duty) antennas are mechanically robust antennas, making them ideal as all-season fixed antennas. They are based on Standard Series transformers and therefore carry the same power. The mechanical structure has been strengthened so that the antenna can be used all year round without fear of breaking under the weight of snow, ice or during strong winds. The balun of this antenna is made on three Amidon FT240 cores, the dimensions of which guarantee trouble-free operation with PA amplifiers of 1200W-1500W continuous power.",
 						model: "Red-Wire HD 1500W+",
 						range: "",
 						swr: "<2.0",
@@ -1509,7 +1524,7 @@ export const TEXTS = {
 						series: "Red-Choke",
 						description: "Choke Balun",
 						descriptionPage:
-							"Virtually every type of antenna fed by coaxial cable at the point of antenna connection should have a choker balun (Choke Balun). Its absence can affect the operation of electronic devices, causing them to interfere. It also prevents the intrusion of external interference during reception. If you have a symmetrizer at the feed point of the antenna, it is worthwhile to also use a choke balun on the coaxial cable connection side of the transceiver. Instead of complaining about a lot of interference, use a choke-balun! This design uses a completely different approach than the classic winding of coaxial cable on ferrite cores, and after measurements the idea was confirmed by very good measured parameters. Red-Choke consists of two bifilar windings. The whole thing is done with maximum attention to the perfect symmetry of the circuit, including the internal connections. The theory says that for a chocke-balun to be effective, the reactance should be at least 10 times the impedance, or 500ohm. Here we have the assumption fulfilled by a very large margin - the attenuation for the 80m band is at us 30 times the impedance. In the entire KF band up to 30MHz, the SWR ratio is at most 1.12 (for bands below 40m it is below 1.02), so there is virtually no loss. It also works in the 160m band with slightly less, but still high efficiency (unlike popular designs based on FT240-43 cores).",
+							"Virtually every type of antenna fed by coaxial cable at the point of antenna connection should have a choke balun. Its absence can affect the operation of electronic devices, causing them to interfere. It also prevents the intrusion of external interference during reception. If you have a symmetrizer at the feed point of the antenna, it is worthwhile to also use a choke balun on the coaxial cable connection side of the transceiver. Instead of complaining about a lot of interference, use a choke-balun! This design uses a completely different approach than the classic winding of coaxial cable on ferrite cores, and after measurements the idea was confirmed by very good measured parameters. Red-Choke consists of two bifilar windings. The whole thing is done with maximum attention to the perfect symmetry of the circuit, including the internal connections. The theory says that for a chocke-balun to be effective, the reactance should be at least 10 times the impedance, or 500ohm. Here we have the assumption fulfilled by a very large margin - the attenuation for the 80m band is at us 30 times the impedance. In the entire KF band up to 30MHz, the SWR ratio is at most 1.12 (for bands below 40m it is below 1.02), so there is virtually no loss. It also works in the 160m band with slightly less, but still high efficiency (unlike popular designs based on FT240-43 cores).",
 						weight: "...g",
 						power: "max 1.5KW",
 						size: "170x75x55",
@@ -1565,7 +1580,7 @@ export const TEXTS = {
 						description:
 							"Universal set of adapters (reductions) between the most popular types of connectors used in radio communications. Essential for connecting different types of antennas and cables to radios and analyzers. Comes with a handy box for storing and conveniently carrying all items.",
 						connectors: [
-							"1mb RG58 C/U coaxial cable terminated with BNC plugs",
+							"1mb RG58 C/U coaxial cable with BNC plugs",
 							"2x PL259 plug adapter (UC1, UHF) -> BNC socket",
 							"2x adapter N plug -> BNC socket",
 							"2x adapter plug N -> BNC socket",
@@ -1577,6 +1592,20 @@ export const TEXTS = {
 							"1x BNC connector plug -> BNC connector",
 							"1x connector plug PL259 (UC1, UHF) -> angle BNC socket",
 							"1x connector BNC socket -> angle BNC plug",
+						],
+						storeLink: "/distributors#",
+					},
+					mid: {
+						model: "Red-Con 03",
+						description:
+							"Universal set of adapters (reductions) between the most popular types of connectors used in radio communications. Essential for connecting different types of antennas and cables to radios and analyzers. Comes with a handy box for storing and conveniently carrying all items.",
+						connectors: [
+							"1x RG58 coaxial cable with PL259(UC1) plugs approx. 30cm",
+							"2x adapter BNC plug -> SO239 socket",
+							"2x adapter plug SMA-M -> socket SO239",
+							"1x SO239 socket -> SO239 socket adapter",
+							"1x N-plug adapter -> SO239 socket",
+							"1x adapter plug SMA-F -> socket SO239",
 						],
 						storeLink: "/distributors#",
 					},

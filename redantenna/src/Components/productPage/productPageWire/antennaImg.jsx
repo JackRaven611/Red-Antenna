@@ -6,8 +6,8 @@ import RFMiniMax from "../../../img/endfed MAX.webp";
 import RFMidilong from "../../../img/endfed MIDI.webp";
 import RFStandard from "../../../img/endfed STD.webp";
 import RFHDlong from "../../../img/endfed HD.webp";
-import RFExtremelong from "../../../img/endfed extreme bez cewki.webp";
-import RFExtremeshort from "../../../img/endfed extreme.webp";
+import RFExtremeshort from "../../../img/endfed extreme bez cewki.webp";
+import RFExtremelong from "../../../img/endfed extreme.webp";
 
 import RWMinilong from "../../../img/wire MINI 02.webp";
 import RWMidilong from "../../../img/wire MIDI 02.webp";

@@ -54,6 +54,22 @@ export const VaraintAcc = ({ series }) => {
 							onChange={handleSizeChange}
 						/>
 					</li>
+					{series === "redCon" ? (
+						<li>
+							<label
+								htmlFor='20-10'
+								className={size === "mid" ? "label" : null}
+							>
+								{product.mid.model}
+							</label>
+							<input
+								type='checkbox'
+								id='20-10'
+								value='mid'
+								onChange={handleSizeChange}
+							/>
+						</li>
+					) : null}
 				</ul>
 			) : null}
 		</VariantPanelStyled>

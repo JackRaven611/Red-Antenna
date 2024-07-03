@@ -1,9 +1,10 @@
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../../languageChange/languageContext";
 import { ProductPageStyled } from "../productPageWire";
 import { VaraintAcc } from "./variantAcc";
 import { AccImg } from "./accImg";
+import { RedCon } from "./redCon";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -57,18 +58,7 @@ export const ProductPageAcc = ({ series, size }) => {
 					</aside>
 				</div>
 				{series === "redCon" ? (
-					<>
-						<h3 className='redConTitle'>
-							{product.common.connectorsTitle}
-						</h3>
-						<ul className='redCon'>
-							{product[size].connectors.map((connector) => (
-								<li key={connector}>
-									<p>{connector}</p>
-								</li>
-							))}
-						</ul>
-					</>
+					<RedCon series={series} size={size} />
 				) : null}
 			</div>
 		</ProductPageStyled>
