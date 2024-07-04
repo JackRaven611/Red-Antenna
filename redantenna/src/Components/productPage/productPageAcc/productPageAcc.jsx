@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../../languageChange/languageContext";
 import { ProductPageStyled } from "../productPageWire";
@@ -21,7 +21,7 @@ export const ProductPageAcc = ({ series, size }) => {
 					<aside>
 						<h2>
 							{product[size]
-								? product[size].model
+								? product[size].series
 								: product.common.series}
 						</h2>
 						{<VaraintAcc series={series} />}

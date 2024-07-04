@@ -40,9 +40,11 @@ export const AboutBoxStyled = styled.section`
 	@media screen and (max-width: 900px) {
 		div {
 			h2 {
+				margin: 1rem;
 				font-size: ${FONTSIZE.h2Mobile};
 			}
 			p {
+				margin: 0 1.5rem 1.5rem;
 				font-size: ${FONTSIZE.pMobile};
 			}
 		}

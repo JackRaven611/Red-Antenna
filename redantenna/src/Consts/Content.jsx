@@ -22,7 +22,7 @@ export const TEXTS = {
 			hoursTitle: "Godziny otwarcia",
 			placeHolder: "Już niedługo",
 			disclaimer:
-				"Anteny marki Red-Antenna oparte są na rdzeniach marki Amidon, na które nawinięty został podwójnie emaliowany drut DN2E, o zwiększonyej odporności na temperaturę oraz przebicia elektryczne. Zastosowany kondensator kompensacyjny posiada napięcie przebicia 3kV. całość opakowana jest w hermetyczną obudowę ABS, z wylaną uszczelką oraz uszczelnionymi połaczeniami. Zapewnia to wodoszczelność klasy IP67 oraz odporność na wstrząsy klasy IK09.",
+				"Anteny marki Red-Antenna oparte są na rdzeniach marki Amidon, na które nawinięty został podwójnie emaliowany drut DN2E, o zwiększonyej odporności na temperaturę oraz przebicia elektryczne. Całość opakowana jest w hermetyczną obudowę ABS, z wylaną uszczelką oraz uszczelnionymi połaczeniami. Zapewnia to wodoszczelność klasy IP67 oraz odporność na wstrząsy klasy IK09.",
 		},
 
 		nav: {
@@ -45,8 +45,8 @@ export const TEXTS = {
 
 		main: {
 			header: "HIGH PERFORMANCE ANTENNA SYSTEM",
-			headerP: "GDY LICZY SIĘ WYDAJNOŚĆ I JAKOŚĆ",
-			handmadeTitle: "RĘCZNIE ROBIONE W POLSCE",
+			headerP: "GDY LICZY SIĘ JAKOŚĆ I EFEKTYWNOŚĆ",
+			handmadeTitle: "RĘCZNIE WYKONYWANE W POLSCE",
 			handmadeText:
 				"Rynek obecnie zalany jest produkcją masową. Przewagę naszej marce dodaje fakt, że jesteśmy manufakturą, nasze anteny wykonywane są ręcznie i każdy egzemplarz jest poddawany indywidualnym pomiarom na etapie produkcji. Oferujemy przemyślane produkty, ale jesteśmy gotowi do wykonania produktu na Twoje indywidualne zamówienie spełniający specyficzne potrzeby. Produkty wykonywane w Polsce spełniają wysokie wymagania jakościowe.",
 			designTitle: "BEZKOMPROMISOWO ZAPROJEKTOWANE",
@@ -59,12 +59,12 @@ export const TEXTS = {
 				"Nasze anteny projektowane są w oparciu o wiedzę specjalistyczną oraz duże doświadczenie zawodowe. Wykorzystujemy także specjalistyczne oprogramowanie do modelowania anten. Jednak rzeczywistą efektywność przede wszystkim potwierdzają nasze testy praktyczne pomiaru gęstości pola elektromagnetycznego oraz praktyczne testy pomiaru siły sygnału prowadzone z wykorzystaniem sieci beaconów WSPR. Odbiorniki WSPR rozlokowane na całym świecie raportują rzeczywisty pomiar siły odbieranego sygnału. Z pewnością też efektywność naszych anten potwierdzają doskonałe opinie i liczne rekomendacje ze strony użytkowników naszych anten.",
 			aboutTitle: "NASZA MISJA",
 			aboutText:
-				"Antena jest najważniejszym elementem, mających wpływ na zasięg każdego systemu nadawczo-odbiorczego. Naszym celem jest tworzenie bezkompromisowych anten, optymalnie zaprojektowanych, cechujących się najlepszymi parametrami i najwyższą jakością wykonania. Osiągnęliśmy go poprzez odpowiedni dobór elementów składowych, szereg testów praktycznych i wytrzymałościowych oraz pomiarów. Bazujemy na rzetelnych opracowaniach naukowych, eksperymentach wielu radioamatorów oraz przede wszystkim własnych wieloletnich doświadczeniach w budowie systemów antenowych i pracy na pasmach krótkofalowych. Dlatego też nasze anteny wyprzedzają pod wieloma względami konkurencyjne produkty dostępne na rynku i tworzą ekskluzywną linię anten wysokiej klasy (tzw. High End)",
+				"Antena jest najważniejszym elementem, mającym wpływ na zasięg każdego systemu nadawczo-odbiorczego. Naszym celem jest tworzenie bezkompromisowych anten, optymalnie zaprojektowanych, cechujących się najlepszymi parametrami i najwyższą jakością wykonania. Osiągnęliśmy go poprzez odpowiedni dobór elementów składowych, szereg testów praktycznych i wytrzymałościowych oraz pomiarów. Bazujemy na rzetelnych opracowaniach naukowych, eksperymentach wielu radioamatorów oraz przede wszystkim własnych wieloletnich doświadczeniach w budowie systemów antenowych i pracy na pasmach krótkofalowych. Dlatego też nasze anteny wyprzedzają pod wieloma względami konkurencyjne produkty dostępne na rynku i tworzą ekskluzywną linię anten wysokiej klasy (tzw. High End)",
 		},
 
 		aboutSection: {
 			title: "Łączność to nasza pasja",
-			text: "Historia naszej marki rozpoczęła się kilka lat temu z potrzeby dostarczenia anten najwyższej jakości, zarówno pod kątem jakości wykonania, jak i dobrze przemyślanej i optymalnej konstrukcji, która spełniłaby wysoko postawione wymagania. Mając odpowiednie możliwości techniczne naszego serwisu i wiedzę specjalistyczną postanowiliśmy rozpocząć produkcją produktów klasy high end, tj. najwyższej jakości, z dbałością faktycznie o każdy detal. W odróżnieniu od innych marek, wprowadziliśmy zasadę rzetelnego informowania o parametrach pracy anten. Dla przykładu - zamiast maksymalnej chwilowej przenoszonej mocy, prowadzącej do uszkodzenia anteny (jako podaje większość innych producentów), my informujemy o maksymalnej mocy pracy anteny (tj. maksymalnej mocy promieniowania w sposób ciągły przy której nie ulegają pogorszeniu jej osiągi), a tym samym maksymalna granica wytrzymałości anteny jest dużo większa. Tak samo dużą wagę przykładamy do wykonywania rzeczywistych pomiarów wykonanych transformatorów antenowych (w odróżnieniu od masowej produkcji, gdzie pomija się rzeczywiste pomiary poszczególnych egzemplarzy). Naszym głównym celem jest zatem budowanie marki produktów klasy premium (których często brakuje w tym segmencie rynku).",
+			text: "Historia naszej marki rozpoczęła się kilka lat temu z potrzeby dostarczenia anten najwyższej jakości, zarówno pod kątem jakości wykonania, jak i dobrze przemyślanej i optymalnej konstrukcji, która spełniłaby wysoko postawione wymagania. Mając odpowiednie możliwości techniczne naszego serwisu i wiedzę specjalistyczną postanowiliśmy rozpocząć produkcją produktów klasy high end, tj. najwyższej jakości, z dbałością faktycznie o każdy detal. W odróżnieniu od innych marek, wprowadziliśmy zasadę rzetelnego informowania o parametrach pracy anten. Dla przykładu - zamiast maksymalnej chwilowej przenoszonej mocy, prowadzącej do uszkodzenia anteny (jak podaje większość innych producentów), my informujemy o maksymalnej mocy pracy anteny (tj. maksymalnej mocy promieniowania w sposób ciągły przy której nie ulegają pogorszeniu jej osiągi), a tym samym maksymalna granica wytrzymałości anteny jest dużo większa. Tak samo dużą wagę przykładamy do wykonywania rzeczywistych pomiarów wykonanych transformatorów antenowych (w odróżnieniu od masowej produkcji, gdzie pomija się rzeczywiste pomiary poszczególnych egzemplarzy). Naszym głównym celem jest zatem budowanie marki produktów klasy premium (których często brakuje w tym segmencie rynku).",
 			wsrp: "Nasze anteny testowane są pod kątem faktycznej efektywności wykorzystując rzetelne raporty WSPR. Stacje odbiorcze rozlokowane są na całym świecie i przekazują dokładny poziom siły odbieranego sygnału (w jednostkach dBm). Korzystamy z tego systemu optymalizując projekty i konstrukcje naszych anten.",
 		},
 		contactSection: {
@@ -81,7 +81,7 @@ export const TEXTS = {
 				rangeTitle: "Szerokość pracy dla pasma dolnego (SWR 2.0):",
 				swrTitle: "Maksymalny SWR w pozostałych pasmach:",
 				powerTitle: "Przenoszona moc:",
-				sizeTitle: "Wymiary baluna (mm, bez zaczepów):",
+				sizeTitle: "Wymiary transformatora (mm, bez zaczepów):",
 				MiniTunerSizeTitle: "Wymiary tunera (mm, bez zaczepów):",
 				connectors: "Złącza:",
 				coreTitle: "Wielkość rdzenia:",
@@ -140,7 +140,7 @@ export const TEXTS = {
 						},
 						max: {
 							description:
-								"Antena przeznaczona do pracy w warunkach terenowych i podczas wędrówek. Charakteryzuje się niewielkimi rozmiarami po złożeniu oraz niewielką wagą, co jest nie do przecenienia w trakcie pieszych wypraw terenowych. Taka antena zmieści się w stanie złożonym nawet do kieszeni kurtki. Wersja Mini doskonale nadają się do szybkich instalacji, robionych z biegu, rozkładanych na kilka godzin, w warunkach nie wymagających długotrwałego zawieszenia oraz w miejscach nie narażonych na działanie ekstremalnych warunków pogodowych (wiatr, szadź).",
+								"Mini 80 MAX jest unikalną konstrukcja wśród anten typu end-fed. Antena została zoptymalizowana dla pasma 80m, aby zapewnić maksymalną sprawność anteny. Specjalnie dobrany unikalny cylindryczny rdzeń ferrytowy oraz pełno wymiarowy promiennik zapewnia sprawność anteny na poziomie aż 98-99%, dużo więcej niż konstrukcje oparte na popularnych rdzeniach pierścieniowych oraz tzw. skrócone end-fedy. Nasze wyliczenia zostały potwierdzone w praktyce, dla pasma 80m, antena pracuje bardzo szerokopasmowo - ok. 280kHz z SWR<2. Antena może zostać zmodyfikowana przez korektę długości również do pracy na wyższych pasmach, przy czym przez zastosowanie specjalnego rdzenia maksymalną efektywność radiacji zapewnia w pasmach 80m-20m. Dla przykładu dołączenie na końcu anteny 'stroika' o długości 290cm przesuwa punkt rezonansu do częstotliwości 7100kHz.",
 							model: "Red-Fed Mini 80 MAX",
 							bands: "80m",
 							span: "około 34m",
@@ -648,7 +648,7 @@ export const TEXTS = {
 				common: {
 					title: "ANTENY PIONOWE",
 					description:
-						"Anteny pionowe przede wszystkim charakteryzują się dookólną charakterystyką oraz zazwyczaj niskimi kątami promieniowania dzięki czemu idealnie sprawdzą się do łączności dalekosiężnych (DX). Część anten tej grupy stanowią przenośne konstrukcje, wygodne do pracy terenowej lub zainstalowania w warunkach o ograniczonych możliwościach (bez możliwości rozwieszenia długich anten drutowych).",
+						"Anteny pionowe przede wszystkim charakteryzują się dookólną charakterystyką oraz zazwyczaj niskimi kątami promieniowania dzięki czemu idealnie sprawdzą się do łączności dalekosiężnych (DX). Część anten tej grupy stanowią przenośne konstrukcje, wygodne do pracy terenowej lub zainstalowania w warunkach o ograniczonych możliwościach (bez możliwości rozwieszenia długich anten drutowych), inne modele dedykujemy do typowo stacjonarnej pracy w instalacji całorocznej.",
 				},
 				v3000: {
 					title: "",
@@ -686,9 +686,9 @@ export const TEXTS = {
 					},
 					long: {
 						description:
-							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego.",
+							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego. Wymiary obudowy to zaledwie 60mm x 40mm x 30mmm (niewiele większa od pudełka zapałek).",
 
-						model: "Mini-Tuner wtyk BNC",
+						series: "Mini-Tuner wtyk BNC",
 						weight: "70g",
 						power: "10W P.E.P",
 						size: "60x40x30",
@@ -701,7 +701,7 @@ export const TEXTS = {
 					short: {
 						description:
 							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED.",
-						model: "Mini-Tuner gniazdo BNC",
+						series: "Mini-Tuner gniazdo BNC",
 						weight: "70g",
 						power: "10W P.E.P",
 						size: "60x40x30",
@@ -745,7 +745,7 @@ export const TEXTS = {
 						connectorsTitle: "Zestaw zawiera następujące elementy:",
 					},
 					long: {
-						model: "Red-Con 01",
+						series: "Red-Con 01",
 						description:
 							"Uniwersalny zestaw przejściówek (redukcji) pomiędzy najpopularniejszymi typami złączy stosowanych w radiokomunikacji. Niezbędnik do podłączania różnych typów anten i kabli do radiotelefonów i analizatorów. W zestawie poręczne pudełko do przechowywania i wygodnego przenoszenia wszystkich elementów.",
 						connectors: [
@@ -771,7 +771,7 @@ export const TEXTS = {
 							"https://www.ercomer.pl/pl/p/Uniwersalny-zestaw-przejsciowek-RED-CON-01/2731",
 					},
 					short: {
-						model: "Red-Con 02",
+						series: "Red-Con 02",
 						description:
 							"Uniwersalny zestaw przejściówek (redukcji) pomiędzy najpopularniejszymi typami złączy stosowanych w radiokomunikacji. Niezbędnik do podłączania różnych typów anten i kabli do radiotelefonów i analizatorów. W zestawie poręczne pudełko do przechowywania i wygodnego przenoszenia wszystkich elementów.",
 						connectors: [
@@ -790,7 +790,7 @@ export const TEXTS = {
 							"https://www.ercomer.pl/pl/p/Uniwersalny-zestaw-przejsciowek-RED-CON-02-typu-BNC/3574",
 					},
 					mid: {
-						model: "Red-Con 03",
+						series: "Red-Con 03",
 						description:
 							"Uniwersalny zestaw przejściówek (redukcji) pomiędzy najpopularniejszymi typami złączy stosowanych w radiokomunikacji. Niezbędnik do podłączania różnych typów anten i kabli do radiotelefonów i analizatorów. W zestawie poręczne pudełko do przechowywania i wygodnego przenoszenia wszystkich elementów.",
 						connectors: [
@@ -809,7 +809,7 @@ export const TEXTS = {
 					common: {
 						series: "Kabel Red-Line",
 						descriptionPage:
-							"Red-Line to wysokiej klasy przewód 50 Ω typu RG 58 dla najbardziej wymagających użytkowników takich kabli. Żyła wewnętrzna to linka bardzo precyzyjnie skręcona z drutów wykonanych z najwyższej klasy miedzi beztlenowej ( średnica zewnętrzna 0,9 mm ). Dla zasygnalizowania wysokiej jakości wykonania, bardzo dobrych parametrów oraz wyróżnienia produktu na rynku powłoka zewnętrzna tego przewodu jest nietypowa – transparentna z lekkim zabarwieniem na czerwono ( oczywiście przewód można stosować również na zewnątrz, powłoka jest odporna na promieniowanie UV ). Ekran RG 58 RED jest wykonany z bardzo gęstego oplotu ( 98% ), a druty w pasemkach oplotu mają średnicę aż 0,16 mm.",
+							"Red-Line to wysokiej klasy przewód 50 Ω typu RG 58 dla najbardziej wymagających użytkowników takich kabli. Żyła wewnętrzna to linka bardzo precyzyjnie skręcona z drutów wykonanych z najwyższej klasy miedzi beztlenowej ( średnica zewnętrzna 0,9 mm ). Dla zasygnalizowania wysokiej jakości wykonania, bardzo dobrych parametrów oraz wyróżnienia produktu na rynku powłoka zewnętrzna tego przewodu jest nietypowa, transparentna z lekkim zabarwieniem na czerwono ( oczywiście przewód można stosować również na zewnątrz, powłoka jest odporna na promieniowanie UV ). Ekran RG 58 RED jest wykonany z bardzo gęstego oplotu ( 98% ), a druty w pasemkach oplotu mają średnicę 0,16 mm.",
 						description: "Wysokiej klasy przewód typu RG 58",
 						storeLink:
 							"https://www.ercomer.pl/pl/p/Kabel-koncentryczny-RG58-RED/3565",
@@ -835,7 +835,7 @@ export const TEXTS = {
 			phoneSecTitle: "Secondary line",
 			phoneServiceTitle: "Production and service department",
 			emailTitle: "Email",
-			storeTitle: "Physical location",
+			storeTitle: "Address",
 			onlineStore: "Online store",
 			hoursTitle: "Opening hours",
 			placeHolder: "Comming soon",
@@ -880,9 +880,9 @@ export const TEXTS = {
 		},
 
 		aboutSection: {
-			title: "Communication is our passion",
-			text: "The history of our brand began several years ago with the need to provide antennas of the highest quality, both in terms of workmanship and well thought out and optimal design that would meet the high end requirements. With the appropriate technical capabilities of our service and expertise, we decided to start producing high-end products, i.e. of the highest quality, with attention actually to every detail. Unlike other brands, we introduced the principle of providing reliable information about the working parameters of antennas. For example - instead of the maximum constant transmitted power, leading to damage to the antenna (as stated by most other manufacturers), we inform about the maximum working power of the antenna (i.e. the maximum power of continuous radiation at which its performance does not decrease), and thus the maximum limit of durability of the antenna is much higher. We attach the same importance to taking actual measurements of the antenna transformers made (unlike mass production, where actual measurements of individual units are omitted). Our main goal, therefore, is to build a brand of premium products (which are often lacking in this market segment).",
-			wsrp: "Our antennas are tested for actual effectiveness using reliable WSPR reports. Receiving stations are located around the world and transmit the exact level of received signal strength (in units of dBm). We use this system to optimize the design and construction of our antennas.",
+			title: "Radio communication is our passion",
+			text: "The history of our brand began several years ago with the need to provide antennas of the highest quality, both in terms of workmanship and well thought out and optimal design that would meet the high end requirements. With the appropriate technical capabilities of our service and expertise, we decided to start producing high-end products, it means the highest quality, with attention actually to every detail. Unlike other brands, we introduced the principle of providing reliable information about the working parameters of antennas. For example - instead of the maximum constant transmitted power, leading to damage to the antenna (as stated by most other manufacturers), we inform about the maximum working power of the antenna (it means the maximum power of continuous radiation at which its performance does not decrease), and thus the maximum limit of durability of the antenna is much higher. We attach the same importance to taking actual measurements of the antenna transformers made (unlike mass production, where actual measurements of individual units are omitted). Our main goal, therefore, is to build a brand of premium products (which are often missing in this market segment).",
+			wsrp: "Our antennas are tested for real effectiveness using reliable WSPR system reports. Receiving stations are located around the world and collect and forward to central server all the information about the exact level of received signal strength (in dBm units). We use this system to optimize the design and construction of our antennas.",
 		},
 		contactSection: {
 			form: "Go to form",
@@ -900,15 +900,15 @@ export const TEXTS = {
 					},
 				],
 			},
-			{
-				name: "Germany",
-				distributors: [
-					{
-						name: "Wimo",
-						url: "https://www.wimo.com/en/",
-					},
-				],
-			},
+			// {
+			// 	name: "Germany",
+			// 	distributors: [
+			// 		{
+			// 			name: "Wimo",
+			// 			url: "https://www.wimo.com/en/",
+			// 		},
+			// 	],
+			// },
 		],
 
 		products: {
@@ -940,13 +940,13 @@ export const TEXTS = {
 						series: "Red - Fed",
 						description: "EFHW antennas (End Fed Half Wire)",
 						descriptionPage:
-							"Red-Fed antennas are a popular recent design of end-fed half-wave (EFHW) antennas, which makes them very convenient to install. A special feature of this type of antenna is that the way it is suspended has very little effect on its performance or operating resonances (the SWR coefficient will not change much). An additional advantage is the antenna's constant and predictable performance characteristics (such as a half-wave dipole) on each band. It also provides the ability to achieve a typical omnidirectional characteristic with an inverted-V configuration. Also not to be underestimated is the relatively small space required to hang the antenna in its shortened version (only 23mb for the version operating in the 80m and higher bands), with very little difference in its efficiency. Our design of this type of antenna stands out in the market for the optimized design carried out, supported by reliable measurements and practical tests. In addition, our Red-Fed series antennas have a reed section with a connector at the end of the radiator, which, connected or disconnected, appropriately shifts the resonance point of the lowest band between the low segment of CW or FT8, and the higher segment of SSB operation. With this solution, most often for Red-Fed, no additional antenna tuner is needed.",
+							"Red-Fed is a popular recent design of end-fed half-wave (EFHW) antenna. It is very convenient to install as fed at the end. A special feature of this type of antenna is that the way it is suspended has very little effect on its performance or operating resonances (the SWR will not change much). An additional advantage is the antenna has got the same and predictable radiation characteristics (such as a half-wave dipole) on each band. It also provides the ability to achieve a typical omnidirectional characteristic in an inverted-V configuration. It needs relatively small space required to hang the antenna in its shortened version (only 23mb of wire to operate on the 80m and higher bands), still providing very good efficiency. Our version of this type of antenna stands out in the market as the very well optimized design, as a result of many hours of reliable measurements and practical tests. In addition, our Red-Fed series antennas have a unique end section with a connector at the end of the radiator. If connected or disconnected, it appropriately shifts the resonance point of the lowest band between the low segment of CW or FT8, and the higher segment of SSB operation. With this unique solution, most often for our Red-Fed, no additional antenna tuner is needed.",
 						descriptionPageTitle: "Red-Fed series",
 					},
 
 					mini: {
 						description:
-							"Mini series antennas are designated for field use with the most popular QRP transceivers, such as Yaesu FT817/818, Icom IC-705, Xiegu, or home-made QRP designs. They are characterized by their small size when assembled and their weight, which cannot be underestimated during field trips on foot. The minis are ideal for quick installations, folded out over a few hours, in conditions that do not require long-term setup. Due to the desire to reduce size and weight, as well as the lack of major mechanical loads, M4-size metal parts were used. Some of the components found in other Red-Fed antennas were eliminated. The balun's small housing forced the use of a BNC socket instead of the most popular SO239 (UC1) connector, which in no way affects the antenna's functionality.",
+							"Mini series antennas are designated for field use with the most popular QRP transceivers, such as Yaesu FT817/818, Icom IC-705, Xiegu, or home-made QRP designs. They are small size when packed and low weight, which makes them perfect for field trips on foot. The minis are ideal for quick installations, just for a few hours, in conditions that do not require long-term base installations. To reduce its size and weight as well as to avoid mechanical loads, smaller M4-size metal parts were used. Some of the components found in other Red-Fed antennas were also eliminated. The transformer's small housing forced the use of a BNC socket instead of the most popular SO239 (UC1) connector, which in no way affects the antenna's functionality.",
 						model: "Red-Fed Mini",
 						range: "around 80kHz",
 						swr: "<2.0",
@@ -976,7 +976,7 @@ export const TEXTS = {
 						},
 						max: {
 							description:
-								"The antenna is designed for use in off-road and hiking conditions. It is characterized by its small size when folded and light weight, which is invaluable when hiking off-road. Such an antenna will fit folded even into a jacket pocket. Mini versions are ideal for quick installations, done on the run, unfolded for a few hours, in conditions that do not require long-term suspension and in places not exposed to extreme weather conditions (wind, rime).",
+								"The Mini 80 MAX is a unique design among other Red-Fed antennas. The antenna has been optimised for the 80m band to ensure maximum antenna efficiency. A specially selected unique cylindrical ferrite core and a full-size radiator provide antenna efficiency of up to 98-99%, much higher than designs based on popular ring ferrite cores and shortened end-feds. Our idea and calculations have been confirmed in practice, for the 80m band, the antenna operates very broadband - around 280kHz with SWR<2. The antenna can be modified by length correction also for operation on higher bands, but by using a special core, maximum radiation efficiency is provided on the 80m-20m bands. For example, attaching a 290cm additional section of wire to the end of the antenna it shifts the resonance point to 7100kHz.",
 							model: "Red-Fed Mini 80 MAX",
 							bands: "80m",
 							span: "around 34m",
@@ -1021,7 +1021,7 @@ export const TEXTS = {
 
 					standard: {
 						description:
-							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The emphasis here is on increased mechanical strength of the antenna through the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work freely with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
+							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The emphasis here is on increased mechanical strength of the antenna through the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work freely with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The main focus was on increasing mechanical strength of the antenna by the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work without troubles with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
 						model: "Red-Fed Standard",
 						range: "around 80kHz",
 						swr: "<2.0",
@@ -1102,7 +1102,7 @@ export const TEXTS = {
 						wire: "2x 10m PE 4mm",
 						long: {
 							description:
-								"The Full version of the antenna has a full length radiator without the shortening coil, which ensures maximum efficiency of operation in the 80m band. The total length of the antenna is 39mb. The thin steel wire is almost invisible against the sky.",
+								"Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as an all-season stationary (base) antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The Full version antenna has the full length of the radiator without a shortening coil, which ensures maximum operating efficiency in the 80m band. The total length of the antenna is 39 meters. The thin steel cable is almost invisible against the sky.",
 							model: "Red-Fed 80-10 Full Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "around 39m",
@@ -1111,7 +1111,7 @@ export const TEXTS = {
 						},
 						short: {
 							description:
-								"The Short version of the antenna has shortened the length of the radiator with a shortening coil, making it possible to use a line of only 23mb, with only a slight reduction in the antenna's performance in the 80m band.",
+								"Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as all-season stationary antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The short version of the antenna has a shortened radiator length with a shortening coil, which allows the use of a cable with a length of only 23 meters, with only slightly reduced effectiveness of the antenna in the 80m band.",
 							model: "Red-Fed 80-10 Short Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "around 23m",
@@ -1125,12 +1125,12 @@ export const TEXTS = {
 						series: "Red - Dipole",
 						description: "Dipole antennas",
 						descriptionPage:
-							"The Red-Dipol D80 is a classic simple antenna, allowing operation in the 80m amateur band. Additionally, with the use of an antenna tuner, this type of antenna will also allow operation on the other harmonic KF bands (40m-10m). This is one of the most popular antenna designs used by ham radio operators with an overall length equal to half the wavelength of its primary band (approximately 40mb). Our antenna uses a symmetrizer (1:1 transformer), which is essential for the correct operation of this antenna. The antenna is fed at its central point, which is an advantage in some cases (e.g. with an Inverted-V installation), but in some it can be cumbersome (and antennas fed at their end are more convenient). The classic dipole has predictable performance characteristics. We also offer custom-made antenna for other base bands (e.g. 40m or 20m, etc.), the antenna will then be correspondingly shorter.",
+							"The Red-Dipol D80 is a classic simple antenna, allowing operation on the 80m amateur band. Using additional antenna tuner, this type of antenna will also allow operation on the other harmonic HF bands (40m-10m). This is one of the most popular antenna designs used by ham radio operators with an overall length equal to half the wavelength of its primary band (approximately 40meters). Our antenna uses a symmetrizer (1:1 transformer), which is essential for this antenna type. The antenna is fed at its central point, which is an advantage in some cases (i.e. instaled as an Inverted-V configuration), but in some it may be inconvenient (Red-Fed or Red-Wire antennas fed at their end are more convenient). The classic dipole has got predictable radiation pattern and performance. We also offer custom-made antenna version for other base bands (e.g. 40m or 20m, etc.), the antenna will then be correspondingly shorter.",
 						descriptionPageTitle: "Red-Dipole series",
 					},
 					mini: {
 						description:
-							"Mini series antennas are designated for field use with the most popular QRP transceivers, such as Yaesu FT817/818, Icom IC-705, Xiegu, or home-made QRP designs. They are characterized by their small size when assembled and their weight, which cannot be underestimated during field trips on foot. The minis are ideal for quick installations, folded out over a few hours, in conditions that do not require long-term setup. Due to the desire to reduce size and weight, as well as the lack of major mechanical loads, M4-size metal parts were used. Some of the components found in other Red-Dipole antennas were eliminated. The balun's small housing forced the use of a BNC socket instead of the most popular SO239 (UC1) connector, which in no way affects the antenna's functionality.",
+							"Mini series antennas are designated for field use with the most popular QRP transceivers, such as Yaesu FT817/818, Icom IC-705, Xiegu, or home-made QRP designs. They are small size when packed and low weight, which makes them perfect for field trips on foot. The minis are ideal for quick installations, just for a few hours, in conditions that do not require long-term base installations. To reduce its size and weight as well as to avoid mechanical loads, smaller M4-size metal parts were used. Some of the components found in other Red-Fed antennas were also eliminated. The transformer's small housing forced the use of a BNC socket instead of the most popular SO239 (UC1) connector, which in no way affects the antenna's functionality.",
 						model: "Red-Dipole D80mini",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
@@ -1172,7 +1172,7 @@ export const TEXTS = {
 					},
 					standard: {
 						description:
-							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The emphasis here is on increased mechanical strength of the antenna through the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work freely with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
+							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The main focus was on increasing mechanical strength of the antenna by the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work without troubles with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
 						model: "Red-Dipole D80STD",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
@@ -1261,12 +1261,12 @@ export const TEXTS = {
 						series: "Red - Wire",
 						description: "Long-wire antennas",
 						descriptionPage:
-							"Red-Wire is a classic long-wire design, allowing operation on amateur bands from 80m to 10m (40-10m depending on the version) using an antenna tuner. Under certain suspension conditions (height, angle, environment), the parameters of such an antenna may allow the antenna to be directly connected to a transceiver, without the need for an antenna box. The length of the antenna is approximately 38 or 16 metres (standard or shortened). However, classic long-wire antennas with a 9:1 transformer require very good grounding for effective operation and to avoid interference. They do not perform well in metropolitan conditions. Their performance characteristics are variable for each band. Instead, they are convenient to install because of the feed point at the end of the antenna.",
+							"Red-Wire is a classic long-wire antenna design, allowing operation on amateur bands from 80m to 10m (40-10m, depending on the version) using an antenna tuner. Under certain conditions (height, angle, environment), it may also allow the antenna to be directly connected to a transceiver, without the need of an antenna tunner. The length of the antenna is approximately 38 or 16 metres (standard or shortened). However, classic long-wire antennas with a 9:1 transformer require very good grounding for effective operation and to avoid interferences. They do not perform well in metropolitan conditions. Their performance characteristics are also variable for each band. Red-Wire is convenient to install because of the feed point at the end of the antenna.",
 						descriptionPageTitle: "Red-Wire series",
 					},
 					mini: {
 						description:
-							"Mini series antennas are designated for field use with the most popular QRP transceivers, such as Yaesu FT817/818, Icom IC-705, Xiegu, or home-made QRP designs. They are characterized by their small size when assembled and their weight, which cannot be underestimated during field trips on foot. The minis are ideal for quick installations, folded out over a few hours, in conditions that do not require long-term setup. Due to the desire to reduce size and weight, as well as the lack of major mechanical loads, M4-size metal parts were used. Some of the components found in other Red-Wire antennas were eliminated. The balun's small housing forced the use of a BNC socket instead of the most popular SO239 (UC1) connector, which in no way affects the antenna's functionality.",
+							"Mini series antennas are designated for field use with the most popular QRP transceivers, such as Yaesu FT817/818, Icom IC-705, Xiegu, or home-made QRP designs. They are small size when packed and low weight, which makes them perfect for field trips on foot. The minis are ideal for quick installations, just for a few hours, in conditions that do not require long-term base installations. To reduce its size and weight as well as to avoid mechanical loads, smaller M4-size metal parts were used. Some of the components found in other Red-Fed antennas were also eliminated. The transformer's small housing forced the use of a BNC socket instead of the most popular SO239 (UC1) connector, which in no way affects the antenna's functionality.",
 						model: "Red-Wire Mini",
 						range: "",
 						swr: "<2.0",
@@ -1328,7 +1328,7 @@ export const TEXTS = {
 					},
 					standard: {
 						description:
-							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The emphasis here is on increased mechanical strength of the antenna through the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work freely with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
+							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The main focus was on increasing mechanical strength of the antenna by the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work without troubles with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
 						model: "Red-Wire Standard",
 						range: "",
 						swr: "<2.0",
@@ -1457,7 +1457,7 @@ export const TEXTS = {
 				common: {
 					title: "VERTICAL ANTENNAS",
 					description:
-						"Vertical antennas are primarily characterized by omnidirectional characteristics and usually low radiation angles, making them ideal for long-range (DX) communications. Some of the antennas of this group are portable structures, convenient for field work or installation in conditions with limited possibilities (without the possibility of hanging long wire antennas).",
+						"Vertical antennas are primarily characterized by omnidirectional radiation pattern and usually low radiation angles, making them ideal for long-range (DX) communications. Some of the antennas in this group are decicated for portable use, convenient for field work or installation under limited conditions (ie. balcony, without the possibility of hanging long wire antennas). Other models are dedicated for typical stationary operation in a year-round installation.",
 				},
 				v3000: {
 					title: "",
@@ -1485,7 +1485,7 @@ export const TEXTS = {
 				common: {
 					title: "ACCESSORIES",
 					description:
-						"In an effort to meet the needs, we offer all sorts of useful accessories dedicated to transceivers or antennas.",
+						"We offer wide range of useful accessories dedicated to transceivers and antennas under our Red-Antenna brand.",
 				},
 				miniTuner: {
 					common: {
@@ -1495,9 +1495,9 @@ export const TEXTS = {
 					},
 					long: {
 						description:
-							"Ultra small and lightweight tuner for EFHW (End Fed Half Wire) type antenna with SWR indicator. No SWR meter in the transceiver is required for effective antenna tuning. It provides tuning of the half-wave radiator (half-wavelength antenna wire of a given band) to resonance in the 40m/30m/20m/15m bands. You won't damage the transceiver's power output stage with a mismatched antenna - the tuner circuit has a built-in artificial load, used when tuning the radiator (tuning/operation switch). Tuning is indicated by a red LED. A version equipped with a BNC connector, allowing the tuner to be connected directly to the transceiver without the use of a coaxial cable.",
+							"Ultra small and lightweight tuner for EFHW (End Fed Half Wire) type antenna with built-in SWR indicator. No SWR meter in the transceiver is required for effective antenna tuning. It provides tuning of the half-wave radiator (half-wavelength antenna wire of a given band) to resonance in the 40m/30m/20m/15m bands. You won't damage the transceiver with a mismatched antenna - our tuner circuit has a built-in artificial load, used when tuning the radiator (tuning/operation switch). Tuning is indicated by a red LED. A version equipped with a BNC connector, allowing the tuner to be connected directly to the transceiver without the use of a coaxial cable.",
 
-						model: "Mini-Tuner BNC plug",
+						series: "Mini-Tuner BNC plug",
 						weight: "70g",
 						power: "10W P.E.P",
 						size: "60x40x30",
@@ -1508,8 +1508,8 @@ export const TEXTS = {
 					},
 					short: {
 						description:
-							"Ultra small and lightweight tuner for EFHW (End Fed Half Wire) type antenna with SWR indicator. No SWR meter in the transceiver is required for effective antenna tuning. It provides tuning of the half-wave radiator (half-wavelength antenna wire of a given band) to resonance in the 40m/30m/20m/15m bands. You won't damage the transceiver's power output stage with a mismatched antenna - the tuner circuit has a built-in artificial load, used when tuning the radiator (tuning/operation switch). Tuning is indicated by a red LED.",
-						model: "Mini-Tuner BNC socket",
+							"Ultra small and lightweight tuner for EFHW (End Fed Half Wire) type antenna with built-in SWR indicator. No SWR meter in the transceiver is required for effective antenna tuning. It provides tuning of the half-wave radiator (half-wavelength antenna wire of a given band) to resonance in the 40m/30m/20m/15m bands. You won't damage the transceiver with a mismatched antenna - our tuner circuit has a built-in artificial load, used when tuning the radiator (tuning/operation switch). Tuning is indicated by a red LED. A version equipped with a BNC connector, allowing the tuner to be connected directly to the transceiver without the use of a coaxial cable.",
+						series: "Mini-Tuner BNC socket",
 						weight: "70g",
 						power: "10W P.E.P",
 						size: "60x40x30",
@@ -1524,7 +1524,7 @@ export const TEXTS = {
 						series: "Red-Choke",
 						description: "Choke Balun",
 						descriptionPage:
-							"Virtually every type of antenna fed by coaxial cable at the point of antenna connection should have a choke balun. Its absence can affect the operation of electronic devices, causing them to interfere. It also prevents the intrusion of external interference during reception. If you have a symmetrizer at the feed point of the antenna, it is worthwhile to also use a choke balun on the coaxial cable connection side of the transceiver. Instead of complaining about a lot of interference, use a choke-balun! This design uses a completely different approach than the classic winding of coaxial cable on ferrite cores, and after measurements the idea was confirmed by very good measured parameters. Red-Choke consists of two bifilar windings. The whole thing is done with maximum attention to the perfect symmetry of the circuit, including the internal connections. The theory says that for a chocke-balun to be effective, the reactance should be at least 10 times the impedance, or 500ohm. Here we have the assumption fulfilled by a very large margin - the attenuation for the 80m band is at us 30 times the impedance. In the entire KF band up to 30MHz, the SWR ratio is at most 1.12 (for bands below 40m it is below 1.02), so there is virtually no loss. It also works in the 160m band with slightly less, but still high efficiency (unlike popular designs based on FT240-43 cores).",
+							"Almost every type of antenna fed by coaxial cable at the point of antenna connection should have a choke balun. Its absence can affect the operation of electronic devices, causing them to interfere. It also prevents the intrusion of external interference during reception. If you have a symmetrizer at the feed point of the antenna, it is worthwhile to also use a choke balun on the coaxial cable connection side of the transceiver. Instead of complaining about a lot of interference, use a choke-balun! Our unique design uses a completely different approach than the classic winding of coaxial cable on ferrite cores. The idea was confirmed by very good measured parameters. Red-Choke consists of two bifilar windings. The whole thing is done with maximum attention to the perfect symmetry of the circuit, including the internal connections. The theory says that for a chocke-balun to be effective, the reactance should be at least 10 times the impedance, or 500ohm. Here we have the assumption fulfilled by a very large margin - the attenuation for the 80m band is at us 30 times the impedance. In the entire HF band up to 30MHz, the SWR ratio is at most 1.12 max (for bands below 40m it is below 1.02), so there is virtually no loss. It also works on the 160m band with slightly less, but still high efficiency (unlike popular designs based on FT240-43 cores).",
 						weight: "...g",
 						power: "max 1.5KW",
 						size: "170x75x55",
@@ -1551,7 +1551,7 @@ export const TEXTS = {
 							"The set includes the following items:",
 					},
 					long: {
-						model: "Red-Con 01",
+						series: "Red-Con 01",
 						description:
 							"Universal set of adapters (reductions) between the most popular types of connectors used in radio communications. Essential for connecting different types of antennas and cables to radios and analyzers. Comes with a handy box for storing and conveniently carrying all items.",
 						connectors: [
@@ -1576,7 +1576,7 @@ export const TEXTS = {
 						storeLink: "/distributors#",
 					},
 					short: {
-						model: "Red-Con 02",
+						series: "Red-Con 02",
 						description:
 							"Universal set of adapters (reductions) between the most popular types of connectors used in radio communications. Essential for connecting different types of antennas and cables to radios and analyzers. Comes with a handy box for storing and conveniently carrying all items.",
 						connectors: [
@@ -1596,7 +1596,7 @@ export const TEXTS = {
 						storeLink: "/distributors#",
 					},
 					mid: {
-						model: "Red-Con 03",
+						series: "Red-Con 03",
 						description:
 							"Universal set of adapters (reductions) between the most popular types of connectors used in radio communications. Essential for connecting different types of antennas and cables to radios and analyzers. Comes with a handy box for storing and conveniently carrying all items.",
 						connectors: [
@@ -1614,7 +1614,7 @@ export const TEXTS = {
 					common: {
 						series: "Red-Line",
 						descriptionPage:
-							"Red-Line is a high-end 50 ohm RG 58 type cable for the most demanding users of such cables. The inner conductor is a cable very precisely twisted from wires made of the highest grade oxygen-free copper ( outer diameter 0.9 mm ). To signal the high quality of workmanship, very good parameters and to distinguish the product on the market, the outer sheath of this cable is unusual - transparent with a slight red tint ( of course, the cable can also be used outdoors, the sheath is UV resistant ). The RG 58 RED shield is made of very dense braid ( 98% ), and the wires in the braid strands are as large as 0.16 mm in diameter.",
+							"Red-Line is a high-end 50 ohm RG-58 type cable for the most demanding users of such cables. The inner conductor is very precisely twisted from wires made of the highest grade oxygen-free copper (outer diameter 0.9 mm). To show the high quality of workmanship, very good parameters and to highlight the product on the market, the outer sheath of this cable is unique - transparent red. Of course, the cable can also be used outdoors, the sheath is UV resistant. The RG 58 RED shield is made of very dense braid (98%), and the wires in the braid strands are 0.16 mm in diameter.",
 						description: "High quality cable type RG 58",
 						storeLink: "/distributors#",
 					},

@@ -46,6 +46,14 @@ export const BoxArticleStyled = styled.article`
 	@media screen and (max-width: 1200px) {
 		width: 100%;
 		min-width: 20rem;
+
+		h3 {
+			padding: 1rem;
+		}
+
+		p {
+			padding: 0 1.5rem 1.5rem;
+		}
 	}
 
 	@media screen and (max-width: 900px) {

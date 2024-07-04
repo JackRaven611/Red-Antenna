@@ -29,7 +29,7 @@ export const VaraintAcc = ({ series }) => {
 						>
 							{series === "miniTuner"
 								? product.long.feeder
-								: product.long.model}
+								: product.long.series}
 						</label>
 						<input
 							type='checkbox'
@@ -45,7 +45,7 @@ export const VaraintAcc = ({ series }) => {
 						>
 							{series === "miniTuner"
 								? product.short.feeder
-								: product.short.model}
+								: product.short.series}
 						</label>
 						<input
 							type='checkbox'
@@ -60,7 +60,7 @@ export const VaraintAcc = ({ series }) => {
 								htmlFor='20-10'
 								className={size === "mid" ? "label" : null}
 							>
-								{product.mid.model}
+								{product.mid.series}
 							</label>
 							<input
 								type='checkbox'
