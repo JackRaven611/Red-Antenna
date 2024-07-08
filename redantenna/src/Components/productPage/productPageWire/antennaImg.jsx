@@ -11,6 +11,9 @@ import RFExtremelong from "../../../img/endfed extreme.webp";
 
 import RWMinilong from "../../../img/wire MINI 02.webp";
 import RWMidilong from "../../../img/wire MIDI 02.webp";
+import RWStandard from "../../../img/wire STD.webp";
+import RWHD from "../../../img/wire HD.webp";
+import RWHDPlus from "../../../img/wire HDPlus.webp";
 
 import RDMini from "../../../img/dipol MINI.webp";
 import RDMidi from "../../../img/dipol MIDI.webp";
@@ -53,14 +56,14 @@ export const AntennaImg = ({ series, type, size }) => {
 		minilong: RWMinilong,
 		midishort: RWMidilong,
 		midilong: RWMidilong,
-		standardshort: placeHolder,
-		standardlong: placeHolder,
-		hdshort: placeHolder,
-		hdlong: placeHolder,
-		hd600short: placeHolder,
-		hd600long: placeHolder,
-		hd1500short: placeHolder,
-		hd1500long: placeHolder,
+		standardshort: RWStandard,
+		standardlong: RWStandard,
+		hdshort: RWHD,
+		hdlong: RWHD,
+		hd600short: RWHDPlus,
+		hd600long: RWHDPlus,
+		hd1500short: RWHDPlus,
+		hd1500long: RWHDPlus,
 	};
 
 	const img = () => {

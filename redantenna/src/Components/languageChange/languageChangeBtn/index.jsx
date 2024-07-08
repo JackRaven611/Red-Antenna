@@ -18,11 +18,12 @@ export const LanguageChangeBtnStyled = styled.div`
 		font-weight: ${FONTSIZE.weight.medium};
 		font-family: "Montserrat", sans-serif;
 		min-width: 15%;
-		padding: 2.15rem 0;
+		padding: 1.65rem 0;
 		background-color: ${COLORS.White};
 		box-shadow: none;
 		border: none;
 		transition-duration: 0.2s;
+		cursor: pointer;
 	}
 
 	button:hover {
@@ -52,7 +53,7 @@ export const LanguageChangeBtnStyled = styled.div`
 		button {
 			font-size: ${FONTSIZE.aMobile};
 			font-weight: ${FONTSIZE.weight.light.medium};
-			padding: 1.15rem 0;
+			padding: 1rem 0;
 		}
 	}
 `;

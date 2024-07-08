@@ -6,7 +6,7 @@ import { COLORS } from "../../Consts/Colors";
 
 export const CatalogStyled = styled.section`
 	width: 100%;
-	margin-top: 6.05rem;
+	margin-top: 6rem;
 	min-height: 90vh;
 	display: flex;
 	justify-content: center;

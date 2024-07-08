@@ -16,7 +16,8 @@ export const BoxArticleStyled = styled.article`
 	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 
 	h3 {
-		padding: 2rem 2rem;
+		padding: 2rem 2rem 1rem;
+		line-height: 1.7rem;
 		font-size: ${FONTSIZE.h3};
 		font-size: ${FONTSIZE.weight.bold};
 	}

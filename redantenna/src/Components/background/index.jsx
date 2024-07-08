@@ -19,7 +19,7 @@ export const BackgroundStyled = styled.div`
 		min-height: 7rem;
 		border-radius: 0.5rem;
 		z-index: 3;
-		margin-top: -35rem;
+		margin-top: -33rem;
 		display: flex;
 		flex-direction: column;
 		background-color: ${COLORS.darkPurple + "6d"};
@@ -66,13 +66,13 @@ export const BackgroundStyled = styled.div`
 		}
 
 		img {
-			margin-top: 6rem;
+			margin-top: 4.5rem;
 		}
 	}
 
 	@media screen and (max-width: 600px) {
 		header {
-			margin-top: -8rem;
+			margin-top: -7rem;
 		}
 	}
 `;

@@ -39,14 +39,21 @@ export const VariantPanelStyled = styled.div`
 		flex-direction: row;
 		flex-wrap: nowrap;
 		gap: 1rem;
-		margin: 1rem 2rem 1rem 0;
+
+		margin: 0;
 
 		li {
 			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 2.3rem;
 
 			label {
+				display: flex;
+				align-items: center;
 				border-radius: 0.5rem;
-				padding: 0.2rem 1rem;
+				padding: 0 1rem;
+				height: 2.3rem;
 				margin: 0;
 				font-size: ${FONTSIZE.p};
 				font-weight: ${FONTSIZE.weight.bold};
@@ -86,7 +93,7 @@ export const VariantPanelStyled = styled.div`
 		margin: 0.5rem 0;
 
 		select {
-			margin: 0 1rem 1rem;
+			margin: 0 1rem;
 		}
 
 		.checkboxes {

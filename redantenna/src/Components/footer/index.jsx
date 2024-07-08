@@ -30,6 +30,7 @@ export const FooterStyled = styled.footer`
 		display: flex;
 		justify-content: center;
 		margin: 0.5rem 0;
+		min-width: 20rem;
 
 		p {
 			margin: 0;

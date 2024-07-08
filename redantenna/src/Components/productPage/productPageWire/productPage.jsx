@@ -24,38 +24,40 @@ export const ProductPage = ({ series, type, size }) => {
 								: product.model}
 						</h2>
 						<VaraintPanel series={series} />
-						<p>
-							{size === "max"
-								? product.max.description
-								: product.description}
-							{type === "extreme"
-								? product[size].description
-								: null}
-						</p>
-						<div className='linkWrapper'>
-							{languageData.common.pl ? (
-								<a
-									target='_blank'
-									rel='noopener noreferrer'
-									href={
-										product[size]
-											? product[size].storeLink
-											: product.storeLink
-									}
-								>
-									{common.linkTitle}
-								</a>
-							) : (
-								<Link
-									to={
-										product[size]
-											? product[size].storeLink
-											: product.storeLink
-									}
-								>
-									{common.linkTitle}
-								</Link>
-							)}
+						<div className='descriptionWrapper'>
+							<p>
+								{size === "max"
+									? product.max.description
+									: product.description}
+								{type === "extreme"
+									? product[size].description
+									: null}
+							</p>
+							<div className='linkWrapper'>
+								{languageData.common.pl ? (
+									<a
+										target='_blank'
+										rel='noopener noreferrer'
+										href={
+											product[size]
+												? product[size].storeLink
+												: product.storeLink
+										}
+									>
+										{common.linkTitle}
+									</a>
+								) : (
+									<Link
+										to={
+											product[size]
+												? product[size].storeLink
+												: product.storeLink
+										}
+									>
+										{common.linkTitle}
+									</Link>
+								)}
+							</div>
 						</div>
 					</aside>
 				</div>

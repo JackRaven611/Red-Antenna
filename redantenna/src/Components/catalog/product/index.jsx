@@ -33,10 +33,6 @@ export const ProductStyled = styled.article`
 		h3 {
 			color: ${COLORS.mainRed};
 		}
-
-		img {
-			opacity: 0.85;
-		}
 	}
 
 	img {

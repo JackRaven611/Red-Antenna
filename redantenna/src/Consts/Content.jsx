@@ -59,7 +59,7 @@ export const TEXTS = {
 				"Nasze anteny projektowane są w oparciu o wiedzę specjalistyczną oraz duże doświadczenie zawodowe. Wykorzystujemy także specjalistyczne oprogramowanie do modelowania anten. Jednak rzeczywistą efektywność przede wszystkim potwierdzają nasze testy praktyczne pomiaru gęstości pola elektromagnetycznego oraz praktyczne testy pomiaru siły sygnału prowadzone z wykorzystaniem sieci beaconów WSPR. Odbiorniki WSPR rozlokowane na całym świecie raportują rzeczywisty pomiar siły odbieranego sygnału. Z pewnością też efektywność naszych anten potwierdzają doskonałe opinie i liczne rekomendacje ze strony użytkowników naszych anten.",
 			aboutTitle: "NASZA MISJA",
 			aboutText:
-				"Antena jest najważniejszym elementem, mającym wpływ na zasięg każdego systemu nadawczo-odbiorczego. Naszym celem jest tworzenie bezkompromisowych anten, optymalnie zaprojektowanych, cechujących się najlepszymi parametrami i najwyższą jakością wykonania. Osiągnęliśmy go poprzez odpowiedni dobór elementów składowych, szereg testów praktycznych i wytrzymałościowych oraz pomiarów. Bazujemy na rzetelnych opracowaniach naukowych, eksperymentach wielu radioamatorów oraz przede wszystkim własnych wieloletnich doświadczeniach w budowie systemów antenowych i pracy na pasmach krótkofalowych. Dlatego też nasze anteny wyprzedzają pod wieloma względami konkurencyjne produkty dostępne na rynku i tworzą ekskluzywną linię anten wysokiej klasy (tzw. High End)",
+				"Antena jest najważniejszym elementem, mającym wpływ na zasięg każdego systemu nadawczo-odbiorczego. Naszym celem jest tworzenie bezkompromisowych anten, optymalnie zaprojektowanych, cechujących się najlepszymi parametrami i najwyższą jakością wykonania. Osiągnęliśmy go poprzez odpowiedni dobór elementów składowych, szereg testów praktycznych i wytrzymałościowych oraz pomiarów. Bazujemy na rzetelnych opracowaniach naukowych, eksperymentach wielu radioamatorów oraz przede wszystkim własnych wieloletnich doświadczeniach w budowie systemów antenowych i pracy na pasmach krótkofalowych. Dlatego też nasze anteny wyprzedzają pod wieloma względami konkurencyjne produkty dostępne na rynku i tworzą ekskluzywną linię anten wysokiej klasy (tzw. High End).",
 		},
 
 		aboutSection: {
@@ -273,7 +273,7 @@ export const TEXTS = {
 						wire: "2x 10m PE 4mm",
 						long: {
 							description:
-								"Antena w wersji Full ma pełną długość promiennika bez cewki skracającej, co zapewnia maksymalną skuteczność pracy w paśmie 80m. Długość całkowita anteny to 39mb. Cienka linka stalowa jest prawie niewidoczna na tle nieba.",
+								" Antena w wersji Full ma pełną długość promiennika bez cewki skracającej, co zapewnia maksymalną skuteczność pracy w paśmie 80m. Długość całkowita anteny to 39mb. Cienka linka stalowa jest prawie niewidoczna na tle nieba.",
 							model: "Red-Fed 80-10 Full Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "około 39m",
@@ -283,7 +283,7 @@ export const TEXTS = {
 						},
 						short: {
 							description:
-								"Antena w wersji Short ma skróconą długość promiennika cewką skracającą, co umożliwiło zastosowanie linki o długości zaledwie 23mb, przy tylko nieznacznie zmniejszonej skuteczności pracy anteny w paśmie 80m.",
+								" Antena w wersji Short ma skróconą długość promiennika cewką skracającą, co umożliwiło zastosowanie linki o długości zaledwie 23mb, przy tylko nieznacznie zmniejszonej skuteczności pracy anteny w paśmie 80m.",
 							model: "Red-Fed 80-10 Short Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "około 23m",
@@ -874,9 +874,9 @@ export const TEXTS = {
 
 			effectiveness:
 				"Our antennas are designed based on expertise and extensive professional experience. We also use specialized antenna modeling software. However, actual effectiveness is primarily confirmed by our practical tests of electromagnetic field density measurements and practical signal strength measurement tests conducted using WSPR's network of beacons. WSPR receivers deployed around the world report actual measurements of received signal strength. Certainly, the effectiveness of our antennas is also confirmed by excellent feedback and numerous recommendations from users of our antennas.",
-			aboutTitle: "Our mission",
+			aboutTitle: "OUR MISSION",
 			aboutText:
-				"The antenna is the most important element, affecting the range of any transceiver system. Our goal is to create uncompromising antennas, optimally designed, featuring the best parameters and highest quality workmanship. We have achieved it through appropriate selection of components, a series of practical and endurance tests and measurements. We rely on reliable scientific studies, the experiments of many radio amateurs and, above all, our own many years of experience in building antenna systems and working on the shortwave bands. Therefore, our antennas are in many respects ahead of competitive products available on the market and form an exclusive line of high-end (so-called High End) antennas",
+				"The antenna is the most important element, affecting the range of any transceiver system. Our goal is to create uncompromising antennas, optimally designed, featuring the best parameters and highest quality workmanship. We have achieved it through appropriate selection of components, a series of practical and endurance tests and measurements. We rely on reliable scientific studies, the experiments of many radio amateurs and, above all, our own many years of experience in building antenna systems and working on the shortwave bands. Therefore, our antennas are in many respects ahead of competitive products available on the market and form an exclusive line of high-end (so-called High End) antennas.",
 		},
 
 		aboutSection: {
@@ -1021,7 +1021,7 @@ export const TEXTS = {
 
 					standard: {
 						description:
-							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The emphasis here is on increased mechanical strength of the antenna through the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work freely with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The main focus was on increasing mechanical strength of the antenna by the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work without troubles with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
+							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The main focus was on increasing mechanical strength of the antenna by the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work without troubles with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
 						model: "Red-Fed Standard",
 						range: "around 80kHz",
 						swr: "<2.0",
@@ -1084,8 +1084,7 @@ export const TEXTS = {
 						},
 					},
 					extreme: {
-						description:
-							"Red-Fed Extreme antennas are heavy-duty antennas, making them ideal as all-season stationary antennas. The mechanical structure has been strengthened, so the antenna can be used all year round, without fear of breaking under the weight of snow or rime. arze M5, which provides adequate mechanical strength and resistance to environmental factors. In this case, in chemically non-aggressive environments, the lifespan of such equipment is calculated to be about 25 years.",
+						description: "",
 						model: "Red-Fed Extreme",
 						range: "around 300kHz",
 						swr: "<2.0",
@@ -1102,7 +1101,7 @@ export const TEXTS = {
 						wire: "2x 10m PE 4mm",
 						long: {
 							description:
-								"Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as an all-season stationary (base) antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The Full version antenna has the full length of the radiator without a shortening coil, which ensures maximum operating efficiency in the 80m band. The total length of the antenna is 39 meters. The thin steel cable is almost invisible against the sky.",
+								" Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as an all-season stationary (base) antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The Full version antenna has the full length of the radiator without a shortening coil, which ensures maximum operating efficiency in the 80m band. The total length of the antenna is 39 meters. The thin steel cable is almost invisible against the sky.",
 							model: "Red-Fed 80-10 Full Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "around 39m",
@@ -1111,7 +1110,7 @@ export const TEXTS = {
 						},
 						short: {
 							description:
-								"Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as all-season stationary antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The short version of the antenna has a shortened radiator length with a shortening coil, which allows the use of a cable with a length of only 23 meters, with only slightly reduced effectiveness of the antenna in the 80m band.",
+								" Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as all-season stationary antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The short version of the antenna has a shortened radiator length with a shortening coil, which allows the use of a cable with a length of only 23 meters, with only slightly reduced effectiveness of the antenna in the 80m band.",
 							model: "Red-Fed 80-10 Short Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "around 23m",

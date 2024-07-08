@@ -25,35 +25,37 @@ export const ProductPageAcc = ({ series, size }) => {
 								: product.common.series}
 						</h2>
 						{<VaraintAcc series={series} />}
-						<p>
-							{product[size]
-								? product[size].description
-								: product.common.descriptionPage}
-						</p>
-						<div className='linkWrapper'>
-							{languageData.common.pl ? (
-								<a
-									target='_blank'
-									rel='noopener noreferrer'
-									href={
-										product[size]
-											? product[size].storeLink
-											: product.common.storeLink
-									}
-								>
-									{common.linkTitle}
-								</a>
-							) : (
-								<Link
-									to={
-										product[size]
-											? product[size].storeLink
-											: product.common.storeLink
-									}
-								>
-									{common.linkTitle}
-								</Link>
-							)}
+						<div className='descriptionWrapper'>
+							<p>
+								{product[size]
+									? product[size].description
+									: product.common.descriptionPage}
+							</p>
+							<div className='linkWrapper'>
+								{languageData.common.pl ? (
+									<a
+										target='_blank'
+										rel='noopener noreferrer'
+										href={
+											product[size]
+												? product[size].storeLink
+												: product.common.storeLink
+										}
+									>
+										{common.linkTitle}
+									</a>
+								) : (
+									<Link
+										to={
+											product[size]
+												? product[size].storeLink
+												: product.common.storeLink
+										}
+									>
+										{common.linkTitle}
+									</Link>
+								)}
+							</div>
 						</div>
 					</aside>
 				</div>
