@@ -1,63 +1,169 @@
 import { CatalogStyled } from ".";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
+import { AntennaContext } from "../productPage/antennaProvider";
 import { Product } from "./product/product";
-import { ProductAccessories } from "./product/productAccessories";
-import mini40 from "../../img/mini40.jpg";
-import mini80 from "../../img/mini80.jpg";
-import midi40 from "../../img/midi40.jpg";
-import midi80 from "../../img/midi80.jpg";
-import hd80 from "../../img/hd80.jpg";
-import hd40 from "../../img/hd40.jpg";
-import standard40 from "../../img/standard40.jpg";
-import standard80 from "../../img/standard80.jpg";
-import miniMax from "../../img/miniMax.jpg";
-import tuner from "../../img/mini Tuner.jpg";
+import RF from "../../img/endfed MINI.webp";
+import RW from "../../img/wire MIDI 02.webp";
+import RD from "../../img/dipol STD.webp";
+import tuner from "../../img/mini-tuner 02.webp";
+import redLine from "../../img/red kabel 01.webp";
+import redChoke from "../../img/choke balun 02.webp";
+import redMount from "../../img/szpila.webp";
+import redCon from "../../img/zestaw 01.webp";
+import placeHolder from "../../img/red-antenna logo.jpg";
 
-export const Catalog = () => {
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
+export const Catalog = ({ type }) => {
 	const { languageData } = useContext(LanguageContext);
+	const { setType, setSize } = useContext(AntennaContext);
+
+	useEffect(() => {
+		setType("standard");
+		setSize("long");
+	}, []);
+
+	const wire = (
+		<>
+			<li className='headerWrapper'>
+				<h2>{languageData.products.wire.common.title}</h2>
+				<p>{languageData.products.wire.common.description}</p>
+			</li>
+			<li>
+				<Product
+					type='wire'
+					series='redFed'
+					link='/products/wire/redFed#'
+					image={RF}
+				/>
+				<Product
+					type='wire'
+					series='redDipole'
+					link='/products/wire/redDipole#'
+					image={RD}
+				/>
+				<Product
+					type='wire'
+					series='redWire'
+					link='/products/wire/redWire#'
+					image={RW}
+				/>
+			</li>
+		</>
+	);
+
+	const vertical = (
+		<>
+			<li className='headerWrapper'>
+				<h2>{languageData.products.vertical.common.title}</h2>
+				<p>{languageData.products.vertical.common.description}</p>
+			</li>
+			<li>
+				<Product
+					type='vertical'
+					series='b1000'
+					link='/products/vertical/b1000#'
+					image={placeHolder}
+				/>
+				<Product
+					type='vertical'
+					series='p2000'
+					link='/products/vertical/p2000#'
+					image={placeHolder}
+				/>
+				<Product
+					type='vertical'
+					series='v3000'
+					link='/products/vertical/v3000#'
+					image={placeHolder}
+				/>
+			</li>
+		</>
+	);
+
+	const accessories = (
+		<>
+			<li className='headerWrapper'>
+				<h2>{languageData.products.accessories.common.title}</h2>
+				<p>{languageData.products.accessories.common.description}</p>
+			</li>
+			<li>
+				<Product
+					type='accessories'
+					series='miniTuner'
+					link='/products/accessories/miniTuner#'
+					image={tuner}
+				/>
+				<Product
+					type='accessories'
+					series='redChoke'
+					link='/products/accessories/redChoke#'
+					image={redChoke}
+				/>
+				<Product
+					type='accessories'
+					series='redMount'
+					link='/products/accessories/redMount#'
+					image={redMount}
+				/>
+				<Product
+					type='accessories'
+					series='redCon'
+					link='/products/accessories/redCon#'
+					image={redCon}
+				/>
+				<Product
+					type='accessories'
+					series='redLine'
+					link='/products/accessories/redLine#'
+					image={redLine}
+				/>
+			</li>
+		</>
+	);
+
+	const handleType = () => {
+		if (type === "wire") {
+			return <>{wire}</>;
+		} else if (type === "vertical") {
+			return (
+				<>
+					<li className='headerWrapper'>
+						<h2>{languageData.products.vertical.common.title}</h2>
+						<p>
+							{languageData.products.vertical.common.description}
+						</p>
+					</li>
+					<li className='placeHolder'>
+						<h3>{languageData.common.placeHolder}</h3>
+					</li>
+				</>
+			);
+		} else if (type === "accessories") {
+			return accessories;
+		} else {
+			return (
+				<>
+					{wire}
+					<li className='headerWrapper'>
+						<h2>{languageData.products.vertical.common.title}</h2>
+						<p>
+							{languageData.products.vertical.common.description}
+						</p>
+					</li>
+					<li className='placeHolder'>
+						<h3>{languageData.common.placeHolder}</h3>
+					</li>
+					{accessories}
+				</>
+			);
+		}
+	};
 
 	return (
 		<CatalogStyled>
-			<ul>
-				<li className='headerWrapper'>
-					<h2>ANTENY DRUTOWE</h2>
-					<p>{languageData.products.wireText}</p>
-				</li>
-				<li className='wireAntennas'>
-					<Product type='wire' id='RFHD80' image={hd80} />
-					<Product type='wire' id='RFHD40' image={hd40} />
-					<Product type='wire' id='RFStandard80' image={standard80} />
-					<Product type='wire' id='RFStandard40' image={standard40} />
-					<Product type='wire' id='RFMidi80' image={midi80} />
-					<Product type='wire' id='RFMidi40' image={midi40} />
-					<Product type='wire' id='RFMini80' image={mini80} />
-					<Product type='wire' id='RFMini40' image={mini40} />
-					<Product type='wire' id='RFMini80Max' image={miniMax} />
-				</li>
-				<li className='headerWrapper'>
-					<h2>ANTENY PIONOWE</h2>
-				</li>
-				<li className='placeHolder'>
-					<h3>Pojawią się już niedługo</h3>
-				</li>
-				<li></li>
-				<li className='headerWrapper'>
-					<h2>AKCESORIA</h2>
-				</li>
-				<li className='accessories'>
-					<ProductAccessories
-						type='accesories'
-						id='miniTunerCable'
-						image={tuner}
-					/>
-					<ProductAccessories
-						type='accesories'
-						id='miniTuner'
-						image={tuner}
-					/>
-				</li>
-			</ul>
+			<ul>{handleType()}</ul>
 		</CatalogStyled>
 	);
 };

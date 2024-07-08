@@ -1,5 +1,7 @@
 import { NotFoundSectionStyled } from "./index";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const NotFoundSection = () => {
 	return (
 		<NotFoundSectionStyled>

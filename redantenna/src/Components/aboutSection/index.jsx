@@ -2,32 +2,31 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const AboutSectionStyled = styled.section`
-	margin: 8rem 0;
-	height: 45rem;
+	margin: 11rem 0 8rem;
+	height: 90vh;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	height: auto;
 
 	article {
-		box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
+		box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 		display: flex;
+		flex-direction: column;
 		width: 80%;
-
 		border-radius: 0.5rem;
 		overflow: hidden;
-		background-image: linear-gradient(
-			to bottom,
-			${COLORS.Gray + "9d"} 0%,
-			rgba(255, 255, 255, 0) 100%
-		);
+		background-color: ${COLORS.White};
 		img {
-			width: 50%;
+			width: 100%;
 			object-fit: cover;
+			max-height: 20rem;
 		}
 		div {
-			width: 50%;
+			width: 100%;
 
 			h2 {
 				text-transform: uppercase;
@@ -47,27 +46,27 @@ export const AboutSectionStyled = styled.section`
 	}
 
 	@media screen and (max-width: 1200px) {
-		article {
-			flex-direction: column;
+		margin: 9rem 0 5rem;
 
+		article {
 			img {
-				width: 100%;
-				max-height: 20rem;
 			}
 
 			div {
-				width: 100%;
 			}
 		}
 	}
 
 	@media screen and (max-width: 900px) {
-		div {
-			h2 {
-				font-size: ${FONTSIZE.h2Mobile};
-			}
-			p {
-				font-size: ${FONTSIZE.pMobile};
+		article {
+			div {
+				h2 {
+					font-size: ${FONTSIZE.h2Mobile};
+				}
+				p {
+					font-size: ${FONTSIZE.pMobile};
+					margin: 1rem 2rem;
+				}
 			}
 		}
 	}

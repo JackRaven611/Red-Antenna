@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const FooterStyled = styled.footer`
 	width: 100%;
 	height: 20rem;
@@ -71,7 +73,8 @@ export const FooterStyled = styled.footer`
 	}
 
 	@media screen and (max-width: 1200px) {
-		height: 35rem;
+		height: auto;
+		margin-top: 4rem;
 
 		.contactWrapper {
 			flex-wrap: wrap;
@@ -80,6 +83,7 @@ export const FooterStyled = styled.footer`
 		}
 
 		ul {
+			margin: 2rem 0;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;

@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { COLORS } from "../../../Consts/Colors";
 import { FONTSIZE } from "../../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const BoxArticleStyled = styled.article`
 	z-index: 2;
 	width: 30%;
@@ -9,13 +11,9 @@ export const BoxArticleStyled = styled.article`
 	height: auto;
 	margin-bottom: 5rem;
 	border-radius: 0.5rem;
-	background-image: linear-gradient(
-		to bottom,
-		${COLORS.Gray + "9d"} 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
+	background-color: ${COLORS.White};
 	overflow: hidden;
-	box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
+	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 
 	h3 {
 		padding: 2rem 2rem;
@@ -48,6 +46,14 @@ export const BoxArticleStyled = styled.article`
 	@media screen and (max-width: 1200px) {
 		width: 100%;
 		min-width: 20rem;
+
+		h3 {
+			padding: 1rem;
+		}
+
+		p {
+			padding: 0 1.5rem 1.5rem;
+		}
 	}
 
 	@media screen and (max-width: 900px) {

@@ -1,5 +1,7 @@
 import { Catalog } from "../catalog/catalog";
 
-export const Products = () => {
-	return <Catalog />;
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
+export const Products = ({ type }) => {
+	return <Catalog type={type} />;
 };

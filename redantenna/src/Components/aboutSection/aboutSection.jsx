@@ -1,7 +1,9 @@
 import { AboutSectionStyled } from ".";
 import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
-import baluny from "../../img/baluny prototypy 2.JPG";
+import baluny from "../../img/baluny prototypy 2.webp";
+
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const AboutSection = () => {
 	const { languageData } = useContext(LanguageContext);

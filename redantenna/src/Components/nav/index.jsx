@@ -2,10 +2,13 @@ import styled from "styled-components";
 import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const NavStyled = styled.nav`
 	z-index: 10;
 	background-color: ${COLORS.White};
 	color: ${COLORS.darkPurple};
+	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 	width: 100%;
 	height: 6rem;
 	position: fixed;
@@ -21,7 +24,7 @@ export const NavStyled = styled.nav`
 
 		.navButtons {
 			width: 100%;
-			min-width: 10rem;
+			min-width: 20%;
 			align-self: center;
 			padding: 2.15rem 0;
 			background-color: ${COLORS.White};
@@ -37,7 +40,8 @@ export const NavStyled = styled.nav`
 		}
 
 		.homeButton {
-			width: 20rem;
+			width: 19rem;
+			height: 6rem;
 			text-align: left;
 			display: flex;
 			flex-direction: column;
@@ -61,15 +65,17 @@ export const NavStyled = styled.nav`
 		}
 
 		.desktopNav {
-			width: 60%;
+			width: 70%;
 			display: flex;
-			justify-content: space-between;
+			justify-content: flex-end;
+			gap: 1rem;
 			align-items: center;
 			flex-wrap: wrap;
 
 			li {
 				display: flex;
-				width: 20%;
+				width: 23%;
+				height: auto;
 			}
 		}
 
@@ -78,18 +84,67 @@ export const NavStyled = styled.nav`
 		}
 	}
 
-	@media screen and (max-width: 1200px) {
+	.dropdownItem {
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 6rem;
+		transition-duration: 0.2s;
+
+		.navButtonsDropdown {
+			display: none;
+			position: absolute;
+			transition-duration: 0.2s;
+		}
+	}
+
+	.dropdownItem:hover {
+		box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
+		a {
+			border-color: ${COLORS.Gray};
+		}
+
+		.navButtonsDropdown {
+			top: 6rem;
+			width: 12.85%;
+			padding: 0;
+			height: auto;
+			box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+
+			a {
+				border-color: ${COLORS.Gray};
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+				height: 6rem;
+				width: 100%;
+				padding: 0 0.5rem;
+			}
+
+			a:hover {
+				border-color: ${COLORS.mainRed};
+			}
+		}
+	}
+
+	@media screen and (max-width: 1300px) {
 		flex-wrap: wrap;
 
 		.wrapper {
+			width: 100%;
 			.hamburger {
 				display: flex;
-				padding-top: 12rem;
-				margin-left: 1rem;
-				z-index: 10;
+				padding-top: 0;
+				z-index: 1;
 			}
 
 			.homeButton {
+				margin-left: 10%;
 				h1 {
 					font-size: ${FONTSIZE.h1Mobile};
 				}
@@ -99,37 +154,56 @@ export const NavStyled = styled.nav`
 			}
 
 			.desktopNav {
+				z-index: -10;
+				gap: 0;
+				box-shadow: 0 0.2rem 0.2rem ${COLORS.darkPurple + "2d"};
 				display: ${({ $hamburgerOpen }) =>
 					$hamburgerOpen ? "flex" : "none"};
-				margin-top: 14rem;
+				margin-top: 20rem;
 				position: absolute;
 				flex-direction: column;
 				align-items: flex-end;
-				width: 80%;
-				border-bottom-right-radius: 0.5rem;
-				border-bottom-left-radius: 0.5rem;
+				width: 100%;
 				transition-duration: 0.2s;
-				box-shadow: 0.5rem 0.5rem 0.5rem ${COLORS.darkPurple + "2d"};
-				background-image: linear-gradient(
-					to bottom,
-					${COLORS.White} 10%,
-					${COLORS.Gray} 190%
-				);
+				background-color: ${COLORS.White};
+				overflow: hidden;
 
 				li {
 					width: 100%;
-				}
+					height: 4rem;
 
-				.navButtons {
-					padding: 0.5rem;
-					width: 100%;
-					border-color: transparent;
-					background-color: transparent;
-				}
+					.navButtons {
+						padding: 0.5rem 0;
+						height: 4rem;
+						width: 100%;
+						border-bottom: solid 0.15rem ${COLORS.Gray};
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						font-size: ${FONTSIZE.aMobile};
+					}
 
-				.navButton:hover {
-					border-color: ${COLORS.mainRed};
+					.navButtons:hover {
+						border-color: ${COLORS.mainRed};
+					}
 				}
+			}
+		}
+		.dropdownItem {
+			height: auto;
+
+			.navButtonsDropdown {
+				top: 0;
+				display: none;
+				position: absolute;
+				transition-duration: 0.2s;
+			}
+		}
+
+		.dropdownItem:hover {
+			box-shadow: none;
+			.navButtonsDropdown {
+				display: none;
 			}
 		}
 	}

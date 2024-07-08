@@ -1,54 +1,61 @@
 import { ContactSectionStyled } from ".";
 import { useContext } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
-import hd80 from "../../img/RedFed HD 80-10.JPG";
+import hd80 from "../../img/RedFed mini background.webp";
+
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const ContactSection = () => {
 	const { languageData } = useContext(LanguageContext);
+	const common = languageData.common;
+	const contact = languageData.contactSection;
+
 	return (
 		<ContactSectionStyled>
 			<article>
 				<img src={hd80} alt='red antenna hd' loading='lazy' />
 
 				<div>
-					<h2>{languageData.footer.titleContact}</h2>
+					<h2>{languageData.footer.contactTitle}</h2>
 					<ul>
 						<li className='adress'>
-							<h4>{languageData.footer.ourStore}:</h4>
+							<h3>{common.storeTitle}:</h3>
 							<a
-								href={languageData.footer.location}
+								href={common.location}
 								target='_blank'
+								rel='noopener noreferrer'
 							>
-								<p>{languageData.footer.storeLocation}</p>
+								<p>{common.storeLocation}</p>
 							</a>
 						</li>
 						<li>
-							<h4>{languageData.footer.hoursTitle}:</h4>
-							<p>{languageData.footer.open}</p>
+							<h3>{common.hoursTitle}:</h3>
+							<p>{common.open}</p>
 						</li>
 						<li>
-							<h4>{languageData.footer.emailTitle}:</h4>
-							<p>{languageData.footer.email}</p>
+							<h3>{common.emailTitle}:</h3>
+							<p>{common.email}</p>
 						</li>
 						<li>
-							<h4>{languageData.footer.phoneMainTitle}:</h4>
-							<p>{languageData.footer.phoneMain}</p>
+							<h3>{common.phoneMainTitle}:</h3>
+							<p>{common.phoneMain}</p>
 						</li>
 						<li>
-							<h4>{languageData.footer.phoneServiceTitle}:</h4>
-							<p>{languageData.footer.phoneService}</p>
+							<h3>{common.phoneServiceTitle}:</h3>
+							<p>{common.phoneService}</p>
 						</li>
 						<li>
-							<h4>{languageData.footer.phoneSecTitle}:</h4>
-							<p>{languageData.footer.phoneSec}</p>
+							<h3>{common.phoneSecTitle}:</h3>
+							<p>{common.phoneSec}</p>
 						</li>
 						<li>
-							<h4>{languageData.contactSection.formTitle}:</h4>
+							<h3>{contact.formTitle}:</h3>
 							<a
-								href={languageData.contactSection.formLink}
+								href={contact.formLink}
 								target='_blank'
+								rel='noopener noreferrer'
 							>
-								<p>{languageData.contactSection.form}</p>
+								<p>{contact.form}</p>
 							</a>
 						</li>
 					</ul>
