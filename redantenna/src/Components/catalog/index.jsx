@@ -6,10 +6,12 @@ import { COLORS } from "../../Consts/Colors";
 
 export const CatalogStyled = styled.section`
 	width: 100%;
-	margin-top: 6rem;
+	margin-top: 8rem;
 	min-height: 90vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 
 	.headerWrapper {
 		width: 100%;

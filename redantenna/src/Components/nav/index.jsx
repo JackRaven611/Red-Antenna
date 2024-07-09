@@ -74,7 +74,7 @@ export const NavStyled = styled.nav`
 
 			li {
 				display: flex;
-				width: 23%;
+				width: 18%;
 				height: auto;
 			}
 		}
@@ -106,8 +106,8 @@ export const NavStyled = styled.nav`
 		}
 
 		.navButtonsDropdown {
-			top: 5rem;
-			width: 12.85%;
+			top: 6rem;
+			width: 10.05%;
 			padding: 0;
 			height: auto;
 			box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
@@ -159,7 +159,7 @@ export const NavStyled = styled.nav`
 				box-shadow: 0 0.2rem 0.2rem ${COLORS.darkPurple + "2d"};
 				display: ${({ $hamburgerOpen }) =>
 					$hamburgerOpen ? "flex" : "none"};
-				margin-top: 18rem;
+				margin-top: 20rem;
 				position: absolute;
 				flex-direction: column;
 				align-items: flex-end;

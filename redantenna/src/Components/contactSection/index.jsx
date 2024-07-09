@@ -5,7 +5,7 @@ import { FONTSIZE } from "../../Consts/FontSize";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const ContactSectionStyled = styled.section`
-	margin: 8rem 0 8rem;
+	margin: 10rem 0 8rem;
 	width: 100%;
 	height: 90vh;
 	display: flex;

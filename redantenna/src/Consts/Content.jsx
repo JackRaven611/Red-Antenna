@@ -31,6 +31,7 @@ export const TEXTS = {
 			navBtnProducts: "PRODUKTY",
 			navBtnAbout: "O NAS",
 			navBtnContact: "KONTAKT",
+			navBtnBlog: "BLOG",
 			categoryWire: "ANTENY DRUTOWE",
 			categoryVertical: "ANTENY PIONOWE",
 			categoryAccessories: "AKCESORIA",
@@ -67,10 +68,68 @@ export const TEXTS = {
 			text: "Historia naszej marki rozpoczęła się kilka lat temu z potrzeby dostarczenia anten najwyższej jakości, zarówno pod kątem jakości wykonania, jak i dobrze przemyślanej i optymalnej konstrukcji, która spełniłaby wysoko postawione wymagania. Mając odpowiednie możliwości techniczne naszego serwisu i wiedzę specjalistyczną postanowiliśmy rozpocząć produkcją produktów klasy high end, tj. najwyższej jakości, z dbałością faktycznie o każdy detal. W odróżnieniu od innych marek, wprowadziliśmy zasadę rzetelnego informowania o parametrach pracy anten. Dla przykładu - zamiast maksymalnej chwilowej przenoszonej mocy, prowadzącej do uszkodzenia anteny (jak podaje większość innych producentów), my informujemy o maksymalnej mocy pracy anteny (tj. maksymalnej mocy promieniowania w sposób ciągły przy której nie ulegają pogorszeniu jej osiągi), a tym samym maksymalna granica wytrzymałości anteny jest dużo większa. Tak samo dużą wagę przykładamy do wykonywania rzeczywistych pomiarów wykonanych transformatorów antenowych (w odróżnieniu od masowej produkcji, gdzie pomija się rzeczywiste pomiary poszczególnych egzemplarzy). Naszym głównym celem jest zatem budowanie marki produktów klasy premium (których często brakuje w tym segmencie rynku).",
 			wsrp: "Nasze anteny testowane są pod kątem faktycznej efektywności wykorzystując rzetelne raporty WSPR. Stacje odbiorcze rozlokowane są na całym świecie i przekazują dokładny poziom siły odbieranego sygnału (w jednostkach dBm). Korzystamy z tego systemu optymalizując projekty i konstrukcje naszych anten.",
 		},
+
 		contactSection: {
 			form: "Przejdź do formularza",
 			formLink: "https://www.ercomer.pl/pl/contact",
 			formTitle: "Formularz kontaktowy",
+		},
+
+		blogSection: {
+			header: "ARTYKUŁY",
+			description: "",
+			articles: [
+				{
+					index: 0,
+					title: "Pomiary Red-Fedów",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [
+						"Pasmo 80m",
+						"Pasmo 40m",
+						"Pasmo 20m",
+						"Pasmo 15m",
+						"Pasmo 10m",
+					],
+				},
+
+				{
+					index: 1,
+					title: "Jaką antene wybrać",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [
+						"Pasmo 80m",
+						"Pasmo 40m",
+						"Pasmo 20m",
+						"Pasmo 15m",
+						"Pasmo 10m",
+					],
+				},
+
+				{
+					index: 2,
+					title: "Montaż anteny",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [
+						"Pasmo 80m",
+						"Pasmo 40m",
+						"Pasmo 20m",
+						"Pasmo 15m",
+						"Pasmo 10m",
+					],
+				},
+			],
 		},
 
 		products: {
@@ -848,6 +907,7 @@ export const TEXTS = {
 			navBtnProducts: "PRODUCTS",
 			navBtnAbout: "ABOUT",
 			navBtnContact: "CONTACT",
+			navBtnBlog: "BLOG",
 			categoryWire: "WIRE ANTENNAS",
 			categoryVertical: "VERTICAL ANTENNAS",
 			categoryAccessories: "ACCESSORIES",

@@ -13,7 +13,6 @@ export const ProductStyled = styled.article`
 	transition-duration: 0.2s;
 	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 	border-bottom: solid 0.2rem transparent;
-	transition-duration: 0.2s;
 
 	&&:hover {
 		color: ${COLORS.mainRed};

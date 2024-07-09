@@ -14,6 +14,8 @@ import { Contact } from "./Components/pages/contact";
 import { NotFound } from "./Components/pages/notFound";
 import { ProductPanel } from "./Components/pages/productPanel";
 import { Distributors } from "./Components/pages/distributors";
+import { Blog } from "./Components/pages/blog";
+import { BlogArticlePage } from "./Components/pages/blogArticlePage";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -23,7 +25,6 @@ function App() {
 	return (
 		<BrowserRouter>
 			<ScrollToTop />
-
 			<div className='App'>
 				<BurgerProvider>
 					<Nav />
@@ -87,6 +88,12 @@ function App() {
 								element={<Distributors />}
 							/>
 						)}
+
+						<Route path='/blog' element={<Blog />} />
+						<Route
+							path='/blog/article/*'
+							element={<BlogArticlePage />}
+						/>
 
 						<Route path='/about' element={<About />} />
 						<Route path='/contact' element={<Contact />} />
