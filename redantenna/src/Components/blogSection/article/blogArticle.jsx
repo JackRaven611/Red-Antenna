@@ -6,6 +6,8 @@ import RF20m from "../../../img/Red-Fed 80-10 pasmo 20m.webp";
 import RF40m from "../../../img/Red-Fed 80-10 pasmo 40m.webp";
 import RF80m from "../../../img/Red-Fed 80-10 pasmo 80m.webp";
 
+/*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
+
 export const BlogArticle = () => {
 	const location = useLocation();
 	const { index, title, content, coverImg, imageLabels } = location.state;

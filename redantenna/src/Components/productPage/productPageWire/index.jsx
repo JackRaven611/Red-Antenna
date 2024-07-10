@@ -5,7 +5,6 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const ProductPageStyled = styled.section`
-	margin-top: 4rem;
 	background-color: ${COLORS.White};
 	min-height: 90vh;
 	width: 100%;
@@ -19,7 +18,7 @@ export const ProductPageStyled = styled.section`
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-		margin: 5rem 0;
+		margin: 0 0 5rem;
 		overflow: hidden;
 		border-radius: 0.5rem;
 

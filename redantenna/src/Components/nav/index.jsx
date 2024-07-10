@@ -106,7 +106,7 @@ export const NavStyled = styled.nav`
 		}
 
 		.navButtonsDropdown {
-			top: 6rem;
+			top: 5rem;
 			width: 10.05%;
 			padding: 0;
 			height: auto;

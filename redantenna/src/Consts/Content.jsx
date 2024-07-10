@@ -75,6 +75,16 @@ export const TEXTS = {
 			formTitle: "Formularz kontaktowy",
 		},
 
+		breadcrumbs: {
+			products: "Produkty",
+			accessories: "Akcesoria",
+			wire: "Drutowe",
+			vertical: "Pionowe",
+			blog: "Blog",
+			about: "O nas",
+			contact: "Kontakt",
+		},
+
 		blogSection: {
 			header: "ARTYKUŁY",
 			description: "",
