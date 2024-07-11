@@ -12,16 +12,20 @@ export const BreadcrumbsStyled = styled.div`
 
 	ul {
 		width: 80%;
-		height: 2rem;
+		min-height: 2rem;
 		display: flex;
 		justify-content: flex-start;
+		flex-wrap: wrap;
 
 		li {
 			width: auto;
 			height: 2rem;
+			font-size: ${FONTSIZE.p};
+			font-weight: ${FONTSIZE.weight.medium};
 
 			img {
 				height: 2rem;
+				padding: 0 0.5rem 0 0;
 			}
 
 			img:hover {
@@ -35,7 +39,7 @@ export const BreadcrumbsStyled = styled.div`
 				align-items: center;
 
 				a {
-					margin: 0 0.5rem;
+					padding: 0 0.5rem;
 					width: 100%;
 					height: 2rem;
 					display: flex;

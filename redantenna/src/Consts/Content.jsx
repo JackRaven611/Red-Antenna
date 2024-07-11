@@ -158,6 +158,7 @@ export const TEXTS = {
 				antennaWireTitle: "Linka antenowa:",
 				wireTitle: "Linka mocująca:",
 				linkTitle: "Sklep",
+				techSpec: "Specyfikacja techniczna",
 			},
 
 			wire: {
@@ -908,6 +909,9 @@ export const TEXTS = {
 			onlineStore: "Online store",
 			hoursTitle: "Opening hours",
 			placeHolder: "Comming soon",
+			disclaimer:
+				"Red-Antenna antennas are based on Amidon cores, on which double-enamelled DN2E wire is wound, with increased resistance to temperature and electrical breakdown. The entire assembly is encapsulated in an airtight ABS housing, with a spilled gasket and sealed connections. This provides IP67-class waterproofing and IK09-class shock resistance.",
+
 			distributorsTitle: "EU Distributors",
 		},
 
@@ -981,6 +985,61 @@ export const TEXTS = {
 			// },
 		],
 
+		breadcrumbs: {
+			products: "Products",
+			accessories: "Accessories",
+			wire: "Wire",
+			vertical: "Vertical",
+			blog: "Blog",
+			about: "About",
+			contact: "Contact",
+		},
+
+		blogSection: {
+			header: "ARTICLES",
+			description: "",
+			articles: [
+				{
+					index: 0,
+					title: "Pomiary Red-Fedów",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [
+						"Pasmo 80m",
+						"Pasmo 40m",
+						"Pasmo 20m",
+						"Pasmo 15m",
+						"Pasmo 10m",
+					],
+				},
+
+				{
+					index: 1,
+					title: "Jaką antene wybrać",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [],
+				},
+
+				{
+					index: 2,
+					title: "Montaż anteny",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [],
+				},
+			],
+		},
+
 		products: {
 			common: {
 				bandsTitle: "Operating bands:",
@@ -997,6 +1056,7 @@ export const TEXTS = {
 				antennaWireTitle: "Antenna wire:",
 				wireTitle: "Fastening wire:",
 				linkTitle: "Where to buy",
+				techSpec: "Technical specification",
 			},
 
 			wire: {
@@ -1010,7 +1070,7 @@ export const TEXTS = {
 						series: "Red - Fed",
 						description: "EFHW antennas (End Fed Half Wire)",
 						descriptionPage:
-							"Red-Fed is a popular recent design of end-fed half-wave (EFHW) antenna. It is very convenient to install as fed at the end. A special feature of this type of antenna is that the way it is suspended has very little effect on its performance or operating resonances (the SWR will not change much). An additional advantage is the antenna has got the same and predictable radiation characteristics (such as a half-wave dipole) on each band. It also provides the ability to achieve a typical omnidirectional characteristic in an inverted-V configuration. It needs relatively small space required to hang the antenna in its shortened version (only 23mb of wire to operate on the 80m and higher bands), still providing very good efficiency. Our version of this type of antenna stands out in the market as the very well optimized design, as a result of many hours of reliable measurements and practical tests. In addition, our Red-Fed series antennas have a unique end section with a connector at the end of the radiator. If connected or disconnected, it appropriately shifts the resonance point of the lowest band between the low segment of CW or FT8, and the higher segment of SSB operation. With this unique solution, most often for our Red-Fed, no additional antenna tuner is needed.",
+							"Red-Fed antennas are a popular end-fed half-wave (EFHW) antenna design, which makes them very convenient to install. A special feature of this type of antenna is that the way it is suspended has very little effect on its performance or operating resonances (the SWR factor will change very little). An additional advantage is the antenna's constant and predictable performance characteristics (like a half-wave dipole) on each band. It also provides the ability to achieve a typical omnidirectional characteristic with an inverted-V configuration. Also not to be underestimated is the relatively small space required to hang the antenna in its shortened version (just 23mb for the version operating in the 80m and higher bands), with very little difference in its efficiency. Our design of this type of antenna stands out in the market for the design optimisation carried out, supported by reliable measurements and practical tests. In addition, our Red-Fed series antennas have a reed section with a connector at the end of the radiator, which, connected or disconnected, appropriately shifts the lowest band resonance point between the low segment of CW or FT8 and the higher segment of SSB operation. With this solution, usually no additional antenna tuner is needed for Red-Fed. To hang the antenna, two 10-metre lengths of PE cable are used, which is non-absorbent of water, resistant to chemicals, organic substances and resistant to tearing.  Due to the narrow tuning in the lowest band, the antenna has the possibility to disconnect the end of the antenna cable with a connector, allowing a quick band change from SSB to CW.",
 						descriptionPageTitle: "Red-Fed series",
 					},
 

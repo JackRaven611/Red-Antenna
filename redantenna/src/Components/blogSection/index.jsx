@@ -3,15 +3,15 @@ import { COLORS } from "../../Consts/Colors";
 import { FONTSIZE } from "../../Consts/FontSize";
 
 export const BlogSectionStyled = styled.section`
-	margin: 8rem 0;
 	min-height: 90vh;
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 
 	h2 {
-		margin: 0 0 3rem;
+		margin: 0 0 1rem;
 		font-size: ${FONTSIZE.h2};
 		font-weight: ${FONTSIZE.weight.bold};
 	}

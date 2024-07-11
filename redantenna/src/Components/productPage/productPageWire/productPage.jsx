@@ -99,83 +99,87 @@ export const ProductPage = ({ series, type, size }) => {
 								{languageData.common.disclaimer}
 							</p>
 						</div>
-						<ul>
-							<li className='description'>
-								<h3>{common.bandsTitle}</h3>
-								<p>
-									{product[size]
-										? product[size].bands
-										: product.bands}
-								</p>
-							</li>
-							<li className='description'>
-								<h3>{common.spanTitle}</h3>
-								<p>
-									{product[size]
-										? product[size].span
-										: product.span}
-								</p>
-							</li>
-							<li className='description'>
-								<h3>{common.weightTitle}</h3>
-								<p>
-									{product[size]
-										? product[size].weight
-										: product.weight}
-								</p>
-							</li>
-							<li className='description'>
-								<h3>{common.sizeTitle}</h3>
-								<p>{product.size}</p>
-							</li>
-							<li className='description'>
-								<h3>{common.rangeTitle}</h3>
-								<p>
-									{size === "max"
-										? product.max.range
-										: product.range}
-								</p>
-							</li>
-							<li className='description'>
-								<h3>{common.swrTitle}</h3>
-								<p>{product.swr}</p>
-							</li>
-							<li className='description'>
-								<h3>{common.powerTitle}</h3>
-								<p>
-									{product.ssb}, {product.cw}, {product.digi}
-								</p>
-							</li>
-							<li className='description'>
-								<h3>{common.connectors}</h3>
-								<p>
-									{product.feeder}, {product.antenna}
-								</p>
-							</li>
-							<li className='description'>
-								<h3>{common.coreTitle}</h3>
-								<p>
-									{size === "max"
-										? product.max.core
-										: product.core}
-								</p>
-							</li>
-							<li className='description'>
-								<h3>{common.windingsTitle}</h3>
-								<p>{product.windings}</p>
-							</li>
-							<li className='description'>
-								<h3>{common.antennaWireTitle}</h3>
-								<p>
-									{product.antennaWire}
-									<sup>2</sup>
-								</p>
-							</li>
-							<li className='description'>
-								<h3>{common.wireTitle}</h3>
-								<p>{product.wire}</p>
-							</li>
-						</ul>
+						<div>
+							<h3>{common.techSpec}</h3>
+							<ul>
+								<li className='description'>
+									<h3>{common.bandsTitle}</h3>
+									<p>
+										{product[size]
+											? product[size].bands
+											: product.bands}
+									</p>
+								</li>
+								<li className='description'>
+									<h3>{common.spanTitle}</h3>
+									<p>
+										{product[size]
+											? product[size].span
+											: product.span}
+									</p>
+								</li>
+								<li className='description'>
+									<h3>{common.weightTitle}</h3>
+									<p>
+										{product[size]
+											? product[size].weight
+											: product.weight}
+									</p>
+								</li>
+								<li className='description'>
+									<h3>{common.sizeTitle}</h3>
+									<p>{product.size}</p>
+								</li>
+								<li className='description'>
+									<h3>{common.rangeTitle}</h3>
+									<p>
+										{size === "max"
+											? product.max.range
+											: product.range}
+									</p>
+								</li>
+								<li className='description'>
+									<h3>{common.swrTitle}</h3>
+									<p>{product.swr}</p>
+								</li>
+								<li className='description'>
+									<h3>{common.powerTitle}</h3>
+									<p>
+										{product.ssb}, {product.cw},{" "}
+										{product.digi}
+									</p>
+								</li>
+								<li className='description'>
+									<h3>{common.connectors}</h3>
+									<p>
+										{product.feeder}, {product.antenna}
+									</p>
+								</li>
+								<li className='description'>
+									<h3>{common.coreTitle}</h3>
+									<p>
+										{size === "max"
+											? product.max.core
+											: product.core}
+									</p>
+								</li>
+								<li className='description'>
+									<h3>{common.windingsTitle}</h3>
+									<p>{product.windings}</p>
+								</li>
+								<li className='description'>
+									<h3>{common.antennaWireTitle}</h3>
+									<p>
+										{product.antennaWire}
+										<sup>2</sup>
+									</p>
+								</li>
+								<li className='description'>
+									<h3>{common.wireTitle}</h3>
+									<p>{product.wire}</p>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</ProductPageStyled>

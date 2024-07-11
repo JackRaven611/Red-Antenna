@@ -15,7 +15,7 @@ export const Breadcrumbs = ({ paths }) => {
 				</li>
 				{paths.map((path) => {
 					return (
-						<li>
+						<li key={path.link}>
 							<div>
 								<b>/</b> <Link to={path.link}>{path.name}</Link>
 							</div>

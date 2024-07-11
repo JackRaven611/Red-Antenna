@@ -5,7 +5,7 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const BlogArticleStyled = styled.section`
-	margin: 8rem 0;
+	margin: 0 0 5rem;
 	min-height: 90vh;
 	display: flex;
 	flex-direction: column;
@@ -13,7 +13,6 @@ export const BlogArticleStyled = styled.section`
 	align-items: center;
 
 	.wrapper {
-		margin-top: 2rem;
 		overflow: hidden;
 		width: 80%;
 		border-radius: 0.5rem;

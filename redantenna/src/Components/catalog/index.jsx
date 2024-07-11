@@ -6,7 +6,6 @@ import { COLORS } from "../../Consts/Colors";
 
 export const CatalogStyled = styled.section`
 	width: 100%;
-	margin-top: 8rem;
 	min-height: 90vh;
 	display: flex;
 	flex-direction: column;
@@ -23,7 +22,7 @@ export const CatalogStyled = styled.section`
 		gap: 0;
 		h2 {
 			width: 90%;
-			margin: 2rem 0;
+			margin: 0 0 1rem;
 			font-size: ${FONTSIZE.h2};
 			font-weight: ${FONTSIZE.weight.bold};
 		}

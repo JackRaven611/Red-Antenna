@@ -29,9 +29,9 @@ export const ProductPageStyled = styled.section`
 			flex-direction: row;
 			justify-content: flex-end;
 			align-items: stretch;
-
+			gap: 5%;
 			img {
-				width: 50%;
+				width: 47.5%;
 				min-height: 35rem;
 				max-height: 35rem;
 				object-fit: cover;
@@ -39,7 +39,7 @@ export const ProductPageStyled = styled.section`
 			}
 
 			aside {
-				width: 50%;
+				width: 47.5%;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
@@ -47,7 +47,7 @@ export const ProductPageStyled = styled.section`
 				min-height: 28rem;
 
 				h2 {
-					width: 90%;
+					width: 100%;
 					text-align: left;
 					margin: 0 0 0rem 0;
 					font-weight: ${FONTSIZE.weight.medium};
@@ -59,7 +59,7 @@ export const ProductPageStyled = styled.section`
 					flex-direction: column;
 					justify-content: space-between;
 					height: auto;
-					width: 90%;
+					width: 100%;
 
 					p {
 						width: 100%;
@@ -106,17 +106,18 @@ export const ProductPageStyled = styled.section`
 		.infoWrapper {
 			display: flex;
 			flex-direction: row;
+			gap: 5%;
 			width: 80%;
 			margin: 2rem 0;
 			div {
-				width: 45%;
-				margin: 1rem 2.5% 0;
+				width: 47.5%;
+				margin: 1rem 0;
 
 				h3 {
 					font-weight: ${FONTSIZE.weight.bold};
 					font-size: ${FONTSIZE.a};
 					text-align: center;
-					margin-bottom: 1.5rem;
+					margin-bottom: 1rem;
 				}
 
 				p {
@@ -128,10 +129,10 @@ export const ProductPageStyled = styled.section`
 
 			ul {
 				display: flex;
-				width: 45%;
+				width: 100%;
 				flex-direction: column;
-				align-items: center;
-				margin: 0 2.5%;
+				align-items: flex-start;
+				margin: 0;
 				.description {
 					width: 100%;
 					height: 3.5rem;
@@ -144,6 +145,7 @@ export const ProductPageStyled = styled.section`
 						font-weight: ${FONTSIZE.weight.bold};
 						font-size: ${FONTSIZE.p};
 						text-align: left;
+						margin: 0;
 					}
 
 					p {
@@ -251,7 +253,6 @@ export const ProductPageStyled = styled.section`
 				width: 90%;
 
 				img {
-					margin-top: 3.5rem;
 					width: 100%;
 					min-height: auto;
 					max-height: 20rem;
@@ -263,7 +264,7 @@ export const ProductPageStyled = styled.section`
 					h2 {
 						font-size: ${FONTSIZE.h2Mobile};
 						width: 100%;
-						margin: 2rem 0 0;
+						margin: 1rem 0 0;
 						text-align: center;
 					}
 					.descriptionWrapper {
@@ -284,10 +285,6 @@ export const ProductPageStyled = styled.section`
 			width: 90%;
 			margin: 0;
 			.selectorkWrapper {
-				img {
-					margin-top: 3.5rem;
-				}
-
 				aside {
 					h2 {
 						font-size: ${FONTSIZE.h2Mobile};
@@ -298,16 +295,24 @@ export const ProductPageStyled = styled.section`
 					}
 				}
 			}
-			.description {
-				width: 100%;
-				height: 4.5rem;
 
-				h3 {
-					font-size: ${FONTSIZE.pMobile};
-				}
+			.infoWrapper {
+				margin: 0;
 
-				p {
-					font-size: ${FONTSIZE.pMobile};
+				ul {
+					.description {
+						width: 100%;
+						height: auto;
+						padding: 0.5rem 0;
+
+						h3 {
+							font-size: ${FONTSIZE.pMobile};
+						}
+
+						p {
+							font-size: ${FONTSIZE.pMobile};
+						}
+					}
 				}
 			}
 		}
