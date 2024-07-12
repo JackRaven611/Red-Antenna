@@ -6,10 +6,8 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 
 export const BoxArticleStyled = styled.article`
 	z-index: 2;
-	width: 30%;
-	min-width: 25rem;
+	width: 31.6%;
 	height: auto;
-	margin-bottom: 5rem;
 	border-radius: 0.5rem;
 	background-color: ${COLORS.White};
 	overflow: hidden;
@@ -44,9 +42,10 @@ export const BoxArticleStyled = styled.article`
 		width: 45%;
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 1300px) {
 		width: 100%;
 		min-width: 20rem;
+		margin: 0 0 3rem;
 
 		h3 {
 			padding: 1rem;
@@ -54,6 +53,14 @@ export const BoxArticleStyled = styled.article`
 
 		p {
 			padding: 0 1.5rem 1.5rem;
+		}
+
+		.infoWrapper {
+			height: 15rem;
+
+			img {
+				height: 15rem;
+			}
 		}
 	}
 

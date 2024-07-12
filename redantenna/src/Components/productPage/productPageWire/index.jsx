@@ -186,10 +186,10 @@ export const ProductPageStyled = styled.section`
 		}
 	}
 
-	@media screen and (max-width: 1290px) {
+	@media screen and (max-width: 1300px) {
 		min-height: 50vh;
 		.wrapper {
-			width: 90%;
+			width: 100%;
 			margin: 0;
 
 			.redConTitle {
@@ -282,7 +282,7 @@ export const ProductPageStyled = styled.section`
 
 	@media screen and (max-width: 950px) {
 		.wrapper {
-			width: 90%;
+			width: 100%;
 			margin: 0;
 			.selectorkWrapper {
 				aside {

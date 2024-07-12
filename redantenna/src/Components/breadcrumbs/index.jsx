@@ -54,4 +54,10 @@ export const BreadcrumbsStyled = styled.div`
 			}
 		}
 	}
+
+	@media screen and (max-width: 1300px) {
+		ul {
+			width: 90%;
+		}
+	}
 `;

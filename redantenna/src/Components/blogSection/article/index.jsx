@@ -35,7 +35,7 @@ export const BlogArticleStyled = styled.section`
 			background-color: transparent;
 
 			h2 {
-				width: 90%;
+				width: 100%;
 				margin: 1rem;
 				display: flex;
 				justify-content: center;
@@ -47,7 +47,7 @@ export const BlogArticleStyled = styled.section`
 			p {
 				text-align: left;
 				width: 90%;
-				margin-bottom: 3rem;
+				margin-bottom: 1rem;
 				font-size: ${FONTSIZE.p};
 				font-weight: ${FONTSIZE.weight.medium};
 			}
@@ -60,7 +60,7 @@ export const BlogArticleStyled = styled.section`
 				li {
 					width: auto;
 					max-height: 35rem;
-					margin: 0 0 3rem;
+					margin: 0 0 1.5rem;
 					border-radius: 0.5rem;
 					overflow: hidden;
 					display: flex;
@@ -83,25 +83,43 @@ export const BlogArticleStyled = styled.section`
 			}
 		}
 	}
-	@media screen and (max-width: 1200px) {
-		margin: 5rem 0 0;
+	@media screen and (max-width: 1300px) {
 		.wrapper {
 			width: 100%;
 			margin: 0;
 			box-shadow: none;
+			border-radius: 0;
 
 			.coverImg {
-				max-height: 15rem;
+				max-height: 20rem;
 			}
 
 			.textWrapper {
 				ul {
 					width: 90%;
 					li {
+						max-height: 28rem;
+						img {
+							max-height: 25rem;
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media screen and (max-width: 900px) {
+		.wrapper {
+			.coverImg {
+				max-height: 15rem;
+			}
+
+			.textWrapper {
+				ul {
+					li {
 						max-height: 18rem;
 						img {
 							max-height: 15rem;
-							width: 100%;
 						}
 					}
 				}

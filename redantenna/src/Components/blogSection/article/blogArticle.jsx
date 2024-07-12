@@ -49,7 +49,7 @@ export const BlogArticle = () => {
 						<ul>
 							{imgs[index].map((img) => {
 								return (
-									<li>
+									<li key={img.description}>
 										<img
 											src={img.img}
 											alt={img.description}

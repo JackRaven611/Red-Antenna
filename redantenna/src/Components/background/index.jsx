@@ -19,7 +19,7 @@ export const BackgroundStyled = styled.div`
 		min-height: 7rem;
 		border-radius: 0.5rem;
 		z-index: 3;
-		margin-top: -33rem;
+		margin-top: -35rem;
 		display: flex;
 		flex-direction: column;
 		background-color: ${COLORS.darkPurple + "6d"};
@@ -45,10 +45,11 @@ export const BackgroundStyled = styled.div`
 		object-fit: cover;
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 1300px) {
 		header {
+			width: 90%;
 			margin-top: -25rem;
-			gap: 0.7rem;
+			gap: 1rem;
 		}
 	}
 

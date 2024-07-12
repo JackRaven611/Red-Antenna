@@ -20,13 +20,25 @@ export const BlogSectionStyled = styled.section`
 		width: 80%;
 		display: flex;
 		flex-wrap: wrap;
-		gap: 5%;
+		gap: 2.5%;
 		justify-content: center;
 		margin: 0;
 
 		li {
-			width: 47.25%;
-			margin: 0 0 4.5rem;
+			width: 48.75%;
+			margin: 0 0 3rem;
+		}
+	}
+
+	@media screen and (max-width: 1300px) {
+		ul {
+			width: 90%;
+			flex-direction: column;
+
+			li {
+				width: 100%;
+				margin: 0 0 3rem;
+			}
 		}
 	}
 `;

@@ -4,9 +4,9 @@ import { COLORS } from "../../Consts/Colors";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const HamburgerStyled = styled.div`
-	width: 3rem;
-	height: 3rem;
-	margin-right: 10%;
+	width: 2rem;
+	height: 2rem;
+	margin-right: 5%;
 	background: transparent;
 	border: none;
 	cursor: pointer;

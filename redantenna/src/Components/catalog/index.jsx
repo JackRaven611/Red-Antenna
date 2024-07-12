@@ -22,12 +22,12 @@ export const CatalogStyled = styled.section`
 		gap: 0;
 		h2 {
 			width: 90%;
-			margin: 0 0 1rem;
 			font-size: ${FONTSIZE.h2};
 			font-weight: ${FONTSIZE.weight.bold};
 		}
 		p {
-			width: 80%;
+			margin: 1rem 0 0;
+			width: 100%;
 			font-size: ${FONTSIZE.p};
 			font-weight: ${FONTSIZE.weight.medium};
 			text-align: left;
@@ -38,13 +38,13 @@ export const CatalogStyled = styled.section`
 		width: 80%;
 		display: flex;
 		flex-direction: column;
-		margin-bottom: 5rem;
 		li {
 			width: 100%;
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
-			gap: 3.5rem;
+			gap: 3rem;
+			margin-bottom: 3rem;
 		}
 
 		.placeHolder {
@@ -64,18 +64,18 @@ export const CatalogStyled = styled.section`
 		}
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 1300px) {
 		.headerWrapper {
 			h2 {
 				font-size: ${FONTSIZE.h2Mobile};
-				margin: 2rem 0 1rem;
 			}
 			p {
 				font-size: ${FONTSIZE.pMobile};
-				width: 100%;
 			}
 		}
 		ul {
+			width: 90%;
+			margin: 0;
 			li {
 				gap: 2rem;
 			}

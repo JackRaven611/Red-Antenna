@@ -5,7 +5,7 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const ProductStyled = styled.article`
-	width: 40%;
+	width: 48.25%;
 	border-radius: 0.5rem;
 	overflow: hidden;
 	display: flex;
@@ -62,7 +62,7 @@ export const ProductStyled = styled.article`
 		}
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 1300px) {
 		width: 100%;
 
 		img {

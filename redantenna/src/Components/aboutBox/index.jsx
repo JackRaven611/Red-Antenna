@@ -6,7 +6,7 @@ import { FONTSIZE } from "../../Consts/FontSize";
 
 export const AboutBoxStyled = styled.section`
 	width: 100%;
-	margin: 0 0 4rem;
+	margin: 3rem 0;
 	display: flex;
 	justify-content: center;
 
@@ -34,6 +34,14 @@ export const AboutBoxStyled = styled.section`
 			font-size: ${FONTSIZE.p};
 			font-weight: ${FONTSIZE.weight.medium};
 			text-align: left;
+		}
+	}
+
+	@media screen and (max-width: 1300px) {
+		margin: 0;
+
+		div {
+			width: 90%;
 		}
 	}
 

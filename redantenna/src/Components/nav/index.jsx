@@ -144,7 +144,7 @@ export const NavStyled = styled.nav`
 			}
 
 			.homeButton {
-				margin-left: 10%;
+				margin-left: 5%;
 				h1 {
 					font-size: ${FONTSIZE.h1Mobile};
 				}

@@ -25,7 +25,7 @@ export const BlogSection = () => {
 				<ul>
 					{blogSection.articles.map((article) => {
 						return (
-							<li>
+							<li key={article.title}>
 								<ArticleLink
 									index={article.index}
 									title={article.title}

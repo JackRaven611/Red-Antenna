@@ -78,7 +78,7 @@ export const VariantPanelStyled = styled.div`
 		}
 	}
 
-	@media screen and (max-width: 1290px) {
+	@media screen and (max-width: 1300px) {
 		width: 100%;
 		justify-content: center;
 		margin: 1rem 0;
