@@ -5,7 +5,7 @@
 **URL :** [Red-antenna.com](http://red-antenna.com/)\
 **Started :** 14.04.2024\
 **Status :** Actively developed\
-**Current build :** 1.0.2
+**Current build :** 1.1.1
 
 ## Tech stack
 React with styled components
