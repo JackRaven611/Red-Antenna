@@ -16,7 +16,7 @@ export const BlogSection = () => {
 				paths={[
 					{
 						link: "",
-						name: `${languageData.breadcrumbs.blog}`,
+						name: languageData.breadcrumbs.blog,
 					},
 				]}
 			/>
