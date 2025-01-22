@@ -10,7 +10,7 @@ export const NavStyled = styled.nav`
 	color: ${COLORS.darkPurple};
 	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 	width: 100%;
-	height: 6rem;
+	height: 5rem;
 	position: fixed;
 	display: flex;
 	justify-content: center;
@@ -26,7 +26,7 @@ export const NavStyled = styled.nav`
 			width: 100%;
 			min-width: 20%;
 			align-self: center;
-			padding: 2.15rem 0;
+			padding: 1.65rem 0;
 			background-color: ${COLORS.White};
 			border-bottom: solid 0.2rem ${COLORS.White};
 			font-size: ${FONTSIZE.a};
@@ -41,7 +41,7 @@ export const NavStyled = styled.nav`
 
 		.homeButton {
 			width: 19rem;
-			height: 6rem;
+			height: 5rem;
 			text-align: left;
 			display: flex;
 			flex-direction: column;
@@ -74,7 +74,7 @@ export const NavStyled = styled.nav`
 
 			li {
 				display: flex;
-				width: 23%;
+				width: 18%;
 				height: auto;
 			}
 		}
@@ -89,7 +89,7 @@ export const NavStyled = styled.nav`
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		height: 6rem;
+		height: 5rem;
 		transition-duration: 0.2s;
 
 		.navButtonsDropdown {
@@ -106,8 +106,8 @@ export const NavStyled = styled.nav`
 		}
 
 		.navButtonsDropdown {
-			top: 6rem;
-			width: 12.85%;
+			top: 5rem;
+			width: 10.05%;
 			padding: 0;
 			height: auto;
 			box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
@@ -121,7 +121,7 @@ export const NavStyled = styled.nav`
 				align-items: center;
 				justify-content: center;
 				text-align: center;
-				height: 6rem;
+				height: 5rem;
 				width: 100%;
 				padding: 0 0.5rem;
 			}
@@ -144,7 +144,7 @@ export const NavStyled = styled.nav`
 			}
 
 			.homeButton {
-				margin-left: 10%;
+				margin-left: 5%;
 				h1 {
 					font-size: ${FONTSIZE.h1Mobile};
 				}
@@ -170,11 +170,11 @@ export const NavStyled = styled.nav`
 
 				li {
 					width: 100%;
-					height: 4rem;
+					height: 3.5rem;
 
 					.navButtons {
 						padding: 0.5rem 0;
-						height: 4rem;
+						height: 3.5rem;
 						width: 100%;
 						border-bottom: solid 0.15rem ${COLORS.Gray};
 						display: flex;

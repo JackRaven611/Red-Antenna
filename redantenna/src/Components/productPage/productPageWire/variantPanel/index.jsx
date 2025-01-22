@@ -5,7 +5,7 @@ import { FONTSIZE } from "../../../../Consts/FontSize";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const VariantPanelStyled = styled.div`
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
@@ -39,14 +39,21 @@ export const VariantPanelStyled = styled.div`
 		flex-direction: row;
 		flex-wrap: nowrap;
 		gap: 1rem;
-		margin: 1rem 2rem 1rem 0;
+
+		margin: 0;
 
 		li {
 			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 2.3rem;
 
 			label {
+				display: flex;
+				align-items: center;
 				border-radius: 0.5rem;
-				padding: 0.2rem 1rem;
+				padding: 0 1rem;
+				height: 2.3rem;
 				margin: 0;
 				font-size: ${FONTSIZE.p};
 				font-weight: ${FONTSIZE.weight.bold};
@@ -71,7 +78,7 @@ export const VariantPanelStyled = styled.div`
 		}
 	}
 
-	@media screen and (max-width: 1290px) {
+	@media screen and (max-width: 1300px) {
 		width: 100%;
 		justify-content: center;
 		margin: 1rem 0;
@@ -83,10 +90,10 @@ export const VariantPanelStyled = styled.div`
 	}
 
 	@media screen and (max-width: 520px) {
-		margin: 0.5rem 0;
+		margin: 0;
 
 		select {
-			margin: 0 1rem 1rem;
+			margin: 0 1rem 0 0;
 		}
 
 		.checkboxes {

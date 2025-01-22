@@ -3,6 +3,7 @@ import { useContext, useEffect } from "react";
 import { LanguageContext } from "../languageChange/languageContext";
 import { AntennaContext } from "../productPage/antennaProvider";
 import { Product } from "./product/product";
+import { Breadcrumbs } from "../breadcrumbs/breadcrumbs";
 import RF from "../../img/endfed MINI.webp";
 import RW from "../../img/wire MIDI 02.webp";
 import RD from "../../img/dipol STD.webp";
@@ -161,9 +162,56 @@ export const Catalog = ({ type }) => {
 		}
 	};
 
+	const handleBreadcrumbs = () => {
+		if (type === "wire") {
+			return [
+				{
+					link: "/products#",
+					name: languageData.breadcrumbs.products,
+				},
+				{
+					link: "",
+					name: languageData.breadcrumbs.wire,
+				},
+			];
+		} else if (type === "vertical") {
+			return [
+				{
+					link: "/products#",
+					name: languageData.breadcrumbs.products,
+				},
+				{
+					link: "",
+					name: languageData.breadcrumbs.vertical,
+				},
+			];
+		} else if (type === "accessories") {
+			return [
+				{
+					link: "/products#",
+					name: languageData.breadcrumbs.products,
+				},
+				{
+					link: "",
+					name: languageData.breadcrumbs.accessories,
+				},
+			];
+		} else {
+			return [
+				{
+					link: "",
+					name: languageData.breadcrumbs.products,
+				},
+			];
+		}
+	};
+
 	return (
-		<CatalogStyled>
-			<ul>{handleType()}</ul>
-		</CatalogStyled>
+		<>
+			<Breadcrumbs paths={handleBreadcrumbs()} />
+			<CatalogStyled>
+				<ul>{handleType()}</ul>
+			</CatalogStyled>
+		</>
 	);
 };

@@ -4,17 +4,24 @@ import styled from "styled-components";
 
 export const InfoBoxStyled = styled.section`
 	width: 100%;
-	margin-top: 5rem;
+	margin-top: 3rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: row;
 
 	div {
 		width: 80%;
 		display: flex;
-		flex-wrap: wrap;
-		gap: 5%;
+		gap: 2.5%;
 		justify-content: center;
+	}
+
+	@media screen and (max-width: 1300px) {
+		div {
+			flex-direction: column;
+			width: 90%;
+		}
 	}
 
 	@media screen and (max-width: 900px) {

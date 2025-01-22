@@ -5,7 +5,7 @@ import { FONTSIZE } from "../../../Consts/FontSize";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const ProductStyled = styled.article`
-	width: 40%;
+	width: 48.25%;
 	border-radius: 0.5rem;
 	overflow: hidden;
 	display: flex;
@@ -13,7 +13,6 @@ export const ProductStyled = styled.article`
 	transition-duration: 0.2s;
 	box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
 	border-bottom: solid 0.2rem transparent;
-	transition-duration: 0.2s;
 
 	&&:hover {
 		color: ${COLORS.mainRed};
@@ -32,10 +31,6 @@ export const ProductStyled = styled.article`
 	a:hover {
 		h3 {
 			color: ${COLORS.mainRed};
-		}
-
-		img {
-			opacity: 0.85;
 		}
 	}
 
@@ -67,7 +62,7 @@ export const ProductStyled = styled.article`
 		}
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 1300px) {
 		width: 100%;
 
 		img {

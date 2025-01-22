@@ -45,10 +45,11 @@ export const BackgroundStyled = styled.div`
 		object-fit: cover;
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 1300px) {
 		header {
+			width: 90%;
 			margin-top: -25rem;
-			gap: 0.7rem;
+			gap: 1rem;
 		}
 	}
 
@@ -66,13 +67,13 @@ export const BackgroundStyled = styled.div`
 		}
 
 		img {
-			margin-top: 6rem;
+			margin-top: 4.5rem;
 		}
 	}
 
 	@media screen and (max-width: 600px) {
 		header {
-			margin-top: -8rem;
+			margin-top: -7rem;
 		}
 	}
 `;

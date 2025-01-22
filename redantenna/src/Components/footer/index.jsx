@@ -30,6 +30,7 @@ export const FooterStyled = styled.footer`
 		display: flex;
 		justify-content: center;
 		margin: 0.5rem 0;
+		min-width: 20rem;
 
 		p {
 			margin: 0;
@@ -72,7 +73,7 @@ export const FooterStyled = styled.footer`
 		}
 	}
 
-	@media screen and (max-width: 1200px) {
+	@media screen and (max-width: 1300px) {
 		height: auto;
 		margin-top: 4rem;
 

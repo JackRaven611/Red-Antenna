@@ -6,20 +6,22 @@ export const TEXTS = {
 			pl: true,
 			storeLocation: "ul. Bieżuńska 1 lok. 51 03-578 Warszawa",
 			open: "Pon-Pt 10:00 - 18:00",
+			openService: "Pon-Pt 8:00 - 16:00",
 			country: "Polska",
 			location: "https://maps.app.goo.gl/s7hr6nTTHfrLKx3w6",
 			onlineStoreLink: "https://www.ercomer.pl/",
-			phoneMain: "(+48) 22 270 12 15",
-			phoneSec: "(+48) 798 792 927",
-			phoneService: "(+48) 22 270 12 07",
+			phoneMain: "+48 798 792 927",
+			phoneSec: "",
+			phoneService: "+48 733 473 173",
 			email: "info@ercomer.com",
-			phoneMainTitle: "Telefon główny",
+			phoneMainTitle: "Telefon Sklepowy",
 			phoneSecTitle: "Telefon komórkowy",
-			phoneServiceTitle: "Dział produkcji i serwisu",
+			phoneServiceTitle: "Telefon Działu produkcji i serwisu",
 			emailTitle: "Adres mailowy",
 			storeTitle: "Sklep stacjonarny",
 			onlineStore: "Sklep online",
-			hoursTitle: "Godziny otwarcia",
+			hoursTitle: "Sklep czynny",
+			hoursService: "Serwis czynny",
 			placeHolder: "Już niedługo",
 			disclaimer:
 				"Anteny marki Red-Antenna oparte są na rdzeniach marki Amidon, na które nawinięty został podwójnie emaliowany drut DN2E, o zwiększonyej odporności na temperaturę oraz przebicia elektryczne. Całość opakowana jest w hermetyczną obudowę ABS, z wylaną uszczelką oraz uszczelnionymi połaczeniami. Zapewnia to wodoszczelność klasy IP67 oraz odporność na wstrząsy klasy IK09.",
@@ -31,6 +33,7 @@ export const TEXTS = {
 			navBtnProducts: "PRODUKTY",
 			navBtnAbout: "O NAS",
 			navBtnContact: "KONTAKT",
+			navBtnBlog: "BLOG",
 			categoryWire: "ANTENY DRUTOWE",
 			categoryVertical: "ANTENY PIONOWE",
 			categoryAccessories: "AKCESORIA",
@@ -59,7 +62,7 @@ export const TEXTS = {
 				"Nasze anteny projektowane są w oparciu o wiedzę specjalistyczną oraz duże doświadczenie zawodowe. Wykorzystujemy także specjalistyczne oprogramowanie do modelowania anten. Jednak rzeczywistą efektywność przede wszystkim potwierdzają nasze testy praktyczne pomiaru gęstości pola elektromagnetycznego oraz praktyczne testy pomiaru siły sygnału prowadzone z wykorzystaniem sieci beaconów WSPR. Odbiorniki WSPR rozlokowane na całym świecie raportują rzeczywisty pomiar siły odbieranego sygnału. Z pewnością też efektywność naszych anten potwierdzają doskonałe opinie i liczne rekomendacje ze strony użytkowników naszych anten.",
 			aboutTitle: "NASZA MISJA",
 			aboutText:
-				"Antena jest najważniejszym elementem, mającym wpływ na zasięg każdego systemu nadawczo-odbiorczego. Naszym celem jest tworzenie bezkompromisowych anten, optymalnie zaprojektowanych, cechujących się najlepszymi parametrami i najwyższą jakością wykonania. Osiągnęliśmy go poprzez odpowiedni dobór elementów składowych, szereg testów praktycznych i wytrzymałościowych oraz pomiarów. Bazujemy na rzetelnych opracowaniach naukowych, eksperymentach wielu radioamatorów oraz przede wszystkim własnych wieloletnich doświadczeniach w budowie systemów antenowych i pracy na pasmach krótkofalowych. Dlatego też nasze anteny wyprzedzają pod wieloma względami konkurencyjne produkty dostępne na rynku i tworzą ekskluzywną linię anten wysokiej klasy (tzw. High End)",
+				"Antena jest najważniejszym elementem, mającym wpływ na zasięg każdego systemu nadawczo-odbiorczego. Naszym celem jest tworzenie bezkompromisowych anten, optymalnie zaprojektowanych, cechujących się najlepszymi parametrami i najwyższą jakością wykonania. Osiągnęliśmy go poprzez odpowiedni dobór elementów składowych, szereg testów praktycznych i wytrzymałościowych oraz pomiarów. Bazujemy na rzetelnych opracowaniach naukowych, eksperymentach wielu radioamatorów oraz przede wszystkim własnych wieloletnich doświadczeniach w budowie systemów antenowych i pracy na pasmach krótkofalowych. Dlatego też nasze anteny wyprzedzają pod wieloma względami konkurencyjne produkty dostępne na rynku i tworzą ekskluzywną linię anten wysokiej klasy (tzw. High End).",
 		},
 
 		aboutSection: {
@@ -67,10 +70,78 @@ export const TEXTS = {
 			text: "Historia naszej marki rozpoczęła się kilka lat temu z potrzeby dostarczenia anten najwyższej jakości, zarówno pod kątem jakości wykonania, jak i dobrze przemyślanej i optymalnej konstrukcji, która spełniłaby wysoko postawione wymagania. Mając odpowiednie możliwości techniczne naszego serwisu i wiedzę specjalistyczną postanowiliśmy rozpocząć produkcją produktów klasy high end, tj. najwyższej jakości, z dbałością faktycznie o każdy detal. W odróżnieniu od innych marek, wprowadziliśmy zasadę rzetelnego informowania o parametrach pracy anten. Dla przykładu - zamiast maksymalnej chwilowej przenoszonej mocy, prowadzącej do uszkodzenia anteny (jak podaje większość innych producentów), my informujemy o maksymalnej mocy pracy anteny (tj. maksymalnej mocy promieniowania w sposób ciągły przy której nie ulegają pogorszeniu jej osiągi), a tym samym maksymalna granica wytrzymałości anteny jest dużo większa. Tak samo dużą wagę przykładamy do wykonywania rzeczywistych pomiarów wykonanych transformatorów antenowych (w odróżnieniu od masowej produkcji, gdzie pomija się rzeczywiste pomiary poszczególnych egzemplarzy). Naszym głównym celem jest zatem budowanie marki produktów klasy premium (których często brakuje w tym segmencie rynku).",
 			wsrp: "Nasze anteny testowane są pod kątem faktycznej efektywności wykorzystując rzetelne raporty WSPR. Stacje odbiorcze rozlokowane są na całym świecie i przekazują dokładny poziom siły odbieranego sygnału (w jednostkach dBm). Korzystamy z tego systemu optymalizując projekty i konstrukcje naszych anten.",
 		},
+
 		contactSection: {
 			form: "Przejdź do formularza",
 			formLink: "https://www.ercomer.pl/pl/contact",
 			formTitle: "Formularz kontaktowy",
+		},
+
+		breadcrumbs: {
+			products: "Produkty",
+			accessories: "Akcesoria",
+			wire: "Drutowe",
+			vertical: "Pionowe",
+			blog: "Blog",
+			about: "O nas",
+			contact: "Kontakt",
+		},
+
+		blogSection: {
+			header: "ARTYKUŁY",
+			description: "",
+			articles: [
+				{
+					index: 0,
+					title: "Pomiary Red-Fedów",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [
+						"Pasmo 80m",
+						"Pasmo 40m",
+						"Pasmo 20m",
+						"Pasmo 15m",
+						"Pasmo 10m",
+					],
+				},
+
+				{
+					index: 1,
+					title: "Jaką antene wybrać",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [
+						"Pasmo 80m",
+						"Pasmo 40m",
+						"Pasmo 20m",
+						"Pasmo 15m",
+						"Pasmo 10m",
+					],
+				},
+
+				{
+					index: 2,
+					title: "Montaż anteny",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [
+						"Pasmo 80m",
+						"Pasmo 40m",
+						"Pasmo 20m",
+						"Pasmo 15m",
+						"Pasmo 10m",
+					],
+				},
+			],
 		},
 
 		products: {
@@ -89,6 +160,7 @@ export const TEXTS = {
 				antennaWireTitle: "Linka antenowa:",
 				wireTitle: "Linka mocująca:",
 				linkTitle: "Sklep",
+				techSpec: "Specyfikacja techniczna",
 			},
 
 			wire: {
@@ -273,7 +345,7 @@ export const TEXTS = {
 						wire: "2x 10m PE 4mm",
 						long: {
 							description:
-								"Antena w wersji Full ma pełną długość promiennika bez cewki skracającej, co zapewnia maksymalną skuteczność pracy w paśmie 80m. Długość całkowita anteny to 39mb. Cienka linka stalowa jest prawie niewidoczna na tle nieba.",
+								" Antena w wersji Full ma pełną długość promiennika bez cewki skracającej, co zapewnia maksymalną skuteczność pracy w paśmie 80m. Długość całkowita anteny to 39mb. Cienka linka stalowa jest prawie niewidoczna na tle nieba.",
 							model: "Red-Fed 80-10 Full Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "około 39m",
@@ -283,7 +355,7 @@ export const TEXTS = {
 						},
 						short: {
 							description:
-								"Antena w wersji Short ma skróconą długość promiennika cewką skracającą, co umożliwiło zastosowanie linki o długości zaledwie 23mb, przy tylko nieznacznie zmniejszonej skuteczności pracy anteny w paśmie 80m.",
+								" Antena w wersji Short ma skróconą długość promiennika cewką skracającą, co umożliwiło zastosowanie linki o długości zaledwie 23mb, przy tylko nieznacznie zmniejszonej skuteczności pracy anteny w paśmie 80m.",
 							model: "Red-Fed 80-10 Short Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "około 23m",
@@ -824,21 +896,26 @@ export const TEXTS = {
 			pl: false,
 			storeLocation: "Bieżuńska 1/51 03-578 Warsaw",
 			open: "Mon-Fri 10:00 - 18:00",
+			openService: "Mon-Fri 8:00 - 16:00",
 			country: "Poland",
 			location: "https://maps.app.goo.gl/s7hr6nTTHfrLKx3w6",
 			onlineStoreLink: "https://www.ercomer.pl/",
-			phoneMain: "(+48) 22 270 12 15",
-			phoneSec: "(+48) 798 792 927",
-			phoneService: "(+48) 22 270 12 07",
+			phoneMain: "+48 798 792 927",
+			phoneSec: "",
+			phoneService: "+48 733 473 173",
 			email: "info@ercomer.com",
-			phoneMainTitle: "Primary line",
+			phoneMainTitle: "Store line",
 			phoneSecTitle: "Secondary line",
-			phoneServiceTitle: "Production and service department",
+			phoneServiceTitle: "Production and service line",
 			emailTitle: "Email",
 			storeTitle: "Address",
 			onlineStore: "Online store",
-			hoursTitle: "Opening hours",
+			hoursTitle: "Store opening hours",
+			hoursService: "Service opening hours",
 			placeHolder: "Comming soon",
+			disclaimer:
+				"Red-Antenna antennas are based on Amidon cores, on which double-enamelled DN2E wire is wound, with increased resistance to temperature and electrical breakdown. The entire assembly is encapsulated in an airtight ABS housing, with a spilled gasket and sealed connections. This provides IP67-class waterproofing and IK09-class shock resistance.",
+
 			distributorsTitle: "EU Distributors",
 		},
 
@@ -848,6 +925,7 @@ export const TEXTS = {
 			navBtnProducts: "PRODUCTS",
 			navBtnAbout: "ABOUT",
 			navBtnContact: "CONTACT",
+			navBtnBlog: "BLOG",
 			categoryWire: "WIRE ANTENNAS",
 			categoryVertical: "VERTICAL ANTENNAS",
 			categoryAccessories: "ACCESSORIES",
@@ -874,9 +952,9 @@ export const TEXTS = {
 
 			effectiveness:
 				"Our antennas are designed based on expertise and extensive professional experience. We also use specialized antenna modeling software. However, actual effectiveness is primarily confirmed by our practical tests of electromagnetic field density measurements and practical signal strength measurement tests conducted using WSPR's network of beacons. WSPR receivers deployed around the world report actual measurements of received signal strength. Certainly, the effectiveness of our antennas is also confirmed by excellent feedback and numerous recommendations from users of our antennas.",
-			aboutTitle: "Our mission",
+			aboutTitle: "OUR MISSION",
 			aboutText:
-				"The antenna is the most important element, affecting the range of any transceiver system. Our goal is to create uncompromising antennas, optimally designed, featuring the best parameters and highest quality workmanship. We have achieved it through appropriate selection of components, a series of practical and endurance tests and measurements. We rely on reliable scientific studies, the experiments of many radio amateurs and, above all, our own many years of experience in building antenna systems and working on the shortwave bands. Therefore, our antennas are in many respects ahead of competitive products available on the market and form an exclusive line of high-end (so-called High End) antennas",
+				"The antenna is the most important element, affecting the range of any transceiver system. Our goal is to create uncompromising antennas, optimally designed, featuring the best parameters and highest quality workmanship. We have achieved it through appropriate selection of components, a series of practical and endurance tests and measurements. We rely on reliable scientific studies, the experiments of many radio amateurs and, above all, our own many years of experience in building antenna systems and working on the shortwave bands. Therefore, our antennas are in many respects ahead of competitive products available on the market and form an exclusive line of high-end (so-called High End) antennas.",
 		},
 
 		aboutSection: {
@@ -911,6 +989,61 @@ export const TEXTS = {
 			// },
 		],
 
+		breadcrumbs: {
+			products: "Products",
+			accessories: "Accessories",
+			wire: "Wire",
+			vertical: "Vertical",
+			blog: "Blog",
+			about: "About",
+			contact: "Contact",
+		},
+
+		blogSection: {
+			header: "ARTICLES",
+			description: "",
+			articles: [
+				{
+					index: 0,
+					title: "Pomiary Red-Fedów",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [
+						"Pasmo 80m",
+						"Pasmo 40m",
+						"Pasmo 20m",
+						"Pasmo 15m",
+						"Pasmo 10m",
+					],
+				},
+
+				{
+					index: 1,
+					title: "Jaką antene wybrać",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [],
+				},
+
+				{
+					index: 2,
+					title: "Montaż anteny",
+					content: [
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
+					],
+					imageLabels: [],
+				},
+			],
+		},
+
 		products: {
 			common: {
 				bandsTitle: "Operating bands:",
@@ -927,6 +1060,7 @@ export const TEXTS = {
 				antennaWireTitle: "Antenna wire:",
 				wireTitle: "Fastening wire:",
 				linkTitle: "Where to buy",
+				techSpec: "Technical specification",
 			},
 
 			wire: {
@@ -940,7 +1074,7 @@ export const TEXTS = {
 						series: "Red - Fed",
 						description: "EFHW antennas (End Fed Half Wire)",
 						descriptionPage:
-							"Red-Fed is a popular recent design of end-fed half-wave (EFHW) antenna. It is very convenient to install as fed at the end. A special feature of this type of antenna is that the way it is suspended has very little effect on its performance or operating resonances (the SWR will not change much). An additional advantage is the antenna has got the same and predictable radiation characteristics (such as a half-wave dipole) on each band. It also provides the ability to achieve a typical omnidirectional characteristic in an inverted-V configuration. It needs relatively small space required to hang the antenna in its shortened version (only 23mb of wire to operate on the 80m and higher bands), still providing very good efficiency. Our version of this type of antenna stands out in the market as the very well optimized design, as a result of many hours of reliable measurements and practical tests. In addition, our Red-Fed series antennas have a unique end section with a connector at the end of the radiator. If connected or disconnected, it appropriately shifts the resonance point of the lowest band between the low segment of CW or FT8, and the higher segment of SSB operation. With this unique solution, most often for our Red-Fed, no additional antenna tuner is needed.",
+							"Red-Fed antennas are a popular end-fed half-wave (EFHW) antenna design, which makes them very convenient to install. A special feature of this type of antenna is that the way it is suspended has very little effect on its performance or operating resonances (the SWR factor will change very little). An additional advantage is the antenna's constant and predictable performance characteristics (like a half-wave dipole) on each band. It also provides the ability to achieve a typical omnidirectional characteristic with an inverted-V configuration. Also not to be underestimated is the relatively small space required to hang the antenna in its shortened version (just 23mb for the version operating in the 80m and higher bands), with very little difference in its efficiency. Our design of this type of antenna stands out in the market for the design optimisation carried out, supported by reliable measurements and practical tests. In addition, our Red-Fed series antennas have a reed section with a connector at the end of the radiator, which, connected or disconnected, appropriately shifts the lowest band resonance point between the low segment of CW or FT8 and the higher segment of SSB operation. With this solution, usually no additional antenna tuner is needed for Red-Fed. To hang the antenna, two 10-metre lengths of PE cable are used, which is non-absorbent of water, resistant to chemicals, organic substances and resistant to tearing.  Due to the narrow tuning in the lowest band, the antenna has the possibility to disconnect the end of the antenna cable with a connector, allowing a quick band change from SSB to CW.",
 						descriptionPageTitle: "Red-Fed series",
 					},
 
@@ -1021,7 +1155,7 @@ export const TEXTS = {
 
 					standard: {
 						description:
-							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The emphasis here is on increased mechanical strength of the antenna through the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work freely with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The main focus was on increasing mechanical strength of the antenna by the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work without troubles with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
+							"The Standard version is perfect for longer vacations, camps, or for all-season installations. It can also be used for year-round installation in moderate climates. The main focus was on increasing mechanical strength of the antenna by the use of thicker antenna wire than in the Midi series. The Standard Series transformer used in the antenna allows it to work without troubles with factory HF transceivers and small power amplifiers. During testing, the transformer withstood 500W of continuous FM power (@29MHz), reaching a temperature of about 50°C after 5 minutes.",
 						model: "Red-Fed Standard",
 						range: "around 80kHz",
 						swr: "<2.0",
@@ -1084,8 +1218,7 @@ export const TEXTS = {
 						},
 					},
 					extreme: {
-						description:
-							"Red-Fed Extreme antennas are heavy-duty antennas, making them ideal as all-season stationary antennas. The mechanical structure has been strengthened, so the antenna can be used all year round, without fear of breaking under the weight of snow or rime. arze M5, which provides adequate mechanical strength and resistance to environmental factors. In this case, in chemically non-aggressive environments, the lifespan of such equipment is calculated to be about 25 years.",
+						description: "",
 						model: "Red-Fed Extreme",
 						range: "around 300kHz",
 						swr: "<2.0",
@@ -1102,7 +1235,7 @@ export const TEXTS = {
 						wire: "2x 10m PE 4mm",
 						long: {
 							description:
-								"Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as an all-season stationary (base) antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The Full version antenna has the full length of the radiator without a shortening coil, which ensures maximum operating efficiency in the 80m band. The total length of the antenna is 39 meters. The thin steel cable is almost invisible against the sky.",
+								" Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as an all-season stationary (base) antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The Full version antenna has the full length of the radiator without a shortening coil, which ensures maximum operating efficiency in the 80m band. The total length of the antenna is 39 meters. The thin steel cable is almost invisible against the sky.",
 							model: "Red-Fed 80-10 Full Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "around 39m",
@@ -1111,7 +1244,7 @@ export const TEXTS = {
 						},
 						short: {
 							description:
-								"Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as all-season stationary antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The short version of the antenna has a shortened radiator length with a shortening coil, which allows the use of a cable with a length of only 23 meters, with only slightly reduced effectiveness of the antenna in the 80m band.",
+								" Red-Fed Extreme series antennas are antennas with the highest mechanical strength, making them perfect as all-season stationary antennas. Radiator made of high-strength, acid-resistant stainless steel cable. The method of mounting the transformer has also been modified, which now does not bear the mechanical loads associated with stretching the antenna. The short version of the antenna has a shortened radiator length with a shortening coil, which allows the use of a cable with a length of only 23 meters, with only slightly reduced effectiveness of the antenna in the 80m band.",
 							model: "Red-Fed 80-10 Short Extreme",
 							bands: "80m, 40m, 20m, 15m, 10m",
 							span: "around 23m",

@@ -5,7 +5,7 @@ import { FONTSIZE } from "../../Consts/FontSize";
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const AboutSectionStyled = styled.section`
-	margin: 11rem 0 8rem;
+	margin: 0 0 3rem;
 	height: 90vh;
 	width: 100%;
 	display: flex;
@@ -45,15 +45,10 @@ export const AboutSectionStyled = styled.section`
 		}
 	}
 
-	@media screen and (max-width: 1200px) {
-		margin: 9rem 0 5rem;
-
+	@media screen and (max-width: 1300px) {
+		margin: 0;
 		article {
-			img {
-			}
-
-			div {
-			}
+			width: 90%;
 		}
 	}
 
