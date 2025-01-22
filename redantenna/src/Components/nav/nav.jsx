@@ -33,7 +33,7 @@ export const Nav = () => {
 					<li>
 						<Dropdown toggleBurgerNav={toggleBurgerNav} />
 					</li>
-					<li>
+					{/* <li>
 						<Link
 							className='navButtons'
 							to='/blog#'
@@ -41,7 +41,7 @@ export const Nav = () => {
 						>
 							{nav.navBtnBlog}
 						</Link>
-					</li>
+					</li> */}
 					<li>
 						<Link
 							className='navButtons'

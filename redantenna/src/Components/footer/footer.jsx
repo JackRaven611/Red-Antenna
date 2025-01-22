@@ -30,7 +30,9 @@ export const Footer = () => {
 						</div>
 						<div className='contactIcon'>
 							<img src={phoneIcon} alt='phone' loading='lazy' />
-							<p className='footerTextColor'>{common.phoneSec}</p>
+							<p className='footerTextColor'>
+								{common.phoneService}
+							</p>
 						</div>
 						<div className='contactIcon'>
 							<img src={emailIcon} alt='email' loading='lazy' />

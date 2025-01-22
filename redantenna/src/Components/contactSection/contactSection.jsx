@@ -39,25 +39,27 @@ export const ContactSection = () => {
 								</a>
 							</li>
 							<li>
-								<h3>{common.hoursTitle}:</h3>
-								<p>{common.open}</p>
-							</li>
-							<li>
 								<h3>{common.emailTitle}:</h3>
 								<p>{common.email}</p>
+							</li>
+							<li>
+								<h3>{common.hoursTitle}:</h3>
+								<p>{common.open}</p>
 							</li>
 							<li>
 								<h3>{common.phoneMainTitle}:</h3>
 								<p>{common.phoneMain}</p>
 							</li>
 							<li>
+								<h3>{common.hoursService}:</h3>
+								<p>{common.openService}</p>
+							</li>
+
+							<li>
 								<h3>{common.phoneServiceTitle}:</h3>
 								<p>{common.phoneService}</p>
 							</li>
-							<li>
-								<h3>{common.phoneSecTitle}:</h3>
-								<p>{common.phoneSec}</p>
-							</li>
+
 							<li>
 								<h3>{contact.formTitle}:</h3>
 								<a
