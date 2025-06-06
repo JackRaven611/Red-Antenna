@@ -12,6 +12,9 @@ import redLine from "../../img/red kabel 01.webp";
 import redChoke from "../../img/choke balun 02.webp";
 import redMount from "../../img/szpila.webp";
 import redCon from "../../img/zestaw 01.webp";
+import redVert12 from "../../img/RedVert12BAL.webp";
+import redVertBase from "../../img/RedVertBaseBAL.webp";
+import redVertTurnStile from "../../img/RedVertTurnStile.webp";
 import placeHolder from "../../img/red-antenna logo.jpg";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
@@ -63,21 +66,21 @@ export const Catalog = ({ type }) => {
 			<li>
 				<Product
 					type='vertical'
-					series='b1000'
-					link='/products/vertical/b1000#'
-					image={placeHolder}
+					series='redVert12'
+					link='/products/vertical/redVert12#'
+					image={redVert12}
 				/>
 				<Product
 					type='vertical'
-					series='p2000'
-					link='/products/vertical/p2000#'
-					image={placeHolder}
+					series='redVertBase'
+					link='/products/vertical/redVertBase'
+					image={redVertBase}
 				/>
 				<Product
 					type='vertical'
-					series='v3000'
-					link='/products/vertical/v3000#'
-					image={placeHolder}
+					series='redVertTurnStile'
+					link='/products/vertical/redVertTurnStile'
+					image={redVertTurnStile}
 				/>
 			</li>
 		</>
@@ -126,36 +129,16 @@ export const Catalog = ({ type }) => {
 
 	const handleType = () => {
 		if (type === "wire") {
-			return <>{wire}</>;
+			return wire;
 		} else if (type === "vertical") {
-			return (
-				<>
-					<li className='headerWrapper'>
-						<h2>{languageData.products.vertical.common.title}</h2>
-						<p>
-							{languageData.products.vertical.common.description}
-						</p>
-					</li>
-					<li className='placeHolder'>
-						<h3>{languageData.common.placeHolder}</h3>
-					</li>
-				</>
-			);
+			return vertical;
 		} else if (type === "accessories") {
 			return accessories;
 		} else {
 			return (
 				<>
 					{wire}
-					<li className='headerWrapper'>
-						<h2>{languageData.products.vertical.common.title}</h2>
-						<p>
-							{languageData.products.vertical.common.description}
-						</p>
-					</li>
-					<li className='placeHolder'>
-						<h3>{languageData.common.placeHolder}</h3>
-					</li>
+					{vertical}
 					{accessories}
 				</>
 			);

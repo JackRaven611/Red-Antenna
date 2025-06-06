@@ -30,7 +30,7 @@ export const CatalogStyled = styled.section`
 			width: 100%;
 			font-size: ${FONTSIZE.p};
 			font-weight: ${FONTSIZE.weight.medium};
-			text-align: left;
+			text-align: justify;
 		}
 	}
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { COLORS } from "../../../Consts/Colors";
-import { FONTSIZE } from "../../../Consts/FontSize";
+import { COLORS } from "../../Consts/Colors";
+import { FONTSIZE } from "../../Consts/FontSize";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
@@ -50,7 +50,7 @@ export const ProductPageStyled = styled.section`
 					width: 100%;
 					text-align: left;
 					margin: 0 0 0rem 0;
-					font-weight: ${FONTSIZE.weight.medium};
+					font-weight: ${FONTSIZE.weight.bold};
 					font-size: ${FONTSIZE.h2};
 				}
 
@@ -63,7 +63,7 @@ export const ProductPageStyled = styled.section`
 
 					p {
 						width: 100%;
-						text-align: left;
+						text-align: justify;
 						min-height: 23rem;
 						padding: 0;
 						font-weight: ${FONTSIZE.weight.medium};
@@ -99,7 +99,7 @@ export const ProductPageStyled = styled.section`
 		}
 	}
 
-	div {
+	.wrapper {
 		display: flex;
 		flex-direction: column;
 
@@ -123,7 +123,7 @@ export const ProductPageStyled = styled.section`
 				p {
 					font-weight: ${FONTSIZE.weight.medium};
 					font-size: ${FONTSIZE.p};
-					text-align: left;
+					text-align: justify;
 				}
 			}
 

@@ -24,7 +24,7 @@ export const BoxArticleStyled = styled.article`
 		padding: 0 3rem 3rem;
 		font-size: ${FONTSIZE.p};
 		font-size: ${FONTSIZE.weight.medium};
-		text-align: left;
+		text-align: justify;
 	}
 
 	.infoWrapper {

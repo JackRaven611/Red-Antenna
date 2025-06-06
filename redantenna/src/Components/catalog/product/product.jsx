@@ -14,8 +14,16 @@ export const Product = ({ type, link, image, series }) => {
 			<Link to={link}>
 				<img src={image} alt={`${series}`} loading='lazy' />
 				<div className='wrapper'>
-					<h3>{product.common.series}</h3>
-					<p>{product.common.description}</p>
+					<h3>
+						{product.common
+							? product.common.series
+							: product.series}
+					</h3>
+					<p>
+						{product.common
+							? product.common.description
+							: product.description}
+					</p>
 				</div>
 			</Link>
 		</ProductStyled>

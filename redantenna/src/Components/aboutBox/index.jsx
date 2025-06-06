@@ -33,7 +33,7 @@ export const AboutBoxStyled = styled.section`
 			margin: 0 3rem 3rem;
 			font-size: ${FONTSIZE.p};
 			font-weight: ${FONTSIZE.weight.medium};
-			text-align: left;
+			text-align: justify;
 		}
 	}
 

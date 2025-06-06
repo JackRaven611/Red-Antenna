@@ -44,6 +44,11 @@ export const FooterStyled = styled.footer`
 			color: ${COLORS.mainRed};
 		}
 	}
+	.about {
+		p {
+			text-align: justify;
+		}
+	}
 
 	img {
 		width: 1.2rem;

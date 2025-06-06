@@ -40,7 +40,7 @@ export const AboutSectionStyled = styled.section`
 				margin: 2rem 3rem;
 				font-size: ${FONTSIZE.p};
 				font-weight: ${FONTSIZE.weight.medium};
-				text-align: left;
+				text-align: justify;
 			}
 		}
 	}

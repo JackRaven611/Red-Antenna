@@ -159,7 +159,7 @@ export const NavStyled = styled.nav`
 				box-shadow: 0 0.2rem 0.2rem ${COLORS.darkPurple + "2d"};
 				display: ${({ $hamburgerOpen }) =>
 					$hamburgerOpen ? "flex" : "none"};
-				margin-top: 20rem;
+				margin-top: 19rem;
 				position: absolute;
 				flex-direction: column;
 				align-items: flex-end;
