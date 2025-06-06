@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { LanguageContext } from "../../languageChange/languageContext";
 import { BlogArticleStyled } from ".";
 import { Breadcrumbs } from "../../breadcrumbs/breadcrumbs";
+
 import RF10m from "../../../img/Red-Fed 80-10 pasmo 10m.webp";
 import RF15m from "../../../img/Red-Fed 80-10 pasmo 15m.webp";
 import RF20m from "../../../img/Red-Fed 80-10 pasmo 20m.webp";
@@ -73,6 +74,7 @@ export const BlogArticle = () => {
 					},
 				]}
 			/>
+
 			<BlogArticleStyled>
 				<div className='wrapper'>
 					<img
@@ -90,19 +92,7 @@ export const BlogArticle = () => {
 									.content[0]
 							}
 						</p>
-						<ul>
-							{imgs[index].map((img) => {
-								return (
-									<li key={img.description}>
-										<img
-											src={img.img}
-											alt={img.description}
-										/>
-										<p>{img.description}</p>
-									</li>
-								);
-							})}
-						</ul>
+
 						{languageData.blogSection.articles[index].content[1] ? (
 							<p>
 								{

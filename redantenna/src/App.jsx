@@ -81,6 +81,18 @@ function App() {
 							path='/products/accessories/redLine'
 							element={<ProductPanel series='redLine' />}
 						/>
+						<Route
+							path='/products/vertical/redVert12'
+							element={<ProductPanel series='redVert12' />}
+						></Route>
+						<Route
+							path='/products/vertical/redVertBase'
+							element={<ProductPanel series='redVertBase' />}
+						></Route>
+						<Route
+							path='/products/vertical/redVertTurnStile'
+							element={<ProductPanel series='redVertTurnStile' />}
+						></Route>
 
 						{languageData.common.pl ? null : (
 							<Route

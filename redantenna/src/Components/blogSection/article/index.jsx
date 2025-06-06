@@ -51,36 +51,6 @@ export const BlogArticleStyled = styled.section`
 				font-size: ${FONTSIZE.p};
 				font-weight: ${FONTSIZE.weight.medium};
 			}
-
-			ul {
-				width: 100%;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				li {
-					width: auto;
-					max-height: 35rem;
-					margin: 0 0 1.5rem;
-					border-radius: 0.5rem;
-					overflow: hidden;
-					display: flex;
-					flex-direction: column;
-					justify-content: center;
-					align-items: center;
-					box-shadow: 0 0.2rem 0.4rem ${COLORS.darkPurple + "2d"};
-					img {
-						max-height: 30rem;
-					}
-					p {
-						display: flex;
-						justify-content: center;
-						align-items: center;
-						width: 100%;
-						height: 3rem;
-						margin: 0;
-					}
-				}
-			}
 		}
 	}
 	@media screen and (max-width: 1300px) {
@@ -115,14 +85,6 @@ export const BlogArticleStyled = styled.section`
 			}
 
 			.textWrapper {
-				ul {
-					li {
-						max-height: 18rem;
-						img {
-							max-height: 15rem;
-						}
-					}
-				}
 			}
 		}
 	}

@@ -23,8 +23,6 @@ export const TEXTS = {
 			hoursTitle: "Sklep czynny",
 			hoursService: "Serwis czynny",
 			placeHolder: "Już niedługo",
-			disclaimer:
-				"Anteny marki Red-Antenna oparte są na rdzeniach marki Amidon, na które nawinięty został podwójnie emaliowany drut DN2E, o zwiększonyej odporności na temperaturę oraz przebicia elektryczne. Całość opakowana jest w hermetyczną obudowę ABS, z wylaną uszczelką oraz uszczelnionymi połaczeniami. Zapewnia to wodoszczelność klasy IP67 oraz odporność na wstrząsy klasy IK09.",
 		},
 
 		nav: {
@@ -85,6 +83,49 @@ export const TEXTS = {
 			blog: "Blog",
 			about: "O nas",
 			contact: "Kontakt",
+		},
+
+		carousel: {
+			RfCP: {
+				title: "Całe pasmo KF",
+				desc: "Poglądowe pomiary anteny Red-Fed HD w wersji 80-10",
+			},
+			RfHd80: {
+				title: "Pasmo 80m",
+				desc: "Poglądowe pomiary anteny Red-Fed HD w wersji 80-10",
+			},
+			RfHd40: {
+				title: "Pasmo 40m",
+				desc: "Poglądowe pomiary anteny Red-Fed HD w wersji 80-10",
+			},
+			RfHd20: {
+				title: "Pasmo 20m",
+				desc: "Poglądowe pomiary anteny Red-Fed HD w wersji 80-10",
+			},
+			RfHd15: {
+				title: "Pasmo 15m",
+				desc: "Poglądowe pomiary anteny Red-Fed HD w wersji 80-10",
+			},
+			RfHd10: {
+				title: "Pasmo 10m",
+				desc: "Poglądowe pomiary anteny Red-Fed HD w wersji 80-10",
+			},
+			redVert12: {
+				title: "Całe pasmo KF",
+				desc: "Poglądowy pomiar anteny Red-Vert 12 w wersji BAL",
+			},
+			redVertBase: {
+				title: "Całe pasmo KF",
+				desc: "Poglądowy pomiar anteny Red-Vert Base w wersji BAL",
+			},
+			redVertTurnStile2m: {
+				title: "Pasmo 2m",
+				desc: "Poglądowy pomiar anteny Red-Vert Turnstile 2m",
+			},
+			redVertTurnStile70cm: {
+				title: "Pasmo 70cm",
+				desc: "Poglądowy pomiar anteny Red-Vert Turnstile 70cm",
+			},
 		},
 
 		blogSection: {
@@ -150,17 +191,27 @@ export const TEXTS = {
 				spanTitle: "Rozpiętość anteny:",
 				weightTitle: "Waga:",
 				rangeTitle: "Szerokość pracy dla pasma dolnego (SWR 2.0):",
-				swrTitle: "Maksymalny SWR w pozostałych pasmach:",
+				swrTitle: "Maksymalny SWR w podanych pasmach:",
 				powerTitle: "Przenoszona moc:",
 				sizeTitle: "Wymiary transformatora (mm, bez zaczepów):",
 				MiniTunerSizeTitle: "Wymiary tunera (mm, bez zaczepów):",
 				connectors: "Złącza:",
 				coreTitle: "Wielkość rdzenia:",
 				windingsTitle: "Uzwojenia:",
-				antennaWireTitle: "Linka antenowa:",
+				antennaWireTitle: "Promiennik:",
 				wireTitle: "Linka mocująca:",
 				linkTitle: "Sklep",
 				techSpec: "Specyfikacja techniczna",
+				antBox: "Element dostrajający:",
+				rad: "Przeciwwagi:",
+				mount: "Sposób montażu:",
+				kit: "Zestaw zawiera:",
+				height: "Wysokość:",
+				folded: "Długość po złożeniu:",
+				disclaimer:
+					"Anteny marki Red-Antenna oparte są na rdzeniach marki Amidon, na które nawinięty został podwójnie emaliowany drut DN2E, o zwiększonyej odporności na temperaturę oraz przebicia elektryczne. Całość opakowana jest w hermetyczną obudowę ABS, z wylaną uszczelką oraz uszczelnionymi połaczeniami. Zapewnia to wodoszczelność klasy IP67 oraz odporność na wstrząsy klasy IK09.",
+				disclaimerVert:
+					"Wszystkie pionowe anteny marki Red-Antenna zostały zaprojektowane z naciskiem na jakość, trwałość i prostotę użytkowania. Każdy element został przetestowany w warunkach terenowych, a komponenty są odporne na wilgoć i wstrząsy.",
 			},
 
 			wire: {
@@ -172,7 +223,7 @@ export const TEXTS = {
 				redFed: {
 					common: {
 						series: "Red - Fed",
-						description: "Anteny typu EFHW (End Fed Half Wire)",
+						description: "Anteny typu EFHW (End Fed Half Wave)",
 						descriptionPage:
 							"Anteny Red-Fed to popularna konstrukcja anteny pół-falowej, zasilanej na końcu (EFHW), co czyni ją bardzo wygodną w instalacji. Szczególną cechą tego typu anten jest bardzo niewielki wpływu sposobu zawieszenia na ich parametry czy rezonanse pracy (współczynnik SWR niewiele się zmieni). Dodatkową zaletą jest stała i przewidywalna charakterystyka pracy anteny (taka jak dipola półfalowego) na każdym paśmie. Zapewnia też możliwość uzyskania typowej dookólnej charakterystyki przy konfiguracji typu inverted-V. Nie do przecenienia jest również stosunkowo mała przestrzeń potrzebna do rozwieszenia anteny w jej wersji skróconej (zaledwie 23mb dla wersji pracującej w pasmach 80m i wyższych), przy bardzo niewielkiej różnicy jej skuteczności. Naszej konstrukcji anteny tego typu wyróżniają się na rynku  przeprowadzoną optymalizacją konstrukcji, popartą rzetelnymi pomiarami i testami praktycznymi. Dodatkowo nasze anteny serii Red-Fed posiadają na końcu promiennika odcinek stroika z konektorem, który podłączony lub odłączony odpowiednio przesuwa punkt rezonansu najniższego pasma pomiędzy niskim segmentem CW czy FT8, a wyższym segmentem pracy emisją SSB. Przy takim rozwiązaniu najczęściej dla Red-Feda nie jest potrzebny dodatkowy tuner antenowy. Do zwieszenia anteny służą dwa 10 metrowe odcinki linki PE, nie chłonącej wody, odpornej na substancje chemiczne,  organiczne oraz wytrzymałej na zrywanie. Ze względu na wąskie strojenie w najniszym paśmie, antena posiada możliwość odłączenia konektorem końcowego odcinka linki antenowej, co pozwala na szybką zmianę pasma z SSB na CW.",
 						descriptionPageTitle: "Seria Red-Fed",
@@ -720,28 +771,115 @@ export const TEXTS = {
 				common: {
 					title: "ANTENY PIONOWE",
 					description:
-						"Anteny pionowe przede wszystkim charakteryzują się dookólną charakterystyką oraz zazwyczaj niskimi kątami promieniowania dzięki czemu idealnie sprawdzą się do łączności dalekosiężnych (DX). Część anten tej grupy stanowią przenośne konstrukcje, wygodne do pracy terenowej lub zainstalowania w warunkach o ograniczonych możliwościach (bez możliwości rozwieszenia długich anten drutowych), inne modele dedykujemy do typowo stacjonarnej pracy w instalacji całorocznej.",
+						"Anteny pionowe przede wszystkim cechują się dookólną charakterystyką oraz zazwyczaj niskimi kątami promieniowania dzięki czemu idealnie sprawdzą się do łączności dalekosiężnych (DX). Część anten tej grupy stanowią przenośne konstrukcje, wygodne do pracy terenowej lub zainstalowania w warunkach o ograniczonych możliwościach (bez możliwości rozwieszenia długich anten drutowych), inne modele dedykujemy do typowo stacjonarnej pracy w instalacji całorocznej.",
 				},
-				v3000: {
-					title: "",
-					titleSec: "",
-					text: "",
-					StoreLink: "",
-					StoreLinkSec: "",
+				redVert12: {
+					description: "Anteny serii Red-Vert 12",
+					descriptionPage:
+						"RedVert 12 to mobilne anteny pionowe HF, zaprojektowane z myślą o pracy terenowej – na wyjazdach, wypadach weekendowych, czy działaniach awaryjnych. Promiennik drutowy, o długości 11.5m  zainstalowano na solidnej 12-metrowej tyczce z włókna szklanego, która charakteryzuje się wysoką wytrzymałością mechaniczną i sprężystością, co czyni ją idealną nawet na trudniejsze warunki pogodowe. Dołączony do zestawu świder, oraz zestaw odciągów, daje nam możliwość błyskawicznego rozstawienia. To doskonałe narzędzie dla każdego operatora poszukującego efektywnego, kompaktowego rozwiązania na wyjazdy. Antena dostarczana jest z fabrycznie zainstalowanym osprzętem.",
+					series: "Red-Vert 12",
+					swr: "<2.0",
+					height: "około 12m",
+					folded: "max 140cm",
+					feeder: "fider SO239 (UC1, UHF)",
+					antenna: "antena 2x M5",
+					antennaWire: "11.5m linki miedzianej Cu 1.5mm",
+					rad: "4x 5m linki miedzianej Cu 1mm",
+					mount: "świder, 3x 10m linki PE 4mm, szpilki wkręcane",
+					long: {
+						description:
+							"Red-Vert 12ATU to mobilna antena pionowa HF. Jej głównym atutem jest połączenie promiennika drutowego zainstalowanego na solidnej 12-metrowej tyczce z włókna szklanego z automatycznym couplerem antenowym CG3000, co zapewnia wyjątkową efektywność w pracy w zakresie pasm KF bez konieczności ręcznego strojenia. Tyczka w stanie złożonym ma max 140cm długości, waga całego zestawu to 6.9kg. W zestawie znajdują się: 11.5-metrowy promiennik, cztery przeciwwagi o długości 5 metrów, 12-metrowy przewód antenowy RG58 zakończony wysokiej jakości złączami PL259 klasy HQ, 12-metrowy przewód zasilający do tunera, świder do mocowania masztu, trzy 10-metrowe linki PE do odciągów oraz komplet mocowań (pierścień i śledzie). Dzięki niewielkiej wadze i kompaktowemu opakowaniu (pokrowiec), antenę można wygodnie przewozić i błyskawicznie rozstawić w terenie - antena fabrycznie dostarczana jest z zainstalowanym osprzętem (obejmy itp.).",
+						ssb: "SSB: 200W (160m-10m)",
+						cw: "CW: 150W (160m-10m)",
+						digi: "DIGI: 75W (160m-10m)",
+						model: "Red-Vert 12ATU",
+						bands: "160m, 80m, 40m, 20m, 15m, 10m",
+						antBox: "CG300",
+						weight: "6.9kg",
+						kit: "CG3000 z kablem zasilającym 12m, feeder 12m UC1, tyczka z systemem mocowania, świder, odciągi + szpilki wkręcane, torba transportowa",
+						storeLink:
+							"https://www.ercomer.pl/pl_PL/p/Antena-RedVert-12ATU-terenowa-pionowa-antena-KF/3913?preview=true",
+					},
+					short: {
+						description:
+							"Red-Vert 12BAL to wszechstronna i lekka antena pionowa przeznaczona do pracy terenowej. Konstrukcja powstała pod wpływem inspiracji szeroko znaną i cenioną anteną Chameleon MPAS 2.0. Nasza wersja, zbudowana w oparciu o 12-metrowy maszt z włókna szklanego i szerokopasmowy transformator umożliwia dodatkowe eksperymenty z długością promiennika. Z rekomendowanym promiennikiem oferuje stabilną i skuteczną pracę na wielu pasmach KF bez potrzeby korzystania z tunera antenowego. Świetnie nadaje się na biwaki, zloty, aktywacje w programach typu POTA/SOTA czy jako szybka instalacja zapasowa. Zestaw zawiera: linkę antenową o długości 11.5 metra, 4 przeciwwagi po 5 metrów, świder do masztu, 3 linki PE do odciągów, przewód antenowy RG58 (12m, z wtykami PL259 klasy HQ), pierścień odciągowy oraz śledzie montażowe. Dzięki wykorzystaniu szerokopasmowego transformatora antena skutecznie radzi sobie z dopasowaniem na większości pasm KF, szczególnie w zakresie 40–10 metrów. Prosta konstrukcja i szybki montaż umożliwiają błyskawiczne rozpoczęcie pracy, nawet w trudnych warunkach terenowych. - antena fabrycznie dostarczana jest z zainstalowanym osprzętem (obejmy itp.).",
+						ssb: "SSB: 250W (80m-10m)",
+						cw: "CW: 150W (80m-10m)",
+						digi: "DIGI: 75W (80m-10m)",
+						model: "Red-Vert 12BAL",
+						antBox: "Balun",
+						bands: "80m, 40m, 20m, 15m, 10m",
+						weight: "5.5kg",
+						kit: "Unun, tyczka z systemem mocowania, świder, odciągi + szpilki wkręcane, torba transportowa",
+						storeLink:
+							"https://www.ercomer.pl/pl_PL/p/Antena-RedVert-12BAL-terenowa-pionowa-antena-KF/3915?preview=true",
+					},
 				},
-				p2000: {
-					title: "",
-					titleSec: "",
-					text: "",
-					StoreLink: "",
-					StoreLinkSec: "",
+				redVertBase: {
+					description: "Anteny serii Red-Vert Base",
+					descriptionPage:
+						"Red-Vert Base to bazowe anteny, przeznaczone do pracy w zakresie KF. Anteny posiadają trwały aluminiowy promiennik, który jest odporny na działania warunków atmosferycznych. Sprawdzą się idealnie jako całoroczna instalacja, którą szybko i wygodnie zamotujemy. Anteny te mogą świetnie sprawdzą się jako instalacja rezerwowa, bądź awaryjna. Wysoka jakość wykonania i dbałość o szegóły sprawia że jest to  doskonałe narzędzie dla każdego operatora poszukującego efektywnego rozwiązania bazowego.",
+					series: "Red-Vert Base",
+					swr: "<2.0",
+					height: "6m",
+					folded: "około 135cm",
+					feeder: "fider SO239 (UC1, UHF)",
+					antenna: "antena 2x M5",
+					antennaWire: "aluminiowy 6m",
+					rad: "sztywne 3x 132cm",
+					mount: "podwójna obejma do masztu",
+					long: {
+						description:
+							"Red-Vert BaseATU to stacjonarna antena pionowa do pracy w zakresie KF, zbudowana w oparciu o fabryczny aluminiowy promiennik dł. 6m oraz automatyczny coupler antenowy CG3000. Dzięki tej kombinacji otrzymujemy antenę zdolną do pracy w pełnym zakresie 3–30 MHz, solidną i trwałą, idealną do zastosowań całorocznych – w ogrodzie, na dachu budynku czy jako rezerwowa instalacja awaryjna. Wysoka jakość wykonania i zastosowanie automatycznego tunera CG3000 zapewnia błyskawiczne dopasowanie do wybranego pasma. Antena wyróżnia się prostotą instalacji i odpornością na działanie warunków atmosferycznych. Dzięki solidnemu aluminiowemu promiennikowi antena zachowuje dużą stabilność nawet przy silniejszym wietrze. Antena dostarczana jest z promiennikiem łączonym z couplerem antenowym za pomocą krótkiego (ok. 50cm) odcinka przewodu oraz trzema sztywnymi przeciwwagami o długości 132cm.",
+						ssb: "SSB: 200W (80m-10m)",
+						cw: "CW: 150W (80m-10m)",
+						digi: "DIGI: 75W (80m-10m)",
+						model: "Red-Vert BaseATU",
+						bands: "80m, 40m, 20m, 15m, 10m",
+						antBox: "CG300",
+						weight: "4,5kg",
+						kit: "antena, CG3000",
+						storeLink:
+							"https://www.ercomer.pl/pl_PL/p/Antena-RedVert-Base-ATU-stacjonarna-antena-KF/3914?preview=true",
+					},
+					short: {
+						description:
+							"Red-Vert BaseBAL to stacjonarna antena pionowa do pracy na pasmach KF zbudowana w oparciu o fabryczny aluminiowy promiennik dł. 6m i szerokopasmowy transformator. Konstrukcja powstała pod wpływem inspiracji szeroko znaną i cenioną anteną Chameleon MPAS 2.0. To efektywna i wytrzymała antena do użytku całorocznego. Konstrukcja została zoptymalizowana do pracy na pasmach od 80 do 10 metrów. Balun zapewnia uniwersalne dopasowanie do większości transceiverów i konfiguracji bez konieczności strojenia anteny tunerem, szczególnie przy zastosowaniu odpowiednich długości radialsów i promiennika. Konstrukcja Red-Vert BaseBAL jest odporna na warunki atmosferyczne i może być instalowana zarówno w przestrzeni otwartej, jak i na dachach lub masztach stacjonarnych. Antena dostarczana jest z promiennikiem łączonym z couplerem antenowym za pomocą krótkiego (ok. 50cm) odcinka przewodu oraz trzema sztywnymi przeciwwagami o długości 132cm.",
+						ssb: "SSB: 250W (80m-10m)",
+						cw: "CW: 150W (80m-10m)",
+						digi: "DIGI: 75W (80m-10m)",
+						model: "Red-Vert BaseBAL",
+						antBox: "Balun",
+						bands: "80m, 40m, 20m, 15m, 10m",
+						weight: "3kg",
+						kit: "antena, transformator",
+						storeLink:
+							"https://www.ercomer.pl/pl_PL/p/Antena-RedVert-BaesTR-stacjonarna-pionowa-antena-KF-/3916?preview=true",
+					},
 				},
-				b1000: {
-					title: "",
-					titleSec: "",
-					text: "",
-					StoreLink: "",
-					StoreLinkSec: "",
+				redVertTurnStile: {
+					description: "Zestaw Red-Vert Turnstile",
+					descriptionPage:
+						"Zestaw anten Red-Vert Turnstile to sprawdzone i wygodne rozwiązanie dla radioamatorów zainteresowanych łącznością satelitarną w pasmach VHF i UHF. Dzięki wielokierunkowemu wzorcowi promieniowania i obsłudze szerokiego zakresu kątów promieniowania, anteny te zapewniają optymalne pokrycie sygnałem przez cały lot satelity - od wschodu do zenitu i na zachód - eliminując martwe strefy typowe dla anten pionowych. Idealnie nadają się do pracy wielopasmowej z satelitami LEO (głównie uplink 2m, downlink 70cm).)",
+					series: "Red-Vert Turnstile",
+					swr: "<1.3",
+					height: "ANT 2m: 60cm/ ANT 70cm: 25cm",
+					feeder: "type N",
+					antennaWire: "4x sztywne aluminiowe",
+					rad: "4x sztywne aluminiowe",
+					mount: "obejma kominowa (średnica max 42mm)",
+					model: "Zestaw Red-Vert Turnstile",
+					storeLink:
+						"https://www.ercomer.pl/pl/p/Zestaw-antena-Turnstile-do-lacznosci-satelitarnej-2m70cm/3917",
+					long: {
+						description:
+							"Konstrukcja anten Red-Vert Turnstile opiera się na lekkich aluminiowych ramionach. Wszystkie komponenty są precyzyjnie spasowane i nie wymagają użycia narzędzi do montażu, ani precyzyjnego strojenia. Nie wymagają również precyzyjnego strojenia. Anteny zakończone są standardowymi złączami typu N, dzięki czemu są odporne na warunki atmosferyczne. Każda antena (osobna dla pasm 2m i 70cm) wyposażona jest w odkręcane elementy promiennika, co pozwala na szybkie złożenie ich do transportu lub przechowywanie po zakończeniu pracy. Zestaw Red-Vert Turnstile to niezawodne, łatwe w użyciu i kompaktowe rozwiązanie dla każdego, kto chce skutecznie pracować przez satelity bez inwestowania w drogi sprzęt kierunkowy.",
+						bands: "ANT 2m: 144-148 MHZ/ ANT 70cm: 435MHz",
+						weight: "ANT 2m: 0.9KG/ ANT 70cm: 0.45KG",
+						power: "ANT 2m: 40W/ ANT 70cm: 25W",
+						kit: "antena na 2m, antena na 70cm",
+					},
+					short: { description: "" },
 				},
 			},
 			accessories: {
@@ -754,11 +892,11 @@ export const TEXTS = {
 					common: {
 						series: "Mini Tuner",
 						description:
-							"Ultra mały tuner dla anten typu EFHW (End Fed Half Wire)",
+							"Ultra mały tuner dla anten typu EFHW (End Fed Half Wave)",
 					},
 					long: {
 						description:
-							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego. Wymiary obudowy to zaledwie 60mm x 40mm x 30mmm (niewiele większa od pudełka zapałek).",
+							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wave) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED. Wersja wyposażona we wtyk BNC, umożliwiająca połączenie tunera bezpośrednio z transceiverem bez użycia kabla koncentrycznego. Wymiary obudowy to zaledwie 60mm x 40mm x 30mmm (niewiele większa od pudełka zapałek).",
 
 						series: "Mini-Tuner wtyk BNC",
 						weight: "70g",
@@ -772,7 +910,7 @@ export const TEXTS = {
 					},
 					short: {
 						description:
-							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wire) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED.",
+							"Ultra mały i lekki tuner dla anteny typu EFHW (End Fed Half Wave) ze wskaźnikiem SWR. Do skuteczngo dostrojenia anteny nie jest wymagany miernik SWR w transceiverze. Zapewnia dostrojenie półfalowgo promiennika (linka antenowa o długości połowy fali danego pasma) do rezonansu w pasmach 40m/30m/20m/15m. Nie uszkodzisz stopnia końcowego mocy transceivera przy niedopasowanej antenie - układ tunera ma wbudowane sztuczne ociążenie, wykorzystywane podczas strojenia promiennika (przełącznik strojenie/praca). Sygnalizacja dostrojenia za pomocą czerwonej diody LED.",
 						series: "Mini-Tuner gniazdo BNC",
 						weight: "70g",
 						power: "10W P.E.P",
@@ -913,8 +1051,6 @@ export const TEXTS = {
 			hoursTitle: "Store opening hours",
 			hoursService: "Service opening hours",
 			placeHolder: "Comming soon",
-			disclaimer:
-				"Red-Antenna antennas are based on Amidon cores, on which double-enamelled DN2E wire is wound, with increased resistance to temperature and electrical breakdown. The entire assembly is encapsulated in an airtight ABS housing, with a spilled gasket and sealed connections. This provides IP67-class waterproofing and IK09-class shock resistance.",
 
 			distributorsTitle: "EU Distributors",
 		},
@@ -999,49 +1135,47 @@ export const TEXTS = {
 			contact: "Contact",
 		},
 
-		blogSection: {
-			header: "ARTICLES",
-			description: "",
-			articles: [
-				{
-					index: 0,
-					title: "Pomiary Red-Fedów",
-					content: [
-						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
-						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
-						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
-					],
-					imageLabels: [
-						"Pasmo 80m",
-						"Pasmo 40m",
-						"Pasmo 20m",
-						"Pasmo 15m",
-						"Pasmo 10m",
-					],
-				},
-
-				{
-					index: 1,
-					title: "Jaką antene wybrać",
-					content: [
-						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
-						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
-						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
-					],
-					imageLabels: [],
-				},
-
-				{
-					index: 2,
-					title: "Montaż anteny",
-					content: [
-						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
-						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
-						"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet dolores quae temporibus fugit! Nemo, vitae illo officia provident commodi nulla ab labore deserunt impedit omnis, facere eos sapiente beatae!",
-					],
-					imageLabels: [],
-				},
-			],
+		carousel: {
+			RfCP: {
+				title: "The entire HF band",
+				desc: "Red-Fed HD version 80-10 antenna measurements",
+			},
+			RfHd80: {
+				title: "80m band",
+				desc: "Red-Fed HD version 80-10 antenna measurements",
+			},
+			RfHd40: {
+				title: "40m band",
+				desc: "Red-Fed HD version 80-10 antenna measurements",
+			},
+			RfHd20: {
+				title: "20m band",
+				desc: "Red-Fed HD version 80-10 antenna measurements",
+			},
+			RfHd15: {
+				title: "15m band",
+				desc: "Red-Fed HD version 80-10 antenna measurements",
+			},
+			RfHd10: {
+				title: "10m band",
+				desc: "Red-Fed HD version 80-10 antenna measurements",
+			},
+			redVert12: {
+				title: "The entire HF band",
+				desc: "An overview measurement of the Red-Vert 12BAL",
+			},
+			redVertBase: {
+				title: "The entire HF band",
+				desc: "An overview measurement of the Red-Vert BaseBAL",
+			},
+			redVertTurnStile2m: {
+				title: "2m band",
+				desc: "Red-Vert Turnstile 2m antenna measurement overview",
+			},
+			redVertTurnStile70cm: {
+				title: "70cm band",
+				desc: "Red-Vert Turnstile 70cm antenna measurement.",
+			},
 		},
 
 		products: {
@@ -1050,17 +1184,27 @@ export const TEXTS = {
 				spanTitle: "Antenna span:",
 				weightTitle: "Weight:",
 				rangeTitle: "Working width for the lower band (SWR 2.0):",
-				swrTitle: "Maximum SWR in other bands:",
+				swrTitle: "Maximum SWR in given bands:",
 				powerTitle: "Transferred power:",
 				sizeTitle: "Dimensions of the balun (mm, without hooks):",
 				MiniTunerSizeTitle: "Tuner dimensions (mm, without hooks):",
 				connectors: "Connectors:",
 				coreTitle: "Core size:",
 				windingsTitle: "Windings:",
-				antennaWireTitle: "Antenna wire:",
+				antennaWireTitle: "Radiator:",
 				wireTitle: "Fastening wire:",
 				linkTitle: "Where to buy",
 				techSpec: "Technical specification",
+				antBox: "Tuning element:",
+				rad: "Counterweight:",
+				mount: "Installation:",
+				kit: "The kit includes:",
+				height: "Height:",
+				folded: "Length when folded:",
+				disclaimer:
+					"Red-Antenna antennas are based on Amidon cores, on which double-enamelled DN2E wire is wound, with increased resistance to temperature and electrical breakdown. The entire assembly is encapsulated in an airtight ABS housing, with a spilled gasket and sealed connections. This provides IP67-class waterproofing and IK09-class shock resistance.",
+				disclaimerVert:
+					"All Red-Antenna brand vertical antennas, are designed with a focus on quality, durability and ease of use. Each component has been field tested and the components are moisture and shock resistant.",
 			},
 
 			wire: {
@@ -1072,7 +1216,7 @@ export const TEXTS = {
 				redFed: {
 					common: {
 						series: "Red - Fed",
-						description: "EFHW antennas (End Fed Half Wire)",
+						description: "EFHW antennas (End Fed Half Wave)",
 						descriptionPage:
 							"Red-Fed antennas are a popular end-fed half-wave (EFHW) antenna design, which makes them very convenient to install. A special feature of this type of antenna is that the way it is suspended has very little effect on its performance or operating resonances (the SWR factor will change very little). An additional advantage is the antenna's constant and predictable performance characteristics (like a half-wave dipole) on each band. It also provides the ability to achieve a typical omnidirectional characteristic with an inverted-V configuration. Also not to be underestimated is the relatively small space required to hang the antenna in its shortened version (just 23mb for the version operating in the 80m and higher bands), with very little difference in its efficiency. Our design of this type of antenna stands out in the market for the design optimisation carried out, supported by reliable measurements and practical tests. In addition, our Red-Fed series antennas have a reed section with a connector at the end of the radiator, which, connected or disconnected, appropriately shifts the lowest band resonance point between the low segment of CW or FT8 and the higher segment of SSB operation. With this solution, usually no additional antenna tuner is needed for Red-Fed. To hang the antenna, two 10-metre lengths of PE cable are used, which is non-absorbent of water, resistant to chemicals, organic substances and resistant to tearing.  Due to the narrow tuning in the lowest band, the antenna has the possibility to disconnect the end of the antenna cable with a connector, allowing a quick band change from SSB to CW.",
 						descriptionPageTitle: "Red-Fed series",
@@ -1370,7 +1514,7 @@ export const TEXTS = {
 					hd1500: {
 						description:
 							"HD (Heavy Duty) antennas are mechanically robust antennas, making them ideal as all-season fixed antennas. They are based on Standard Series transformers and therefore carry the same power. The mechanical structure has been strengthened so that the antenna can be used all year round without fear of breaking under the weight of snow, ice or during strong winds. The balun of this antenna is made on three Amidon FT240 cores, the dimensions of which guarantee trouble-free operation with PA amplifiers of 1200W-1500W continuous power.",
-						model: "Red-Dipol D80HD 1500W+",
+						model: "Red-Dipole D80HD 1500W+",
 						bands: "80m, 40m-10m with antenna box",
 						span: "around 39m",
 						weight: "around 1900g",
@@ -1590,28 +1734,110 @@ export const TEXTS = {
 				common: {
 					title: "VERTICAL ANTENNAS",
 					description:
-						"Vertical antennas are primarily characterized by omnidirectional radiation pattern and usually low radiation angles, making them ideal for long-range (DX) communications. Some of the antennas in this group are decicated for portable use, convenient for field work or installation under limited conditions (ie. balcony, without the possibility of hanging long wire antennas). Other models are dedicated for typical stationary operation in a year-round installation.",
+						"Vertical antennas are known for their omnidirectional pattern and typically low radiation angles, making them ideal for long-distance (DX) communication. Some models are portable and well-suited for field use or environments with limited space where long wire antennas cannot be deployed, while others are designed for permanent, year-round stationary installations.",
 				},
-				v3000: {
-					title: "",
-					titleSec: "",
-					text: "",
-					StoreLink: "",
-					StoreLinkSec: "",
+				redVert12: {
+					description: "Red-Vert 12 series antennas",
+					descriptionPage:
+						"Red-Vert 12 is a mobile HF vertical antenna, designed for field work - on trips, weekend getaways or emergency operations. The 11.5m long wire radiator is installed on a robust 12m fibreglass pole, which has high mechanical strength and resilience, making it ideal even for harsher weather conditions. The included drill, and a set of guy lines, gives us the ability to set up in no time. This is the perfect tool for any operator looking for an effective, compact solution for trips out.  The antenna is supplied with pre-installed hardware.",
+					series: "Red-Vert 12",
+					swr: "<2.0",
+					height: "about 12m",
+					folded: "max 140cm",
+					feeder: "feeder SO239 (UC1, UHF)",
+					antenna: "antenna 2x M5",
+					antennaWire: "11.5m of copper wire Cu 1.5mm",
+					rad: "4x 5m of copper wire Cu 1mm",
+					mount: "drill, 3x 10m of 4mm PE line, screw pegs",
+					long: {
+						description:
+							"The Red-Vert 12ATU is a mobile HF vertical antenna. Its main advantage is the combination of a wire radiator installed on a sturdy 12-meter fiberglass pole with a CG3000 automatic antenna coupler, which provides exceptional efficiency in KF band operation without the need for manual tuning. The pole is max 140cm long when folded, the weight of the whole set is 6.9kg. The set includes: 11.5-meter radiator, four 5-meter counterweights, 12-meter RG58 antenna cable terminated with high-quality PL259 connectors, 12-meter power cable for the tuner, drill for mast mounting, three 10-meter PE guy lines, and a set of mounts (ring and screw pegs). Thanks to its light weight and compact packaging (carrying case), the antenna can be conveniently transported and set up in the field in no time - the antenna is supplied from the factory with installed hardware (clamps, etc.).",
+						ssb: "200W (160m-10m)",
+						cw: "150W (160m-10m)",
+						digi: "75W (160m-10m)",
+						model: "Red-Vert 12ATU",
+						bands: "160m, 80m, 40m, 20m, 15m, 10m",
+						antBox: "CG300",
+						weight: "6.9kg",
+						kit: "CG3000 with 12m power cable, 12m UC1 feeder, pole with mounting system, drill, guy lines + screw pegs, carrying bag",
+						storeLink: "/distributors#",
+					},
+					short: {
+						description:
+							"The Red-Vert 12BAL is a versatile and lightweight vertical antenna designed for field use. The design was inspired by the widely known and appreciated Chameleon MPAS 2.0 antenna. Our version, built with a 12-meter fiberglass mast and wideband transformer, allows additional experimentation with radiator length. With the recommended radiator, it offers stable and efficient operation on multiple KF bands without the need for an antenna tuner. Great for camping, rallies, activations in POTA/SOTA type programs or as a quick backup installation. The kit includes an 11.5 meter antenna cable, 4 counterweights of 5 meters each, mast drill, 3 PE lines for lashings, RG58 antenna cable (12m, with high-quality PL259 plugs), lashing ring and mounting pins. Thanks to the use of a wideband transformer, the antenna effectively handles matching on most KF bands, especially in the 40-10 meter range. The simple design and quick installation allow you to start working in no time, even in difficult field conditions. - The antenna is delivered from the factory with installed hardware (clamps, etc.).",
+						ssb: "250W (80m-10m)",
+						cw: "150W (80m-10m)",
+						digi: "75W (80m-10m)",
+						model: "Red-Vert 12BAL",
+						antBox: "Balun",
+						bands: "80m, 40m, 20m, 15m, 10m",
+						weight: "5.5kg",
+						kit: "Unun, pole with attachment system, drill, guy lines + screw pegs, carrying bag",
+						storeLink: "/distributors#",
+					},
 				},
-				p2000: {
-					title: "",
-					titleSec: "",
-					text: "",
-					StoreLink: "",
-					StoreLinkSec: "",
+				redVertBase: {
+					description: "Red-Vert Base Series Antennas",
+					descriptionPage:
+						"Red-Vert Base are base antennas, designed for KF operation. The antennas feature a durable aluminum radiator that is weatherproof. They will prove ideal as a year-round installation that can be quickly and conveniently mounted. These antennas can work great as a backup or emergency installation. The high quality of workmanship and attention to detail makes it a perfect tool for any operator looking for an effective base solution.",
+					series: "Red-Vert Base",
+					swr: "<2.0",
+					height: "6m",
+					folded: "about 135cm",
+					feeder: "feeder SO239 (UC1, UHF)",
+					antenna: "",
+					antennaWire: "aluminum 6m",
+					rad: "stiff 3x 132cm",
+					mount: "double mast clamp",
+					long: {
+						description:
+							"Red-Vert BaseATU is a stationary vertical antenna for KF operation, built on the basis of a factory 6m long aluminum radiator and a CG3000 automatic antenna coupler. With this combination, we get an antenna capable of operating in the full 3-30 MHz range, robust and durable, ideal for year-round use - in the garden, on the roof of a building or as a backup emergency installation. High-quality workmanship and the use of the CG3000 automatic tuner ensure instant adjustment to the selected band. The antenna is distinguished by simplicity of installation and resistance to weather conditions. Thanks to the solid aluminum radiator, the antenna remains very stable even in stronger winds. The antenna is supplied with a radiator connected to the antenna coupler with a short (about 50cm) section of cable and three rigid counterweights with a length of 132cm.",
+						ssb: "200W (80m-10m)",
+						cw: "150W (80m-10m)",
+						digi: "75W (80m-10m)",
+						model: "Red-Vert BaseATU",
+						bands: "80m, 40m, 20m, 15m, 10m",
+						antBox: "CG300",
+						weight: "4,5kg",
+						kit: "antenna, CG3000",
+						storeLink: "/distributors#",
+					},
+					short: {
+						description:
+							"The Red-Vert BaseBAL is a stationary vertical antenna for operation on the KF bands, built with a factory 6m long aluminum radiator and wideband transformer. The design was inspired by the widely known and respected Chameleon MPAS 2.0 antenna, and is an efficient and rugged antenna for year-round use. The design is optimized for operation on bands from 80 to 10 meters. The balun provides a universal fit for most transceivers and configurations without the need to tune the antenna with a tuner, especially when using appropriate radials and radiator lengths. The Red-Vert BaseBAL is weatherproof and suitable for installation outdoors, whether on rooftops, fixed masts, or other permanent structures. The antenna is supplied with a radiator connected to the antenna coupler with a short (about 50cm) section of cable and three rigid counterweights with a length of 132cm.",
+						ssb: "250W (80m-10m)",
+						cw: "150W (80m-10m)",
+						digi: "75W (80m-10m)",
+						model: "Red-Vert BaseBAL",
+						antBox: "Balun",
+						bands: "80m, 40m, 20m, 15m, 10m",
+						weight: "3kg",
+						kit: "antenna, transformator",
+						storeLink: "/distributors#",
+					},
 				},
-				b1000: {
-					title: "",
-					titleSec: "",
-					text: "",
-					StoreLink: "",
-					StoreLinkSec: "",
+				redVertTurnStile: {
+					description: "Red-Vert Turnstile Kit",
+					descriptionPage:
+						"The turnstile antenna kit is a proven and convenient solution for radio amateurs interested in satellite communications in the VHF and UHF bands. Thanks to their omnidirectional radiation pattern and support for a wide range of radiation angles, these antennas provide optimal signal coverage throughout the satellite's flight - from east to zenith and west - eliminating dead zones typical of vertical antennas. They are ideal for crossband operation with LEO satellites (mostly uplink 2m, downlink 70cm).",
+					series: "Red-Vert Turnstile",
+					swr: "<1.3",
+					height: "ANT 2m: 60cm/ ANT 70cm: 25cm",
+					feeder: "type N",
+					antennaWire: "4x stiff aluminum",
+					rad: "4x stiff aluminum",
+					mount: "mast clamp (max diameter 42mm)",
+					model: "Red-Vert Turnstile Kit",
+					storeLink: "/distributors#",
+					long: {
+						description:
+							"The design of Red-Vert Turnstile antennas is based on lightweight aluminum arms. All components are precisely fitted and require no tools for assembly or fine tuning. They also do not require precision tuning. The antennas are terminated with standard N-type connectors, making them weatherproof. Each antenna (separate for 2m and 70cm bands) is equipped with unscrewable radiator elements, allowing them to be quickly folded for transport or storage after use. The Red-Vert Turnstile kit is a reliable, easy-to-use and compact solution for anyone who wants to work effectively via satellites without investing in expensive directional equipment.",
+						bands: "ANT 2m: 144-148 MHZ/ ANT 70cm: 435MHz",
+						weight: "ANT 2m: 0.9KG/ ANT 70cm: 0.45KG",
+						power: "ANT 2m: 40W/ ANT 70cm: 25W",
+						kit: "antenna for 2m, antenna for 70cm",
+					},
+					short: { description: "" },
 				},
 			},
 			accessories: {
@@ -1624,11 +1850,11 @@ export const TEXTS = {
 					common: {
 						series: "Mini Tuner",
 						description:
-							"Ultra small tuner for EFHW antennas (End Fed Half Wire)",
+							"Ultra small tuner for EFHW antennas (End Fed Half Wave)",
 					},
 					long: {
 						description:
-							"Ultra small and lightweight tuner for EFHW (End Fed Half Wire) type antenna with built-in SWR indicator. No SWR meter in the transceiver is required for effective antenna tuning. It provides tuning of the half-wave radiator (half-wavelength antenna wire of a given band) to resonance in the 40m/30m/20m/15m bands. You won't damage the transceiver with a mismatched antenna - our tuner circuit has a built-in artificial load, used when tuning the radiator (tuning/operation switch). Tuning is indicated by a red LED. A version equipped with a BNC connector, allowing the tuner to be connected directly to the transceiver without the use of a coaxial cable.",
+							"Ultra small and lightweight tuner for EFHW (End Fed Half Wave) type antenna with built-in SWR indicator. No SWR meter in the transceiver is required for effective antenna tuning. It provides tuning of the half-wave radiator (half-wavelength antenna wire of a given band) to resonance in the 40m/30m/20m/15m bands. You won't damage the transceiver with a mismatched antenna - our tuner circuit has a built-in artificial load, used when tuning the radiator (tuning/operation switch). Tuning is indicated by a red LED. A version equipped with a BNC connector, allowing the tuner to be connected directly to the transceiver without the use of a coaxial cable.",
 
 						series: "Mini-Tuner BNC plug",
 						weight: "70g",
@@ -1641,7 +1867,7 @@ export const TEXTS = {
 					},
 					short: {
 						description:
-							"Ultra small and lightweight tuner for EFHW (End Fed Half Wire) type antenna with built-in SWR indicator. No SWR meter in the transceiver is required for effective antenna tuning. It provides tuning of the half-wave radiator (half-wavelength antenna wire of a given band) to resonance in the 40m/30m/20m/15m bands. You won't damage the transceiver with a mismatched antenna - our tuner circuit has a built-in artificial load, used when tuning the radiator (tuning/operation switch). Tuning is indicated by a red LED. A version equipped with a BNC connector, allowing the tuner to be connected directly to the transceiver without the use of a coaxial cable.",
+							"Ultra small and lightweight tuner for EFHW (End Fed Half Wave) type antenna with built-in SWR indicator. No SWR meter in the transceiver is required for effective antenna tuning. It provides tuning of the half-wave radiator (half-wavelength antenna wire of a given band) to resonance in the 40m/30m/20m/15m bands. You won't damage the transceiver with a mismatched antenna - our tuner circuit has a built-in artificial load, used when tuning the radiator (tuning/operation switch). Tuning is indicated by a red LED. A version equipped with a BNC connector, allowing the tuner to be connected directly to the transceiver without the use of a coaxial cable.",
 						series: "Mini-Tuner BNC socket",
 						weight: "70g",
 						power: "10W P.E.P",

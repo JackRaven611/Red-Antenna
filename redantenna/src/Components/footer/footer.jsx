@@ -13,7 +13,7 @@ export const Footer = () => {
 	return (
 		<FooterStyled>
 			<ul>
-				<li>
+				<li className='about'>
 					<h5 className='footerTextColor'>{footer.aboutTitle}</h5>
 					<p className='footerTextColor'>{footer.about}</p>
 				</li>
