@@ -242,7 +242,11 @@ export const ProductPage = ({ series, type, size }) => {
 							</li>
 							<li className='description'>
 								<h3>{common.swrTitle}</h3>
-								<p>{product.swr}</p>
+								<p>
+									{product[size]
+										? product[size].swr
+										: product.swr}
+								</p>
 							</li>
 							<li className='description'>
 								<h3>{common.powerTitle}</h3>
@@ -287,13 +291,7 @@ export const ProductPage = ({ series, type, size }) => {
 
 							<li className='description'>
 								<h3>{common.antennaWireTitle}</h3>
-								<p>
-									{product.antennaWire}
-									{series !== "redVertBase" &&
-									series !== "redVertTurnStile" ? (
-										<sup>2</sup>
-									) : null}
-								</p>
+								<p>{product.antennaWire}</p>
 							</li>
 							<li className='description'>
 								<h3>{common.rad}</h3>
