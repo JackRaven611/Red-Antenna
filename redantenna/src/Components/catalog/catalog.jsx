@@ -15,186 +15,193 @@ import redCon from "../../img/zestaw 01.webp";
 import redVert12 from "../../img/RedVert12BAL.webp";
 import redVertBase from "../../img/RedVertBaseBAL.webp";
 import redVertTurnStile from "../../img/RedVertTurnStile.webp";
+import redSpire from "../../img/red-spire.webp";
 import placeHolder from "../../img/red-antenna logo.jpg";
 
 /*Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com*/
 
 export const Catalog = ({ type }) => {
-	const { languageData } = useContext(LanguageContext);
-	const { setType, setSize } = useContext(AntennaContext);
+  const { languageData } = useContext(LanguageContext);
+  const { setType, setSize } = useContext(AntennaContext);
 
-	useEffect(() => {
-		setType("standard");
-		setSize("long");
-	}, []);
+  useEffect(() => {
+    setType("standard");
+    setSize("long");
+  }, []);
 
-	const wire = (
-		<>
-			<li className='headerWrapper'>
-				<h2>{languageData.products.wire.common.title}</h2>
-				<p>{languageData.products.wire.common.description}</p>
-			</li>
-			<li>
-				<Product
-					type='wire'
-					series='redFed'
-					link='/products/wire/redFed#'
-					image={RF}
-				/>
-				<Product
-					type='wire'
-					series='redDipole'
-					link='/products/wire/redDipole#'
-					image={RD}
-				/>
-				<Product
-					type='wire'
-					series='redWire'
-					link='/products/wire/redWire#'
-					image={RW}
-				/>
-			</li>
-		</>
-	);
+  const wire = (
+    <>
+      <li className="headerWrapper">
+        <h2>{languageData.products.wire.common.title}</h2>
+        <p>{languageData.products.wire.common.description}</p>
+      </li>
+      <li>
+        <Product
+          type="wire"
+          series="redFed"
+          link="/products/wire/redFed#"
+          image={RF}
+        />
+        <Product
+          type="wire"
+          series="redDipole"
+          link="/products/wire/redDipole#"
+          image={RD}
+        />
+        <Product
+          type="wire"
+          series="redWire"
+          link="/products/wire/redWire#"
+          image={RW}
+        />
+      </li>
+    </>
+  );
 
-	const vertical = (
-		<>
-			<li className='headerWrapper'>
-				<h2>{languageData.products.vertical.common.title}</h2>
-				<p>{languageData.products.vertical.common.description}</p>
-			</li>
-			<li>
-				<Product
-					type='vertical'
-					series='redVert12'
-					link='/products/vertical/redVert12#'
-					image={redVert12}
-				/>
-				<Product
-					type='vertical'
-					series='redVertBase'
-					link='/products/vertical/redVertBase'
-					image={redVertBase}
-				/>
-				<Product
-					type='vertical'
-					series='redVertTurnStile'
-					link='/products/vertical/redVertTurnStile'
-					image={redVertTurnStile}
-				/>
-			</li>
-		</>
-	);
+  const vertical = (
+    <>
+      <li className="headerWrapper">
+        <h2>{languageData.products.vertical.common.title}</h2>
+        <p>{languageData.products.vertical.common.description}</p>
+      </li>
+      <li>
+        <Product
+          type="vertical"
+          series="redVert12"
+          link="/products/vertical/redVert12#"
+          image={redVert12}
+        />
+        <Product
+          type="vertical"
+          series="redVertBase"
+          link="/products/vertical/redVertBase"
+          image={redVertBase}
+        />
+        <Product
+          type="vertical"
+          series="redVertTurnStile"
+          link="/products/vertical/redVertTurnStile"
+          image={redVertTurnStile}
+        />
+      </li>
+    </>
+  );
 
-	const accessories = (
-		<>
-			<li className='headerWrapper'>
-				<h2>{languageData.products.accessories.common.title}</h2>
-				<p>{languageData.products.accessories.common.description}</p>
-			</li>
-			<li>
-				<Product
-					type='accessories'
-					series='miniTuner'
-					link='/products/accessories/miniTuner#'
-					image={tuner}
-				/>
-				<Product
-					type='accessories'
-					series='redChoke'
-					link='/products/accessories/redChoke#'
-					image={redChoke}
-				/>
-				<Product
-					type='accessories'
-					series='redMount'
-					link='/products/accessories/redMount#'
-					image={redMount}
-				/>
-				<Product
-					type='accessories'
-					series='redCon'
-					link='/products/accessories/redCon#'
-					image={redCon}
-				/>
-				<Product
-					type='accessories'
-					series='redLine'
-					link='/products/accessories/redLine#'
-					image={redLine}
-				/>
-			</li>
-		</>
-	);
+  const accessories = (
+    <>
+      <li className="headerWrapper">
+        <h2>{languageData.products.accessories.common.title}</h2>
+        <p>{languageData.products.accessories.common.description}</p>
+      </li>
+      <li>
+        <Product
+          type="accessories"
+          series="miniTuner"
+          link="/products/accessories/miniTuner#"
+          image={tuner}
+        />
+        <Product
+          type="accessories"
+          series="redSpire"
+          link="/products/accessories/redSpire#"
+          image={redSpire}
+        />
+        <Product
+          type="accessories"
+          series="redChoke"
+          link="/products/accessories/redChoke#"
+          image={redChoke}
+        />
+        <Product
+          type="accessories"
+          series="redMount"
+          link="/products/accessories/redMount#"
+          image={redMount}
+        />
+        <Product
+          type="accessories"
+          series="redCon"
+          link="/products/accessories/redCon#"
+          image={redCon}
+        />
+        <Product
+          type="accessories"
+          series="redLine"
+          link="/products/accessories/redLine#"
+          image={redLine}
+        />
+      </li>
+    </>
+  );
 
-	const handleType = () => {
-		if (type === "wire") {
-			return wire;
-		} else if (type === "vertical") {
-			return vertical;
-		} else if (type === "accessories") {
-			return accessories;
-		} else {
-			return (
-				<>
-					{wire}
-					{vertical}
-					{accessories}
-				</>
-			);
-		}
-	};
+  const handleType = () => {
+    if (type === "wire") {
+      return wire;
+    } else if (type === "vertical") {
+      return vertical;
+    } else if (type === "accessories") {
+      return accessories;
+    } else {
+      return (
+        <>
+          {wire}
+          {vertical}
+          {accessories}
+        </>
+      );
+    }
+  };
 
-	const handleBreadcrumbs = () => {
-		if (type === "wire") {
-			return [
-				{
-					link: "/products#",
-					name: languageData.breadcrumbs.products,
-				},
-				{
-					link: "",
-					name: languageData.breadcrumbs.wire,
-				},
-			];
-		} else if (type === "vertical") {
-			return [
-				{
-					link: "/products#",
-					name: languageData.breadcrumbs.products,
-				},
-				{
-					link: "",
-					name: languageData.breadcrumbs.vertical,
-				},
-			];
-		} else if (type === "accessories") {
-			return [
-				{
-					link: "/products#",
-					name: languageData.breadcrumbs.products,
-				},
-				{
-					link: "",
-					name: languageData.breadcrumbs.accessories,
-				},
-			];
-		} else {
-			return [
-				{
-					link: "",
-					name: languageData.breadcrumbs.products,
-				},
-			];
-		}
-	};
+  const handleBreadcrumbs = () => {
+    if (type === "wire") {
+      return [
+        {
+          link: "/products#",
+          name: languageData.breadcrumbs.products,
+        },
+        {
+          link: "",
+          name: languageData.breadcrumbs.wire,
+        },
+      ];
+    } else if (type === "vertical") {
+      return [
+        {
+          link: "/products#",
+          name: languageData.breadcrumbs.products,
+        },
+        {
+          link: "",
+          name: languageData.breadcrumbs.vertical,
+        },
+      ];
+    } else if (type === "accessories") {
+      return [
+        {
+          link: "/products#",
+          name: languageData.breadcrumbs.products,
+        },
+        {
+          link: "",
+          name: languageData.breadcrumbs.accessories,
+        },
+      ];
+    } else {
+      return [
+        {
+          link: "",
+          name: languageData.breadcrumbs.products,
+        },
+      ];
+    }
+  };
 
-	return (
-		<>
-			<Breadcrumbs paths={handleBreadcrumbs()} />
-			<CatalogStyled>
-				<ul>{handleType()}</ul>
-			</CatalogStyled>
-		</>
-	);
+  return (
+    <>
+      <Breadcrumbs paths={handleBreadcrumbs()} />
+      <CatalogStyled>
+        <ul>{handleType()}</ul>
+      </CatalogStyled>
+    </>
+  );
 };

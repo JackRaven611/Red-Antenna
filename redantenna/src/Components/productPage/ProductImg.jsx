@@ -30,107 +30,96 @@ import redConLong from "../../img/zestaw 01.webp";
 import redConMid from "../../img/zestaw 03.webp";
 import redConShort from "../../img/zestaw 02.webp";
 import redLine from "../../img/red kabel 01.webp";
+import redSpire from "../../img/red-spire.webp";
 
 // Web Design & Development by: Jakub "Jacek" Bedynek | kuba.xray@gmail.com
 
 export const ProductImg = ({ series, type, size }) => {
-	const { languageData } = useContext(LanguageContext);
-	const product = languageData.products[series]?.[type];
-	const [imageSrc, setImageSrc] = useState(null);
+  const { languageData } = useContext(LanguageContext);
+  const product = languageData.products[series]?.[type];
+  const [imageSrc, setImageSrc] = useState(null);
 
-	const wireImages = {
-		redFed: {
-			mini: { short: RFMinilong, long: RFMinilong, max: RFMiniMax },
-			midi: { short: RFMidilong, long: RFMidilong },
-			standard: { short: RFStandard, long: RFStandard },
-			hd: { short: RFHDlong, long: RFHDlong },
-			extreme: { short: RFExtremeshort, long: RFExtremelong },
-		},
-		redDipole: {
-			mini: RDMini,
-			midi: RDMidi,
-			standard: RDStandard,
-			hd: RDHD,
-			hd600: RDHDPlus,
-			hd1500: RDHDPlus,
-		},
-		redWire: {
-			mini: { short: RWMinilong, long: RWMinilong },
-			midi: { short: RWMidilong, long: RWMidilong },
-			standard: { short: RWStandard, long: RWStandard },
-			hd: { short: RWHD, long: RWHD },
-			hd600: { short: RWHDPlus, long: RWHDPlus },
-			hd1500: { short: RWHDPlus, long: RWHDPlus },
-		},
-	};
+  const wireImages = {
+    redFed: {
+      mini: { short: RFMinilong, long: RFMinilong, max: RFMiniMax },
+      midi: { short: RFMidilong, long: RFMidilong },
+      standard: { short: RFStandard, long: RFStandard },
+      hd: { short: RFHDlong, long: RFHDlong },
+      extreme: { short: RFExtremeshort, long: RFExtremelong },
+    },
+    redDipole: {
+      mini: RDMini,
+      midi: RDMidi,
+      standard: RDStandard,
+      hd: RDHD,
+      hd600: RDHDPlus,
+      hd1500: RDHDPlus,
+    },
+    redWire: {
+      mini: { short: RWMinilong, long: RWMinilong },
+      midi: { short: RWMidilong, long: RWMidilong },
+      standard: { short: RWStandard, long: RWStandard },
+      hd: { short: RWHD, long: RWHD },
+      hd600: { short: RWHDPlus, long: RWHDPlus },
+      hd1500: { short: RWHDPlus, long: RWHDPlus },
+    },
+  };
 
-	const verticalImages = {
-		redVert12: { short: RV12BAL, long: RV12ATU },
-		redVertBase: { short: RVBBAL, long: RVBATU },
-		redVertTurnStile: { short: RVTS, long: RVTS },
-	};
+  const verticalImages = {
+    redVert12: { short: RV12BAL, long: RV12ATU },
+    redVertBase: { short: RVBBAL, long: RVBATU },
+    redVertTurnStile: { short: RVTS, long: RVTS },
+  };
 
-	const accessoryImages = {
-		miniTuner: { short: miniTunershort, long: miniTunerlong },
-		redCon: { short: redConShort, mid: redConMid, long: redConLong },
-		redChoke,
-		redMount,
-		redLine,
-	};
+  const accessoryImages = {
+    miniTuner: { short: miniTunershort, long: miniTunerlong },
+    redCon: { short: redConShort, mid: redConMid, long: redConLong },
+    redChoke,
+    redMount,
+    redLine,
+    redSpire,
+  };
 
-	useEffect(() => {
-		const resolvedImage = (() => {
-			switch (series) {
-				case "redFed":
-					return wireImages[series]?.[type]?.[size];
-				case "redWire":
-					return wireImages[series]?.[type]?.[size];
-				case "redDipole":
-					return wireImages[series]?.[type];
-				case "redVert12":
-					return verticalImages[series]?.[size];
-				case "redVertBase":
-					return verticalImages[series]?.[size];
-				case "redVertTurnStile":
-					return verticalImages[series]?.[size];
-				case "miniTuner":
-					return (
-						accessoryImages[series]?.[size] ||
-						accessoryImages[series]
-					);
-				case "redCon":
-					return (
-						accessoryImages[series]?.[size] ||
-						accessoryImages[series]
-					);
-				case "redChoke":
-					return (
-						accessoryImages[series]?.[size] ||
-						accessoryImages[series]
-					);
-				case "redMount":
-					return (
-						accessoryImages[series]?.[size] ||
-						accessoryImages[series]
-					);
-				case "redLine":
-					return (
-						accessoryImages[series]?.[size] ||
-						accessoryImages[series]
-					);
-				default:
-					return null;
-			}
-		})();
+  useEffect(() => {
+    const resolvedImage = (() => {
+      switch (series) {
+        case "redFed":
+          return wireImages[series]?.[type]?.[size];
+        case "redWire":
+          return wireImages[series]?.[type]?.[size];
+        case "redDipole":
+          return wireImages[series]?.[type];
+        case "redVert12":
+          return verticalImages[series]?.[size];
+        case "redVertBase":
+          return verticalImages[series]?.[size];
+        case "redVertTurnStile":
+          return verticalImages[series]?.[size];
+        case "miniTuner":
+          return accessoryImages[series]?.[size] || accessoryImages[series];
+        case "redCon":
+          return accessoryImages[series]?.[size] || accessoryImages[series];
+        case "redSpire":
+          return accessoryImages[series]?.[size] || accessoryImages[series];
+        case "redChoke":
+          return accessoryImages[series]?.[size] || accessoryImages[series];
+        case "redMount":
+          return accessoryImages[series]?.[size] || accessoryImages[series];
+        case "redLine":
+          return accessoryImages[series]?.[size] || accessoryImages[series];
+        default:
+          return null;
+      }
+    })();
 
-		setImageSrc(resolvedImage);
-	}, [series, type, size]);
+    setImageSrc(resolvedImage);
+  }, [series, type, size]);
 
-	return (
-		<img
-			src={imageSrc}
-			alt={product?.model || `${series} antenna`}
-			loading='lazy'
-		/>
-	);
+  return (
+    <img
+      src={imageSrc}
+      alt={product?.model || `${series} antenna`}
+      loading="lazy"
+    />
+  );
 };
